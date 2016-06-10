@@ -52,7 +52,42 @@ Checkout,Kassalle,module,Magento_Checkout
 "Unable to save address. Please, check input data.","Osoitteen tallentaminen ei onnistu. Tarkista syötetyt tiedot.",module,Magento_Checkout
 "Unable to save shipping information. Please, check input data.","Toimitustietoja ei voitu tallentaa. Tarkista syötetyt tiedot.",module,Magento_Checkout
 "Shipping method is not applicable for empty cart","Toimitustapaa ei sovelleta tyhjään ostoskoriin",module,Magento_Checkout
+"Invalid data","Virheellinen tieto",module,Magento_Checkout
+"The customer address is not valid.","Asiakkaan osoite on virheellinen.",module,Magento_Checkout
+"Invalid shipping method","Virheellinen toimitustapa",module,Magento_Checkout
+"There are more than one shipping addresses.","Käytössä on useampi kuin yksi toimitusosoite.",module,Magento_Checkout
+Error!,Virhe!,module,Magento_Checkout
+"Wrong minimum amount.","Väärä vähimmäismäärä.",module,Magento_Checkout
+Message,Vesti,module,Magento_Checkout
 "<a href=""%1"" onclick=""this.target='_blank'"" class=""print"">Print receipt</a>","<a href=""%1"" onclick=""this.target='_blank'"" class=""print"">Tulosta kuitti</a>",module,Magento_Checkout
+"Apply Discount Code","Käytä alennuskoodi",module,Magento_Checkout
+"Enter discount code","Syötä alennuskoodi",module,Magento_Checkout
+"Apply Discount","Käytä alennus",module,Magento_Checkout
+"Cancel Coupon","Peruuta kuponki",module,Magento_Checkout
+"Shopping Cart Items","Ostoskorin tuotteet",module,Magento_Checkout
+Item,Tuote,module,Magento_Checkout
+Price,Hinta,module,Magento_Checkout
+Qty,Määrä,module,Magento_Checkout
+Subtotal,Yhteensä,module,Magento_Checkout
+"Continue Shopping","Jatka ostoksia",module,Magento_Checkout
+"Clear Shopping Cart","Tyhjennä ostoskori",module,Magento_Checkout
+"Update Shopping Cart","Päivitä ostoskori",module,Magento_Checkout
+"Update Cart","Päivitä ostoskori",module,Magento_Checkout
+"See price before order confirmation.","Katso hinta ennen tilauksen vahvistusta.",module,Magento_Checkout
+"Edit item parameters","Muokkaa kohteen parametreja",module,Magento_Checkout
+Edit,Muokkaa,module,Magento_Checkout
+"Remove item","Poista tuote",module,Magento_Checkout
+"You have no items in your shopping cart.","Sinulla ei ole tuotteita ostoskorissasi.",module,Magento_Checkout
+"Click <a href=""%1"">here</a> to continue shopping.","Klikkaa <a href=""%1""> tästä</a> jatkaaksesi ostoksia.",module,Magento_Checkout
+"Estimate Tax","Arvioi vero",module,Magento_Checkout
+"Estimate Shipping and Tax","Arvioi toimituskulut ja vero",module,Magento_Checkout
+"Excl. Tax",Veroton,module,Magento_Checkout
+Loading...,Ladataan...,module,Magento_Checkout
+"Order #",Tilausnumero,module,Magento_Checkout
+"Proceed to Checkout","Siirry kassalle",module,Magento_Checkout
+"Product Name",Tuotenimi,module,Magento_Checkout
+"Incl. Tax",Verollinen,module,Magento_Checkout
+"Your order number is: %1.","Tilauksesi numero on: %1.",module,Magento_Checkout
 "Your order # is: <span>%1</span>.","Sinun tilauksesi # on: <span>%1</span>.",module,Magento_Checkout
 "We'll email you an order confirmation with details and tracking info.","Lähetämme sinulle tilausvahvistuksen ja seurantatiedot.",module,Magento_Checkout
 "Page not found.","Sivua ei löydy.",module,Magento_Contact
@@ -139,6 +174,11 @@ Back,Takaisin,module,Magento_Ui
 Cancel,Peruuta,module,Magento_Ui
 "We'll email you a link to reset your password.","Lähetämme sinulle linkin salasanan vaihtamiseksi.",module,Magento_User
 "We can't find a user to delete.","Poistettavaa käyttäjää ei löydy.",module,Magento_User
+Previous,Edellinen,theme,frontend/Magento/luma
+Remove,Poista,theme,frontend/Magento/luma
+"Remove This Item","Poista tämä tuote",theme,frontend/Magento/luma
+"Shop By",Selaa,theme,frontend/Magento/luma
+"Clear All","Tyhjennä kaikki",theme,frontend/Magento/luma
 "Payment Transaction Failed","Maksaminen epäonnistui",module,Magento_Checkout
 Reason,Syy,module,Magento_Checkout
 Customer:,Asiakas:,module,Magento_Checkout
@@ -155,6 +195,24 @@ Total:,Yhteensä:,module,Magento_Checkout
 "Comment: %comment","Kommentti: %comment",module,Magento_Contact
 "The password for your account has been successfully changed.","Tilisi salasana on vaihdettu onnistuneesti.",module,Magento_Customer
 "If you did not request this change, please contact us.","Jos et pyytänyt tätä muutosta, ota meihin yhteyttä.",module,Magento_Customer
+"To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","Kirjautuaksesi sivustollemme, käytä näitä tunnistetietoja kassalla tai <a href=""%customer_url"">Oma tili</a> -sivulla:",theme,frontend/Magento/luma
+Email:,Sähköposti:,theme,frontend/Magento/luma
+Password:,Salasana:,theme,frontend/Magento/luma
+"Password you set when creating account","Salasana, jonka asetat tilin luonnin yhteydessä",theme,frontend/Magento/luma
+"Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","Unohditko salasanan? Klikkaa <a href=""%reset_url"">tästä</a> nollataksesi sen.",theme,frontend/Magento/luma
+"Order Status","Tilauksen tila",theme,frontend/Magento/luma
+"Check the status of orders","Tilausten tilan tarkistaminen",theme,frontend/Magento/luma
+"Manage Addresses","Osoitteiden hallinta",theme,frontend/Magento/luma
+"Order History",Tilaushistoria,theme,frontend/Magento/luma
+"View past orders","Katso aikaisemmat tilaukset",theme,frontend/Magento/luma
+"About Us","Tietoja meistä",theme,frontend/Magento/luma
+"Customer Service",Asiakaspalvelu,theme,frontend/Magento/luma
+"<a href=""tel:%store_phone"">%store_phone</a>","<a href=""tel:%store_phone""> %store_phone</a>",theme,frontend/Magento/luma
+"Hours of Operation:<br /><span class=""no-link"">%store_hours</span>.","Aukioloaika: <br /> <span class=""no-link"">%store_hours</span>.",theme,frontend/Magento/luma
+"Billing Info",Laskutustiedot,theme,frontend/Magento/luma
+"Shipping Info",Toimitustiedot,theme,frontend/Magento/luma
+"Payment Method",Maksutapa,theme,frontend/Magento/luma
+"Shipping Method",Toimitustapa,theme,frontend/Magento/luma
 "We don't recognize or support this file extension type.","Emme tunnista tai tue tätä tiedostotyyppiä.",module,Magento_Backend
 "Design Theme","Suunnittele teema",module,Magento_Backend
 "User-Agent Exceptions","Käyttäjäagentti poikkeukset",module,Magento_Backend
@@ -163,6 +221,8 @@ Total:,Yhteensä:,module,Magento_Checkout
 Cancel,Peruuta,module,Magento_Checkout
 "For delivery questions.",Toimituskysymyksille.,module,Magento_Checkout
 "Cart Subtotal","Ostoskorin Välisumma",module,Magento_Checkout
+"We received your order!","Olemme vastaanottaneet tilauksesi!",module,Magento_Checkout
+"Thank you for your purchase!","Kiitos ostoksestasi!",module,Magento_Checkout
 Contacts,Kontaktit,module,Magento_Contact
 "Contact Us","Ota yhteyttä",module,Magento_Contact
 "Enable Contact Us","Ota käyttöön Ota yhteyttä",module,Magento_Contact
@@ -171,3 +231,10 @@ Contacts,Kontaktit,module,Magento_Contact
 "Email Sender","Sähköpostin Lähettäjä",module,Magento_Contact
 "Email Template",Sähköpostimallit,module,Magento_Contact
 "You are signed out.","Olet kirjautunut ulos.",module,Magento_Customer
+Summary,Yhteenveto,theme,frontend/Magento/blank
+"Account Dashboard","Tilin hallintapaneeli",theme,frontend/Magento/blank
+"Account Information","Tilin tiedot",theme,frontend/Magento/blank
+"Address Book",Osoitekirja,theme,frontend/Magento/blank
+Menu,Valikko,theme,frontend/Magento/blank
+Account,Tili,theme,frontend/Magento/blank
+Settings,Asetukset,theme,frontend/Magento/blank

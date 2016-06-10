@@ -24,6 +24,33 @@ Checkout,Kassalle,module,Magento_Checkout
 "We don't have as many of some products as you want.","Meillä ei ole niin montaa kappaletta joitakin tuotteita kuin haluat.",module,Magento_Checkout
 "Quantity was recalculated from %1 to %2","Määrää laskettiin %1 -> %2",module,Magento_Checkout
 "Display item quantities","Näytä nimikkeiden määrät",module,Magento_Checkout
+"Invalid data","Virheellinen tieto",module,Magento_Checkout
+"The customer address is not valid.","Asiakkaan osoite on virheellinen.",module,Magento_Checkout
+"Invalid shipping method","Virheellinen toimitustapa",module,Magento_Checkout
+"Cancel Coupon","Peruuta kuponki",module,Magento_Checkout
+"Shopping Cart Items","Ostoskorin tuotteet",module,Magento_Checkout
+Item,Tuote,module,Magento_Checkout
+Price,Hinta,module,Magento_Checkout
+Qty,Määrä,module,Magento_Checkout
+Subtotal,Yhteensä,module,Magento_Checkout
+"Continue Shopping","Jatka ostoksia",module,Magento_Checkout
+"Clear Shopping Cart","Tyhjennä ostoskori",module,Magento_Checkout
+"Update Shopping Cart","Päivitä ostoskori",module,Magento_Checkout
+"Update Cart","Päivitä ostoskori",module,Magento_Checkout
+"See price before order confirmation.","Katso hinta ennen tilauksen vahvistusta.",module,Magento_Checkout
+"What's this?","Mikä tämä on?",module,Magento_Checkout
+"Edit item parameters","Muokkaa kohteen parametreja",module,Magento_Checkout
+Edit,Muokkaa,module,Magento_Checkout
+"Remove item","Poista tuote",module,Magento_Checkout
+"You have no items in your shopping cart.","Sinulla ei ole tuotteita ostoskorissasi.",module,Magento_Checkout
+"Click <a href=""%1"">here</a> to continue shopping.","Klikkaa <a href=""%1""> tästä</a> jatkaaksesi ostoksia.",module,Magento_Checkout
+"Estimate Shipping and Tax","Arvioi toimituskulut ja vero",module,Magento_Checkout
+"Excl. Tax",Veroton,module,Magento_Checkout
+Loading...,Ladataan...,module,Magento_Checkout
+"Order #",Tilausnumero,module,Magento_Checkout
+"Proceed to Checkout","Siirry kassalle",module,Magento_Checkout
+"Product Name",Tuotenimi,module,Magento_Checkout
+"Incl. Tax",Verollinen,module,Magento_Checkout
 "* Required Fields","* Pakolliset kentät",module,Magento_Contact
 Name,Nimi,module,Magento_Contact
 Email,Sähköposti,module,Magento_Contact
@@ -74,6 +101,7 @@ Order,Järjestys,module,Magento_Customer
 "Invalid input","Syöte ei kelpaa",module,Magento_Customer
 Submit,Lähetä,module,Magento_Customer
 Login,Kirjaudu,module,Magento_Customer
+"Shop By",Selaa,theme,frontend/Magento/luma
 Total:,Yhteensä:,module,Magento_Checkout
 "Design Theme","Suunnittele teema",module,Magento_Backend
 "User-Agent Exceptions","Käyttäjäagentti poikkeukset",module,Magento_Backend
@@ -81,6 +109,7 @@ Total:,Yhteensä:,module,Magento_Checkout
 "Shipping Address",Toimitusosoite,module,Magento_Checkout
 "For delivery questions.",Toimituskysymyksille.,module,Magento_Checkout
 "Cart Subtotal","Ostoskorin Välisumma",module,Magento_Checkout
+"Thank you for your purchase!","Kiitos ostoksestasi!",module,Magento_Checkout
 Contacts,Kontaktit,module,Magento_Contact
 "Contact Us","Ota yhteyttä",module,Magento_Contact
 "Enable Contact Us","Ota käyttöön Ota yhteyttä",module,Magento_Contact
@@ -88,3 +117,4 @@ Contacts,Kontaktit,module,Magento_Contact
 "Send Emails To","Lähetä sähköpostit",module,Magento_Contact
 "Email Sender","Sähköpostin Lähettäjä",module,Magento_Contact
 "Email Template",Sähköpostimallit,module,Magento_Contact
+Summary,Yhteenveto,theme,frontend/Magento/blank

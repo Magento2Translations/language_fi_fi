@@ -8,7 +8,6 @@ State/Province,Osavaltio/provinssi,module,Magento_Checkout
 "My Cart (1 item)","Ostoskori (1 kohde)",module,Magento_Checkout
 "My Cart (%1 items)","Ostoskori (%1 kohdetta)",module,Magento_Checkout
 "My Cart",Ostoskori,module,Magento_Checkout
-"Minimum order amount is %1","Vähimmäistilausmäärä on %1",module,Magento_Checkout
 "Customer is already registered","Asiakas on jo rekisteröity",module,Magento_Checkout
 "Your session has expired","Istuntosi on vanhentunut",module,Magento_Checkout
 "You added %1 to your shopping cart.","Lisäsit %1 ostoskoriisi.",module,Magento_Checkout

@@ -13,6 +13,7 @@
 "Unable to delete store view. Please, try again later.","Kauppanäkymää ei voida poistaa. Yritä myöhemmin uudelleen.",module,Magento_Backend
 "Unable to delete website. Please, try again later.","Sivustoa ei voida poistaa. Yritä myöhemmin uudelleen.",module,Magento_Backend
 "Themes JavaScript and CSS files combined to one file.","Teeman JavaScript ja CSS-tiedostot yhdistetty yhteen tiedostoon.",module,Magento_Backend
+Country,Maa,module,Magento_Braintree
 "Shopping Cart",Ostoskori,module,Magento_Checkout
 "Invalid method: %1","Epäkelpo menetelmä: %1",module,Magento_Checkout
 City,Paikkakunta,module,Magento_Checkout
@@ -158,10 +159,13 @@ Order,Järjestys,module,Magento_Customer
 "The password can't begin or end with a space.","Salasana ei voi alkaa tai loppua välilyönnillä.",module,Magento_Customer
 Submit,Lähetä,module,Magento_Customer
 Login,Kirjaudu,module,Magento_Customer
+Export,Vienti,module,Magento_ImportExport
+Apply,"Ota käyttöön",module,Magento_Rule
 "Search Term",Hakusana,module,Magento_Search
 Results,Tulokset,module,Magento_Search
 Uses,Käyttökerrat,module,Magento_Search
 "Search Terms",Hakusana,module,Magento_Search
+"Page not found.","Sivua ei löydy.",module,Magento_SendFriend
 "Condition type ""%1"" is not allowed","Ehdon tyyppi ""%1"" ei ole sallittu",module,Magento_Ui
 "The configuration parameter ""formElement"" is a required for ""%1"" field.","Parametri ""formElement"" vaaditaan ""%1"" -kentälle.",module,Magento_Ui
 "Remove %1","Poista %1",module,Magento_Ui

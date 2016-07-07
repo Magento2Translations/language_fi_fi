@@ -14,6 +14,7 @@
 "Unable to delete website. Please, try again later.","Sivustoa ei voida poistaa. Yritä myöhemmin uudelleen.",module,Magento_Backend
 "Themes JavaScript and CSS files combined to one file.","Teeman JavaScript ja CSS-tiedostot yhdistetty yhteen tiedostoon.",module,Magento_Backend
 Country,Maa,module,Magento_Braintree
+"Add to Cart","Lisää ostoskoriin",module,Magento_Catalog
 "Shopping Cart",Ostoskori,module,Magento_Checkout
 "Invalid method: %1","Epäkelpo menetelmä: %1",module,Magento_Checkout
 City,Paikkakunta,module,Magento_Checkout
@@ -160,7 +161,9 @@ Order,Järjestys,module,Magento_Customer
 Submit,Lähetä,module,Magento_Customer
 Login,Kirjaudu,module,Magento_Customer
 Export,Vienti,module,Magento_ImportExport
+"Add to Cart","Lisää ostoskoriin",module,Magento_Msrp
 Apply,"Ota käyttöön",module,Magento_Rule
+"Add to Cart","Lisää ostoskoriin",module,Magento_Sales
 "Search Term",Hakusana,module,Magento_Search
 Results,Tulokset,module,Magento_Search
 Uses,Käyttökerrat,module,Magento_Search
@@ -178,6 +181,7 @@ Back,Takaisin,module,Magento_Ui
 Cancel,Peruuta,module,Magento_Ui
 "We'll email you a link to reset your password.","Lähetämme sinulle linkin salasanan vaihtamiseksi.",module,Magento_User
 "We can't find a user to delete.","Poistettavaa käyttäjää ei löydy.",module,Magento_User
+"Add to Cart","Lisää ostoskoriin",module,Magento_Wishlist
 Previous,Edellinen,theme,frontend/Magento/luma
 Remove,Poista,theme,frontend/Magento/luma
 "Remove This Item","Poista tämä tuote",theme,frontend/Magento/luma

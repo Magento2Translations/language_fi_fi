@@ -1,3 +1,4 @@
+"Close popup","Sulje ponnahdus-ikkuna",module,Magento_AdminNotification
 "Unable to delete store. Please, try again later.","Kauppaa ei voida poistaa. Yritä myöhemmin uudelleen.",module,Magento_Backend
 "Unable to delete store view. Please, try again later.","Kauppanäkymää ei voida poistaa. Yritä myöhemmin uudelleen.",module,Magento_Backend
 "Unable to delete website. Please, try again later.","Sivustoa ei voida poistaa. Yritä myöhemmin uudelleen.",module,Magento_Backend

@@ -338,8 +338,11 @@ To,Asti,module,Magento_Bundle
 From:,Alkaen:,module,Magento_Bundle
 To:,Asti:,module,Magento_Bundle
 Always,Aina,module,Magento_Captcha
+"After number of attempts to login","Kirjautumisyritysmäärän jälkeen",module,Magento_Captcha
 "Incorrect CAPTCHA","Virheellinen CAPTCHA",module,Magento_Captcha
 "Incorrect CAPTCHA.","Virheellinen CAPTCHA.",module,Magento_Captcha
+"Reload captcha","Uudelleenlataa CAPTCHA",module,Magento_Captcha
+"Please type the letters below","Ole hyvä ja kirjoita alapuolella olevat kirjaimet",module,Magento_Captcha
 "Please correct the parameters.","Korjaa parametrit.",module,Magento_CatalogImportExport
 "ALL GROUPS","KAIKKI RYHMÄT",module,Magento_CatalogInventory
 "Customer Group",Asiakasryhmä,module,Magento_CatalogInventory
@@ -1816,7 +1819,15 @@ Rollback,Palautus,module,Magento_Backup
 "Allow Duplicate Cards","Salli korttien kaksoiskappaleet",module,Magento_Braintree
 "Your Kount ID",Kount-tunnuksesi,module,Magento_Braintree
 "Use Cache","Käytä välimuistia",module,Magento_Braintree
+"Enable CAPTCHA in Admin","Ota CAPTCHA käyttöön hallintasivulla",module,Magento_Captcha
 Font,Fontti,module,Magento_Captcha
+Forms,Lomakkeet,module,Magento_Captcha
+"Displaying Mode",Näyttötila,module,Magento_Captcha
+"CAPTCHA Timeout (minutes)","CAPTCHA-aikakatkaisu (minuutteina)",module,Magento_Captcha
+"Number of Symbols","Merkkien määrä",module,Magento_Captcha
+"Symbols Used in CAPTCHA","CAPTCHAssa käytetyt merkit",module,Magento_Captcha
+"Case Sensitive","Kirjainkoolla on väliä",module,Magento_Captcha
+"Enable CAPTCHA on Storefront","Ota CAPTCHA käyttöön kaupan etusivulla",module,Magento_Captcha
 Inventory,Varasto,module,Magento_CatalogInventory
 "Only X left Threshold","""Vain X jäljellä"" kynnysarvo",module,Magento_CatalogInventory
 "Display products availability in stock on Storefront.","Näytä tuotteiden määrä varastossa kaupan etusivulla.",module,Magento_CatalogInventory

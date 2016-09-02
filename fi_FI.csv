@@ -408,6 +408,7 @@ Root,Juuri,module,Magento_Catalog
 "New Subcategory","Uusi alakategoria",module,Magento_Catalog
 "New Root Category","Uusi juurikategoria",module,Magento_Catalog
 "Set Root Category for Store","Aseta juurikategoria kaupalle",module,Magento_Catalog
+"Use All Available Attributes","Käytä kaikkia käytettävissä olevia ominaisuuksia",module,Magento_Catalog
 "Custom Design","Muokattu ulkoasu",module,Magento_Catalog
 ID,Tunnus,module,Magento_Catalog
 Name,Nimi,module,Magento_Catalog
@@ -436,9 +437,13 @@ label,nimike,module,Magento_Catalog
 "Delete Attribute","Poista attribuutti",module,Magento_Catalog
 "Edit Product Attribute ""%1""","Muokkaa tuoteattribuuttia ""%1""",module,Magento_Catalog
 "New Product Attribute","Uusi tuoteattribuutti",module,Magento_Catalog
+"Default Value",Oletusarvo,module,Magento_Catalog
+"Unique Value","Yksilöllinen arvo",module,Magento_Catalog
+"Unique Value (not shared with other products)","Yksilöllinen arvo (ei jaeta muiden tuotteiden kanssa)",module,Magento_Catalog
 "Not shared with other products","Ei jaeta muiden tuotteiden kanssa",module,Magento_Catalog
 "Store View",Kauppanäkymä,module,Magento_Catalog
 Website,Sivusto,module,Magento_Catalog
+Global,Globaali,module,Magento_Catalog
 "Depends on design theme","Riippuu ulkoasun teemasta",module,Magento_Catalog
 No,Ei,module,Magento_Catalog
 Yes,Kyllä,module,Magento_Catalog
@@ -493,6 +498,7 @@ Quantity,Määrä,module,Magento_Catalog
 Edit,Muokkaa,module,Magento_Catalog
 "Are you sure?","Oletko varma?",module,Magento_Catalog
 "Click here or drag and drop to add images.","Napsauta tästä tai lisää kuvia vetämällä ja pudottamalla.",module,Magento_Catalog
+"New Category","Uusi kategoria",module,Magento_Catalog
 "Images (.gif, .jpg, .png)","Kuvat (.gif, .jpg, .png)",module,Magento_Catalog
 "Add New Images","Lisää uusia kuvia",module,Magento_Catalog
 "Inc. Tax",Verollinen,module,Magento_Catalog
@@ -506,6 +512,7 @@ PM,IP,module,Magento_Catalog
 "-- Please Select --","--- Valitse ---",module,Magento_Catalog
 None,"Ei mikään",module,Magento_Catalog
 "New Products","Uudet tuotteet",module,Magento_Catalog
+"You deleted the category.","Poistit kategorian.",module,Magento_Catalog
 Categories,Kategoriat,module,Magento_Catalog
 Catalog,Katalogi,module,Magento_Catalog
 "This product no longer exists.","Tätä tuotetta ei enää ole olemassa.",module,Magento_Catalog
@@ -1538,17 +1545,32 @@ Themes,Teemat,module,Magento_Theme
 "Theme: %1","Teema: %1",module,Magento_Theme
 "New Theme","Uusi teema",module,Magento_Theme
 "Theme CSS","Teeman CSS",module,Magento_Theme
+"Download CSS File","Lataa CSS-tiedosto",module,Magento_Theme
+Manage,Hallitse,module,Magento_Theme
 "Edit custom.css","Muokkaa custom.css",module,Magento_Theme
+"Allowed file types *.css.","Sallitut tiedostotyypit *.css.",module,Magento_Theme
+"CSS Editor",CSS-editori,module,Magento_Theme
 "Theme Settings","Teeman asetukset",module,Magento_Theme
+"Theme Path","Teeman polku",module,Magento_Theme
+"Theme Preview Image","Teeman esikatselukuva",module,Magento_Theme
 "Copy of %1","%1:n kopio",module,Magento_Theme
+"Allowed file types *.js.","Sallitut tiedostotyypit *.js.",module,Magento_Theme
 Theme,Teema,module,Magento_Theme
 "Create Folder","Luo kansio",module,Magento_Theme
 "Delete Folder","Poista kansio",module,Magento_Theme
 "Delete File","Poista tiedosto",module,Magento_Theme
+"You deleted the theme.","Poistit teeman.",module,Magento_Theme
+"We cannot delete the theme.","Teemaa ei voida poistaa.",module,Magento_Theme
+"File not found: ""%1"".","Tiedostoa ei löydy: ""%1"".",module,Magento_Theme
+"We cannot find theme ""%1"".","Teemaa ""%1"" ei löydy.",module,Magento_Theme
+"We cannot find the theme.","Teemaa ei löydy.",module,Magento_Theme
+"You saved the theme.","Tallensit teeman.",module,Magento_Theme
 "-- Please Select --","--- Valitse ---",module,Magento_Theme
+"Browse Files","Selaa tiedostoja",module,Magento_Theme
 Remove,Poista,module,Magento_Theme
 "%1 Item","%1 tuote",module,Magento_Theme
 "%1 Item(s)","%1 tuote(tta)",module,Magento_Theme
+Page,Sivu,module,Magento_Theme
 Previous,Edellinen,module,Magento_Theme
 Next,Seuraava,module,Magento_Theme
 Show,Näytä,module,Magento_Theme
@@ -1978,6 +2000,8 @@ ID,Tunnus,module,Magento_Sitemap
 "Tax Class for Shipping","Toimituksen veroluokat",module,Magento_Tax
 "Catalog Prices","Katalogin hinta",module,Magento_Tax
 "Shipping Prices",Toimitushinnat,module,Magento_Tax
+"Reset to Defaults","Palauta oletukset",module,Magento_Theme
+"Logo Image","Logon kuva",module,Magento_Theme
 "Welcome Text",Tervetuliaisteksti,module,Magento_Theme
 "Default welcome msg!",Oletustervetuliaisviesti!,module,Magento_Theme
 "Translation Strategy",Käännösstrategia,module,Magento_Translation

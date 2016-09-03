@@ -50,16 +50,21 @@ Close,Sulje,module,Magento_AdminNotification
 "amount %1","määrä %1",module,Magento_Authorizenet
 failed.,epäonnistui.,module,Magento_Authorizenet
 successful.,onnistui.,module,Magento_Authorizenet
-"Authorize.Net Transaction ID %1.","Authorize.Net tapahtumatunnus %1.",module,Magento_Authorizenet
+"Authorize.Net Transaction ID %1.","Authorize.Net-tapahtumatunnus %1.",module,Magento_Authorizenet
 "authorize and capture","valtuuta ja talteenota",module,Magento_Authorizenet
 capture,talteenota,module,Magento_Authorizenet
+refund,hyvitä,module,Magento_Authorizenet
 void,mitätön,module,Magento_Authorizenet
+"Payment capturing error.","Maksun talteenoton virhe.",module,Magento_Authorizenet
+"Invalid transaction ID.","Virheellinen tapahtumatunnus.",module,Magento_Authorizenet
+"Invalid amount for refund.","Virheellinen hyvityssumma.",module,Magento_Authorizenet
 "This payment didn't work out because we can't find this order.","Maksu ei onnistunut, koska emme löydä tätä tilausta.",module,Magento_Authorizenet
 "Something went wrong: the paid amount doesn't match the order amount. Please correct this and try again.","Jotain meni pieleen: maksettu summa ei vastaa tilauksen summaa. Korjaa se ja yritä uudelleen.",module,Magento_Authorizenet
 "Credit Card Type",Luottokorttityyppi,module,Magento_Authorizenet
 "Credit Card Number","Luottokortin numero",module,Magento_Authorizenet
 "Expiration Date","Viimeinen voimassaolopäivä",module,Magento_Authorizenet
 "Card Verification Number","Luottokortin tarkistusnumero",module,Magento_Authorizenet
+"Fraud Filters","Maksupetoksien suodattimet",module,Magento_Authorizenet
 "Invalid Form Key. Please refresh the page.","Virheellinen lomakkeen avain. Ole hyvä ja päivitä sivu.",module,Magento_Backend
 "You entered an invalid Secret Key. Please refresh the page.","Syötit virheellisen salausavaimen. Päivitä sivu.",module,Magento_Backend
 "Cache Storage Management","Välimuistitilan hallinta",module,Magento_Backend
@@ -311,7 +316,10 @@ Actions,Toiminnot,module,Magento_Backend
 "Unselect All","Poista kaikki valinnat",module,Magento_Backend
 Loading...,Ladataan...,module,Magento_Backend
 "System Backup","Järjestelmän varmuuskopiointi",module,Magento_Backup
+"Database and Media Backup","Tietokannan ja median varmuuskopiointi",module,Magento_Backup
 "Database Backup","Tietokannan varmuuskopiointi",module,Magento_Backup
+"The archive can be uncompressed with <a href=""%1"">%2</a> on Windows systems.","Arkisto voidaan purkaa ohjelmalla <a href=""%1"">%2</a> Windows-järjestelmissä.",module,Magento_Backup
+"You need more permissions to activate maintenance mode right now.","Tarvitaan laajemmat käyttöoikeudet huoltotilan aktivoimiseksi juuri nyt.",module,Magento_Backup
 "We can't create the backup right now.","Emme voi luoda varmuuskopiota juuri nyt.",module,Magento_Backup
 Backups,Varmuuskopiot,module,Magento_Backup
 System,Järjestelmä,module,Magento_Backup
@@ -321,10 +329,14 @@ Backup,Varmuuskopioi,module,Magento_Backup
 failed,epäonnistui,module,Magento_Backup
 successful,onnistui,module,Magento_Backup
 "Can't load snapshot archive","Tilannevedosten arkistoa ei voida ladata",module,Magento_Backup
+"Please correct the password.","Kirjoita oikea salasana.",module,Magento_Backup
 "We can't find the backup file.","Varmuuskopiotiedostoa ei löydy.",module,Magento_Backup
 "We can't connect to the FTP right now.","FTP-yhteyttä ei voida luoda juuri nyt.",module,Magento_Backup
 Database,Tietokanta,module,Magento_Backup
 "Database and Media","Tietokanta ja media",module,Magento_Backup
+"System (excluding Media)","Järjestelmä (poislukien media)",module,Magento_Backup
+"You created the system backup.","Järjestelmän varmuuskopio luotiin.",module,Magento_Backup
+"You created the system backup (excluding media).","Järjestelmän varmuuskopio (poislukien media) luotiin.",module,Magento_Backup
 "We can't save the Cron expression.","Emme voi tallentaa cron-lauseketta.",module,Magento_Backup
 "Are you sure you want to continue?","Haluatko varmasti jatkaa?",module,Magento_Backup
 "User Password","Käyttäjän salasana",module,Magento_Backup
@@ -1310,7 +1322,7 @@ Role,Rooli,module,Magento_ProductVideo
 "Cannot assign customer to the given cart. You don't have permission for this operation.","Asiakasta ei voida määrittää valittuun ostoskoriin. Käyttöoikeutesi eivät riitä tämän toiminnon suorittamiseen.",module,Magento_Quote
 "Shipping address is not set","Toimitusosoitetta ei ole määritetty",module,Magento_Quote
 "The requested Payment Method is not available.","Valittu maksutapa ei ole käytettävissä.",module,Magento_Quote
-"We found an invalid request for adding product to quote.","Löysimme virheellisen pyynnön lisätä tuote tarjoukseen.",module,Magento_Quote
+"We found an invalid request for adding product to quote.","Löysimme virheellisen pyynnön lisätä tuotetarjoukseen.",module,Magento_Quote
 "This is the wrong quote item id to update configuration.","Tämä on väärä tarjottavan tuotteen tunnus kokoonpanon päivittämiseksi.",module,Magento_Quote
 "This shipping method is not available. To use this shipping method, please contact us.","Tämä toimitustapa ei ole käytettävissä. Ota meihin yhteyttä käyttääksesi tätä toimitustapaa.",module,Magento_Quote
 "The address model is not defined.","Osoitemallia ei ole määritetty.",module,Magento_Quote
@@ -1744,7 +1756,7 @@ Uses,Käyttökerrat,module,Magento_Search
 "New Synonym Group","Uusi synonyymi ryhmä",module,Magento_Search
 Back,Takaisin,module,Magento_Search
 "Delete Synonym Group","Poista synonyymi ryhmä",module,Magento_Search
-"Are you sure you want to delete this synonym group?","Oletko varma, että haluat poistaa tämän synonyymi ryhmän?",module,Magento_Search
+"Are you sure you want to delete this synonym group?","Oletko varma, että haluat poistaa tämän synonyymiryhmän?",module,Magento_Search
 "Save and Continue Edit","Tallenna ja jatka muokkaamista",module,Magento_Search
 Search,Haku,module,Magento_Search
 "Save Search","Tallenna haku",module,Magento_Search
@@ -2258,6 +2270,7 @@ Remove,Poista,theme,frontend/Magento/luma
 "Shop By",Selaa,theme,frontend/Magento/luma
 "Clear All","Tyhjennä kaikki",theme,frontend/Magento/luma
 "Shopping Options",Listausvalinnat,theme,frontend/Magento/luma
+"Place Order","Tee tilaus",module,Magento_Authorizenet
 "Payment Transaction Failed Reminder","Maksamisen epäonnistumisen muistutus",module,Magento_Checkout
 "Payment Transaction Failed","Maksaminen epäonnistui",module,Magento_Checkout
 Reason,Syy,module,Magento_Checkout
@@ -2489,8 +2502,12 @@ Severity,Vakavuus,module,Magento_AdminNotification
 "Date Added",Lisäyspäivämäärä,module,Magento_AdminNotification
 Message,Viesti,module,Magento_AdminNotification
 Actions,Toiminnot,module,Magento_AdminNotification
+Enabled,Käytössä,module,Magento_Authorizenet
+"Transaction Key",Maksutapahtuma-avain,module,Magento_Authorizenet
 "Test Mode",Testitila,module,Magento_Authorizenet
+"Accepted Currency","Hyväksytty valuutta",module,Magento_Authorizenet
 "Credit Card Types",Luottokorttityypit,module,Magento_Authorizenet
+"Sort Order",Järjestys,module,Magento_Authorizenet
 "Allow everything","Salli kaikki",module,Magento_Backend
 Marketing,Markkinointi,module,Magento_Backend
 Content,Sisältö,module,Magento_Backend
@@ -2593,6 +2610,7 @@ Content,Sisältö,module,Magento_Catalog
 System,Järjestelmä,module,Magento_Catalog
 "All Store Views","Kaikki kauppanäkymät",module,Magento_Catalog
 none,"ei mikään",module,Magento_Catalog
+Overview,Yleiskatsaus,module,Magento_Catalog
 Details,Yksityiskohdat,module,Magento_Catalog
 "Checkout Options",Tilausvaihtoehdot,module,Magento_Checkout
 "Enable Onepage Checkout","Ota yhden sivun osto käyttöön",module,Magento_Checkout

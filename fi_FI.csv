@@ -1195,6 +1195,7 @@ Continue,Jatka,module,Magento_ImportExport
 "Update by Schedule","Päivitä aikataulu",module,Magento_Indexer
 "Update on Save","Päivitä tallentaessa",module,Magento_Indexer
 Ready,Valmis,module,Magento_Indexer
+Never,"Ei koskaan",module,Magento_Indexer
 "Index Management","Indeksien hallinta",module,Magento_Indexer
 Integrations,Integraatiot,module,Magento_Integration
 "Add New Integration","Lisää uusi integraatio",module,Magento_Integration

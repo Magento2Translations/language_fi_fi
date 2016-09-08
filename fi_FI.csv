@@ -473,6 +473,7 @@ Always,Aina,module,Magento_Captcha
 "Entity type model '%1' is not found","Entiteetin tyyppimallia '%1' ei löydy",module,Magento_CatalogImportExport
 "Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType","Entiteetin tyyppimallin on oltava \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType instanssi",module,Magento_CatalogImportExport
 "There are no product types available for export.","Vietäviä tuotetyyppejä ei ole saatavilla.",module,Magento_CatalogImportExport
+"Entity type model must be an instance of Magento\CatalogImportExport\Model\Import\Product\Type\AbstractType","Entiteetin tyyppimallin on oltava \Magento\CatalogImportExport\Model\Import\Product\Type\AbstractType instanssi",module,Magento_CatalogImportExport
 "Category ""%1"" has not been created.","Kategoriaa ""%1"" ei ole luotu.",module,Magento_CatalogImportExport
 "File directory '%1' is not readable.","Tiedostokansio '%1' ei ole luettavissa.",module,Magento_CatalogImportExport
 "File directory '%1' is not writable.","Tiedostokansio '%1' ei ole kirjoitettavissa.",module,Magento_CatalogImportExport
@@ -1583,6 +1584,7 @@ Continue,Jatka,module,Magento_ImportExport
 "Update by Schedule","Päivitä aikataulu",module,Magento_Indexer
 "Update on Save","Päivitä tallentaessa",module,Magento_Indexer
 Ready,Valmis,module,Magento_Indexer
+Never,"Ei koskaan",module,Magento_Indexer
 "Index Management","Indeksien hallinta",module,Magento_Indexer
 "One or more <a href=""%1"">indexers are invalid</a>. Make sure your <a href=""%2"" target=""_blank"">Magento cron job</a> is running.","Vähintään yksi <a href=""%1"">indeksoija on mitätöity</a>. Varmista että <a href=""%2"" target=""_blank"">Magento ajastettu tehtävä</a> suoritetaan.",module,Magento_Indexer
 "Field '%1' not found","Kenttää '%1' ei löydy",module,Magento_Indexer
@@ -2741,6 +2743,7 @@ Save,Tallenna,module,Magento_Tax
 "Grand Total Incl. Tax","Verollinen loppusumma",module,Magento_Tax
 Back,Takaisin,module,Magento_Theme
 "Save and Continue","Tallenna ja jatka",module,Magento_Theme
+"Save Configuration","Tallenna konfiguraatio",module,Magento_Theme
 Default,Oletus,module,Magento_Theme
 Themes,Teemat,module,Magento_Theme
 "Save and Continue Edit","Tallenna ja jatka muokkaamista",module,Magento_Theme

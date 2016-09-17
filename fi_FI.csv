@@ -1072,6 +1072,7 @@ Bcc,Piilokopio,module,Magento_Config
 "%1 (Default)","%1 (oletus)",module,Magento_Config
 title,otsikko,module,Magento_Config
 No,Ei,module,Magento_Config
+Optional,Valinnainen,module,Magento_Config
 Store,Kauppa,module,Magento_Config
 "Store View",Kauppanäkymä,module,Magento_Config
 "HTTP (unsecure)","HTTP (suojaamaton)",module,Magento_Config
@@ -3162,11 +3163,14 @@ Next,Seuraava,module,Magento_Checkout
 "Comment: %comment","Kommentti: %comment",module,Magento_Contact
 "Welcome to %store_name","Tervetuloa %store_name -kauppaan",module,Magento_Customer
 "Welcome to %store_name.","Tervetuloa %store_name -kauppaan.",module,Magento_Customer
+"To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","Kirjautuaksesi sivustollemme, käytä näitä tunnistetietoja kassalla tai <a href=""%customer_url"">Oma tili</a> -sivulla:",module,Magento_Customer
 Email:,Sähköposti:,module,Magento_Customer
 Password:,Salasana:,module,Magento_Customer
 "Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","Unohditko salasanan? Klikkaa <a href=""%reset_url"">tästä</a> nollataksesi sen.",module,Magento_Customer
-"Check the status of orders","Tilausten tilan tarkistaminen",module,Magento_Customer
-"View past orders","Katso aikaisemmat tilaukset",module,Magento_Customer
+"Check the status of orders","Tarkastaa tilausten tilan",module,Magento_Customer
+"View past orders","Tarkastella aikaisempia tilauksia",module,Magento_Customer
+"Store alternative addresses (for shipping to multiple family members and friends)","Tallentaa vaihtoehtoisia osoitteita (toimitus esimerkiksi perheenjäsenille ja ystäville)",module,Magento_Customer
+"To sign in to our site and set a password, click on the <a href=""%create_password_url"">link</a>:","Kirjautuaksesi sivustollemme vaihtaaksesi salasanan, klikkaa <a href=""%create_password_url"">linkkiä</a>:",module,Magento_Customer
 "Hello,","Hei,",module,Magento_Customer
 "Thanks,<br>%store_name","Kiittäen,<br>%store_name",module,Magento_Customer
 "Your %store_name email and password has been changed","Sinun %store_name -sähköpostisi ja -salasanasi on muutettu",module,Magento_Customer
@@ -3229,6 +3233,7 @@ Password:,Salasana:,module,Magento_Theme
 "When you sign in to your account, you will be able to:","Kun kirjaudut tilillesi, voit:",module,Magento_Theme
 "Check the status of orders","Tarkastaa tilausten tilan",module,Magento_Theme
 "View past orders","Tarkastella aikaisempia tilauksia",module,Magento_Theme
+"Store alternative addresses (for shipping to multiple family members and friends)","Tallentaa vaihtoehtoisia osoitteita (toimitus esimerkiksi perheenjäsenille ja ystäville)",module,Magento_Theme
 "This tab contains invalid data. Please resolve this before saving.","Tämä välilehti sisältää virheellisiä tietoja. Korjaa virheelliset tiedot ennen tallentamista.",module,Magento_Ui
 Options,Asetukset,module,Magento_Ui
 "records found","merkintää löytyi",module,Magento_Ui
@@ -3259,14 +3264,14 @@ Password:,Salasana:,theme,frontend/Magento/luma
 "Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","Unohtuiko salasana? Klikkaa <a href=""%reset_url"">tästä</a> sen palauttamiseksi.",theme,frontend/Magento/luma
 "When you sign in to your account, you will be able to:","Kun kirjaudut tilillesi, voit:",theme,frontend/Magento/luma
 "Quick Checkout","Nopea tilaus",theme,frontend/Magento/luma
-"Proceed through checkout faster","Nopeampi ostotapahtuma",theme,frontend/Magento/luma
+"Proceed through checkout faster","Ostaa nopeammin",theme,frontend/Magento/luma
 "Order Status","Tilauksen tila",theme,frontend/Magento/luma
-"Check the status of orders","Tilausten tilan tarkistaminen",theme,frontend/Magento/luma
+"Check the status of orders","Tarkastaa tilausten tilan",theme,frontend/Magento/luma
 "Manage Addresses","Osoitteiden hallinta",theme,frontend/Magento/luma
 "Store alternative addresses","Tallenna vaihtoehtoinen osoite",theme,frontend/Magento/luma
 "For shipping to multiple family members and friends","Jos haluat useita toimitusosoitteita eri perheenjäseniä ja ystäviä varten",theme,frontend/Magento/luma
 "Order History",Tilaushistoria,theme,frontend/Magento/luma
-"View past orders","Katso aikaisemmat tilaukset",theme,frontend/Magento/luma
+"View past orders","Tarkastella aikaisempia tilauksia",theme,frontend/Magento/luma
 Footer,Alatunniste,theme,frontend/Magento/luma
 "About Us","Tietoja meistä",theme,frontend/Magento/luma
 "Customer Service",Asiakaspalvelu,theme,frontend/Magento/luma
@@ -3337,6 +3342,7 @@ Selected,Valittu,module,Magento_Ui
 "Select All","Valitse kaikki",module,Magento_Ui
 "Deselect All","Poista kaikki valinnat",module,Magento_Ui
 On,Käytössä,module,Magento_Ui
+"Search by keyword","Etsi avainsanojen mukaan",module,Magento_Ui
 Keyword,Avainsana,module,Magento_Ui
 "Select Date","Valitse päivämäärä",module,Magento_Ui
 "Please enter {0} words or less.","Kirjoita {0} sanaa tai vähemmän.",module,Magento_Ui
@@ -3654,6 +3660,7 @@ Currency,Valuutta,module,Magento_CurrencySymbol
 "Default Welcome Email",Oletustervetuliaisviesti,module,Magento_Customer
 "Welcome Email",Tervetuliaissähköposti,module,Magento_Customer
 "Number of Lines in a Street Address","Katuosoitteen rivien määrä",module,Magento_Customer
+"Always optional.","Aina valinnainen.",module,Magento_Customer
 Group,Ryhmä,module,Magento_Customer
 "Add New Customer","Lisää uusi asiakas",module,Magento_Customer
 "Delete items","Poista kohteet",module,Magento_Customer

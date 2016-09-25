@@ -2565,6 +2565,7 @@ Contacts,Kontaktit,module,Magento_Contact
 "Default Welcome Email",Oletustervetuliaisviesti,module,Magento_Customer
 "Welcome Email",Tervetuliaissähköposti,module,Magento_Customer
 "Number of Lines in a Street Address","Katuosoitteen rivien määrä",module,Magento_Customer
+"Always optional.","Aina valinnainen.",module,Magento_Customer
 Group,Ryhmä,module,Magento_Customer
 "Add New Customer","Lisää uusi asiakas",module,Magento_Customer
 ZIP,Postinumero,module,Magento_Customer

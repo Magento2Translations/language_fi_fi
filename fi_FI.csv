@@ -3641,7 +3641,7 @@ Searchable,Haettavissa,module,Magento_ConfigurableProduct
 "Contacts Section",Yhteystiedot,module,Magento_Contact
 Contacts,Kontaktit,module,Magento_Contact
 "Contact Us","Ota yhteyttä",module,Magento_Contact
-"Enable Contact Us","Ota käyttöön Ota yhteyttä",module,Magento_Contact
+"Enable Contact Us","Ota yhteydenottolomake käyttöön",module,Magento_Contact
 "Email Options",Sähköpostiasetukset,module,Magento_Contact
 "Send Emails To","Lähetä sähköpostit",module,Magento_Contact
 "Email Sender","Sähköpostin Lähettäjä",module,Magento_Contact
@@ -3686,6 +3686,7 @@ Size,Koko,module,Magento_Dhl
 "Connection Timeout in Seconds","Yhteyden aikakatkaisu sekunteina",module,Magento_Directory
 Enabled,Käytössä,module,Magento_Directory
 "Installed Currencies","Asennetut valuutat",module,Magento_Directory
+"State Options","Osavaltion/maakunnan asetukset",module,Magento_Directory
 "Weight Unit",Painoyksikkö,module,Magento_Directory
 Downloads,Lataukset,module,Magento_Downloadable
 "Disable Guest Checkout if Cart Contains Downloadable Items","Poista vieraana ostaminen käytöstä, jos ostoskori sisältää ladattavia tuotteita",module,Magento_Downloadable

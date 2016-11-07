@@ -1192,7 +1192,7 @@ Status,Tila,module,Magento_ImportExport
 Add/Update,Lisää/päivitä,module,Magento_ImportExport
 Continue,Jatka,module,Magento_ImportExport
 "Indexer Management","Indeksointitoiminnon hallinta",module,Magento_Indexer
-"Update by Schedule","Päivitä aikataulu",module,Magento_Indexer
+"Update by Schedule","Päivitetään ajastetusti",module,Magento_Indexer
 "Update on Save","Päivitä tallentaessa",module,Magento_Indexer
 Ready,Valmis,module,Magento_Indexer
 Never,"Ei koskaan",module,Magento_Indexer

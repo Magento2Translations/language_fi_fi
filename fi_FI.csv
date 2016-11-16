@@ -1217,10 +1217,13 @@ Confirmed,Vahvistettu,module,Magento_Customer
 Indeterminate,Määrittelemätön,module,Magento_Customer
 "The customer does not have default billing address.","Asiakkaalla ei ole oletuslaskutusosoitetta.",module,Magento_Customer
 Never,"Ei koskaan",module,Magento_Customer
+Unlocked,Avoin,module,Magento_Customer
 Locked,Lukittu,module,Magento_Customer
 "Deleted Stores","Poistetut kaupat",module,Magento_Customer
 "Add Locale","Lisää kieli",module,Magento_Customer
+"Add Date","Lisää päivämäärä",module,Magento_Customer
 "Days in Wish List","Päivää toivelistalla",module,Magento_Customer
+Unlock,Avaa,module,Magento_Customer
 No,Ei,module,Magento_Customer
 Yes,Kyllä,module,Magento_Customer
 "Delete File","Poista tiedosto",module,Magento_Customer
@@ -1231,20 +1234,47 @@ Download,Lataa,module,Magento_Customer
 "Customer Groups",Asiakasryhmät,module,Magento_Customer
 "Add New Customer Group","Lisää uusi asiakasryhmä",module,Magento_Customer
 "Save Customer Group","Tallenna asiakasryhmä",module,Magento_Customer
+"Delete Customer Group","Poista asiakasryhmä",module,Magento_Customer
 "New Customer Group","Uusi asiakasryhmä",module,Magento_Customer
+"Edit Customer Group ""%1""","Muokkaa asiakasryhmää ""%1""",module,Magento_Customer
 "Group Information","Ryhmän tiedot",module,Magento_Customer
 "Group Name","Ryhmän nimi",module,Magento_Customer
+"Maximum length must be less then %1 characters.","Maksimipituus ei voi ylittää %1 merkkiä.",module,Magento_Customer
 "Tax Class",Veroluokka,module,Magento_Customer
+"The customer is now assigned to Customer Group %s.","Asiakas on lisätty asiakaryhmään %s.",module,Magento_Customer
+"Would you like to change the Customer Group for this order?","Haluatko vaihtaa asiakasryhmän tälle tilaukselle?",module,Magento_Customer
+"The VAT ID is valid.","Y-tunnus oikein.",module,Magento_Customer
 "The VAT ID entered (%s) is not a valid VAT ID.","Annettu ALV-tunnus (%s) ei ole kelvollinen ALV-tunnus.",module,Magento_Customer
+"The VAT ID is valid. The current Customer Group will be used.","Y-tunnus oikein. Käytetään valittua asiakasryhmää.",module,Magento_Customer
+"The VAT ID is valid but no Customer Group is assigned for it.","Y-tunnus on oikein, mutta sitä ei ole liitetty asiakasryhmään.",module,Magento_Customer
+"Based on the VAT ID, the customer belongs to the Customer Group %s.","Y-tunnuksen perusteella asiakas kuuluu %s asiakasryhmään.",module,Magento_Customer
+"Something went wrong while validating the VAT ID.","Y-tunnuksen tarkistuksessa tapahtui virhe.",module,Magento_Customer
+"The customer would belong to Customer Group %s.","Asiakas kuuluisi asiakasryhmään %s.",module,Magento_Customer
+"There was an error detecting Customer Group.","Asiakasryhmän tunnistamisessa tapahtui virhe.",module,Magento_Customer
+"Validate VAT Number","Tarkista y-tunnus",module,Magento_Customer
+"Customer Login",Kirjaudu,module,Magento_Customer
 "Create New Customer Account","Uuden asiakastilin luominen",module,Magento_Customer
 "Date of Birth",Syntymäaika,module,Magento_Customer
+"Bad request.","Virheellinen pyyntö.",module,Magento_Customer
+"This confirmation key is invalid or has expired.","Vahvistusavain on virheellinen tai vanhentunut.",module,Magento_Customer
+"There was an error confirming the account","Tilin vahvistamisessa tapahtui virhe",module,Magento_Customer
+"Wrong email.","Väärä sähköpostiosoite.",module,Magento_Customer
+"Your password reset link has expired.","Salasanan palautuslinkki on vanhentunut.",module,Magento_Customer
+"You must confirm your account. Please check your email for the confirmation link or <a href=""%1"">click here</a> for a new link.","Sinulle on lähetetty sähköpostilla linkki, jolla voit vahvista tilisi tai <a href=""%1"">klikkaa tästä</a> tilataksesi uuden linkin.",module,Magento_Customer
 "We can't save the customer.","Asiakasta ei voida tallentaa.",module,Magento_Customer
 "Please make sure your passwords match.","Varmista, että salasanat täsmäävät.",module,Magento_Customer
 "Account Information","Tilin tiedot",module,Magento_Customer
+"You saved the account information.","Tilin tiedot on tallennettu.",module,Magento_Customer
+"The account is locked. Please wait and try again or contact %1.","Tili on lukittu. Odota hetki ja yritä uudelleen tai ota yhteyttä %1.",module,Magento_Customer
 "Password confirmation doesn't match entered password.","Salasanan vahvistus ei täsmää annettuun salasanaan.",module,Magento_Customer
 "The password doesn't match this account.","Salasana ei ole oikein.",module,Magento_Customer
+"Please correct the email address.","Korjaa sähköpostiosoite.",module,Magento_Customer
 "Please enter your email.","Syötä sähköpostiosoitteesi.",module,Magento_Customer
+"My Account",Tilini,module,Magento_Customer
+"This account is not confirmed. <a href=""%1"">Click here</a> to resend confirmation email.","Tiliä ei ole vahvistettu, <a href=""%1"">klikkaa tästä</a> uudelleenlähettääksesi vahvistussähköpostin.",module,Magento_Customer
 "Invalid login or password.","Virheellinen sähköpostiosoite tai salasana.",module,Magento_Customer
+"An unspecified error occurred. Please contact us for assistance.","Tapahtui virhe, ole hyvä ja ota yhteyttä meihin.",module,Magento_Customer
+"A login and a password are required.","Käyttäjätunnus ja salasana ovat pakolliset.",module,Magento_Customer
 "New Password and Confirm New Password values didn't match.","Uusi salasana ja vahvista uusi salasana -arvot eivät vastaa toisiaan.",module,Magento_Customer
 "Please enter a new password.","Kirjoita uusi salasana.",module,Magento_Customer
 "You updated your password.","Päivitit salasanasi.",module,Magento_Customer
@@ -1253,20 +1283,33 @@ Download,Lataa,module,Magento_Customer
 "We can't delete the address right now.","Osoitetta ei voida poistaa juuri nyt.",module,Magento_Customer
 "You saved the address.","Tallensit osoitteen.",module,Magento_Customer
 "We can't save the address.","Osoitetta ei voida tallentaa.",module,Magento_Customer
+"No customer ID defined.","Asiakastunnusta ei ole määritelty.",module,Magento_Customer
 "You deleted the customer group.","Asiakasryhmä poistettiin.",module,Magento_Customer
 "The customer group no longer exists.","Asiakasryhmää ei enää ole olemassa.",module,Magento_Customer
 Customers,Asiakkaat,module,Magento_Customer
 "New Group","Uusi ryhmä",module,Magento_Customer
 "New Customer Groups","Uudet asiakasryhmät",module,Magento_Customer
 "Edit Group","Muokkaa ryhmää",module,Magento_Customer
+"Edit Customer Groups","Muokkaa asiakasryhmiä",module,Magento_Customer
+"You saved the customer group.","Asiakasryhmä on tallennettu.",module,Magento_Customer
+"Please select customer(s).","Valitse asiakas/asiakkaat.",module,Magento_Customer
+"Customer could not be deleted.","Asiakasta ei voi poistaa.",module,Magento_Customer
 "You deleted the customer.","Asiakas on poistettu.",module,Magento_Customer
 "Something went wrong while editing the customer.","Jokin meni vikaan asiakasta muokattaessa.",module,Magento_Customer
 "Manage Customers","Hallinnoi asiakkaita",module,Magento_Customer
 "Please correct the data sent.","Ole hyvä ja korjaa lähetetty tieto.",module,Magento_Customer
+"A total of %1 record(s) were updated.","Yhteensä %1 tietuetta päivitettiin.",module,Magento_Customer
 "A total of %1 record(s) were deleted.","Yhteensä %1 tietue(tta) poistettiin.",module,Magento_Customer
+"The customer will receive an email with a link to reset password.","Asiakkaalle lähetetään sähköpostitse salasanan palautuslinkki.",module,Magento_Customer
+"Something went wrong while resetting customer password.","Asiakkaan salasanan palauttamisessa tapahtui virhe.",module,Magento_Customer
+"You saved the customer.","Asiakas on tallennettu.",module,Magento_Customer
+"Something went wrong while saving the customer.","Asiakkaan tietojen tallennuksessa tapahtui virhe.",module,Magento_Customer
 "Page not found.","Sivua ei löydy.",module,Magento_Customer
+"Customer has been unlocked successfully.","Asiakkaan avaus onnistui.",module,Magento_Customer
 "Online Customers",Online-asiakkaat,module,Magento_Customer
 "Customers Now Online","Asiakkaat nyt Online",module,Magento_Customer
+"Please define Wish List item ID.","Määritä toivelistan nimekkeen tunnus.",module,Magento_Customer
+"Please load Wish List item.","Lataa toivelistan tuote.",module,Magento_Customer
 "Login successful.","Kirjautuminen onnistui.",module,Magento_Customer
 "No confirmation needed.","Vahvistusta ei tarvita.",module,Magento_Customer
 "Account already active","Tili on jo aktiivinen",module,Magento_Customer
@@ -1292,6 +1335,7 @@ Male,Mies,module,Magento_Customer
 Female,Nainen,module,Magento_Customer
 "Please enter new password.","Kirjoita uusi salasana.",module,Magento_Customer
 message,viesti,module,Magento_Customer
+"This account is not confirmed. <a href=""%1"">Click here</a> to resend confirmation email.","Tiliä ei ole vahvistettu, <a href=""%1"">klikkaa tästä</a> uudelleenlähettääksesi vahvistussähköpostin.",module,Magento_Customer
 "NOT LOGGED IN","EI KIRJAUTUNEENA SISÄÄN",module,Magento_Customer
 Select...,Valitse...,module,Magento_Customer
 Edit,Muokkaa,module,Magento_Customer
@@ -1467,18 +1511,45 @@ Dropdown,Pudotusvalikko,module,Magento_Eav
 Back,Takaisin,module,Magento_Email
 Reset,Tyhjennä,module,Magento_Email
 "Delete Template","Poista malli",module,Magento_Email
+"Convert to Plain Text","Muuta tekstimuotoon",module,Magento_Email
+"Return Html Version","Palauta html-versio",module,Magento_Email
 "Preview Template","Esikatsele mallia",module,Magento_Email
 "Save Template","Tallenna malli",module,Magento_Email
 "Load Template","Lataa malli",module,Magento_Email
+"Edit Email Template","Muokkaa sähköpostimallia",module,Magento_Email
+"New Email Template","Uusi sähköpostimalli",module,Magento_Email
+"Default Config",Oletusasetukset,module,Magento_Email
+"Template Information","Tietoja mallipohjasta",module,Magento_Email
+"Currently Used For","Tällä hetkellä käytetään",module,Magento_Email
 "Template Name","Mallipohjan nimi",module,Magento_Email
+"Template Subject","Mallin aihe",module,Magento_Email
+"Insert Variable...","Lisää muuttuja...",module,Magento_Email
+"Template Content","Mallin sisältö",module,Magento_Email
 "Template Styles",Mallipohjatyylit,module,Magento_Email
 Preview,Esikatselu,module,Magento_Email
 Unknown,Tuntematon,module,Magento_Email
 "You deleted the email template.","Sähköpostimalli poistettiin.",module,Magento_Email
+"The email template is currently being used.","Sähköpostipohja on käytössä.",module,Magento_Email
 "We can't delete email template data right now. Please review log and try again.","Emme voi poistaa sähköpostimallia juuri nyt. Tarkista loki ja yritä uudelleen.",module,Magento_Email
 "We can't find an email template to delete.","Emme löydä sähköpostimallia poistettavaksi.",module,Magento_Email
+"Edit Template","Muokkaa mallia",module,Magento_Email
+"New Template","Uusi viestipohja",module,Magento_Email
+"Email Templates",Sähköpostimallit,module,Magento_Email
 "Email Preview","Sähköpostin esikatselu",module,Magento_Email
+"An error occurred. The email template can not be opened for preview.","Tapahtui virhe, sähköpostimallia ei voida avata esikatselussa.",module,Magento_Email
+"This email template no longer exists.","Sähköpostimallia ei enää ole olemassa.",module,Magento_Email
+"You saved the email template.","Sähköpostimalli on tallennettu.",module,Magento_Email
+"General Contact Name","Yleinen yhteyshenkilön nimi",module,Magento_Email
+"General Contact Email","Yleinen yhteyssähköpostiosoite",module,Magento_Email
+"Sales Representative Contact Name","Myynnin edustajan yhteyshenkilön nimi",module,Magento_Email
+"Sales Representative Contact Email","Myynnin edustajan yhteyssähköpostiosoite",module,Magento_Email
+"Custom1 Contact Name","Oma1 yhteyshenkilön nimi",module,Magento_Email
+"Custom1 Contact Email","Oma1 yhteyshenkilön sähköpostiosoite",module,Magento_Email
+"Custom2 Contact Name","Oma2 yhteyshenkilön nimi",module,Magento_Email
+"Custom2 Contact Email","Oma2 yhteyshenkilön sähköpostiosoite",module,Magento_Email
+"Store Name","Kaupan nimi",module,Magento_Email
 "Store Phone Number","Kaupan puhelinnumero",module,Magento_Email
+"Store Hours",Aukioloajat,module,Magento_Email
 Country,Maa,module,Magento_Email
 Region/State,Alue/osavaltio,module,Magento_Email
 "Zip/Postal Code",Postinumero,module,Magento_Email
@@ -1696,12 +1767,17 @@ Reset,Tyhjennä,module,Magento_Newsletter
 "Save and Resume","Tallenna ja jatka",module,Magento_Newsletter
 "View Newsletter","Tarkastele uutiskirjettä",module,Magento_Newsletter
 "Edit Newsletter","Muokkaa uutiskirjettä",module,Magento_Newsletter
+"Queue Information","Lähetysjonon tiedot",module,Magento_Newsletter
+"Queue Date Start","Lähetysjonon aloituspäivämäärä",module,Magento_Newsletter
 "Subscribers From",Tilaajat,module,Magento_Newsletter
 Subject,Aihe,module,Magento_Newsletter
 "Sender Name","Lähettäjän nimi",module,Magento_Newsletter
 "Sender Email","Lähettäjän sähköposti",module,Magento_Newsletter
 Message,Viesti,module,Magento_Newsletter
 "Newsletter Styles","Uutiskirjeiden tyylit",module,Magento_Newsletter
+Start,Aloita,module,Magento_Newsletter
+Pause,Pysäytä,module,Magento_Newsletter
+"Do you really want to cancel the queue?","Haluatko varmasti peruuttaa lähetysjonon?",module,Magento_Newsletter
 Cancel,Peruuta,module,Magento_Newsletter
 Resume,Jatka,module,Magento_Newsletter
 Preview,Esikatselu,module,Magento_Newsletter
@@ -1713,10 +1789,13 @@ Preview,Esikatselu,module,Magento_Newsletter
 "Save As","Tallenna nimellä",module,Magento_Newsletter
 "Save Template","Tallenna mallipohja",module,Magento_Newsletter
 "Edit Newsletter Template","Muokkaa uutiskirjeen mallipohjaa",module,Magento_Newsletter
+"New Newsletter Template","Uusi uutiskirjemalli",module,Magento_Newsletter
+"Template Information","Tietoja mallista",module,Magento_Newsletter
 "Template Name","Mallipohjan nimi",module,Magento_Newsletter
 "Template Subject","Mallipohjan aihe",module,Magento_Newsletter
 "Template Content","Mallipohjan sisältö",module,Magento_Newsletter
 "Template Styles",Mallipohjatyylit,module,Magento_Newsletter
+"No Templates Found","Malleja ei löydy",module,Magento_Newsletter
 ID,Tunnus,module,Magento_Newsletter
 Template,Mallipohja,module,Magento_Newsletter
 Added,Lisätty,module,Magento_Newsletter
@@ -1725,11 +1804,21 @@ Sender,Lähettäjä,module,Magento_Newsletter
 "Template Type","Mallipohjan tyyppi",module,Magento_Newsletter
 Action,Toiminto,module,Magento_Newsletter
 "Queue Newsletter","Laita uutiskirje jonoon",module,Magento_Newsletter
+"We unsubscribed the people you identified.","Valitsemiesi asiakkaiden tilaus on peruttu.",module,Magento_Newsletter
+"The problems you identified have been deleted.","Tunnistamasi ongelmat on poistettu.",module,Magento_Newsletter
+"Newsletter Problems Report","Uutiskirjeen virheraportti",module,Magento_Newsletter
+"Newsletter Problem Reports","Uutiskirjeen virheraportit",module,Magento_Newsletter
+"Newsletter Queue",Uutiskirjejono,module,Magento_Newsletter
 "Edit Queue","Muokkaa jonoa",module,Magento_Newsletter
 "Please correct the newsletter template and try again.","Korjaa uutiskirjeen mallipohja ja yritä uudelleen.",module,Magento_Newsletter
+"You saved the newsletter queue.","Tallensit uutiskirjeen lähetysjonon.",module,Magento_Newsletter
 "Newsletter Subscribers","Uutiskirjeen tilaajat",module,Magento_Newsletter
 Newsletter,Uutiskirje,module,Magento_Newsletter
 Subscribers,Tilaajat,module,Magento_Newsletter
+"Please select one or more subscribers.","Valitse yksi tai useampia tilaaja.",module,Magento_Newsletter
+"Total of %1 record(s) were deleted.","Yhteensä %1 tietuetta päivitettiin.",module,Magento_Newsletter
+"A total of %1 record(s) were updated.","Yhteensä %1 tietuetta päivitettiin.",module,Magento_Newsletter
+"The newsletter template has been deleted.","Uutiskirjepohja on poistettu.",module,Magento_Newsletter
 "Please enter a valid email address.","Syötä toimiva sähköpostiosoite.",module,Magento_Newsletter
 "Thank you for your subscription.","Kiitos tilaamisesta.",module,Magento_Newsletter
 "You unsubscribed.","Tilaus on lopetettu.",module,Magento_Newsletter
@@ -2460,25 +2549,58 @@ Back,Takaisin,module,Magento_Search
 "Are you sure you want to delete this synonym group?","Oletko varma, että haluat poistaa tämän synonyymiryhmän?",module,Magento_Search
 Reset,Tyhjennä,module,Magento_Search
 "Save and Continue Edit","Tallenna ja jatka muokkaamista",module,Magento_Search
+"Save Synonym Group","Tallenna synonyymiryhmä",module,Magento_Search
 Search,Haku,module,Magento_Search
 "Add New Search Term","Lisää uusi hakutermi",module,Magento_Search
 "Save Search","Tallenna haku",module,Magento_Search
+"Delete Search","Poista haku",module,Magento_Search
 "Edit Search '%1'","Muokkaa hakua '%1'",module,Magento_Search
 "New Search","Uusi haku",module,Magento_Search
+"Search Information","Tietoja hausta",module,Magento_Search
 "General Information","Yleiset tiedot",module,Magento_Search
 No,Ei,module,Magento_Search
 Yes,Kyllä,module,Magento_Search
 "Search Query",Hakulauseke,module,Magento_Search
 Store,Kauppa,module,Magento_Search
+"Number of results","Hakutulosten määrä",module,Magento_Search
+"Number of results (For the last time placed)","Viimekertaisen haun tulosten määrä",module,Magento_Search
+"For the last time placed.",Viimekertainen.,module,Magento_Search
+"Number of Uses","Käyttökertojen määrä",module,Magento_Search
+"Redirect URL","URL:n uudelleenohjaus",module,Magento_Search
 "ex. http://domain.com","esim. http://domain.com",module,Magento_Search
+"The synonym group has been deleted.","Synonyymiryhmä on poistettu.",module,Magento_Search
+"An error was encountered while performing delete operation.","Poisto-operaation aikana tapahtui virhe.",module,Magento_Search
+"We can't find a synonym group to delete.","Poistettavaa synonyymiryhmää ei löydy.",module,Magento_Search
+"This synonyms group no longer exists.","Synonyymiryhmää ei enää ole olemassa.",module,Magento_Search
+"Edit Synonym Group","Muokkaa synonyymiryhmää",module,Magento_Search
+"Synonym Group",Synonyymiryhmä,module,Magento_Search
+"Failed to delete %1 synonym group(s).","%1 synonyymiryhmän poisto epäonnistui.",module,Magento_Search
+"A total of %1 synonym group(s) have been deleted.","Yhteensä %1 synonyymiryhmää poistettiin.",module,Magento_Search
 Marketing,Markkinointi,module,Magento_Search
+"Search synonyms are not supported by the %1 search engine. Any synonyms you enter won't be used.","%1 hakukone ei tue hakusanojen synonyymeja. Lisäämiäsi synonyymeja ei tulla käyttämään.",module,Magento_Search
+"This synonym group no longer exists.","Synonyymiryhmää ei enää ole olemassa.",module,Magento_Search
+"You saved the synonym group.","Synonyymiryhmä on tallennettu.",module,Magento_Search
+"The terms you entered, (%1), belong to 1 existing synonym group, %2. Select the ""Merge existing synonyms"" checkbox so the terms can be merged.","Syöttämäsi termit, (%1) kuuluvat olemassaolevaan synonyymiryhmään %2. Valitse ""Yhdistä olemassaolevat synonyymit"" yhdistääksesi termit.",module,Magento_Search
+"The terms you entered, (%1), belong to %2 existing synonym groups, %3 and %4. Select the ""Merge existing synonyms"" checkbox so the terms can be merged.","Syöttämäsi termit (%1) kuuluvat %2 olemassaoleviin synonyymiryhmiin %3 ja %4. Valitse ""Yhdistä olemassaolevat synonyymit"" yhdistääksesi termit.",module,Magento_Search
+"You deleted the search.","Poistit haun.",module,Magento_Search
+"This search no longer exists.","Tätä hakua ei enää ole.",module,Magento_Search
 "Edit Search","Muokkaa hakua",module,Magento_Search
+"Please select searches.","Valitse haut.",module,Magento_Search
+"Total of %1 record(s) were deleted.","Yhteensä %1 tietuetta poistettiin.",module,Magento_Search
 Reports,Raportit,module,Magento_Search
+"Search Terms Report",Hakusanaraportti,module,Magento_Search
+"You saved the search term.","Hakutermi on tallennettu.",module,Magento_Search
+"Something went wrong while saving the search query.","Hakukyselyn tallentaminen ei onnistunut.",module,Magento_Search
+"You already have an identical search term query.","Identtinen hakukysely on jo olemassa.",module,Magento_Search
+"Synonym group with id %1 cannot be deleted. %2","Synonyymiryhmää %1 ei voida poistaa. %2",module,Magento_Search
+"Merge conflict with existing synonym group(s): %1","Olemassaolevien synonyymiryhmien yhdistämisessä tapahtui virhe %1",module,Magento_Search
 "All Websites","Kaikki sivustot",module,Magento_Search
 "All Store Views","Kaikki kauppanäkymät",module,Magento_Search
 Delete,Poista,module,Magento_Search
+"Are you sure you want to delete synonym group with id: %1?","Haluatko varmasti poistaa synonyymiryhmän, jonka id on %1?",module,Magento_Search
 View/Edit,Näytä/Muokkaa,module,Magento_Search
 "Search entire store here...","Etsi koko kaupasta...",module,Magento_Search
+"There are no search terms available.","Hakutermejä ei ole saatavilla.",module,Magento_Search
 "Account Activity","Tilin tapahtumat",module,Magento_Security
 "All other open sessions for this account were terminated.","Kaikki muut tämän tilin avoimet istunnot lopetettiin.",module,Magento_Security
 "We couldn't logout because of an error.","Ei voitu kirjautua ulos virheen vuoksi.",module,Magento_Security
@@ -3864,14 +3986,21 @@ Created,Luotu,module,Magento_Sales
 ID,Tunnus,module,Magento_Search
 Hits,Käynnit,module,Magento_Search
 "Are you sure?","Oletko varma?",module,Magento_Search
+"Suggested Terms","Suositellut termit",module,Magento_Search
 yes,kyllä,module,Magento_Search
 no,ei,module,Magento_Search
+Action,Toiminto,module,Magento_Search
 Edit,Muokkaa,module,Magento_Search
+Scope,Kohde,module,Magento_Search
+"You can adjust the scope of this synonym group by selecting an option from the list.","Voit muokata synonyymiryhmän kohdealuetta valitsemalla vaihtoehdon listasta.",module,Magento_Search
 Synonyms,Synonyymit,module,Magento_Search
 "Comma-separated list of synonyms. The terms entered (separated by commas) will be used as an “OR” search query to search your entire store. For example, if you enter “shoes,footwear”, and user were to search for ""shoes"", the search results will include any product or content with term “shoes"" or ""footwear.”","Pilkuilla erotettu luettelo synonyymeista. Syötettyjä ehtoja (pilkuilla eroteltu) käytetään ""OR"" hakulausekkeena koko kaupasta. Jos esimerkiksi kirjoitat ""kengät,jalkineet"" ja käyttäjä etsii ""kengät"", hakutuloksiin sisällytetään tuotteet tai sisällöt termillä ""kengät"" tai ""jalkineet.""",module,Magento_Search
+"Merge existing synonyms","Yhdistä olemassaolevat synonyymit",module,Magento_Search
 "Automatically merges synonyms in groups that share the same scope. If you check this box and you add one or more of the same terms to different synonym groups in the same scope, automatically merges all the terms to one group. If this isn't what you want, uncheck the box and an error displays if you try to add the same terms.","Automaattisesti yhdistää synonyymit ryhmissä, jotka jakavat saman alueen. Jos valitset tämän valintaruudun ja lisäät yhden tai useamman samoilla ehdoilla eri synonyymiryhmissä samassa alueessa, yhdistetään automaattisesti kaikki ehdot yhteen ryhmään. Jos tämä ei ole, mitä haluat, älä valitse tätä valintaruutua ja saat virheen, jos yrität lisätä samoin ehdoin.",module,Magento_Search
 "Store View",Kauppanäkymä,module,Magento_Search
 Website,Sivusto,module,Magento_Search
+"Delete items","Poista kohteet",module,Magento_Search
+"Are you sure you want to delete the selected synonym groups?","Haluatko varmasti poistaa valitut synonyymiryhmät?",module,Magento_Search
 "Email to a Friend","Sähköpostita kaverille",module,Magento_SendFriend
 Enabled,Käytössä,module,Magento_SendFriend
 "Select Email Template","Valitse sähköpostimalli",module,Magento_SendFriend

@@ -942,6 +942,7 @@ Indeterminate,Määrittelemätön,module,Magento_Customer
 Never,"Ei koskaan",module,Magento_Customer
 "Deleted Stores","Poistetut kaupat",module,Magento_Customer
 "Add Locale","Lisää kieli",module,Magento_Customer
+"Add Date","Lisää päivämäärä",module,Magento_Customer
 "Days in Wish List","Päivää toivelistalla",module,Magento_Customer
 No,Ei,module,Magento_Customer
 Yes,Kyllä,module,Magento_Customer
@@ -953,26 +954,44 @@ Download,Lataa,module,Magento_Customer
 "Customer Groups",Asiakasryhmät,module,Magento_Customer
 "Add New Customer Group","Lisää uusi asiakasryhmä",module,Magento_Customer
 "Save Customer Group","Tallenna asiakasryhmä",module,Magento_Customer
+"Delete Customer Group","Poista asiakasryhmä",module,Magento_Customer
 "New Customer Group","Uusi asiakasryhmä",module,Magento_Customer
+"Edit Customer Group ""%1""","Muokkaa asiakasryhmää ""%1""",module,Magento_Customer
 "Group Information","Ryhmän tiedot",module,Magento_Customer
 "Group Name","Ryhmän nimi",module,Magento_Customer
 "Maximum length must be less then %1 symbols","Enimmäispituuden on oltava vähemmän kuin %1 symbolit",module,Magento_Customer
 "Tax Class",Veroluokka,module,Magento_Customer
+"Would you like to change the Customer Group for this order?","Haluatko vaihtaa asiakasryhmän tälle tilaukselle?",module,Magento_Customer
+"The VAT ID is valid. The current Customer Group will be used.","Y-tunnus oikein. Käytetään valittua asiakasryhmää.",module,Magento_Customer
+"Validate VAT Number","Tarkista y-tunnus",module,Magento_Customer
+"Customer Login",Kirjaudu,module,Magento_Customer
 "Create New Customer Account","Uuden asiakastilin luominen",module,Magento_Customer
 "Date of Birth",Syntymäaika,module,Magento_Customer
+"Bad request.","Virheellinen pyyntö.",module,Magento_Customer
+"This confirmation key is invalid or has expired.","Vahvistusavain on virheellinen tai vanhentunut.",module,Magento_Customer
+"There was an error confirming the account","Tilin vahvistamisessa tapahtui virhe",module,Magento_Customer
+"Wrong email.","Väärä sähköpostiosoite.",module,Magento_Customer
+"Your password reset link has expired.","Salasanan palautuslinkki on vanhentunut.",module,Magento_Customer
 "Account Information","Tilin tiedot",module,Magento_Customer
 "Invalid input","Syöte ei kelpaa",module,Magento_Customer
+"Please correct the email address.","Korjaa sähköpostiosoite.",module,Magento_Customer
 "Please enter your email.","Syötä sähköpostiosoitteesi.",module,Magento_Customer
+"My Account",Tilini,module,Magento_Customer
 "Invalid login or password.","Virheellinen sähköpostiosoite tai salasana.",module,Magento_Customer
 "New Password and Confirm New Password values didn't match.","Uusi salasana ja vahvista uusi salasana -arvot eivät vastaa toisiaan.",module,Magento_Customer
+"No customer ID defined.","Asiakastunnusta ei ole määritelty.",module,Magento_Customer
 "The customer group no longer exists.","Asiakasryhmää ei enää ole olemassa.",module,Magento_Customer
 Customers,Asiakkaat,module,Magento_Customer
 "New Group","Uusi ryhmä",module,Magento_Customer
 "New Customer Groups","Uudet asiakasryhmät",module,Magento_Customer
 "Edit Group","Muokkaa ryhmää",module,Magento_Customer
+"Edit Customer Groups","Muokkaa asiakasryhmiä",module,Magento_Customer
+"Please select customer(s).","Valitse asiakas/asiakkaat.",module,Magento_Customer
 "You deleted the customer.","Asiakas on poistettu.",module,Magento_Customer
 "Manage Customers","Hallinnoi asiakkaita",module,Magento_Customer
+"A total of %1 record(s) were updated.","Yhteensä %1 tietuetta päivitettiin.",module,Magento_Customer
 "A total of %1 record(s) were deleted.","Yhteensä %1 tietue(tta) poistettiin.",module,Magento_Customer
+"You saved the customer.","Asiakas on tallennettu.",module,Magento_Customer
 "This account is not confirmed.","Tämä tili ei ole vahvistettu.",module,Magento_Customer
 "Please enter the first name.","Kirjoita etunimesi.",module,Magento_Customer
 "Please enter the city.","Anna kaupunki.",module,Magento_Customer
@@ -1116,14 +1135,37 @@ Dropdown,Pudotusvalikko,module,Magento_Eav
 Back,Takaisin,module,Magento_Email
 Reset,Tyhjennä,module,Magento_Email
 "Delete Template","Poista malli",module,Magento_Email
+"Convert to Plain Text","Muuta tekstimuotoon",module,Magento_Email
+"Return Html Version","Palauta html-versio",module,Magento_Email
 "Preview Template","Esikatsele mallia",module,Magento_Email
 "Save Template","Tallenna malli",module,Magento_Email
 "Load Template","Lataa malli",module,Magento_Email
+"Edit Email Template","Muokkaa sähköpostimallia",module,Magento_Email
+"New Email Template","Uusi sähköpostimalli",module,Magento_Email
+"Template Information","Tietoja mallipohjasta",module,Magento_Email
 "Template Name","Mallipohjan nimi",module,Magento_Email
+"Template Subject","Mallin aihe",module,Magento_Email
+"Insert Variable...","Lisää muuttuja...",module,Magento_Email
+"Template Content","Mallin sisältö",module,Magento_Email
 "Template Styles",Mallipohjatyylit,module,Magento_Email
 Preview,Esikatselu,module,Magento_Email
 Unknown,Tuntematon,module,Magento_Email
+"The email template is currently being used.","Sähköpostipohja on käytössä.",module,Magento_Email
+"Edit Template","Muokkaa mallia",module,Magento_Email
+"New Template","Uusi viestipohja",module,Magento_Email
+"Email Templates",Sähköpostimallit,module,Magento_Email
 "Email Preview","Sähköpostin esikatselu",module,Magento_Email
+"An error occurred. The email template can not be opened for preview.","Tapahtui virhe, sähköpostimallia ei voida avata esikatselussa.",module,Magento_Email
+"This email template no longer exists.","Sähköpostimallia ei enää ole olemassa.",module,Magento_Email
+"General Contact Name","Yleinen yhteyshenkilön nimi",module,Magento_Email
+"General Contact Email","Yleinen yhteyssähköpostiosoite",module,Magento_Email
+"Sales Representative Contact Name","Myynnin edustajan yhteyshenkilön nimi",module,Magento_Email
+"Sales Representative Contact Email","Myynnin edustajan yhteyssähköpostiosoite",module,Magento_Email
+"Custom1 Contact Name","Oma1 yhteyshenkilön nimi",module,Magento_Email
+"Custom1 Contact Email","Oma1 yhteyshenkilön sähköpostiosoite",module,Magento_Email
+"Custom2 Contact Name","Oma2 yhteyshenkilön nimi",module,Magento_Email
+"Custom2 Contact Email","Oma2 yhteyshenkilön sähköpostiosoite",module,Magento_Email
+"Store Name","Kaupan nimi",module,Magento_Email
 "Store Phone Number","Kaupan puhelinnumero",module,Magento_Email
 Country,Maa,module,Magento_Email
 Region/State,Alue/osavaltio,module,Magento_Email
@@ -1272,12 +1314,17 @@ Reset,Tyhjennä,module,Magento_Newsletter
 "Save and Resume","Tallenna ja jatka",module,Magento_Newsletter
 "View Newsletter","Tarkastele uutiskirjettä",module,Magento_Newsletter
 "Edit Newsletter","Muokkaa uutiskirjettä",module,Magento_Newsletter
+"Queue Information","Lähetysjonon tiedot",module,Magento_Newsletter
+"Queue Date Start","Lähetysjonon aloituspäivämäärä",module,Magento_Newsletter
 "Subscribers From",Tilaajat,module,Magento_Newsletter
 Subject,Aihe,module,Magento_Newsletter
 "Sender Name","Lähettäjän nimi",module,Magento_Newsletter
 "Sender Email","Lähettäjän sähköposti",module,Magento_Newsletter
 Message,Viesti,module,Magento_Newsletter
 "Newsletter Styles","Uutiskirjeiden tyylit",module,Magento_Newsletter
+Start,Aloita,module,Magento_Newsletter
+Pause,Pysäytä,module,Magento_Newsletter
+"Do you really want to cancel the queue?","Haluatko varmasti peruuttaa lähetysjonon?",module,Magento_Newsletter
 Cancel,Peruuta,module,Magento_Newsletter
 Resume,Jatka,module,Magento_Newsletter
 Preview,Esikatselu,module,Magento_Newsletter
@@ -1289,10 +1336,13 @@ Preview,Esikatselu,module,Magento_Newsletter
 "Save As","Tallenna nimellä",module,Magento_Newsletter
 "Save Template","Tallenna mallipohja",module,Magento_Newsletter
 "Edit Newsletter Template","Muokkaa uutiskirjeen mallipohjaa",module,Magento_Newsletter
+"New Newsletter Template","Uusi uutiskirjemalli",module,Magento_Newsletter
+"Template Information","Tietoja mallista",module,Magento_Newsletter
 "Template Name","Mallipohjan nimi",module,Magento_Newsletter
 "Template Subject","Mallipohjan aihe",module,Magento_Newsletter
 "Template Content","Mallipohjan sisältö",module,Magento_Newsletter
 "Template Styles",Mallipohjatyylit,module,Magento_Newsletter
+"No Templates Found","Malleja ei löydy",module,Magento_Newsletter
 ID,Tunnus,module,Magento_Newsletter
 Template,Mallipohja,module,Magento_Newsletter
 Added,Lisätty,module,Magento_Newsletter
@@ -1300,11 +1350,19 @@ Updated,Päivitetty,module,Magento_Newsletter
 Sender,Lähettäjä,module,Magento_Newsletter
 "Template Type","Mallipohjan tyyppi",module,Magento_Newsletter
 Action,Toiminto,module,Magento_Newsletter
+"We unsubscribed the people you identified.","Valitsemiesi asiakkaiden tilaus on peruttu.",module,Magento_Newsletter
+"The problems you identified have been deleted.","Tunnistamasi ongelmat on poistettu.",module,Magento_Newsletter
+"Newsletter Problems Report","Uutiskirjeen virheraportti",module,Magento_Newsletter
+"Newsletter Problem Reports","Uutiskirjeen virheraportit",module,Magento_Newsletter
+"Newsletter Queue",Uutiskirjejono,module,Magento_Newsletter
 "Edit Queue","Muokkaa jonoa",module,Magento_Newsletter
 "Please correct the newsletter template and try again.","Korjaa uutiskirjeen mallipohja ja yritä uudelleen.",module,Magento_Newsletter
 "Newsletter Subscribers","Uutiskirjeen tilaajat",module,Magento_Newsletter
 Newsletter,Uutiskirje,module,Magento_Newsletter
 Subscribers,Tilaajat,module,Magento_Newsletter
+"Please select one or more subscribers.","Valitse yksi tai useampia tilaaja.",module,Magento_Newsletter
+"A total of %1 record(s) were updated.","Yhteensä %1 tietuetta päivitettiin.",module,Magento_Newsletter
+"The newsletter template has been deleted.","Uutiskirjepohja on poistettu.",module,Magento_Newsletter
 "Please enter a valid email address.","Syötä toimiva sähköpostiosoite.",module,Magento_Newsletter
 "Thank you for your subscription.","Kiitos tilaamisesta.",module,Magento_Newsletter
 Sent,Lähetetty,module,Magento_Newsletter

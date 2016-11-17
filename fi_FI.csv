@@ -1363,13 +1363,30 @@ Subscribers,Tilaajat,module,Magento_Newsletter
 "Please select one or more subscribers.","Valitse yksi tai useampia tilaaja.",module,Magento_Newsletter
 "A total of %1 record(s) were updated.","Yhteensä %1 tietuetta päivitettiin.",module,Magento_Newsletter
 "The newsletter template has been deleted.","Uutiskirjepohja on poistettu.",module,Magento_Newsletter
+"Edit Template","Muokkaa pohjaa",module,Magento_Newsletter
+"New Template","Uusi pohja",module,Magento_Newsletter
+"Create Newsletter Template","Luo uutiskirjepohja",module,Magento_Newsletter
+"The newsletter template has been saved.","Uutiskirjepohja on tallennettu.",module,Magento_Newsletter
+"Newsletter Subscription","Uutiskirjeen tilaus",module,Magento_Newsletter
+"Something went wrong while saving your subscription.","Tilauksesi tallennuksessa tapahtui virhe.",module,Magento_Newsletter
+"We saved the subscription.","Tilauksesi on tallennettu.",module,Magento_Newsletter
+"We removed the subscription.","Tilauksesi on poistettu.",module,Magento_Newsletter
+"Your subscription has been confirmed.","Tilauksesi on vahvistettu.",module,Magento_Newsletter
+"This is an invalid subscription confirmation code.","Virheellinen tilauksen vahvistuskoodi.",module,Magento_Newsletter
+"This is an invalid subscription ID.","Virheellinen tilaustunnus.",module,Magento_Newsletter
+"This email address is already assigned to another user.","Antamasi sähköpostiosoite on jo käytössä.",module,Magento_Newsletter
 "Please enter a valid email address.","Syötä toimiva sähköpostiosoite.",module,Magento_Newsletter
+"The confirmation request has been sent.","Vahvistuspyyntö on lähetetty.",module,Magento_Newsletter
 "Thank you for your subscription.","Kiitos tilaamisesta.",module,Magento_Newsletter
+"There was a problem with the subscription: %1","Tilauksessa %1 on ongelma.",module,Magento_Newsletter
+"Something went wrong with the subscription.","Tilauksen yhteydessä tapahtui virhe.",module,Magento_Newsletter
 Sent,Lähetetty,module,Magento_Newsletter
 Cancelled,Peruutettu,module,Magento_Newsletter
 "Not Sent","Ei lähetetty",module,Magento_Newsletter
 Sending,Lähetetään,module,Magento_Newsletter
 Paused,Keskeytetty,module,Magento_Newsletter
+"There are no subscribers selected.","Tilausta ei ole valittu.",module,Magento_Newsletter
+"You selected an invalid queue.","Valitsit virheellisen jonon.",module,Magento_Newsletter
 "Choose Store View:","Valitse kauppanäkymä:",module,Magento_Newsletter
 "Newsletter Message Preview","Uutiskirjeen viestin esikatselu",module,Magento_Newsletter
 "Add to Queue","Lisää jonoon",module,Magento_Newsletter
@@ -1401,6 +1418,8 @@ Discount,Alennus,module,Magento_Payment
 Shipping,Toimitus,module,Magento_Payment
 "All Allowed Countries","Kaikki sallitut maat",module,Magento_Payment
 "Specific Countries","Tiettyihin maihin",module,Magento_Payment
+"The payment method you requested is not available.","Valitsemasi maksutapa ei ole käytettävissä.",module,Magento_Payment
+"We cannot retrieve the payment method code.","Maksutavan koodia ei voida noutaa.",module,Magento_Payment
 "Invalid Credit Card Number","Virheellinen luottokorttinumero",module,Magento_Payment
 "Please enter a valid credit card verification number.","Anna kelvollinen luottokortin tarkistenumero.",module,Magento_Payment
 Yes,Kyllä,module,Magento_Payment
@@ -2669,6 +2688,10 @@ Updated,Päivitetty,module,Magento_Indexer
 Status,Tila,module,Magento_Integration
 "Review Order","Tarkastele tilausta",module,Magento_Multishipping
 "Subscription Options",Tilaustiedot,module,Magento_Newsletter
+"Allow Guest Subscription","Salli uutiskirjeen tilaus kirjautumatta",module,Magento_Newsletter
+"Need to Confirm","Vaatii vahvistuksen",module,Magento_Newsletter
+"Confirmation Email Sender","Vahvistussähköpostin lähettäjä",module,Magento_Newsletter
+"Confirmation Email Template","Vahvistussähköpostin pohja",module,Magento_Newsletter
 Subscriber,Tilaaja,module,Magento_Newsletter
 "Error Code",Virhekoodi,module,Magento_Newsletter
 "Error Text",Virheteksti,module,Magento_Newsletter

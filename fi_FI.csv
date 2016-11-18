@@ -994,12 +994,23 @@ Customers,Asiakkaat,module,Magento_Customer
 "You saved the customer.","Asiakas on tallennettu.",module,Magento_Customer
 "This account is not confirmed.","Tämä tili ei ole vahvistettu.",module,Magento_Customer
 "Please enter the first name.","Kirjoita etunimesi.",module,Magento_Customer
+"Please enter the last name.","Syötä sukunimi.",module,Magento_Customer
+"Please enter the street.","Syötä katu.",module,Magento_Customer
 "Please enter the city.","Anna kaupunki.",module,Magento_Customer
 "Please enter the zip/postal code.","Anna postinumero.",module,Magento_Customer
+"Please enter the country.","Syötä maa.",module,Magento_Customer
+"""%1"" is a required value.","""%1"" on pakollinen tieto.",module,Magento_Customer
+Global,Globaali,module,Magento_Customer
+"Per Website",Verkkosivukohtainen,module,Magento_Customer
+"Billing Address",Laskutusosoite,module,Magento_Customer
 "Shipping Address",Toimitusosoite,module,Magento_Customer
 "-- Please Select --","--- Valitse ---",module,Magento_Customer
 "The password can not begin or end with a space.","Salasana ei voi alkaa tai loppua välilyönnillä.",module,Magento_Customer
+Admin,Ylläpito,module,Magento_Customer
+"""%1"" length must be equal or greater than %2 characters.","""%1"" vaadittu vähimmäispituus on %2 merkkiä.",module,Magento_Customer
+"""%1"" length must be equal or less than %2 characters.","""%1"" maksimipituus on enintään %2 merkkiä.",module,Magento_Customer
 "Customer Group",Asiakasryhmä,module,Magento_Customer
+"Customer Group already exists.","Asiakasryhmä on jo olemassa.",module,Magento_Customer
 Edit,Muokkaa,module,Magento_Customer
 Customer,Asiakas,module,Magento_Customer
 "Personal Information","Henkilökohtaiset tiedot",module,Magento_Customer

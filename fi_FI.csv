@@ -1321,16 +1321,36 @@ Customers,Asiakkaat,module,Magento_Customer
 "This customer already exists in this store.","Tämä asiakas on jo olemassa tässä kaupassa.",module,Magento_Customer
 "A customer with the same email already exists in an associated website.","Asiakas samalla sähköpostiosoitteella on jo olemassa liitetyn verkkosivuston yhteydessä.",module,Magento_Customer
 "Please enter the first name.","Kirjoita etunimesi.",module,Magento_Customer
+"Please enter the last name.","Syötä sukunimi.",module,Magento_Customer
+"Please enter the street.","Syötä katu.",module,Magento_Customer
 "Please enter the city.","Anna kaupunki.",module,Magento_Customer
+"Please enter the phone number.","Syötä puhelinnumero.",module,Magento_Customer
 "Please enter the zip/postal code.","Anna postinumero.",module,Magento_Customer
+"Please enter the country.","Syötä maa.",module,Magento_Customer
+"""%1"" is a required value.","""%1"" on pakollinen tieto.",module,Magento_Customer
+Global,Globaali,module,Magento_Customer
+"Per Website",Verkkosivukohtainen,module,Magento_Customer
+"Billing Address",Laskutusosoite,module,Magento_Customer
 "Shipping Address",Toimitusosoite,module,Magento_Customer
 "-- Please Select --","--- Valitse ---",module,Magento_Customer
 "The password can not begin or end with a space.","Salasana ei voi alkaa tai loppua välilyönnillä.",module,Magento_Customer
+Admin,Ylläpito,module,Magento_Customer
 "ALL GROUPS","KAIKKI RYHMÄT",module,Magento_Customer
+"""%1"" length must be equal or greater than %2 characters.","""%1"" vaadittu vähimmäispituus on %2 merkkiä.",module,Magento_Customer
+"""%1"" length must be equal or less than %2 characters.","""%1"" maksimipituus on enintään %2 merkkiä.",module,Magento_Customer
+"Please enter a customer email.","Syötä asiakkaan sähköpostiosoite.",module,Magento_Customer
 "Customer Group",Asiakasryhmä,module,Magento_Customer
+"You can't delete group ""%1"".","Ryhmää ""%1"" ei voi poistaa.",module,Magento_Customer
+"Customer Group already exists.","Asiakasryhmä on jo olemassa.",module,Magento_Customer
 "Cannot delete group.","Ryhmää ei voi poistaa.",module,Magento_Customer
+"Error during VAT Number verification.","ALV-tunnuksen tarkistuksessa tapahtui virhe.",module,Magento_Customer
 "VAT Number is valid.","ALV-numero on voimassa.",module,Magento_Customer
 "Please enter a valid VAT number.","Kirjoita voimassa oleva ALV-numero.",module,Magento_Customer
+"Your VAT ID was successfully validated.","ALV-tunnuksen varmennus onnistui.",module,Magento_Customer
+"You will be charged tax.","Sinulta tullaan veloittamaan verot.",module,Magento_Customer
+"You will not be charged tax.","Sinulta ei tulla veloittamaan veroja.",module,Magento_Customer
+"The VAT ID entered (%1) is not a valid VAT ID.","Annettu ALV-tunnus (%1) ei ole kelvollinen ALV-tunnus.",module,Magento_Customer
+"Your Tax ID cannot be validated.","Alv-tunnusta ei voida vahvistaa.",module,Magento_Customer
 Male,Mies,module,Magento_Customer
 Female,Nainen,module,Magento_Customer
 "Please enter new password.","Kirjoita uusi salasana.",module,Magento_Customer

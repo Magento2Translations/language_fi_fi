@@ -1365,15 +1365,34 @@ Customers,Asiakkaat,module,Magento_Customer
 "Please enter a password with at least %1 characters.","Kirjoita salasana, jossa on vähintään %1 merkkiä.",module,Magento_Customer
 "The password can't begin or end with a space.","Salasana ei voi alkaa tai loppua välilyönnillä.",module,Magento_Customer
 "Please enter the first name.","Kirjoita etunimesi.",module,Magento_Customer
+"Please enter the last name.","Syötä sukunimi.",module,Magento_Customer
+"Please enter the street.","Syötä katu.",module,Magento_Customer
 "Please enter the city.","Anna kaupunki.",module,Magento_Customer
+"Please enter the phone number.","Syötä puhelinnumero.",module,Magento_Customer
 "Please enter the zip/postal code.","Anna postinumero.",module,Magento_Customer
+"Please enter the country.","Syötä maa.",module,Magento_Customer
+"""%1"" is a required value.","""%1"" on pakollinen tieto.",module,Magento_Customer
+Global,Globaali,module,Magento_Customer
+"Per Website",Verkkosivukohtainen,module,Magento_Customer
+"Billing Address",Laskutusosoite,module,Magento_Customer
 "Shipping Address",Toimitusosoite,module,Magento_Customer
 "-- Please Select --","--- Valitse ---",module,Magento_Customer
 "The password can not begin or end with a space.","Salasana ei voi alkaa tai loppua välilyönnillä.",module,Magento_Customer
+Admin,Ylläpito,module,Magento_Customer
+"""%1"" length must be equal or greater than %2 characters.","""%1"" vaadittu vähimmäispituus on %2 merkkiä.",module,Magento_Customer
+"""%1"" length must be equal or less than %2 characters.","""%1"" maksimipituus on enintään %2 merkkiä.",module,Magento_Customer
+"Please enter a customer email.","Syötä asiakkaan sähköpostiosoite.",module,Magento_Customer
 "Customer Group",Asiakasryhmä,module,Magento_Customer
+"Customer Group already exists.","Asiakasryhmä on jo olemassa.",module,Magento_Customer
 "Cannot delete group.","Ryhmää ei voi poistaa.",module,Magento_Customer
+"Error during VAT Number verification.","ALV-tunnuksen tarkistuksessa tapahtui virhe.",module,Magento_Customer
 "VAT Number is valid.","ALV-numero on voimassa.",module,Magento_Customer
 "Please enter a valid VAT number.","Kirjoita voimassa oleva ALV-numero.",module,Magento_Customer
+"Your VAT ID was successfully validated.","ALV-tunnuksen varmennus onnistui.",module,Magento_Customer
+"You will be charged tax.","Sinulta tullaan veloittamaan verot.",module,Magento_Customer
+"You will not be charged tax.","Sinulta ei tulla veloittamaan veroja.",module,Magento_Customer
+"The VAT ID entered (%1) is not a valid VAT ID.","Annettu ALV-tunnus (%1) ei ole kelvollinen ALV-tunnus.",module,Magento_Customer
+"Your Tax ID cannot be validated.","Alv-tunnusta ei voida vahvistaa.",module,Magento_Customer
 Male,Mies,module,Magento_Customer
 Female,Nainen,module,Magento_Customer
 message,viesti,module,Magento_Customer
@@ -1833,17 +1852,39 @@ Subscribers,Tilaajat,module,Magento_Newsletter
 "Total of %1 record(s) were deleted.","Yhteensä %1 tietuetta päivitettiin.",module,Magento_Newsletter
 "A total of %1 record(s) were updated.","Yhteensä %1 tietuetta päivitettiin.",module,Magento_Newsletter
 "The newsletter template has been deleted.","Uutiskirjepohja on poistettu.",module,Magento_Newsletter
+"Edit Template","Muokkaa pohjaa",module,Magento_Newsletter
+"New Template","Uusi pohja",module,Magento_Newsletter
+"Create Newsletter Template","Luo uutiskirjepohja",module,Magento_Newsletter
+"The newsletter template has been saved.","Uutiskirjepohja on tallennettu.",module,Magento_Newsletter
+"Something went wrong while saving this template.","Pohjaa tallennettaessa tapahtui virhe.",module,Magento_Newsletter
+"Newsletter Subscription","Uutiskirjeen tilaus",module,Magento_Newsletter
+"Something went wrong while saving your subscription.","Tilauksesi tallennuksessa tapahtui virhe.",module,Magento_Newsletter
+"We saved the subscription.","Tilauksesi on tallennettu.",module,Magento_Newsletter
+"We removed the subscription.","Tilauksesi on poistettu.",module,Magento_Newsletter
+"Your subscription has been confirmed.","Tilauksesi on vahvistettu.",module,Magento_Newsletter
+"This is an invalid subscription confirmation code.","Virheellinen tilauksen vahvistuskoodi.",module,Magento_Newsletter
+"This is an invalid subscription ID.","Virheellinen tilaustunnus.",module,Magento_Newsletter
+"This email address is already assigned to another user.","Antamasi sähköpostiosoite on jo käytössä.",module,Magento_Newsletter
+"Sorry, but the administrator denied subscription for guests. Please <a href=""%1"">register</a>.","Uutiskirjeen tilaus vaatii kirjautumisen. Ole hyvä ja <a href=""%1"">rekisteröidy käyttäjäksi</a>.",module,Magento_Newsletter
 "Please enter a valid email address.","Syötä toimiva sähköpostiosoite.",module,Magento_Newsletter
+"The confirmation request has been sent.","Vahvistuspyyntö on lähetetty.",module,Magento_Newsletter
 "Thank you for your subscription.","Kiitos tilaamisesta.",module,Magento_Newsletter
+"There was a problem with the subscription: %1","Tilauksessa %1 on ongelma.",module,Magento_Newsletter
+"Something went wrong with the subscription.","Tilauksen yhteydessä tapahtui virhe.",module,Magento_Newsletter
 "You unsubscribed.","Tilaus on lopetettu.",module,Magento_Newsletter
+"Something went wrong while unsubscribing you.","Tilauksen perumisen yhteydessä tapahtui virhe.",module,Magento_Newsletter
 Sent,Lähetetty,module,Magento_Newsletter
 Cancelled,Peruutettu,module,Magento_Newsletter
 "Not Sent","Ei lähetetty",module,Magento_Newsletter
 Sending,Lähetetään,module,Magento_Newsletter
 Paused,Keskeytetty,module,Magento_Newsletter
+"There are no subscribers selected.","Tilausta ei ole valittu.",module,Magento_Newsletter
+"You selected an invalid queue.","Valitsit virheellisen jonon.",module,Magento_Newsletter
+"Follow this link to unsubscribe <!-- This tag is for unsubscribe link  --><a href=""{{var subscriber.getUnsubscriptionLink()}}"">{{var subscriber.getUnsubscriptionLink()}}</a>","Voit perua uutiskirjeen tilauksesi tästä <!-- This tag is for unsubscribe link  --><a href=""{{var subscriber.getUnsubscriptionLink()}}"">{{var subscriber.getUnsubscriptionLink()}}</a>",module,Magento_Newsletter
 "Choose Store View:","Valitse kauppanäkymä:",module,Magento_Newsletter
 "Newsletter Message Preview","Uutiskirjeen viestin esikatselu",module,Magento_Newsletter
 "Add to Queue","Lisää jonoon",module,Magento_Newsletter
+"Please enter a new template name.","Syötä mallille uusi nimi.",module,Magento_Newsletter
 "Are you sure you want to delete this template?","Oletko varma, että haluat poistaa tämän pohjan?",module,Magento_Newsletter
 "Sign Up for Our Newsletter:","Tilaa uutiskirjeemme:",module,Magento_Newsletter
 "Enter your email address","Syötä sähköpostiosoitteesi",module,Magento_Newsletter
@@ -1874,6 +1915,8 @@ Discount,Alennus,module,Magento_Payment
 Shipping,Toimitus,module,Magento_Payment
 "All Allowed Countries","Kaikki sallitut maat",module,Magento_Payment
 "Specific Countries","Tiettyihin maihin",module,Magento_Payment
+"The payment method you requested is not available.","Valitsemasi maksutapa ei ole käytettävissä.",module,Magento_Payment
+"We cannot retrieve the payment method code.","Maksutavan koodia ei voida noutaa.",module,Magento_Payment
 "Invalid Credit Card Number","Virheellinen luottokorttinumero",module,Magento_Payment
 "This credit card type is not allowed for this payment method.","Luottokorttityyppi ei ole sallittu tälle maksutavalle.",module,Magento_Payment
 "Please enter a valid credit card verification number.","Anna kelvollinen luottokortin tarkistenumero.",module,Magento_Payment
@@ -3183,6 +3226,7 @@ Password:,Salasana:,module,Magento_Customer
 "If you did not request this change, please contact us.","Jos et pyytänyt tätä muutosta, ota meihin yhteyttä.",module,Magento_Customer
 "Thank you, %store_name","Kiitos, %store_name",module,Magento_Email
 "Thank you for subscribing to our newsletter.","Kiitos uutiskirjeemme tilaamisesta.",module,Magento_Newsletter
+"To begin receiving the newsletter, you must first confirm your subscription by clicking on the following link:","Saadaksesi jatkossa uutiskirjeen sinun tulee ensin vahvistaa tilauksesi klikkaamalla seuraavaa linkkiä:",module,Magento_Newsletter
 "You have been successfully subscribed to our newsletter.","Olet onnistuneesti tilannut uutiskirjeemme.",module,Magento_Newsletter
 "You have been unsubscribed from the newsletter.","Olet peruuttanut uutiskirjeen tilauksen.",module,Magento_Newsletter
 "Thank you for your order from %store_name.","Kiitos tilauksestasi %store_name -kaupassa.",module,Magento_Sales
@@ -3581,6 +3625,10 @@ Status,Tila,module,Magento_Integration
 General,Yleinen,module,Magento_NewRelicReporting
 "Enable Cron","Ota Cron käyttöön",module,Magento_NewRelicReporting
 "Subscription Options",Tilaustiedot,module,Magento_Newsletter
+"Allow Guest Subscription","Salli uutiskirjeen tilaus kirjautumatta",module,Magento_Newsletter
+"Need to Confirm","Vaatii vahvistuksen",module,Magento_Newsletter
+"Confirmation Email Sender","Vahvistussähköpostin lähettäjä",module,Magento_Newsletter
+"Confirmation Email Template","Vahvistussähköpostin pohja",module,Magento_Newsletter
 Subscriber,Tilaaja,module,Magento_Newsletter
 "Error Code",Virhekoodi,module,Magento_Newsletter
 "Error Text",Virheteksti,module,Magento_Newsletter

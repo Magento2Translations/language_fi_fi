@@ -1270,7 +1270,7 @@ Download,Lataa,module,Magento_Customer
 "The password doesn't match this account.","Salasana ei ole oikein.",module,Magento_Customer
 "Please correct the email address.","Korjaa sähköpostiosoite.",module,Magento_Customer
 "Please enter your email.","Syötä sähköpostiosoitteesi.",module,Magento_Customer
-"My Account",Tilini,module,Magento_Customer
+"My Account",Asiakastilini,module,Magento_Customer
 "This account is not confirmed. <a href=""%1"">Click here</a> to resend confirmation email.","Tiliä ei ole vahvistettu, <a href=""%1"">klikkaa tästä</a> uudelleenlähettääksesi vahvistussähköpostin.",module,Magento_Customer
 "Invalid login or password.","Virheellinen sähköpostiosoite tai salasana.",module,Magento_Customer
 "An unspecified error occurred. Please contact us for assistance.","Tapahtui virhe, ole hyvä ja ota yhteyttä meihin.",module,Magento_Customer
@@ -1359,10 +1359,16 @@ message,viesti,module,Magento_Customer
 "NOT LOGGED IN","EI KIRJAUTUNEENA SISÄÄN",module,Magento_Customer
 Select...,Valitse...,module,Magento_Customer
 Edit,Muokkaa,module,Magento_Customer
+Visitor,Vierailija,module,Magento_Customer
 Customer,Asiakas,module,Magento_Customer
+"No item specified.","Kohdetta ei ole määritelty.",module,Magento_Customer
+"Are you sure you want to remove this item?","Haluatko varmasti poistaa tämän kohteen?",module,Magento_Customer
 "Personal Information","Henkilökohtaiset tiedot",module,Magento_Customer
 "Last Logged In:","Viimeksi kirjautunut:",module,Magento_Customer
+"Last Logged In (%1):","Viimeisin sisäänkirjautuminen (%1):",module,Magento_Customer
+"Confirmed email:","Vahvistettu sähköposti:",module,Magento_Customer
 "Account Created:","Tili luotu:",module,Magento_Customer
+"Account Created on (%1):","Tili luotu (%1):",module,Magento_Customer
 "Customer Group:",Asiakasryhmät:,module,Magento_Customer
 "Default Billing Address",Oletuslaskutusosoite,module,Magento_Customer
 "Sales Statistics",Myyntitilastot,module,Magento_Customer
@@ -1378,8 +1384,13 @@ Change,Vaihda,module,Magento_Customer
 Newsletters,Uutiskirjeet,module,Magento_Customer
 "You subscribe to ""General Subscription"".","Olet tilannut kohteen ""Yleinen tilaus"".",module,Magento_Customer
 or,tai,module,Magento_Customer
+"Change Billing Address","Muuta laskutusosoite",module,Magento_Customer
 "You have no default billing address in your address book.","Sinulla ei ole oletuslaskutusosoitetta osoitekirjassasi.",module,Magento_Customer
+"Change Shipping Address","Muuta toimitusosoite",module,Magento_Customer
 "You have no default shipping address in your address book.","Sinulla ei ole oletustoimitusosoitetta osoitekirjassasi.",module,Magento_Customer
+"Delete Address","Poista osoite",module,Magento_Customer
+"You have no other address entries in your address book.","Osoitekirjassasi ei ole muita tallennettuja osoitteita.",module,Magento_Customer
+"* Required Fields","* Pakolliset kentät",module,Magento_Customer
 Company,Yritys,module,Magento_Customer
 "Phone Number",Puhelinnumero,module,Magento_Customer
 Fax,Faksi,module,Magento_Customer
@@ -1398,7 +1409,9 @@ Country,Maa,module,Magento_Customer
 "Use as my default shipping address","Käytä oletustoimitusosoitteenani",module,Magento_Customer
 "Save Address","Tallenna osoite",module,Magento_Customer
 "Go back",Takaisin,module,Magento_Customer
+"Please enter your email below and we will send you the confirmation link.","Syötä sähköpostiosoitteesi vahvistuslinkin lähettämistä varten.",module,Magento_Customer
 Email,Sähköposti,module,Magento_Customer
+"Send confirmation link","Lähetä vahvistuslinkki",module,Magento_Customer
 "Back to Sign In","Takaisin kirjautumiseen",module,Magento_Customer
 "Change Email","Vaihda sähköpostiosoitetta",module,Magento_Customer
 "Change Email and Password","Vaihda sähköpostiosoite ja salasana",module,Magento_Customer
@@ -1422,6 +1435,7 @@ Password,Salasana,module,Magento_Customer
 "Confirm Password","Vahvista Salasana",module,Magento_Customer
 "Create an Account","Luo tili",module,Magento_Customer
 "Set a New Password","Aseta uusi salasana",module,Magento_Customer
+"You have signed out and will go to our homepage in 5 seconds.","Olet kirjautunut ulos, palaat etusivullemme 5 sekunnin kuluessa.",module,Magento_Customer
 "New Customers","Uudet asiakkaat",module,Magento_Customer
 "Creating an account has many benefits: check out faster, keep more than one address, track orders and more.","Tilin luomisesta on monia etuja: nopeammat tilaukset, säilytä useita osoitteita, seuraa tilauksia ja muuta.",module,Magento_Customer
 Gender,Sukupuoli,module,Magento_Customer
@@ -1814,7 +1828,7 @@ Preview,Esikatselu,module,Magento_Newsletter
 "Template Name","Mallipohjan nimi",module,Magento_Newsletter
 "Template Subject","Mallipohjan aihe",module,Magento_Newsletter
 "Template Content","Mallipohjan sisältö",module,Magento_Newsletter
-"Template Styles",Mallipohjatyylit,module,Magento_Newsletter
+"Template Styles","Sivupohjan tyylit",module,Magento_Newsletter
 "No Templates Found","Malleja ei löydy",module,Magento_Newsletter
 ID,Tunnus,module,Magento_Newsletter
 Template,Mallipohja,module,Magento_Newsletter
@@ -3334,9 +3348,13 @@ Next,Seuraava,module,Magento_Checkout
 Email:,Sähköposti:,module,Magento_Customer
 Password:,Salasana:,module,Magento_Customer
 "Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","Unohditko salasanan? Klikkaa <a href=""%reset_url"">tästä</a> nollataksesi sen.",module,Magento_Customer
+"When you sign in to your account, you will be able to:","Kirjauduttuasi tilillesi voit:",module,Magento_Customer
+"Proceed through checkout faster","Ostaa nopeammin",module,Magento_Customer
 "Check the status of orders","Tarkastaa tilausten tilan",module,Magento_Customer
 "View past orders","Tarkastella aikaisempia tilauksia",module,Magento_Customer
 "Store alternative addresses (for shipping to multiple family members and friends)","Tallentaa vaihtoehtoisia osoitteita (toimitus esimerkiksi perheenjäsenille ja ystäville)",module,Magento_Customer
+"Confirm Your Account","Vahvista tilisi",module,Magento_Customer
+"Thank you for confirming your %store_name account.","Kiitos %store_name tilisi vahvistamisesta.",module,Magento_Customer
 "To sign in to our site and set a password, click on the <a href=""%create_password_url"">link</a>:","Kirjautuaksesi sivustollemme vaihtaaksesi salasanan, klikkaa <a href=""%create_password_url"">linkkiä</a>:",module,Magento_Customer
 "Hello,","Hei,",module,Magento_Customer
 "Thanks,<br>%store_name","Kiittäen,<br>%store_name",module,Magento_Customer

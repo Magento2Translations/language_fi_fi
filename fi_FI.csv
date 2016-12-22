@@ -1269,6 +1269,7 @@ Download,Lataa,module,Magento_Customer
 "Password confirmation doesn't match entered password.","Salasanan vahvistus ei täsmää annettuun salasanaan.",module,Magento_Customer
 "The password doesn't match this account.","Salasana ei ole oikein.",module,Magento_Customer
 "Please correct the email address.","Korjaa sähköpostiosoite.",module,Magento_Customer
+"We're unable to send the password reset email.","Salasanan nollaussähköpostin lähettäminen epäonnistui.",module,Magento_Customer
 "Please enter your email.","Syötä sähköpostiosoitteesi.",module,Magento_Customer
 "My Account",Asiakastilini,module,Magento_Customer
 "This account is not confirmed. <a href=""%1"">Click here</a> to resend confirmation email.","Tiliä ei ole vahvistettu, <a href=""%1"">klikkaa tästä</a> uudelleenlähettääksesi vahvistussähköpostin.",module,Magento_Customer

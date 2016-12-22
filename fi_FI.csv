@@ -1317,6 +1317,7 @@ Download,Lataa,module,Magento_Customer
 "Confirm your new password.","Vahvista uusi salasana.",module,Magento_Customer
 "Something went wrong while changing the password.","Salasanaa vaihtaessa tapahtui virhe.",module,Magento_Customer
 "Please correct the email address.","Korjaa sähköpostiosoite.",module,Magento_Customer
+"We're unable to send the password reset email.","Salasanan nollaussähköpostin lähettäminen epäonnistui.",module,Magento_Customer
 "Please enter your email.","Syötä sähköpostiosoitteesi.",module,Magento_Customer
 "My Account",Asiakastilini,module,Magento_Customer
 "This account is not confirmed. <a href=""%1"">Click here</a> to resend confirmation email.","Tiliä ei ole vahvistettu, <a href=""%1"">klikkaa tästä</a> uudelleenlähettääksesi vahvistussähköpostin.",module,Magento_Customer

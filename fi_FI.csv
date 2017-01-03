@@ -3539,6 +3539,7 @@ Keyword,Avainsana,module,Magento_Ui
 "Please enter a valid IP v4 address.","Kirjoita kelvollinen IPv4-osoite.",module,Magento_Ui
 "Invalid format.","Virheellinen muoto.",module,Magento_Ui
 "Empty Value.","Tyhjä arvo.",module,Magento_Ui
+"Please enter a valid email address (Ex: johndoe@domain.com).","Ole hyvä ja anna oikea sähköpostiosoite (esim. matti.meikalainen@osoite.fi).",module,Magento_Ui
 "Please use only letters (a-z or A-Z) or numbers (0-9) in this field. No spaces or other characters are allowed.","Käytä ainoastaan kirjaimia (a–ö tai A-Ö) tai numeroita (0-9) tässä kentässä. Välilyöntejä tai muita merkkejä ei sallita.",module,Magento_Ui
 "Please enter a valid date.","Anna kelvollinen päivämäärä.",module,Magento_Ui
 "Please enter a valid zip code.","Anna kelvollinen postinumero.",module,Magento_Ui

@@ -2236,6 +2236,7 @@ Reviews,Arvostelut,module,Magento_Review
 Ratings,Arvostelut,module,Magento_Review
 "You saved the rating.","Arvostelu tallennettiin.",module,Magento_Review
 "My Product Reviews","Omat tuotearvosteluni",module,Magento_Review
+"You submitted your review for moderation.","Olet lähettänyt arvostelun hyväksyttäväksi.",module,Magento_Review
 Pending,Odottaa,module,Magento_Review
 "Please enter a nickname.","Ole hyvä ja syötä nimimerkki.",module,Magento_Review
 "Product Name",Tuotenimi,module,Magento_Review

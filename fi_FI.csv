@@ -1305,6 +1305,7 @@ Download,Lataa,module,Magento_Customer
 "Bad request.","Virheellinen pyyntö.",module,Magento_Customer
 "This confirmation key is invalid or has expired.","Vahvistusavain on virheellinen tai vanhentunut.",module,Magento_Customer
 "There was an error confirming the account","Tilin vahvistamisessa tapahtui virhe",module,Magento_Customer
+"Thank you for registering with %1.","Kiitos rekisteröitymisestä verkkokauppaan %1.",module,Magento_Customer
 "Wrong email.","Väärä sähköpostiosoite.",module,Magento_Customer
 "Your password reset link has expired.","Salasanan palautuslinkki on vanhentunut.",module,Magento_Customer
 "You must confirm your account. Please check your email for the confirmation link or <a href=""%1"">click here</a> for a new link.","Sinulle on lähetetty sähköpostilla linkki, jolla voit vahvista tilisi tai <a href=""%1"">klikkaa tästä</a> tilataksesi uuden linkin.",module,Magento_Customer
@@ -1396,6 +1397,7 @@ Admin,Ylläpito,module,Magento_Customer
 "Your Tax ID cannot be validated.","Alv-tunnusta ei voida vahvistaa.",module,Magento_Customer
 Male,Mies,module,Magento_Customer
 Female,Nainen,module,Magento_Customer
+"Thank you for registering with","Kiitos rekisteröitymisestä",module,Magento_Customer
 message,viesti,module,Magento_Customer
 Select...,Valitse...,module,Magento_Customer
 Edit,Muokkaa,module,Magento_Customer

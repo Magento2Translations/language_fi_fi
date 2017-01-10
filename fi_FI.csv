@@ -3408,6 +3408,7 @@ Delete,Poista,module,Magento_GiftMessage
 "Once your package ships we will send you a tracking number.","Kun pakettisi toimitetaan, lähetämme sinulle seurantanumeron.",module,Magento_Sales
 "Your Order <span class=""no-link"">#%increment_id</span>","Tilauksesi <span class=""no-link"">#%increment_id</span>",module,Magento_Sales
 "Placed on <span class=""no-link"">%created_at</span>","Tilattu <span class=""no-link"">%created_at</span>",module,Magento_Sales
+"Once your package ships we will send an email with a link to track your order.","Kun pakettisi on toimitetaan, lähetämme sinulle sähköpostin seurantalinkkeineen.",module,Magento_Sales
 "Update to your %store_name order","Päivitys %store_name -tilaukselle",module,Magento_Sales
 "Your %store_name order has shipped","%store_name -tilaus on lähetetty",module,Magento_Sales
 "Your shipping confirmation is below. Thank you again for your business.","Postitusvahvistus alla. Kiitos vielä tilauksesta!",module,Magento_Sales

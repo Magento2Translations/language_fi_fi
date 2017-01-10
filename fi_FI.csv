@@ -3261,6 +3261,7 @@ Password:,Salasana:,module,Magento_Customer
 "Once your package ships we will send you a tracking number.","Kun pakettisi toimitetaan, lähetämme sinulle seurantanumeron.",module,Magento_Sales
 "Your Order <span class=""no-link"">#%increment_id</span>","Tilauksesi <span class=""no-link"">#%increment_id</span>",module,Magento_Sales
 "Placed on <span class=""no-link"">%created_at</span>","Tilattu <span class=""no-link"">%created_at</span>",module,Magento_Sales
+"Once your package ships we will send an email with a link to track your order.","Kun pakettisi on toimitetaan, lähetämme sinulle sähköpostin seurantalinkkeineen.",module,Magento_Sales
 "Your shipping confirmation is below. Thank you again for your business.","Postitusvahvistus alla. Kiitos vielä tilauksesta!",module,Magento_Sales
 "Your Shipment #%shipment_id for Order #%order_id","Toimitus #%shipment_id tilaukselle #%order_id",module,Magento_Sales
 "Thank you,","Kiitos,",module,Magento_User

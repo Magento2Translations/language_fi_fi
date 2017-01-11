@@ -462,6 +462,7 @@ Delete,Poista,module,Magento_Bundle
 "Use Default Value","Käytä oletusarvoa",module,Magento_Bundle
 "Requested bundle option product doesn't exist","Pyydettyä pakettivaihtoehtoa ei ole olemassa",module,Magento_Bundle
 "Requested option doesn't exist","Pyydettyä vaihtoehtoa ei ole olemassa",module,Magento_Bundle
+"As Low as",Alkaen,module,Magento_Bundle
 "Price Range",Hintahaarukka,module,Magento_Bundle
 "We can't add this item to your shopping cart right now.","Emme voi lisätä tätä tuotetta ostoskoriisi juuri nyt.",module,Magento_Bundle
 N/A,"Ei tietoa",module,Magento_Bundle
@@ -478,6 +479,7 @@ Ordered,Tilattu,module,Magento_Bundle
 Invoiced,Laskutettu,module,Magento_Bundle
 Shipped,Lähetetty,module,Magento_Bundle
 Canceled,Peruutettu,module,Magento_Bundle
+"As low as",Alkaen,module,Magento_Bundle
 "Regular Price",Normaalihinta,module,Magento_Bundle
 From,Alkaen,module,Magento_Bundle
 To,Asti,module,Magento_Bundle
@@ -601,6 +603,7 @@ Search,Haku,module,Magento_CatalogSearch
 "Advanced Search","Laajennettu haku",module,Magento_CatalogSearch
 "We can't find any items matching these search criteria.","Hakua vastaavia kohteita ei löydy.",module,Magento_CatalogSearch
 "Modify your search","Muokkaa hakua",module,Magento_CatalogSearch
+"Your search returned no results.","Hakusi ei tuottanut tuloksia.",module,Magento_CatalogSearch
 "Create Permanent Redirect for old URL","Luo pysyvä uudelleenohjaus vanhalle URL:lle",module,Magento_CatalogUrlRewrite
 "Conditions Combination","Ehtojen yhdistäminen",module,Magento_CatalogWidget
 "Product Attribute","Tuotteen attribuutti",module,Magento_CatalogWidget
@@ -842,6 +845,7 @@ Search,Haku,module,Magento_Catalog
 "Attribute '%1' is locked. %2","Ominaisuus '%1' on lukittu. %2",module,Magento_Catalog
 "Multiple Select",Monivalinta,module,Magento_Catalog
 Dropdown,Pudotusvalikko,module,Magento_Catalog
+"As low as",Alkaen,module,Magento_Catalog
 message,viesti,module,Magento_Catalog
 Select...,Valitse...,module,Magento_Catalog
 "Please confirm site switching. All data that hasn't been saved will be lost.","Vahvista sivuston vaihtaminen. Kaikki tallentamattomat tiedot menetetään.",module,Magento_Catalog

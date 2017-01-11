@@ -368,6 +368,7 @@ SKU,Tuotenro,module,Magento_Bundle
 Price,Hinta,module,Magento_Bundle
 Delete,Poista,module,Magento_Bundle
 "Use Default Value","Käytä oletusarvoa",module,Magento_Bundle
+"As Low as",Alkaen,module,Magento_Bundle
 "Price Range",Hintahaarukka,module,Magento_Bundle
 N/A,"Ei tietoa",module,Magento_Bundle
 None,"Ei mikään",module,Magento_Bundle
@@ -382,6 +383,7 @@ Ordered,Tilattu,module,Magento_Bundle
 Invoiced,Laskutettu,module,Magento_Bundle
 Shipped,Lähetetty,module,Magento_Bundle
 Canceled,Peruutettu,module,Magento_Bundle
+"As low as",Alkaen,module,Magento_Bundle
 From,Alkaen,module,Magento_Bundle
 To,Asti,module,Magento_Bundle
 "Go back to product details","Palaa tuotetietoihin",module,Magento_Bundle

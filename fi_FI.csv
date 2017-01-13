@@ -423,6 +423,7 @@ Qty,Määrä,module,Magento_CatalogInventory
 "Catalog Price Rule","Tuoteluettelon hintasääntö",module,Magento_CatalogRule
 "Add New Rule","Lisää uusi sääntö",module,Magento_CatalogRule
 "Apply Rules","Käytä sääntöjä",module,Magento_CatalogRule
+"Save and Apply","Tallenna ja käytä",module,Magento_CatalogRule
 "Save and Continue Edit","Tallenna ja jatka muokkaamista",module,Magento_CatalogRule
 "Edit Rule '%1'","Muokkaa sääntöä '%1'",module,Magento_CatalogRule
 "New Rule","Uusi sääntö",module,Magento_CatalogRule
@@ -881,9 +882,11 @@ Monthly,Kuukausittain,module,Magento_Cron
 Reset,Tyhjennä,module,Magento_CurrencySymbol
 Import,Tuo,module,Magento_CurrencySymbol
 "Manage Currency Rates","Hallitse valuuttakursseja",module,Magento_CurrencySymbol
+"Import Service",Tuontipalvelu,module,Magento_CurrencySymbol
 "Save Currency Symbols","Tallenna valuuttasymbolit",module,Magento_CurrencySymbol
 "Currency Symbols",Valuuttasymbolit,module,Magento_CurrencySymbol
 "Use Standard","Käytä standardia",module,Magento_CurrencySymbol
+"Please specify a correct Import Service.","Määritä oikea tuontipalvelu.",module,Magento_CurrencySymbol
 "Currency Rates",Valuuttakurssit,module,Magento_CurrencySymbol
 "Please correct the input data for %1 => %2 rate","Korjaa syöttöarvot %1 => %2 -kurssille",module,Magento_CurrencySymbol
 System,Järjestelmä,module,Magento_CurrencySymbol
@@ -973,12 +976,15 @@ Download,Lataa,module,Magento_Customer
 "This confirmation key is invalid or has expired.","Vahvistusavain on virheellinen tai vanhentunut.",module,Magento_Customer
 "There was an error confirming the account","Tilin vahvistamisessa tapahtui virhe",module,Magento_Customer
 "Thank you for registering with %1.","Kiitos rekisteröitymisestä verkkokauppaan %1.",module,Magento_Customer
+"This email does not require confirmation.","Tämä sähköposti ei vaadi vahvistusta.",module,Magento_Customer
 "Wrong email.","Väärä sähköpostiosoite.",module,Magento_Customer
 "Your password reset link has expired.","Salasanan palautuslinkki on vanhentunut.",module,Magento_Customer
+"There is already an account with this email address. If you are sure that it is your email address, <a href=""%1"">click here</a> to get your password and access your account.","On jo olemassa tili tällä sähköpostiosoitteella. Jos olet varma että se on sinun, <a href=""%1"">klikkaa tästä</a> ja nollaa salasana tilillesi.",module,Magento_Customer
 "Account Information","Tilin tiedot",module,Magento_Customer
 "Invalid input","Syöte ei kelpaa",module,Magento_Customer
 "Please correct the email address.","Korjaa sähköpostiosoite.",module,Magento_Customer
 "Please enter your email.","Syötä sähköpostiosoitteesi.",module,Magento_Customer
+"If there is an account associated with %1 you will receive an email with a link to reset your password.","Jos sähköpostiosoitteella %1 on olemassa tili, saat sähköpostin jossa on ohjeet uuden salasanan asettamiseksi.",module,Magento_Customer
 "My Account",Asiakastilini,module,Magento_Customer
 "Invalid login or password.","Virheellinen sähköpostiosoite tai salasana.",module,Magento_Customer
 "New Password and Confirm New Password values didn't match.","Uusi salasana ja vahvista uusi salasana -arvot eivät vastaa toisiaan.",module,Magento_Customer
@@ -1010,6 +1016,8 @@ Global,Globaali,module,Magento_Customer
 "-- Please Select --","--- Valitse ---",module,Magento_Customer
 "The password can not begin or end with a space.","Salasana ei voi alkaa tai loppua välilyönnillä.",module,Magento_Customer
 Admin,Ylläpito,module,Magento_Customer
+"""%1"" is not a valid URL.","""%1"" ei ole kelvollinen URL.",module,Magento_Customer
+"""%1"" is not a valid date.","""%1"" ei ole kelvollinen päivämäärä.",module,Magento_Customer
 """%1"" length must be equal or greater than %2 characters.","""%1"" vaadittu vähimmäispituus on %2 merkkiä.",module,Magento_Customer
 """%1"" length must be equal or less than %2 characters.","""%1"" maksimipituus on enintään %2 merkkiä.",module,Magento_Customer
 "Customer Group",Asiakasryhmä,module,Magento_Customer
@@ -1208,6 +1216,7 @@ Template,Malli,module,Magento_Email
 "Change Encryption Key","Vaihda salausavain",module,Magento_EncryptionKey
 "Encryption Key",Salausavain,module,Magento_EncryptionKey
 "New Encryption Key","Uusi salausavain",module,Magento_EncryptionKey
+"The encryption key is used to protect passwords and other sensitive data.","Salausavainta käytetään suojaamaan salasanoja ja muita arkaluonteisia tietoja.",module,Magento_EncryptionKey
 No,Ei,module,Magento_EncryptionKey
 Yes,Kyllä,module,Magento_EncryptionKey
 "New Key","Uusi avain",module,Magento_EncryptionKey
@@ -1224,8 +1233,10 @@ Cancel,Peruuta,module,Magento_GiftMessage
 "Do you have any gift items in your order?","Onko sinulla mitään lahjatuotteita tilauksessasi?",module,Magento_GiftMessage
 Dynamic,Dynaaminen,module,Magento_GoogleAdwords
 Constant,Jatkuva,module,Magento_GoogleAdwords
+"Conversion Id value is not valid ""%1"". Conversion Id should be an integer.","Konversion ID ""%1"" ei ole kelvollinen. ID:n tulisi olla kokonaisluku.",module,Magento_GoogleAdwords
 "Product View Optimization","Tuotenäkymän optimointi",module,Magento_GoogleOptimizer
 "Page View Optimization","Sivunäkymän optimointi",module,Magento_GoogleOptimizer
+"Google Analytics Content Experiments Code","Google Analyticsin sisältökokeilukoodi",module,Magento_GoogleOptimizer
 "Category View Optimization","Kategorianäkymän optimointi",module,Magento_GoogleOptimizer
 "Grouped Products",Ryhmätuotteet,module,Magento_GroupedProduct
 "Please specify the quantity of product(s).","Määritä tuotteiden määrä.",module,Magento_GroupedProduct
@@ -1260,6 +1271,7 @@ Continue,Jatka,module,Magento_ImportExport
 "Indexer Management","Indeksointitoiminnon hallinta",module,Magento_Indexer
 "Update by Schedule","Päivitetään ajastetusti",module,Magento_Indexer
 "Update on Save","Päivitä tallentaessa",module,Magento_Indexer
+"Reindex required","Tarvitaan uudelleenindeksointi",module,Magento_Indexer
 Ready,Valmis,module,Magento_Indexer
 Never,"Ei koskaan",module,Magento_Indexer
 "Index Management","Indeksien hallinta",module,Magento_Indexer
@@ -1282,6 +1294,7 @@ Active,Aktiivinen,module,Magento_Integration
 "Filterable (no results)","Suodattuva (tulokset)",module,Magento_LayeredNavigation
 No,Ei,module,Magento_LayeredNavigation
 "Use in Layered Navigation","Käytä kerroksittaisessa navigoinnissa",module,Magento_LayeredNavigation
+"Can be used only with catalog input type Dropdown, Multiple Select and Price","Voidaan käyttää vain syötetyypeillä Pudotusvalikko, Monivalinta ja Hinta",module,Magento_LayeredNavigation
 Position,Sijainti,module,Magento_LayeredNavigation
 "Position of attribute in layered navigation block","Ominaisuuden sijainti kerroksittaisen navigaation lohkossa",module,Magento_LayeredNavigation
 Previous,Edellinen,module,Magento_LayeredNavigation
@@ -1298,6 +1311,7 @@ Previous,Edellinen,module,Magento_LayeredNavigation
 "Change Billing Address","Muuta laskutusosoite",module,Magento_Multishipping
 "Ship to Multiple Addresses","Toimitus useampaan osoitteeseen",module,Magento_Multishipping
 "Billing Information - %1","Laskutustiedot - %1",module,Magento_Multishipping
+"Review Order - %1","Tarkista tilaus - %1",module,Magento_Multishipping
 Total,Yhteensä,module,Magento_Multishipping
 "Shipping Methods",Toimitustavat,module,Magento_Multishipping
 "Edit Address","Muokkaa osoitetta",module,Magento_Multishipping
@@ -1419,6 +1433,7 @@ Paused,Keskeytetty,module,Magento_Newsletter
 Subscribe,"Tilaa uutiskirje",module,Magento_Newsletter
 "Send Check to:","Lähetä shekki:",module,Magento_OfflinePayments
 "Purchase Order Number",Ostotilausnumero,module,Magento_OfflinePayments
+"Make Check payable to: %1","Tee shekki maksettavaksi: %1",module,Magento_OfflinePayments
 "Purchase Order Number: %1","Ostotilausnumero: %1",module,Magento_OfflinePayments
 Country,Maa,module,Magento_OfflineShipping
 Region/State,Alue/osavaltio,module,Magento_OfflineShipping
@@ -1433,6 +1448,7 @@ None,"Ei mikään",module,Magento_OfflineShipping
 "Per Item","Per tuote",module,Magento_OfflineShipping
 "Free Shipping","Ilmainen toimitus",module,Magento_OfflineShipping
 No,Ei,module,Magento_OfflineShipping
+"Built-in Application (Not Recommended for Production Use)","Sisäänrakennettu sovellus (ei suositella tuotantokäyttöön)",module,Magento_PageCache
 Month,Kuukausi,module,Magento_Payment
 Year,Vuosi,module,Magento_Payment
 N/A,"Ei tietoa",module,Magento_Payment
@@ -2159,6 +2175,7 @@ Language,Kieli,module,Magento_Store
 "Select Store","Valitse kauppa",module,Magento_Store
 "Tax Rate Information","Veroluokkien tiedot",module,Magento_Tax
 "Tax Identifier",Verotunnus,module,Magento_Tax
+"Zip/Post is Range","Postinumero on alueella",module,Magento_Tax
 "Zip/Post Code",Postinumero,module,Magento_Tax
 "'*' - matches any; 'xyz*' - matches any that begins on 'xyz' and are not longer than %1.","'*'-vastaa mitä tahansa; 'xyz*' - vastaa kaikkia jotka alkavat 'xyz' eivätkä ole pidempiä kuin %1.",module,Magento_Tax
 State,Lääni,module,Magento_Tax
@@ -2386,6 +2403,7 @@ Resources,Resurssit,module,Magento_User
 "Warning!\r\nThis action will remove this user from already assigned role\r\nAre you sure?","Varoitus!\r\nTämä toimenpide poistaa tämän käyttäjän jo sille määritellyistä rooleista\r\nOletko varma?",module,Magento_User
 "Warning!\r\nThis action will remove those users from already assigned roles\r\nAre you sure?","Varoitus!\r\nTämä toimenpide poistaa nämä käyttäjät jo niille määritellyistä rooleista\r\nOletko varma?",module,Magento_User
 "First-Class Mail Large Envelope","First-Class Mail suuri kirjekuori",module,Magento_Usps
+"First-Class Mail Parcel","Ykkösluokan postipaketti",module,Magento_Usps
 Yes,Kyllä,module,Magento_Usps
 No,Ei,module,Magento_Usps
 Gift,Lahja,module,Magento_Usps
@@ -2540,7 +2558,9 @@ Host,Isäntä,module,Magento_Backend
 "Set Return-Path","Aseta Return-Path",module,Magento_Backend
 "Return-Path Email","Return-Path sähköposti",module,Magento_Backend
 Admin,Ylläpito,module,Magento_Backend
+"Forgot Password Email Template","""Unohtuiko salasana"" -sähköpostimalli",module,Magento_Backend
 "Email template chosen based on theme fallback when ""Default"" option is selected.","Valittu sähköpostimalli perustuu teeman fallbackiin kun ""Default"" -vaihtoehto on valittuna.",module,Magento_Backend
+"Forgot and Reset Email Sender","Salasanan palautusviestin lähettäjä",module,Magento_Backend
 "Recovery Link Expiration Period (days)","Salasanan palautuslinkin voimassaoloaika (päivää)",module,Magento_Backend
 "Please enter a number 1 or greater in this field.","Syötä numero 1 tai suurempi tähän kenttään.",module,Magento_Backend
 "Add Secret Key to URLs","Lisää salausavain URL-osoitteisiin",module,Magento_Backend
@@ -2665,16 +2685,20 @@ Contacts,Kontaktit,module,Magento_Contact
 "Email Template",Sähköpostimallit,module,Magento_Contact
 "Default Welcome Email",Oletustervetuliaisviesti,module,Magento_Customer
 "Welcome Email",Tervetuliaissähköposti,module,Magento_Customer
+"Forgot Email Template","Salasanan palautuksen sähköpostimalli",module,Magento_Customer
 "Number of Lines in a Street Address","Katuosoitteen rivien määrä",module,Magento_Customer
 "Always optional.","Aina valinnainen.",module,Magento_Customer
 Group,Ryhmä,module,Magento_Customer
 "Add New Customer","Lisää uusi asiakas",module,Magento_Customer
+"Subscribe to Newsletter","Tilaa Uutiskirje",module,Magento_Customer
+"Unsubscribe from Newsletter","Peru uutiskirjeen tilaus",module,Magento_Customer
 ZIP,Postinumero,module,Magento_Customer
 "First Name",Etunimi,module,Magento_Customer
 "Last Name",Sukunimi,module,Magento_Customer
 "Last Activity","Viimeksi nähty",module,Magento_Customer
 Type,Tyyppi,module,Magento_Customer
 "Edit Account Information","Muokkaa tilin tietoja",module,Magento_Customer
+"Password forgotten","Salasana unohtunut",module,Magento_Customer
 "My Dashboard","Oma sivuni",module,Magento_Customer
 "Allowed IPs (comma separated)","Sallitut IP-osoitteet (pilkulla erotettuna)",module,Magento_Developer
 Password,Salasana,module,Magento_Dhl

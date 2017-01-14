@@ -382,6 +382,7 @@ Name,Nimi,module,Magento_Bundle
 Ordered,Tilattu,module,Magento_Bundle
 Invoiced,Laskutettu,module,Magento_Bundle
 Shipped,Lähetetty,module,Magento_Bundle
+Refunded,Hyvitetty,module,Magento_Bundle
 Canceled,Peruutettu,module,Magento_Bundle
 "As low as",Alkaen,module,Magento_Bundle
 From,Alkaen,module,Magento_Bundle
@@ -861,6 +862,7 @@ Pages,Sivut,module,Magento_Cms
 "Disabled by Default","Oletusarvoisesti pois käytöstä",module,Magento_Cms
 "Disabled Completely","Kokonaan pois käytöstä",module,Magento_Cms
 "Browse Files...","Selaa tiedostoja...",module,Magento_Cms
+"Choose an Option...","Valitse vaihtoehto...",module,Magento_ConfigurableProduct
 Select,Valitse,module,Magento_ConfigurableProduct
 Price,Hinta,module,Magento_ConfigurableProduct
 Quantity,Määrä,module,Magento_ConfigurableProduct
@@ -1141,6 +1143,7 @@ To:,Vastaanottaja:,module,Magento_Downloadable
 Message:,Viesti:,module,Magento_Downloadable
 Qty,Määrä,module,Magento_Downloadable
 Canceled,Peruutettu,module,Magento_Downloadable
+Refunded,Hyvitetty,module,Magento_Downloadable
 "Attribute Properties","Attribuutin ominaisuudet",module,Magento_Eav
 "Default label",Oletusselite,module,Magento_Eav
 "Attribute Code","Ominaisuuden koodi",module,Magento_Eav
@@ -1630,10 +1633,12 @@ Orders,Tilaukset,module,Magento_Reports
 "Paid Invoices","Maksetut laskut",module,Magento_Reports
 "Unpaid Invoices","Maksamattomat laskut",module,Magento_Reports
 "Refunded Orders","Hyvitetyt tilaukset",module,Magento_Reports
+"Total Refunded","Yhteensä hyvitetty",module,Magento_Reports
 "Sales Items","Myynnin tuotteet",module,Magento_Reports
 Items,Tuotteet,module,Magento_Reports
 Invoiced,Laskutettu,module,Magento_Reports
 Paid,Maksettu,module,Magento_Reports
+Refunded,Hyvitetty,module,Magento_Reports
 "Sales Tax",Arvonlisävero,module,Magento_Reports
 Tax,Vero,module,Magento_Reports
 Canceled,Peruutettu,module,Magento_Reports
@@ -1914,6 +1919,7 @@ Home,Etusivu,module,Magento_Sales
 "Go to Home Page","Siirry etusivulle",module,Magento_Sales
 Guest,Vieras,module,Magento_Sales
 Pending,Odottaa,module,Magento_Sales
+Refunded,Hyvitetty,module,Magento_Sales
 Canceled,Peruutettu,module,Magento_Sales
 Paid,Maksettu,module,Magento_Sales
 Ordered,Tilattu,module,Magento_Sales
@@ -2137,6 +2143,8 @@ Location,Sijainti,module,Magento_Shipping
 Date,Pvm,module,Magento_Shipping
 "Local Time","Paikallinen aika",module,Magento_Shipping
 Description,Kuvaus,module,Magento_Shipping
+"There is no tracking available for this shipment.","Tälle toimitukselle ei ole saatavilla lähetyksen seurantaa.",module,Magento_Shipping
+"There is no tracking available.","Seurantaa ei ole saatavilla.",module,Magento_Shipping
 "Close Window","Sulje ikkuna",module,Magento_Shipping
 "Save & Generate","Tallenna & luo",module,Magento_Sitemap
 "Edit Sitemap","Muokkaa sivukarttaa",module,Magento_Sitemap
@@ -2669,7 +2677,7 @@ Details,Yksityiskohdat,module,Magento_Catalog
 "Send Payment Failed Email Copy Method","Epäonnistuneen maksun sähköpostikopion tyyppi",module,Magento_Checkout
 "Shipping Address",Toimitusosoite,module,Magento_Checkout
 "For delivery questions.",Toimituskysymyksille.,module,Magento_Checkout
-"Cart Subtotal","Ostoskorin Välisumma",module,Magento_Checkout
+"Cart Subtotal","Ostoskorin välisumma",module,Magento_Checkout
 "Not yet calculated","Ei ole vielä laskettu",module,Magento_Checkout
 "Thank you for your purchase!","Kiitos ostoksestasi!",module,Magento_Checkout
 "If empty, the Page Title will be used","Jos tyhjä, käytetään sivun otsikkoa",module,Magento_Cms

@@ -478,6 +478,7 @@ Name,Nimi,module,Magento_Bundle
 Ordered,Tilattu,module,Magento_Bundle
 Invoiced,Laskutettu,module,Magento_Bundle
 Shipped,Lähetetty,module,Magento_Bundle
+Refunded,Hyvitetty,module,Magento_Bundle
 Canceled,Peruutettu,module,Magento_Bundle
 "As low as",Alkaen,module,Magento_Bundle
 "Regular Price",Normaalihinta,module,Magento_Bundle
@@ -1145,6 +1146,7 @@ Configurations,Konfiguraatiot,module,Magento_ConfigurableProduct
 "Create New Attribute","Luo uusi attribuutti",module,Magento_ConfigurableProduct
 "Select Attributes","Valitse attribuutit",module,Magento_ConfigurableProduct
 Summary,Yhteenveto,module,Magento_ConfigurableProduct
+"Choose an Option...","Valitse vaihtoehto...",module,Magento_ConfigurableProduct
 "Requested option doesn't exist","Pyydettyä vaihtoehtoa ei ole olemassa",module,Magento_ConfigurableProduct
 "Requested option doesn't exist: %1","Pyydettyä vaihtoehtoa ei ole olemassa: %1",module,Magento_ConfigurableProduct
 "Could not update option with id ""%1""","Ei voitu päivittää vaihtoehtoa tunnuksella ""%1""",module,Magento_ConfigurableProduct
@@ -1570,6 +1572,7 @@ Qty,Määrä,module,Magento_Downloadable
 Subtotal,Välisumma,module,Magento_Downloadable
 "Qty Invoiced","Laskutettu määrä",module,Magento_Downloadable
 Canceled,Peruutettu,module,Magento_Downloadable
+Refunded,Hyvitetty,module,Magento_Downloadable
 "Attribute Properties","Attribuutin ominaisuudet",module,Magento_Eav
 "Default label",Oletusselite,module,Magento_Eav
 "Attribute Code","Ominaisuuden koodi",module,Magento_Eav
@@ -2182,10 +2185,12 @@ Orders,Tilaukset,module,Magento_Reports
 "Paid Invoices","Maksetut laskut",module,Magento_Reports
 "Unpaid Invoices","Maksamattomat laskut",module,Magento_Reports
 "Refunded Orders","Hyvitetyt tilaukset",module,Magento_Reports
+"Total Refunded","Yhteensä hyvitetty",module,Magento_Reports
 "Sales Items","Myynnin tuotteet",module,Magento_Reports
 Items,Tuotteet,module,Magento_Reports
 Invoiced,Laskutettu,module,Magento_Reports
 Paid,Maksettu,module,Magento_Reports
+Refunded,Hyvitetty,module,Magento_Reports
 "Sales Tax",Arvonlisävero,module,Magento_Reports
 Tax,Vero,module,Magento_Reports
 Canceled,Peruutettu,module,Magento_Reports
@@ -2500,6 +2505,7 @@ Home,Etusivu,module,Magento_Sales
 Guest,Vieras,module,Magento_Sales
 "Please enter the first name.","Kirjoita etunimesi.",module,Magento_Sales
 Pending,Odottaa,module,Magento_Sales
+Refunded,Hyvitetty,module,Magento_Sales
 Canceled,Peruutettu,module,Magento_Sales
 Paid,Maksettu,module,Magento_Sales
 Ordered,Tilattu,module,Magento_Sales
@@ -2797,6 +2803,8 @@ Location,Sijainti,module,Magento_Shipping
 Date,Pvm,module,Magento_Shipping
 "Local Time","Paikallinen aika",module,Magento_Shipping
 Description,Kuvaus,module,Magento_Shipping
+"There is no tracking available for this shipment.","Tälle toimitukselle ei ole saatavilla lähetyksen seurantaa.",module,Magento_Shipping
+"There is no tracking available.","Seurantaa ei ole saatavilla.",module,Magento_Shipping
 "Close Window","Sulje ikkuna",module,Magento_Shipping
 "Save & Generate","Tallenna & luo",module,Magento_Sitemap
 "Edit Sitemap","Muokkaa sivukarttaa",module,Magento_Sitemap
@@ -3578,7 +3586,7 @@ Cancel,Peruuta,module,Magento_Checkout
 "We'll send your order confirmation here.","Lähetämme tilausvahvistuksen täällä.",module,Magento_Checkout
 "For delivery questions.",Toimituskysymyksille.,module,Magento_Checkout
 Payment,Maksu,module,Magento_Checkout
-"Cart Subtotal","Ostoskorin Välisumma",module,Magento_Checkout
+"Cart Subtotal","Ostoskorin välisumma",module,Magento_Checkout
 "Not yet calculated","Ei ole vielä laskettu",module,Magento_Checkout
 "We received your order!","Olemme vastaanottaneet tilauksesi!",module,Magento_Checkout
 "Thank you for your purchase!","Kiitos ostoksestasi!",module,Magento_Checkout

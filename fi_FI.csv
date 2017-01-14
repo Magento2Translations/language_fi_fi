@@ -438,6 +438,7 @@ Default,Oletus,module,Magento_Bundle
 Ordered,Tilattu,module,Magento_Bundle
 Invoiced,Laskutettu,module,Magento_Bundle
 Shipped,Lähetetty,module,Magento_Bundle
+Refunded,Hyvitetty,module,Magento_Bundle
 Canceled,Peruutettu,module,Magento_Bundle
 "As low as",Alkaen,module,Magento_Bundle
 "Regular Price",Normaalihinta,module,Magento_Bundle
@@ -800,6 +801,7 @@ Select...,Valitse...,module,Magento_Catalog
 To,Asti,module,Magento_Catalog
 Done,Valmis,module,Magento_Catalog
 "Create New Attribute","Luo uusi attribuutti",module,Magento_Catalog
+"Custom options let customers choose the product variations they want.","Mukautetut vaihtoehdot antavat asiakkaiden valita haluamansa tuotevariaatiot.",module,Magento_Catalog
 "Select Product","Valitse tuote",module,Magento_Catalog
 Required,Pakollinen,module,Magento_Catalog
 "Price Type",Hintatyyppi,module,Magento_Catalog
@@ -1098,6 +1100,7 @@ Configurations,Konfiguraatiot,module,Magento_ConfigurableProduct
 "Create New Attribute","Luo uusi attribuutti",module,Magento_ConfigurableProduct
 "Select Attributes","Valitse attribuutit",module,Magento_ConfigurableProduct
 Summary,Yhteenveto,module,Magento_ConfigurableProduct
+"Choose an Option...","Valitse vaihtoehto...",module,Magento_ConfigurableProduct
 "Requested option doesn't exist","Pyydettyä vaihtoehtoa ei ole olemassa",module,Magento_ConfigurableProduct
 "Requested option doesn't exist: %1","Pyydettyä vaihtoehtoa ei ole olemassa: %1",module,Magento_ConfigurableProduct
 "You can't add the item to shopping cart.","Et voi lisätä nimikettä ostoskoriin.",module,Magento_ConfigurableProduct
@@ -1538,6 +1541,7 @@ Qty,Määrä,module,Magento_Downloadable
 Subtotal,Välisumma,module,Magento_Downloadable
 "Qty Invoiced","Laskutettu määrä",module,Magento_Downloadable
 Canceled,Peruutettu,module,Magento_Downloadable
+Refunded,Hyvitetty,module,Magento_Downloadable
 "Attribute Properties","Attribuutin ominaisuudet",module,Magento_Eav
 "Default Label",Oletusselite,module,Magento_Eav
 "Default label",Oletusselite,module,Magento_Eav
@@ -2185,10 +2189,12 @@ Orders,Tilaukset,module,Magento_Reports
 "Paid Invoices","Maksetut laskut",module,Magento_Reports
 "Unpaid Invoices","Maksamattomat laskut",module,Magento_Reports
 "Refunded Orders","Hyvitetyt tilaukset",module,Magento_Reports
+"Total Refunded","Yhteensä hyvitetty",module,Magento_Reports
 "Sales Items","Myynnin tuotteet",module,Magento_Reports
 Items,Tuotteet,module,Magento_Reports
 Invoiced,Laskutettu,module,Magento_Reports
 Paid,Maksettu,module,Magento_Reports
+Refunded,Hyvitetty,module,Magento_Reports
 "Sales Tax",Arvonlisävero,module,Magento_Reports
 Tax,Vero,module,Magento_Reports
 Canceled,Peruutettu,module,Magento_Reports
@@ -2495,6 +2501,7 @@ Home,Etusivu,module,Magento_Sales
 Guest,Vieras,module,Magento_Sales
 "Please enter the first name.","Kirjoita etunimesi.",module,Magento_Sales
 Pending,Odottaa,module,Magento_Sales
+Refunded,Hyvitetty,module,Magento_Sales
 Canceled,Peruutettu,module,Magento_Sales
 Paid,Maksettu,module,Magento_Sales
 Ordered,Tilattu,module,Magento_Sales
@@ -2702,6 +2709,7 @@ View/Edit,Näytä/Muokkaa,module,Magento_Search
 "Your current session has been expired.","Nykyinen istuntosi on vanhentunut.",module,Magento_Security
 "By Email",Sähköpostitse,module,Magento_Security
 None,"Ei mikään",module,Magento_Security
+"Too many password reset requests. Please wait and try again or contact %1.","Liian monta salasanan palautuspyyntöä. Ole hyvä ja odota hetki ja yritä uudelleen tai ole yhteydessä %1.",module,Magento_Security
 "some error","jokin virhe",module,Magento_Security
 "This administrator account is open in more than one location. Note that other locations might be different browsers or sessions on the same computer.","Järjestelmänvalvojatili on avoinna useammassa kuin yhdessä sijainnissa. Huomaa, että muut sijainnit saattavat olla eri selaimia tai istuntoja samassa tietokoneessa.",module,Magento_Security
 "IP Address",IP-osoite,module,Magento_Security
@@ -2830,6 +2838,8 @@ Location,Sijainti,module,Magento_Shipping
 Date,Pvm,module,Magento_Shipping
 "Local Time","Paikallinen aika",module,Magento_Shipping
 Description,Kuvaus,module,Magento_Shipping
+"There is no tracking available for this shipment.","Tälle toimitukselle ei ole saatavilla lähetyksen seurantaa.",module,Magento_Shipping
+"There is no tracking available.","Seurantaa ei ole saatavilla.",module,Magento_Shipping
 "Close Window","Sulje ikkuna",module,Magento_Shipping
 "Save & Generate","Tallenna & luo",module,Magento_Sitemap
 "Edit Sitemap","Muokkaa sivukarttaa",module,Magento_Sitemap
@@ -3352,7 +3362,7 @@ items,tuotetta,module,Magento_Checkout
 "See Details",Lisätietoja,module,Magento_Checkout
 "Options Details","Vaihtoehdot tiedot",module,Magento_Checkout
 Remove,Poista,module,Magento_Checkout
-"Cart Subtotal","Ostoskorin Välisumma",module,Magento_Checkout
+"Cart Subtotal","Ostoskorin välisumma",module,Magento_Checkout
 "No Payment Methods","Ei maksutapoja",module,Magento_Checkout
 "Payment Information",Maksutiedot,module,Magento_Checkout
 "No Payment method available.","Maksutapaa ei ole saatavilla.",module,Magento_Checkout

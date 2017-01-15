@@ -56,6 +56,7 @@ successful.,onnistui.,module,Magento_Authorizenet
 capture,talteenota,module,Magento_Authorizenet
 refund,hyvitä,module,Magento_Authorizenet
 void,mitätön,module,Magento_Authorizenet
+"Something went wrong in the payment gateway.","Maksukäytävässä tapahtui virhe.",module,Magento_Authorizenet
 "Payment capturing error.","Maksun talteenoton virhe.",module,Magento_Authorizenet
 "Invalid transaction ID.","Virheellinen tapahtumatunnus.",module,Magento_Authorizenet
 "Invalid amount for refund.","Virheellinen hyvityssumma.",module,Magento_Authorizenet
@@ -1798,6 +1799,7 @@ Total,Yhteensä,module,Magento_Multishipping
 "Create Shipping Address","Luo toimitusosoite",module,Magento_Multishipping
 "Please check shipping address information.","Tarkista toimitusosoitteen tiedot.",module,Magento_Multishipping
 "Please check billing address information.","Tarkista laskutusosoitteen tiedot.",module,Magento_Multishipping
+"A payment method is not defined.","Maksutapaa ei ole määritetty.",module,Magento_Multishipping
 "Please specify a payment method.","Ole hyvä ja määrittele maksutapa.",module,Magento_Multishipping
 "Add New Address","Lisää uusi osoite",module,Magento_Multishipping
 Product,Tuote,module,Magento_Multishipping
@@ -1971,7 +1973,7 @@ No,Ei,module,Magento_Payment
 "--Please Select--",---Valitse---,module,Magento_Payment
 "What is this?","Mikä tämä on?",module,Magento_Payment
 "Credit Card Information",Luottokorttitiedot,module,Magento_Payment
-"Billing Agreements",Maksuehdot,module,Magento_Paypal
+"Billing Agreements",Laskutussopimukset,module,Magento_Paypal
 ID,Tunnus,module,Magento_Paypal
 Email,Sähköposti,module,Magento_Paypal
 "First Name",Etunimi,module,Magento_Paypal
@@ -2058,8 +2060,10 @@ Updated:,Päivitetty:,module,Magento_Paypal
 "Order #",Tilausnumero,module,Magento_Paypal
 Date,Pvm,module,Magento_Paypal
 "View Order","Katso tilaus",module,Magento_Paypal
+"Back to Billing Agreements","Takaisin laskutussopimuksiin",module,Magento_Paypal
 "Payment Method",Maksutapa,module,Magento_Paypal
 View,Näytä,module,Magento_Paypal
+"There are no billing agreements yet.","Laskutussopimuksia ei vielä ole.",module,Magento_Paypal
 "-- Please Select --","--- Valitse ---",module,Magento_Paypal
 Create...,Luo...,module,Magento_Paypal
 "Shipping Method",Toimitustapa,module,Magento_Paypal
@@ -3580,6 +3584,8 @@ On,Käytössä,module,Magento_Ui
 "Search by keyword","Etsi avainsanojen mukaan",module,Magento_Ui
 Keyword,Avainsana,module,Magento_Ui
 "Select Date","Valitse päivämäärä",module,Magento_Ui
+"Please enter more or equal than {0} symbols.","Anna {0} merkkiä tai enemmän.",module,Magento_Ui
+"Please enter less or equal than {0} symbols.","Anna {0} merkkiä tai vähemmän.",module,Magento_Ui
 "Please enter {0} words or less.","Kirjoita {0} sanaa tai vähemmän.",module,Magento_Ui
 "Please enter at least {0} words.","Kirjoita vähintään {0} sanaa.",module,Magento_Ui
 "Letters only please","Vain kirjaimia",module,Magento_Ui
@@ -4013,7 +4019,9 @@ Store,Kauppa,module,Magento_Newsletter
 Enabled,Käytössä,module,Magento_OfflinePayments
 "Sort Order",Järjestys,module,Magento_OfflinePayments
 "Purchase Order",Ostotilaus,module,Magento_OfflinePayments
+"Bank Transfer Payment",Pankkisiirto,module,Magento_OfflinePayments
 Instructions,Ohjeet,module,Magento_OfflinePayments
+"Cash On Delivery Payment",Postiennakko,module,Magento_OfflinePayments
 Enabled,Käytössä,module,Magento_OfflineShipping
 Price,Hinta,module,Magento_OfflineShipping
 "Sort Order",Järjestys,module,Magento_OfflineShipping
@@ -4029,6 +4037,7 @@ Export,Vie,module,Magento_OfflineShipping
 "Payment Methods",Maksutavat,module,Magento_Payment
 Fetch,Hae,module,Magento_Paypal
 Actions,Toiminnot,module,Magento_Paypal
+"Place Order Using Billing Agreements","Tee tilaus laskutussopimusta käyttäen",module,Magento_Paypal
 "API Username",API-käyttäjänimi,module,Magento_Paypal
 "Home Page",Kotisivu,module,Magento_Paypal
 Position,Sijainti,module,Magento_Paypal

@@ -41,6 +41,7 @@ Close,Sulje,module,Magento_AdminNotification
 capture,talteenota,module,Magento_Authorizenet
 refund,hyvitä,module,Magento_Authorizenet
 void,mitätön,module,Magento_Authorizenet
+"Something went wrong in the payment gateway.","Maksukäytävässä tapahtui virhe.",module,Magento_Authorizenet
 "Payment capturing error.","Maksun talteenoton virhe.",module,Magento_Authorizenet
 "Invalid transaction ID.","Virheellinen tapahtumatunnus.",module,Magento_Authorizenet
 "Invalid amount for refund.","Virheellinen hyvityssumma.",module,Magento_Authorizenet
@@ -1471,7 +1472,7 @@ No,Ei,module,Magento_Payment
 "Card Verification Number","Luottokortin tarkistusnumero",module,Magento_Payment
 "--Please Select--",---Valitse---,module,Magento_Payment
 "What is this?","Mikä tämä on?",module,Magento_Payment
-"Billing Agreements",Maksuehdot,module,Magento_Paypal
+"Billing Agreements",Laskutussopimukset,module,Magento_Paypal
 ID,Tunnus,module,Magento_Paypal
 Email,Sähköposti,module,Magento_Paypal
 "First Name",Etunimi,module,Magento_Paypal
@@ -1548,8 +1549,10 @@ Updated:,Päivitetty:,module,Magento_Paypal
 "Order #",Tilausnumero,module,Magento_Paypal
 Date,Pvm,module,Magento_Paypal
 "View Order","Katso tilaus",module,Magento_Paypal
+"Back to Billing Agreements","Takaisin laskutussopimuksiin",module,Magento_Paypal
 "Payment Method",Maksutapa,module,Magento_Paypal
 View,Näytä,module,Magento_Paypal
+"There are no billing agreements yet.","Laskutussopimuksia ei vielä ole.",module,Magento_Paypal
 "-- Please Select --","--- Valitse ---",module,Magento_Paypal
 Create...,Luo...,module,Magento_Paypal
 "Shipping Method",Toimitustapa,module,Magento_Paypal
@@ -2772,7 +2775,9 @@ Store,Kauppa,module,Magento_Newsletter
 Enabled,Käytössä,module,Magento_OfflinePayments
 "Sort Order",Järjestys,module,Magento_OfflinePayments
 "Purchase Order",Ostotilaus,module,Magento_OfflinePayments
+"Bank Transfer Payment",Pankkisiirto,module,Magento_OfflinePayments
 Instructions,Ohjeet,module,Magento_OfflinePayments
+"Cash On Delivery Payment",Postiennakko,module,Magento_OfflinePayments
 Enabled,Käytössä,module,Magento_OfflineShipping
 Price,Hinta,module,Magento_OfflineShipping
 "Sort Order",Järjestys,module,Magento_OfflineShipping

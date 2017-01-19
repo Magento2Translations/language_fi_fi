@@ -2040,6 +2040,7 @@ Date,Pvm,module,Magento_Sales
 Close,Sulje,module,Magento_Sales
 "Shipment #%1","Lähetysnumero %1",module,Magento_Sales
 "Qty Shipped","Lähetetty määrä",module,Magento_Sales
+"Recent Orders","Viimeisimmät tilaukset",module,Magento_Sales
 "View All","Näytä kaikki",module,Magento_Sales
 "Add to Cart","Lisää ostoskoriin",module,Magento_Sales
 "The link to a friend was sent.","Linkki kaverille lähetettiin.",module,Magento_SendFriend

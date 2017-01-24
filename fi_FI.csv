@@ -1448,10 +1448,12 @@ Change,Vaihda,module,Magento_Customer
 Newsletters,Uutiskirjeet,module,Magento_Customer
 "You subscribe to ""General Subscription"".","Olet tilannut kohteen ""Yleinen tilaus"".",module,Magento_Customer
 or,tai,module,Magento_Customer
+"Default Addresses",Oletusosoitteet,module,Magento_Customer
 "Change Billing Address","Muuta laskutusosoite",module,Magento_Customer
 "You have no default billing address in your address book.","Sinulla ei ole oletuslaskutusosoitetta osoitekirjassasi.",module,Magento_Customer
 "Change Shipping Address","Muuta toimitusosoite",module,Magento_Customer
 "You have no default shipping address in your address book.","Sinulla ei ole oletustoimitusosoitetta osoitekirjassasi.",module,Magento_Customer
+"Additional Address Entries",Lisäosoitteet,module,Magento_Customer
 "Delete Address","Poista osoite",module,Magento_Customer
 "You have no other address entries in your address book.","Osoitekirjassasi ei ole muita tallennettuja osoitteita.",module,Magento_Customer
 "* Required Fields","* Pakolliset kentät",module,Magento_Customer
@@ -2445,6 +2447,7 @@ Capture,Talteenotto,module,Magento_Sales
 "Total Refunded","Hyvitetty yhteensä",module,Magento_Sales
 "Total Due","Maksamatta yhteensä",module,Magento_Sales
 Edit,Muokkaa,module,Magento_Sales
+"This will create an offline refund. To create an online refund, open an invoice and create credit memo for it. Do you want to continue?","Tämä luo offline-hyvityksen. Luodaksesi online-hyvityksen, avaa lasku ja luo hyvityslasku sille. Haluatko jatkaa?",module,Magento_Sales
 Hold,Pitoon,module,Magento_Sales
 hold,pitoon,module,Magento_Sales
 Unhold,"Vapauta pidosta",module,Magento_Sales

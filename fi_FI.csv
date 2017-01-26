@@ -534,6 +534,7 @@ Always,Aina,module,Magento_Captcha
 "Allow Qty Below 0 and Notify Customer","Salli määrä alle 0 ja ilmoita asiakkaalle",module,Magento_CatalogInventory
 "In Stock",Varastossa,module,Magento_CatalogInventory
 "Out of Stock","Ei varastossa",module,Magento_CatalogInventory
+"We don't have as many ""%1"" as you requested, but we'll back order the remaining %2.","Meillä ei ole niin montaa kappaletta tuotetta ""%1"" kuin haluat, mutta siirretään tilaukselle jäljellä olevat %2.",module,Magento_CatalogInventory
 "Only %1 left","Vain %1 jäljellä",module,Magento_CatalogInventory
 "Product Name",Tuotenimi,module,Magento_CatalogInventory
 Qty,Määrä,module,Magento_CatalogInventory

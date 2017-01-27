@@ -2626,6 +2626,7 @@ Status,Tila,module,Magento_Sales
 "Transaction Type",Tapahtumatyyppi,module,Magento_Sales
 "Created At",Luontiaika,module,Magento_Sales
 Items,Tuotteet,module,Magento_Sales
+"Shipped By",Lähettäjä,module,Magento_Sales
 "Tracking Number",Seurantanumero,module,Magento_Sales
 "Billing Last Name","Laskutettavan sukunimi",module,Magento_Sales
 "Find Order By","Etsi tilaus käyttäen",module,Magento_Sales

@@ -2026,6 +2026,7 @@ Status,Tila,module,Magento_Sales
 "Order ID",Tilausnumero,module,Magento_Sales
 "Transaction Type",Tapahtumatyyppi,module,Magento_Sales
 "Created At",Luontiaika,module,Magento_Sales
+"Shipped By",Lähettäjä,module,Magento_Sales
 "Tracking Number",Seurantanumero,module,Magento_Sales
 "Billing Last Name","Laskutettavan sukunimi",module,Magento_Sales
 "ZIP Code",Postinumero,module,Magento_Sales

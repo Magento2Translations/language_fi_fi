@@ -1601,6 +1601,7 @@ Dropdown,Pudotusvalikko,module,Magento_Eav
 "Invalid form type.","Virheellinen lomaketyyppi.",module,Magento_Eav
 "The value of attribute ""%1"" is invalid.","Attribuutin ""%1"" arvo on virheellinen.",module,Magento_Eav
 "Add New Template","Lisää uusi malli",module,Magento_Email
+"Transactional Emails","Transaktioihin liittyvät sähköpostit",module,Magento_Email
 Back,Takaisin,module,Magento_Email
 Reset,Tyhjennä,module,Magento_Email
 "Delete Template","Poista malli",module,Magento_Email
@@ -1941,6 +1942,7 @@ Paused,Keskeytetty,module,Magento_Newsletter
 "Sign Up for Our Newsletter:","Tilaa uutiskirjeemme:",module,Magento_Newsletter
 "Enter your email address","Syötä sähköpostiosoitteesi",module,Magento_Newsletter
 Subscribe,"Tilaa uutiskirje",module,Magento_Newsletter
+"Make Check payable to:","Tee shekki maksettavaksi:",module,Magento_OfflinePayments
 "Send Check to:","Lähetä shekki:",module,Magento_OfflinePayments
 "Purchase Order Number",Ostotilausnumero,module,Magento_OfflinePayments
 "Make Check payable to: %1","Tee shekki maksettavaksi: %1",module,Magento_OfflinePayments
@@ -2297,6 +2299,7 @@ Summary,Yhteenveto,module,Magento_Review
 Feed,Syöte,module,Magento_Rss
 "Miscellaneous Feeds","Sekalaiset syötteet",module,Magento_Rss
 Apply,"Ota käyttöön",module,Magento_Rule
+"Please choose a valid discount amount.","Valitse kelvollinen alennussumma.",module,Magento_Rule
 "End Date must follow Start Date.","Päättymispäivän on seurattava aloituspäivämäärää.",module,Magento_Rule
 "Please specify a website.","Ole hyvä ja määritä sivusto.",module,Magento_Rule
 "Please specify Customer Groups.","Määritä asiakasryhmät.",module,Magento_Rule
@@ -3142,6 +3145,7 @@ Yes,Kyllä,module,Magento_Usps
 No,Ei,module,Magento_Usps
 Gift,Lahja,module,Magento_Usps
 None,"Ei mikään",module,Magento_Usps
+"Custom Variables","Muokatut muuttujat",module,Magento_Variable
 "Add New Variable","Lisää uusi muuttuja",module,Magento_Variable
 "Save and Continue Edit","Tallenna ja jatka muokkaamista",module,Magento_Variable
 No,Ei,module,Magento_Variable

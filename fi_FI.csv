@@ -1170,6 +1170,7 @@ Dropdown,Pudotusvalikko,module,Magento_Eav
 "Invalid attribute name: %1","Virheellinen attribuutin nimi: %1",module,Magento_Eav
 "Invalid form type.","Virheellinen lomaketyyppi.",module,Magento_Eav
 "Add New Template","Lisää uusi malli",module,Magento_Email
+"Transactional Emails","Transaktioihin liittyvät sähköpostit",module,Magento_Email
 Back,Takaisin,module,Magento_Email
 Reset,Tyhjennä,module,Magento_Email
 "Delete Template","Poista malli",module,Magento_Email
@@ -1437,6 +1438,7 @@ Paused,Keskeytetty,module,Magento_Newsletter
 "Sign Up for Our Newsletter:","Tilaa uutiskirjeemme:",module,Magento_Newsletter
 "Enter your email address","Syötä sähköpostiosoitteesi",module,Magento_Newsletter
 Subscribe,"Tilaa uutiskirje",module,Magento_Newsletter
+"Make Check payable to:","Tee shekki maksettavaksi:",module,Magento_OfflinePayments
 "Send Check to:","Lähetä shekki:",module,Magento_OfflinePayments
 "Purchase Order Number",Ostotilausnumero,module,Magento_OfflinePayments
 "Make Check payable to: %1","Tee shekki maksettavaksi: %1",module,Magento_OfflinePayments
@@ -2423,6 +2425,7 @@ Yes,Kyllä,module,Magento_Usps
 No,Ei,module,Magento_Usps
 Gift,Lahja,module,Magento_Usps
 None,"Ei mikään",module,Magento_Usps
+"Custom Variables","Muokatut muuttujat",module,Magento_Variable
 "Operation allowed only in HTTPS","Käyttö sallittu vain HTTPS:llä",module,Magento_Webapi
 "Requested service is not available: ""%1""","Pyydetty palvelu ei ole saatavilla: ""%1""",module,Magento_Webapi
 "Invalid XML","Virheellinen XML",module,Magento_Webapi

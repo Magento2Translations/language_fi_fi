@@ -2983,6 +2983,7 @@ None,"Ei mikään",module,Magento_Tax
 Note:,Muistiinpano:,module,Magento_Tax
 "An error occurred","Virhe tapahtui",module,Magento_Tax
 Save,Tallenna,module,Magento_Tax
+"Add New Class","Lisää uusi luokka",module,Magento_Tax
 "Grand Total Excl. Tax","Veroton loppusumma",module,Magento_Tax
 "Grand Total Incl. Tax","Verollinen loppusumma",module,Magento_Tax
 Back,Takaisin,module,Magento_Theme

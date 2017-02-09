@@ -1088,6 +1088,7 @@ Login,Kirjaudu,module,Magento_Customer
 "New Customers","Uudet asiakkaat",module,Magento_Customer
 Gender,Sukupuoli,module,Magento_Customer
 Name,Nimi,module,Magento_Customer
+"Tax/VAT number","ALV-numero / Y-tunnus",module,Magento_Customer
 "Client side less compilation","Less-kääntö päätelaitteessa",module,Magento_Developer
 "Wrong Content Type","Väärä sisällön tyyppi",module,Magento_Dhl
 Pounds,Paunaa,module,Magento_Dhl
@@ -2707,6 +2708,7 @@ Contacts,Kontaktit,module,Magento_Contact
 "Forgot Email Template","Salasanan palautuksen sähköpostimalli",module,Magento_Customer
 "Number of Lines in a Street Address","Katuosoitteen rivien määrä",module,Magento_Customer
 "Always optional.","Aina valinnainen.",module,Magento_Customer
+"Show Tax/VAT Number","Näytä ALV-numero / Y-tunnus",module,Magento_Customer
 Group,Ryhmä,module,Magento_Customer
 "Add New Customer","Lisää uusi asiakas",module,Magento_Customer
 "Subscribe to Newsletter","Tilaa Uutiskirje",module,Magento_Customer

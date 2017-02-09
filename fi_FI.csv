@@ -1400,6 +1400,7 @@ Global,Globaali,module,Magento_Customer
 "Billing Address",Laskutusosoite,module,Magento_Customer
 "Shipping Address",Toimitusosoite,module,Magento_Customer
 "-- Please Select --","--- Valitse ---",module,Magento_Customer
+"Please enter a TAX/VAT number.","Syötä ALV-numero / Y-tunnus.",module,Magento_Customer
 "The password can not begin or end with a space.","Salasana ei voi alkaa tai loppua välilyönnillä.",module,Magento_Customer
 Admin,Ylläpito,module,Magento_Customer
 """%1"" is not a valid URL.","""%1"" ei ole kelvollinen URL.",module,Magento_Customer
@@ -1502,6 +1503,7 @@ Login,Kirjaudu,module,Magento_Customer
 "Creating an account has many benefits: check out faster, keep more than one address, track orders and more.","Tilin luomisesta on monia etuja: nopeammat tilaukset, säilytä useita osoitteita, seuraa tilauksia ja muuta.",module,Magento_Customer
 Gender,Sukupuoli,module,Magento_Customer
 Name,Nimi,module,Magento_Customer
+"Tax/VAT number","ALV-numero / Y-tunnus",module,Magento_Customer
 "Cannot switch into given mode ""%1""","Ei voida vaihtaa annettuun tilaan ""%1""",module,Magento_Deploy
 "Client side less compilation","Less-kääntö päätelaitteessa",module,Magento_Developer
 "Select this to allow DHL to optimize shipping charges by splitting the order if it exceeds %1 %2.","Valitsemalla tämän voit sallia DHL:n optimoimaan toimituskulut jakamalla tilauksen, jos se ylittää %1 %2.",module,Magento_Dhl
@@ -3646,6 +3648,7 @@ Contacts,Kontaktit,module,Magento_Contact
 "Forgot Email Template","Salasanan palautuksen sähköpostimalli",module,Magento_Customer
 "Number of Lines in a Street Address","Katuosoitteen rivien määrä",module,Magento_Customer
 "Always optional.","Aina valinnainen.",module,Magento_Customer
+"Show Tax/VAT Number","Näytä ALV-numero / Y-tunnus",module,Magento_Customer
 "Enable Autocomplete on login/forgot password forms","Salli automaattinen täyttö kirjautumis- ja palautuslomakkeissa",module,Magento_Customer
 Group,Ryhmä,module,Magento_Customer
 "Add New Customer","Lisää uusi asiakas",module,Magento_Customer

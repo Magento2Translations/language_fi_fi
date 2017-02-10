@@ -549,6 +549,7 @@ Qty,Määrä,module,Magento_CatalogInventory
 Actions,Toiminnot,module,Magento_CatalogRule
 "Pricing Structure Rules","Hinnoittelurakenteen säännöt",module,Magento_CatalogRule
 Apply,"Ota käyttöön",module,Magento_CatalogRule
+"Apply as fixed amount","Sovella kiinteänä määränä",module,Magento_CatalogRule
 "Discount Amount","Alennuksen määrä",module,Magento_CatalogRule
 No,Ei,module,Magento_CatalogRule
 Yes,Kyllä,module,Magento_CatalogRule
@@ -584,6 +585,8 @@ Catalog,Katalogi,module,Magento_CatalogRule
 "We can't rebuild the index for an undefined product.","Indeksiä ei voida uudelleenrakentaa määrittelemättömälle tuotteelle.",module,Magento_CatalogRule
 "Update the Product","Päivitä tuote",module,Magento_CatalogRule
 "Rule price","Säännön hinta",module,Magento_CatalogRule
+"To Fixed Value","Kiinteään arvoon",module,Magento_CatalogRule
+"By Fixed value","Kiinteällä arvolla",module,Magento_CatalogRule
 "Product Attribute",Tuotteattribuutti,module,Magento_CatalogRule
 Home,Etusivu,module,Magento_CatalogSearch
 "Go to Home Page","Siirry etusivulle",module,Magento_CatalogSearch
@@ -2329,6 +2332,8 @@ Category,Kategoria,module,Magento_Rule
 "Rule Information","Säännön tiedot",module,Magento_SalesRule
 Actions,Toiminnot,module,Magento_SalesRule
 "Pricing Structure Rules","Hinnoittelurakenteen säännöt",module,Magento_SalesRule
+"Fixed amount discount","Kiinteä alennus",module,Magento_SalesRule
+"Fixed amount discount for whole cart","Kiinteä alennus koko ostoskorille",module,Magento_SalesRule
 Yes,Kyllä,module,Magento_SalesRule
 No,Ei,module,Magento_SalesRule
 Conditions,Ehdot,module,Magento_SalesRule
@@ -2368,6 +2373,8 @@ Discount,Alennus,module,Magento_SalesRule
 Auto,Autom.,module,Magento_SalesRule
 "Update the Product","Päivitä tuote",module,Magento_SalesRule
 "Special Price",Tarjoushinta,module,Magento_SalesRule
+"To Fixed Value","Kiinteään arvoon",module,Magento_SalesRule
+"By Fixed value","Kiinteällä arvolla",module,Magento_SalesRule
 Subtotal,Välisumma,module,Magento_SalesRule
 "Total Weight",Kokonaispaino,module,Magento_SalesRule
 "Payment Method",Maksutapa,module,Magento_SalesRule
@@ -2764,6 +2771,7 @@ Weight,Paino,module,Magento_Shipping
 "Qty Ordered","Tilattu määrä",module,Magento_Shipping
 Qty,Määrä,module,Magento_Shipping
 "No detail for number ""%1""","Ei tietoja numerolle ""%1""",module,Magento_Shipping
+Fixed,Kiinteä,module,Magento_Shipping
 message,viesti,module,Magento_Shipping
 "Payment &amp; Shipping Method","Maksu- &amp; toimitustapa",module,Magento_Shipping
 "The order was placed using %1.","Tilaus tehtiin käyttäen %1.",module,Magento_Shipping
@@ -3161,6 +3169,7 @@ Message,Viesti,module,Magento_Webapi
 "Add Tax","Lisää vero",module,Magento_Weee
 "Delete Tax","Poista vero",module,Magento_Weee
 "All Websites","Kaikki sivustot",module,Magento_Weee
+"Fixed Product Tax","Kiinteä tuotevero",module,Magento_Weee
 "Excl. Tax",Veroton,module,Magento_Weee
 Total,Yhteensä,module,Magento_Weee
 "Incl. Tax",Verollinen,module,Magento_Weee
@@ -3904,6 +3913,7 @@ Unlocked,Lukitsematon,module,Magento_User
 "Sort Order",Järjestys,module,Magento_Usps
 Name,Nimi,module,Magento_Variable
 "If empty, UTF-8 will be used.","Jos tyhjä, käytetään UTF-8.",module,Magento_Webapi
+"Fixed Product Taxes","Kiinteät tuoteverot",module,Magento_Weee
 "Enable FPT","Ota kiinteämääräinen vero käyttöön",module,Magento_Weee
 "Display Prices In Emails","Näytä hinnat sähköposteissa",module,Magento_Weee
 "Include FPT In Subtotal","Sisällytä kiinteämääräinen vero välisummaan",module,Magento_Weee

@@ -1160,6 +1160,7 @@ Summary,Yhteenveto,module,Magento_ConfigurableProduct
 "Product with id ""%1"" does not exist.","Tuotetta tunnuksella ""%1"" ei ole olemassa.",module,Magento_ConfigurableProduct
 "Products ""%1"" and %2 have the same set of attribute values.","Tuotteilla ""%1"" ja %2 on samat ominaisuuksien arvot.",module,Magento_ConfigurableProduct
 "You can't add the item to shopping cart.","Et voi lisätä nimikettä ostoskoriin.",module,Magento_ConfigurableProduct
+"You need to choose options for your item.","Sinun täytyy valita vaihtoehdot tuotteellesi.",module,Magento_ConfigurableProduct
 "Select All","Valitse kaikki",module,Magento_ConfigurableProduct
 "Deselect All","Poista kaikki valinnat",module,Magento_ConfigurableProduct
 Images,Kuvat,module,Magento_ConfigurableProduct

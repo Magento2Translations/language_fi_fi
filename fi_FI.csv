@@ -1110,6 +1110,7 @@ Summary,Yhteenveto,module,Magento_ConfigurableProduct
 "Requested option doesn't exist","Pyydettyä vaihtoehtoa ei ole olemassa",module,Magento_ConfigurableProduct
 "Requested option doesn't exist: %1","Pyydettyä vaihtoehtoa ei ole olemassa: %1",module,Magento_ConfigurableProduct
 "You can't add the item to shopping cart.","Et voi lisätä nimikettä ostoskoriin.",module,Magento_ConfigurableProduct
+"You need to choose options for your item.","Sinun täytyy valita vaihtoehdot tuotteellesi.",module,Magento_ConfigurableProduct
 Done,Valmis,module,Magento_ConfigurableProduct
 "Create Configurations","Luo konfiguraatioita",module,Magento_ConfigurableProduct
 Image,Kuva,module,Magento_ConfigurableProduct

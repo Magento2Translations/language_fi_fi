@@ -386,15 +386,6 @@ Country,Maa,module,Magento_Braintree
 "Add Rule","Lisää sääntö",module,Magento_Braintree
 "Authorize and Capture","Valtuuta ja talteenota",module,Magento_Braintree
 "--Please Select--",---Valitse---,module,Magento_Braintree
-"Paypal account",PayPal-tili,module,Magento_Braintree
-"Coinbase account",Coinbase-tili,module,Magento_Braintree
-"Europe bank account","Eurooppalainen pankkitili",module,Magento_Braintree
-"Credit card",Luottokortti,module,Magento_Braintree
-"Apple pay card",Apple-maksukortti,module,Magento_Braintree
-"Android pay card",Android-maksukortti,module,Magento_Braintree
-"Authorization expired","Valtuutus umpeutunut",module,Magento_Braintree
-Failed,Epäonnistui,module,Magento_Braintree
-Sale,Alennusmyynti,module,Magento_Braintree
 "Credit Card Type",Luottokorttityyppi,module,Magento_Braintree
 "Credit Card Number","Luottokortin numero",module,Magento_Braintree
 "Please, enter valid Credit Card Number","Anna kelvollinen luottokortin numero",module,Magento_Braintree
@@ -2852,20 +2843,15 @@ Error:,Virhe:,module,Magento_Shipping
 "contact us","ota meihin yhteyttä",module,Magento_Shipping
 Info:,Tietoja:,module,Magento_Shipping
 Track:,Seuraa:,module,Magento_Shipping
-Status:,Tila:,module,Magento_Shipping
 "Delivered on:",Toimitettu:,module,Magento_Shipping
-"Signed by:",Allekirjoittanut:,module,Magento_Shipping
-"Delivered to:","Toimitettu osoitteeseen:",module,Magento_Shipping
-"Service Type:","Palvelun tyyppi:",module,Magento_Shipping
-Weight:,Paino:,module,Magento_Shipping
 N/A,"Ei tietoa",module,Magento_Shipping
+"There is no tracking available for this shipment.","Tälle toimitukselle ei ole saatavilla lähetyksen seurantaa.",module,Magento_Shipping
+"There is no tracking available.","Seurantaa ei ole saatavilla.",module,Magento_Shipping
+"Close Window","Sulje ikkuna",module,Magento_Shipping
 Location,Sijainti,module,Magento_Shipping
 Date,Pvm,module,Magento_Shipping
 "Local Time","Paikallinen aika",module,Magento_Shipping
 Description,Kuvaus,module,Magento_Shipping
-"There is no tracking available for this shipment.","Tälle toimitukselle ei ole saatavilla lähetyksen seurantaa.",module,Magento_Shipping
-"There is no tracking available.","Seurantaa ei ole saatavilla.",module,Magento_Shipping
-"Close Window","Sulje ikkuna",module,Magento_Shipping
 "Save & Generate","Tallenna & luo",module,Magento_Sitemap
 "Edit Sitemap","Muokkaa sivukarttaa",module,Magento_Sitemap
 "New Sitemap","Uusi sivukartta",module,Magento_Sitemap
@@ -2909,8 +2895,8 @@ All,Kaikki,module,Magento_Sitemap
 "Default store is inactive","Oletuskauppa on inaktiivinen",module,Magento_Store
 "All Store Views","Kaikki kauppanäkymät",module,Magento_Store
 "-- Please Select --","--- Valitse ---",module,Magento_Store
-"More than one default website is defined","Useampi kuin yksi oletussivusto on määritetty",module,Magento_Store
 "Default website is not defined","Oletussivustoa ei ole määritetty",module,Magento_Store
+"More than one default website is defined","Useampi kuin yksi oletussivusto on määritetty",module,Magento_Store
 Language,Kieli,module,Magento_Store
 "Select Store","Valitse kauppa",module,Magento_Store
 "Admin is a required field in the each row","Pääkäyttäjä on pakollinen kenttä joka rivillä",module,Magento_Swatches
@@ -3219,12 +3205,9 @@ Yes,Kyllä,module,Magento_Variable
 "No token found.","Tunnussanomaa ei löydy.",module,Magento_Vault
 "Wrong request.","Väärä pyyntö.",module,Magento_Vault
 "Deletion failure. Please try again.","Poistaminen epäonnistui. Yritä uudelleen.",module,Magento_Vault
-"Credit Card was successfully removed","Luottokortti poistettiin onnistuneesti",module,Magento_Vault
-"My Credit Cards","Omat luottokortit",module,Magento_Vault
 "Card Number","Kortin numero",module,Magento_Vault
 "Expiration Date","Viimeinen voimassaolopäivä",module,Magento_Vault
 Type,Tyyppi,module,Magento_Vault
-"You have no credit cards.","Sinulla ei ole luottokortteja.",module,Magento_Vault
 ending,päättyy,module,Magento_Vault
 Actions,Toiminnot,module,Magento_Vault
 Delete,Poista,module,Magento_Vault
@@ -3391,7 +3374,6 @@ items,tuotetta,module,Magento_Checkout
 "Options Details","Vaihtoehdot tiedot",module,Magento_Checkout
 Remove,Poista,module,Magento_Checkout
 "Cart Subtotal","Ostoskorin välisumma",module,Magento_Checkout
-"No Payment Methods","Ei maksutapoja",module,Magento_Checkout
 "Payment Information",Maksutiedot,module,Magento_Checkout
 "No Payment method available.","Maksutapaa ei ole saatavilla.",module,Magento_Checkout
 "You can track your order status by creating an account.","Voit seurata tilaustasi luomalla asiakastilin.",module,Magento_Checkout
@@ -3737,12 +3719,12 @@ Action,Toiminto,module,Magento_Backup
 Select...,Valitse...,module,Magento_Braintree
 Status,Tila,module,Magento_Braintree
 "Transaction Type",Tapahtumatyyppi,module,Magento_Braintree
+"Payment Type",Maksutapa,module,Magento_Braintree
 "PayPal Payment ID",PayPal-maksutunnus,module,Magento_Braintree
+"Created At",Luontiaika,module,Magento_Braintree
 "Transaction ID","Tapahtuman ID",module,Magento_Braintree
 "Order ID",Tilausnumero,module,Magento_Braintree
-"Payment Type",Maksutapa,module,Magento_Braintree
 Type,Tyyppi,module,Magento_Braintree
-"Created At",Luontiaika,module,Magento_Braintree
 Amount,Summa,module,Magento_Braintree
 Currency,Valuutta,module,Magento_Braintree
 Select...,Valitse...,module,Magento_Bundle

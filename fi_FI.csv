@@ -298,7 +298,6 @@ Next,Seuraava,module,Magento_Backend
 Time,Aika,module,Magento_Backend
 Hour,Tunti,module,Magento_Backend
 Minute,Minuutti,module,Magento_Backend
-"Report Bugs","Raportoi ongelmista",module,Magento_Backend
 "Store View:",Kauppanäkymä:,module,Magento_Backend
 "Stores Configuration","Kaupan asetukset",module,Magento_Backend
 "Please confirm scope switching. All data that hasn't been saved will be lost.","Vahvista kohdekaupan vaihtaminen. Kaikki tallentamattomat tiedot menetetään.",module,Magento_Backend
@@ -392,6 +391,8 @@ Country,Maa,module,Magento_Braintree
 "Expiration Date","Viimeinen voimassaolopäivä",module,Magento_Braintree
 "Card Verification Number","Luottokortin tarkistenumero",module,Magento_Braintree
 ending,päättyy,module,Magento_Braintree
+Actions,Toiminnot,module,Magento_Braintree
+Delete,Poista,module,Magento_Braintree
 "Percent Discount",Alennusprosentti,module,Magento_Bundle
 "-- Select --","-- Valitse --",module,Magento_Bundle
 Dynamic,Dynaaminen,module,Magento_Bundle
@@ -468,7 +469,6 @@ Always,Aina,module,Magento_Captcha
 "Entity type model '%1' is not found","Entiteetin tyyppimallia '%1' ei löydy",module,Magento_CatalogImportExport
 "Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType","Entiteetin tyyppimallin on oltava \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType instanssi",module,Magento_CatalogImportExport
 "There are no product types available for export.","Vietäviä tuotetyyppejä ei ole saatavilla.",module,Magento_CatalogImportExport
-"Entity type model must be an instance of Magento\CatalogImportExport\Model\Import\Product\Type\AbstractType","Entiteetin tyyppimallin on oltava \Magento\CatalogImportExport\Model\Import\Product\Type\AbstractType instanssi",module,Magento_CatalogImportExport
 "Category ""%1"" has not been created.","Kategoriaa ""%1"" ei ole luotu.",module,Magento_CatalogImportExport
 "File directory '%1' is not readable.","Tiedostokansio '%1' ei ole luettavissa.",module,Magento_CatalogImportExport
 "File directory '%1' is not writable.","Tiedostokansio '%1' ei ole kirjoitettavissa.",module,Magento_CatalogImportExport
@@ -793,7 +793,6 @@ message,viesti,module,Magento_Catalog
 Images,Kuvat,module,Magento_Catalog
 Select...,Valitse...,module,Magento_Catalog
 "Advanced Pricing","Hinnoittelun lisäasetukset",module,Magento_Catalog
-"Tier Price",Ryhmähinnoittelu,module,Magento_Catalog
 "Customer Group",Asiakasryhmä,module,Magento_Catalog
 To,Asti,module,Magento_Catalog
 Done,Valmis,module,Magento_Catalog
@@ -954,7 +953,6 @@ Checkout,Kassa,module,Magento_Checkout
 "Error message!",Virheilmoitus!,module,Magento_Checkout
 Error!,Virhe!,module,Magento_Checkout
 "DB exception",Tietokantavirhe,module,Magento_Checkout
-"Wrong minimum amount.","Väärä vähimmäismäärä.",module,Magento_Checkout
 Message,Vesti,module,Magento_Checkout
 "<a href=""%1"" onclick=""this.target='_blank'"" class=""print"">Print receipt</a>","<a href=""%1"" onclick=""this.target='_blank'"" class=""print"">Tulosta kuitti</a>",module,Magento_Checkout
 "Apply Discount Code","Käytä alennuskoodi",module,Magento_Checkout
@@ -1051,7 +1049,6 @@ Pages,Sivut,module,Magento_Cms
 "All Store Views","Kaikki kauppanäkymät",module,Magento_Cms
 Edit,Muokkaa,module,Magento_Cms
 Delete,Poista,module,Magento_Cms
-"Are you sure you wan't to delete a ${ $.$data.title } record?","Haluatko varmasti poistaa ${ $.$data.title } tietueen?",module,Magento_Cms
 "Browse Files...","Selaa tiedostoja...",module,Magento_Cms
 "Default Config",Oletusasetus,module,Magento_Config
 "Save Config","Tallenna asetus",module,Magento_Config
@@ -1283,7 +1280,6 @@ Download,Lataa,module,Magento_Customer
 "If you are a registered VAT customer, please <a href=""%1"">click here</a> to enter your billing address for proper VAT calculation.","Jos olet rekisteröitynyt ALV-asiakas, ole hyvä ja klikkaa <a href=""%1""> tästä</a> syöttääksesi laskutusosoitteen oikeaa ALV-laskentaa varten.",module,Magento_Customer
 "Account Information","Tilin tiedot",module,Magento_Customer
 "You saved the account information.","Tilin tiedot on tallennettu.",module,Magento_Customer
-"The account is locked. Please wait and try again or contact %1.","Tili on lukittu. Odota hetki ja yritä uudelleen tai ota yhteyttä %1.",module,Magento_Customer
 "Password confirmation doesn't match entered password.","Salasanan vahvistus ei täsmää annettuun salasanaan.",module,Magento_Customer
 "The password doesn't match this account.","Salasana ei ole oikein.",module,Magento_Customer
 "Please correct the email address.","Korjaa sähköpostiosoite.",module,Magento_Customer
@@ -1340,13 +1336,6 @@ Customers,Asiakkaat,module,Magento_Customer
 "The password can't begin or end with a space.","Salasana ei voi alkaa tai loppua välilyönnillä.",module,Magento_Customer
 "This customer already exists in this store.","Tämä asiakas on jo olemassa tässä kaupassa.",module,Magento_Customer
 "A customer with the same email already exists in an associated website.","Asiakas samalla sähköpostiosoitteella on jo olemassa liitetyn verkkosivuston yhteydessä.",module,Magento_Customer
-"Please enter the first name.","Kirjoita etunimesi.",module,Magento_Customer
-"Please enter the last name.","Syötä sukunimi.",module,Magento_Customer
-"Please enter the street.","Syötä katu.",module,Magento_Customer
-"Please enter the city.","Anna kaupunki.",module,Magento_Customer
-"Please enter the phone number.","Syötä puhelinnumero.",module,Magento_Customer
-"Please enter the zip/postal code.","Anna postinumero.",module,Magento_Customer
-"Please enter the country.","Syötä maa.",module,Magento_Customer
 """%1"" is a required value.","""%1"" on pakollinen tieto.",module,Magento_Customer
 Global,Globaali,module,Magento_Customer
 "Per Website",Verkkosivukohtainen,module,Magento_Customer
@@ -2158,7 +2147,6 @@ Tax,Vero,module,Magento_Quote
 "Cannot set shipping method. %1","Toimitustapaa ei voida määrittää. %1",module,Magento_Quote
 "Shipping method is not applicable for empty cart","Toimitustapa ei ole sovellettavissa tyhjään ostoskoriin",module,Magento_Quote
 "Cart contains virtual product(s) only. Shipping method is not applicable.","Ostoskori sisältää vain virtuaalisia tuotteita. Toimitusosoite ei ole käytettävissä.",module,Magento_Quote
-error123,virhe123,module,Magento_Quote
 error345,virhe345,module,Magento_Quote
 "New Accounts","Uudet tilit",module,Magento_Reports
 "Customers by number of orders","Asiakkaat tilausmäärien mukaan",module,Magento_Reports
@@ -2362,7 +2350,6 @@ Auto,Autom.,module,Magento_SalesRule
 "By Fixed value","Kiinteällä arvolla",module,Magento_SalesRule
 Subtotal,Välisumma,module,Magento_SalesRule
 "Total Weight",Kokonaispaino,module,Magento_SalesRule
-"Payment Method",Maksutapa,module,Magento_SalesRule
 "Shipping Method",Toimitustapa,module,Magento_SalesRule
 "Quantity in cart","Määrä ostoskorissa",module,Magento_SalesRule
 "Price in cart","Hinta ostoskorissa",module,Magento_SalesRule
@@ -3364,12 +3351,8 @@ Cancel,Peruuta,module,Magento_Checkout
 "You can create an account after checkout.","Voit luoda tilin kassan jälkeen.",module,Magento_Checkout
 "You already have an account with us. Sign in or continue as guest.","Sinulla on jo tili. Kirjaudu sisään tai jatkaa vieraana.",module,Magento_Checkout
 Login,Kirjaudu,module,Magento_Checkout
-Close,Sulje,module,Magento_Checkout
 item,nimike,module,Magento_Checkout
 items,tuotetta,module,Magento_Checkout
-"Go to Checkout","Siirry kassalle",module,Magento_Checkout
-"Recently added item(s)","Äskettäin lisätyt kohteet",module,Magento_Checkout
-"View and edit cart","Tarkastele ja muokkaa ostoskoria",module,Magento_Checkout
 "See Details",Lisätietoja,module,Magento_Checkout
 "Options Details","Vaihtoehdot tiedot",module,Magento_Checkout
 Remove,Poista,module,Magento_Checkout
@@ -3392,8 +3375,6 @@ edit,muokkaa,module,Magento_Checkout
 Next,Seuraava,module,Magento_Checkout
 "Sorry, no quotes are available for this order at this time","Valitettavasti tarjoukset eivät saatavilla tilaukseen tällä hetkellä",module,Magento_Checkout
 "Order Summary","Tilauksen yhteenveto",module,Magento_Checkout
-"Item in Cart","Tuote ostoskorissa",module,Magento_Checkout
-"Items in Cart","Tuotteet ostoskorissa",module,Magento_Checkout
 "View Details","Näytä yksityiskohdat",module,Magento_Checkout
 "Contact Form",Yhteydenottolomake,module,Magento_Contact
 "Name: %name","Nimi: %name",module,Magento_Contact
@@ -3800,7 +3781,6 @@ Content,Sisältö,module,Magento_Catalog
 "Category Image","Kategorian kuva",module,Magento_Catalog
 "Add CMS Block","Lisää CMS-lohko",module,Magento_Catalog
 "Display Settings",Näyttöasetukset,module,Magento_Catalog
-"Sort Products By","Lajittele tuotteet",module,Magento_Catalog
 "Meta Title",Metaotsikko,module,Magento_Catalog
 "Meta Keywords","Meta avainsanat",module,Magento_Catalog
 "Meta Description",Metakuvaus,module,Magento_Catalog
@@ -3837,7 +3817,6 @@ Details,Yksityiskohdat,module,Magento_Catalog
 "Display Cart Summary","Näytä ostoskorin yhteenveto",module,Magento_Checkout
 "Shopping Cart Sidebar",Ostoskorisivupalkki,module,Magento_Checkout
 "Display Shopping Cart Sidebar","Näytä ostoskorisivupalkki",module,Magento_Checkout
-"Maximum Display Recently Added Item(s)","Näytettävien viimeksi lisättyjen tuotteiden maksimimäärä",module,Magento_Checkout
 "Payment Failed Emails","Epäonnistuneen maksun sähköpostit",module,Magento_Checkout
 "Payment Failed Email Sender","Epäonnistuneen maksun sähköpostin lähettäjä",module,Magento_Checkout
 "Payment Failed Email Receiver","Epäonnistuneen maksun sähköpostin vastaanottaja",module,Magento_Checkout
@@ -4200,9 +4179,7 @@ Taxes,Verot,module,Magento_Tax
 "Order Total Incl. Tax","Yhteensä verollinen",module,Magento_Tax
 "1 column","1 sarake",module,Magento_Theme
 "Default Robots",Oletusrobotit,module,Magento_Theme
-"Reset to Defaults","Palauta oletukset",module,Magento_Theme
 "Default welcome msg!",Oletustervetuliaisviesti!,module,Magento_Theme
-"Copyright © 2016 Magento. All rights reserved.","Copyright © 2016 Magento. Kaikki oikeudet pidätetään.",module,Magento_Theme
 "Theme Information","Teeman tiedot",module,Magento_Theme
 "Allowed file types: ico, png, gif, jpg, jpeg, apng, svg. Not all browsers support all these formats!","Sallitut tiedostotyypit: ico, png, gif, jpg, jpeg, apng, svg. Kaikki selaimet eivät tue kaikkia näitä muotoja!",module,Magento_Theme
 "Logo Image","Logon kuva",module,Magento_Theme

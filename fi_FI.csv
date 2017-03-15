@@ -4,7 +4,7 @@
 Remove,Poista,module,Magento_AdminNotification
 "Messages Inbox",Saapuneet-kansio,module,Magento_AdminNotification
 "You have %1 new system messages","Sinulla on %1 uutta järjestelmäviesti(ä)",module,Magento_AdminNotification
-"You have %1 new system message","Sinulla on %1 uutta järjestelmäviesti(ä)",module,Magento_AdminNotification
+"You have %1 new system message","Sinulla on %1 uusi järjestelmäviesti",module,Magento_AdminNotification
 "Incoming Message","Saapuva viesti",module,Magento_AdminNotification
 close,sulje,module,Magento_AdminNotification
 Notifications,Ilmoitukset,module,Magento_AdminNotification
@@ -61,7 +61,7 @@ void,mitätön,module,Magento_Authorizenet
 "Invalid transaction ID.","Virheellinen tapahtumatunnus.",module,Magento_Authorizenet
 "Invalid amount for refund.","Virheellinen hyvityssumma.",module,Magento_Authorizenet
 "This payment didn't work out because we can't find this order.","Maksu ei onnistunut, koska emme löydä tätä tilausta.",module,Magento_Authorizenet
-"Something went wrong: the paid amount doesn't match the order amount. Please correct this and try again.","Jotain meni pieleen: maksettu summa ei vastaa tilauksen summaa. Korjaa se ja yritä uudelleen.",module,Magento_Authorizenet
+"Something went wrong: the paid amount doesn't match the order amount. Please correct this and try again.","Jotain meni pieleen: maksettu summa ei vastaa tilauksen summaa. Korjaa ja yritä uudelleen.",module,Magento_Authorizenet
 "Credit Card Type",Luottokorttityyppi,module,Magento_Authorizenet
 "Credit Card Number","Luottokortin numero",module,Magento_Authorizenet
 "Expiration Date","Viimeinen voimassaolopäivä",module,Magento_Authorizenet
@@ -192,7 +192,7 @@ From,Alkaen,module,Magento_Backend
 To,Asti,module,Magento_Backend
 "Date selector","Päivämäärän valitsin",module,Magento_Backend
 "Select All","Valitse kaikki",module,Magento_Backend
-"We couldn't find any records.","Emme löytäneet yhtään tietuetta.",module,Magento_Backend
+"We couldn't find any records.","Yhtään tietuetta ei löytynyt.",module,Magento_Backend
 "Add New","Lisää uusi",module,Magento_Backend
 Export,Vienti,module,Magento_Backend
 "Please correct the column format and try again.","Korjaa sarakkeen muoto ja yritä uudelleen.",module,Magento_Backend
@@ -237,7 +237,7 @@ Error,Virhe,module,Magento_Backend
 System,Järjestelmä,module,Magento_Backend
 "Manage Stores","Hallinnoi kauppoja",module,Magento_Backend
 "The database was backed up.","Tietokanta on varmuuskopioitu.",module,Magento_Backend
-"We can't create a backup right now. Please try again later.","Emme voi luoda varmuuskopiota juuri nyt. Yritä myöhemmin uudelleen.",module,Magento_Backend
+"We can't create a backup right now. Please try again later.","Varmuuskopiota ei voida luoda juuri nyt. Yritä myöhemmin uudelleen.",module,Magento_Backend
 "Something went wrong. Please try again.","Jokin meni vikaan. Yritä uudelleen.",module,Magento_Backend
 "This store cannot be deleted.","Tätä kauppaa ei voi poistaa.",module,Magento_Backend
 "You deleted the store.","Poistit kaupan.",module,Magento_Backend
@@ -360,7 +360,7 @@ Database,Tietokanta,module,Magento_Backup
 "The backup file path was not specified.","Varmuuskopiotiedoston polkua ei ole määritetty.",module,Magento_Backup
 "The backup file ""%1"" does not exist.","Varmuuskopiotiedostoa ""%1"" ei ole olemassa.",module,Magento_Backup
 "Something went wrong while writing to the backup file ""%1"".","Tapahtui virhe kirjoitettaessa varmuuskopiotiedostoon ""%1"".",module,Magento_Backup
-"We can't save the Cron expression.","Emme voi tallentaa cron-lauseketta.",module,Magento_Backup
+"We can't save the Cron expression.","Cron-lauseketta ei voida tallentaa.",module,Magento_Backup
 "You will lose any data created since the backup was made, including admin users, customers and orders.","Menetät kaikki tiedot jotka on luotu varmuuskopion luomisen jälkeen, mukaan lukien ylläpitäjät, asiakkaat ja tilaukset.",module,Magento_Backup
 "Are you sure you want to continue?","Haluatko varmasti jatkaa?",module,Magento_Backup
 "This may take a few moments.","Tämä saattaa kestää hetken.",module,Magento_Backup
@@ -413,7 +413,7 @@ Delete,Poista,module,Magento_Bundle
 "As Low as",Alkaen,module,Magento_Bundle
 Together,Yhdessä,module,Magento_Bundle
 Separately,Erikseen,module,Magento_Bundle
-"We can't add this item to your shopping cart right now.","Emme voi lisätä tätä tuotetta ostoskoriisi juuri nyt.",module,Magento_Bundle
+"We can't add this item to your shopping cart right now.","Tätä tuotetta ei voida lisätä ostoskoriisi juuri nyt.",module,Magento_Bundle
 N/A,"Ei tietoa",module,Magento_Bundle
 Cancel,Peruuta,module,Magento_Bundle
 "Add Selected Products","Lisää valitut tuotteet",module,Magento_Bundle
@@ -714,14 +714,14 @@ None,"Ei mikään",module,Magento_Catalog
 "You deleted the category.","Poistit kategorian.",module,Magento_Catalog
 Categories,Kategoriat,module,Magento_Catalog
 Catalog,Katalogi,module,Magento_Catalog
-"We can't delete the attribute.","Emme voi poistaa ominaisuutta.",module,Magento_Catalog
-"We can't find an attribute to delete.","Emme löydä ominaisuutta poistettavaksi.",module,Magento_Catalog
+"We can't delete the attribute.","Ominaisuutta ei voida poistaa.",module,Magento_Catalog
+"We can't find an attribute to delete.","Poistettavaa ominaisuutta ei löydy.",module,Magento_Catalog
 "This attribute cannot be edited.","Tätä attribuuttia ei voi muokata.",module,Magento_Catalog
 "Edit Product Attribute","Muokkaa tuoteattribuuttia",module,Magento_Catalog
 "An attribute set named '%1' already exists.","Ominaisuusjoukko nimellä '%1' on jo olemassa.",module,Magento_Catalog
 "Something went wrong while saving the attribute.","Tapahtui virhe tallennettaessa attribuuttia.",module,Magento_Catalog
 "Attribute code ""%1"" is invalid. Please use only letters (a-z), numbers (0-9) or underscore(_) in this field, first character should be a letter.","Attribuuttikoodi ""%1"" ei kelpaa. Käytä vain kirjaimia (a-z), numeroita (0-9) tai alaviivaa (_) tässä kentässä, ensimmäisen merkin tulisi olla kirjain.",module,Magento_Catalog
-"We can't update the attribute.","Emme voi päivittää ominaisuutta.",module,Magento_Catalog
+"We can't update the attribute.","Ominaisuutta ei voida päivittää.",module,Magento_Catalog
 "You saved the product attribute.","Tuoteattribuutti tallennettiin.",module,Magento_Catalog
 "An attribute with this code already exists.","Attribuutti tällä koodilla on jo olemassa.",module,Magento_Catalog
 "An attribute with the same code (%1) already exists.","Attribuutti samalla koodilla (%1) on jo olemassa.",module,Magento_Catalog
@@ -741,7 +741,7 @@ Grid,Ruudukko,module,Magento_Catalog
 List,Luettelo,module,Magento_Catalog
 All,Kaikki,module,Magento_Catalog
 "Product is not loaded","Tuotetta ei ole ladattu",module,Magento_Catalog
-"Can't delete root category.","Juurikategoriaa ei voida poistaa.",module,Magento_Catalog
+"Can't delete root category.","Juurikategoriaa ei voi poistaa.",module,Magento_Catalog
 "The value of attribute ""%1"" must be unique.","Attribuutin ""%1"" arvon on oltava yksilöllinen.",module,Magento_Catalog
 "No layout updates","Ei asettelun päivityksiä",module,Magento_Catalog
 "Products only","Vain tuotteet",module,Magento_Catalog
@@ -1085,6 +1085,7 @@ Yes,Kyllä,module,Magento_Config
 Delete,Poista,module,Magento_Config
 Stores,Kaupat,module,Magento_Config
 "Add configurable attributes to the current Attribute Set (""%1"")","Lisää muokattavissa olevia attribuutteja nykyiseen attribuuttiryhmään (""%1"")",module,Magento_ConfigurableProduct
+"New attribute set name","Uusi ominaisuusjoukon nimi",module,Magento_ConfigurableProduct
 "Add configurable attributes to the existing Attribute Set","Lisää muokattavissa olevia attribuutteja olemassa olevaan attribuuttisettiin",module,Magento_ConfigurableProduct
 Save,Tallenna,module,Magento_ConfigurableProduct
 "Save & New","Tallenna & uusi",module,Magento_ConfigurableProduct
@@ -1168,7 +1169,7 @@ System,Järjestelmä,module,Magento_CurrencySymbol
 "You subscribe to our newsletter.","Tilaat uutiskirjeemme.",module,Magento_Customer
 "You don't subscribe to our newsletter.","Et tilaa uutiskirjettämme.",module,Magento_Customer
 "You have not set a default shipping address.","Et ole määrittänyt oletus toimitusosoitetta.",module,Magento_Customer
-"You have not set a default billing address.","Et ole määrittänyt oletus osoitetta.",module,Magento_Customer
+"You have not set a default billing address.","Et ole määrittänyt oletusosoitetta.",module,Magento_Customer
 "Address Book",Osoitekirja,module,Magento_Customer
 "Edit Address","Muokkaa osoitetta",module,Magento_Customer
 "Add New Address","Lisää uusi osoite",module,Magento_Customer
@@ -1216,7 +1217,7 @@ Purchased,Ostettu,module,Magento_Customer
 "Order Total",Loppusumma,module,Magento_Customer
 "Purchase Point",Ostopiste,module,Magento_Customer
 "Customer View",Asiakasnäkymä,module,Magento_Customer
-"There are no items in customer's shopping cart.","Ostoskorissa ei ole asiakkaan tuotteita.",module,Magento_Customer
+"There are no items in customer's shopping cart.","Asiakkaan ostoskorissa ei ole tuotteita.",module,Magento_Customer
 Qty,Määrä,module,Magento_Customer
 Confirmed,Vahvistettu,module,Magento_Customer
 "Confirmation Required","Vahvistus vaaditaan",module,Magento_Customer
@@ -1283,7 +1284,7 @@ Download,Lataa,module,Magento_Customer
 "Password confirmation doesn't match entered password.","Salasanan vahvistus ei täsmää annettuun salasanaan.",module,Magento_Customer
 "The password doesn't match this account.","Salasana ei ole oikein.",module,Magento_Customer
 "Please correct the email address.","Korjaa sähköpostiosoite.",module,Magento_Customer
-"We're unable to send the password reset email.","Salasanan nollaussähköpostin lähettäminen epäonnistui.",module,Magento_Customer
+"We're unable to send the password reset email.","Salasanan palautussähköpostia ei voitu lähettää.",module,Magento_Customer
 "Please enter your email.","Syötä sähköpostiosoitteesi.",module,Magento_Customer
 "If there is an account associated with %1 you will receive an email with a link to reset your password.","Jos sähköpostiosoitteella %1 on olemassa tili, saat sähköpostin jossa on ohjeet uuden salasanan asettamiseksi.",module,Magento_Customer
 "My Account",Asiakastilini,module,Magento_Customer
@@ -2332,7 +2333,7 @@ Yes,Kyllä,module,Magento_SalesRule
 ID,Tunnus,module,Magento_SalesRule
 Rule,Sääntö,module,Magento_SalesRule
 Status,Tila,module,Magento_SalesRule
-"We can't delete the rule right now. Please review the log and try again.","Tätä sääntöä ei voida poistaa juuri nyt. Tarkista loki ja yritä uudelleen.",module,Magento_SalesRule
+"We can't delete the rule right now. Please review the log and try again.","Sääntöä ei voida poistaa juuri nyt. Tarkista loki ja yritä uudelleen.",module,Magento_SalesRule
 "We can't find a rule to delete.","Poistettavaa sääntöä ei löydy.",module,Magento_SalesRule
 "This rule no longer exists.","Tätä sääntöä ei ole enää olemassa.",module,Magento_SalesRule
 "Edit Rule","Muokkaa sääntöä",module,Magento_SalesRule
@@ -3526,7 +3527,7 @@ Footer,Alatunniste,theme,frontend/Magento/luma
 "Your shipping confirmation is below. Thank you again for your business.","Postitutsvahvistus alla. Kiitos vielä tilauksesta.",theme,frontend/Magento/luma
 "Your Shipment #%shipment_id for Order #%order_id","Postitus #%shipment_id tilaukselle #%order_id",theme,frontend/Magento/luma
 "Update to your %store_name shipment","Päivitys %store_name -postitukselle",theme,frontend/Magento/luma
-"We don't recognize or support this file extension type.","Emme tunnista tai tue tätä tiedostotyyppiä.",module,Magento_Backend
+"We don't recognize or support this file extension type.","Tätä tiedostotyyppiä ei tunnisteta tai tueta.",module,Magento_Backend
 Submit,Lähetä,module,Magento_Catalog
 "Please select items.","Valitse kohteet.",module,Magento_Catalog
 Adding...,Lisätään...,module,Magento_Catalog
@@ -3542,7 +3543,7 @@ Shipping,Toimitus,module,Magento_Checkout
 "Incl. Tax",Verollinen,module,Magento_ConfigurableProduct
 "An attribute has been removed. This attribute will no longer appear in your configurations.","Attribuutti on poistettu. Tämä attribuutti ei enää esiinny konfiguroinneissa.",module,Magento_ConfigurableProduct
 "Please choose image(s).","Valitse kuva(t).",module,Magento_ConfigurableProduct
-"We don't recognize or support this file extension type.","Emme tunnista tai tue tätä tiedostotyyppiä.",module,Magento_ConfigurableProduct
+"We don't recognize or support this file extension type.","Tätä tiedostotyyppiä ei tunnisteta tai tueta.",module,Magento_ConfigurableProduct
 "Are you sure you want to do this?","Haluatko varmasti tehdä tämän?",module,Magento_Customer
 "Are you sure you want to delete this address?","Oletko varma, että haluat poistaa tämän osoitteen?",module,Magento_Customer
 Weak,Heikko,module,Magento_Customer

@@ -4,7 +4,7 @@
 Remove,Poista,module,Magento_AdminNotification
 "Messages Inbox",Saapuneet-kansio,module,Magento_AdminNotification
 "You have %1 new system messages","Sinulla on %1 uutta järjestelmäviesti(ä)",module,Magento_AdminNotification
-"You have %1 new system message","Sinulla on %1 uutta järjestelmäviesti(ä)",module,Magento_AdminNotification
+"You have %1 new system message","Sinulla on %1 uusi järjestelmäviesti",module,Magento_AdminNotification
 "Incoming Message","Saapuva viesti",module,Magento_AdminNotification
 close,sulje,module,Magento_AdminNotification
 Notifications,Ilmoitukset,module,Magento_AdminNotification
@@ -865,6 +865,7 @@ Pages,Sivut,module,Magento_Cms
 "Disabled by Default","Oletusarvoisesti pois käytöstä",module,Magento_Cms
 "Disabled Completely","Kokonaan pois käytöstä",module,Magento_Cms
 "Browse Files...","Selaa tiedostoja...",module,Magento_Cms
+"New attribute set name","Uusi ominaisuusjoukon nimi",module,Magento_ConfigurableProduct
 "Choose an Option...","Valitse vaihtoehto...",module,Magento_ConfigurableProduct
 Select,Valitse,module,Magento_ConfigurableProduct
 Price,Hinta,module,Magento_ConfigurableProduct
@@ -898,7 +899,7 @@ System,Järjestelmä,module,Magento_CurrencySymbol
 "Old rate:","Vanha kurssi:",module,Magento_CurrencySymbol
 "You subscribe to our newsletter.","Tilaat uutiskirjeemme.",module,Magento_Customer
 "You have not set a default shipping address.","Et ole määrittänyt oletus toimitusosoitetta.",module,Magento_Customer
-"You have not set a default billing address.","Et ole määrittänyt oletus osoitetta.",module,Magento_Customer
+"You have not set a default billing address.","Et ole määrittänyt oletusosoitetta.",module,Magento_Customer
 "Address Book",Osoitekirja,module,Magento_Customer
 "Edit Address","Muokkaa osoitetta",module,Magento_Customer
 "Add New Address","Lisää uusi osoite",module,Magento_Customer

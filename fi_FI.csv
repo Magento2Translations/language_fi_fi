@@ -276,6 +276,7 @@ password,salasana,module,Magento_Backend
 "Sign in","Kirjaudu sisään",module,Magento_Backend
 "Select Range:","Valitse rajaukset:",module,Magento_Backend
 "No Data Found","Tietoja ei löytynyt",module,Magento_Backend
+"Chart is disabled. To enable the chart, click <a href=""%1"">here</a>.","Kaavio ei ole käytössä. Klikkaa <a href=""%1"">tästä</a> ottaaksesi kaavion käyttöön.",module,Magento_Backend
 "Last Orders","Edelliset tilaukset",module,Magento_Backend
 "Last Search Terms","Viimeisimmät hakutermit",module,Magento_Backend
 "Top Search Terms","Käytetyimmät hakusanat",module,Magento_Backend
@@ -451,6 +452,7 @@ Edit,Muokkaa,module,Magento_Braintree
 "-- Select --","-- Valitse --",module,Magento_Bundle
 Dynamic,Dynaaminen,module,Magento_Bundle
 Fixed,Kiinteä,module,Magento_Bundle
+"Create New Option","Luo uusi vaihtoehto",module,Magento_Bundle
 "Bundle Items",Pakettituotteet,module,Magento_Bundle
 "Add Products to Option","Tuotteiden lisääminen ryhmään",module,Magento_Bundle
 Close,Sulje,module,Magento_Bundle
@@ -1904,7 +1906,7 @@ Action,Toiminto,module,Magento_Newsletter
 "Newsletter Queue",Uutiskirjejono,module,Magento_Newsletter
 "Edit Queue","Muokkaa jonoa",module,Magento_Newsletter
 "Please correct the newsletter template and try again.","Korjaa uutiskirjeen mallipohja ja yritä uudelleen.",module,Magento_Newsletter
-"You saved the newsletter queue.","Tallensit uutiskirjeen lähetysjonon.",module,Magento_Newsletter
+"You saved the newsletter queue.","Uutiskirjeen lähetysjono tallennettu.",module,Magento_Newsletter
 "Newsletter Subscribers","Uutiskirjeen tilaajat",module,Magento_Newsletter
 Newsletter,Uutiskirje,module,Magento_Newsletter
 Subscribers,Tilaajat,module,Magento_Newsletter
@@ -3814,6 +3816,7 @@ Enabled,Käytössä,module,Magento_Sales
 "Shipment Comments","Lähetyksen kommentit",module,Magento_Sales
 "PDF Print-outs",PDF-tulosteet,module,Magento_Sales
 "Orders and Returns Search Form","Tilaukset ja palautukset -hakulomake",module,Magento_Sales
+Template,Mallipohja,module,Magento_Sales
 Name,Nimi,module,Magento_Sales
 Phone,Puhelin,module,Magento_Sales
 "ZIP/Post Code",Postinumero,module,Magento_Sales
@@ -3824,7 +3827,9 @@ Created,Luotu,module,Magento_Sales
 "Ship-to Name","Vastaanottajan nimi",module,Magento_Sales
 "Ship Date",Lähetyspäivämäärä,module,Magento_Sales
 "Total Quantity",Kokonaismäärä,module,Magento_Sales
+"Default Status",Oletustila,module,Magento_Sales
 "All Store Views","Kaikki kauppanäkymät",module,Magento_Sales
+"PDF Credit Memos","PDF hyvityslaskut",module,Magento_Sales
 "Print Invoices","Tulosta laskut",module,Magento_Sales
 "Print Packing Slips","Tulosta pakkausluettelot",module,Magento_Sales
 "Print Credit Memos","Tulosta hyvityslaskut",module,Magento_Sales
@@ -3833,7 +3838,11 @@ Created,Luotu,module,Magento_Sales
 "Purchase Date",Ostopäivämäärä,module,Magento_Sales
 "Grand Total (Base)","Loppusumma (peruste)",module,Magento_Sales
 "Grand Total (Purchased)","Loppusumma (ostettu)",module,Magento_Sales
+"Shipping and Handling","Lähetys- ja käsittelykulut",module,Magento_Sales
 "PDF Invoices",PDF-laskut,module,Magento_Sales
+"PDF Shipments",PDF-lähetysasiakirjat,module,Magento_Sales
+"PDF Creditmemos",PDF-hyvityslaskut,module,Magento_Sales
+Refunds,Hyvitykset,module,Magento_Sales
 "Search Engine",Hakukone,module,Magento_Search
 ID,Tunnus,module,Magento_Search
 Hits,Käynnit,module,Magento_Search

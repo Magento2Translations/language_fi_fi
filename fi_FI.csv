@@ -233,6 +233,7 @@ password,salasana,module,Magento_Backend
 "Sign in","Kirjaudu sisään",module,Magento_Backend
 "Select Range:","Valitse rajaukset:",module,Magento_Backend
 "No Data Found","Tietoja ei löytynyt",module,Magento_Backend
+"Chart is disabled. To enable the chart, click <a href=""%1"">here</a>.","Kaavio ei ole käytössä. Klikkaa <a href=""%1"">tästä</a> ottaaksesi kaavion käyttöön.",module,Magento_Backend
 "Last Orders","Edelliset tilaukset",module,Magento_Backend
 "Last Search Terms","Viimeisimmät hakutermit",module,Magento_Backend
 "Top Search Terms","Käytetyimmät hakusanat",module,Magento_Backend
@@ -360,6 +361,7 @@ Edit,Muokkaa,module,Magento_Braintree
 "-- Select --","-- Valitse --",module,Magento_Bundle
 Dynamic,Dynaaminen,module,Magento_Bundle
 Fixed,Kiinteä,module,Magento_Bundle
+"Create New Option","Luo uusi vaihtoehto",module,Magento_Bundle
 "Bundle Items",Pakettituotteet,module,Magento_Bundle
 "Add Products to Option","Tuotteiden lisääminen ryhmään",module,Magento_Bundle
 Close,Sulje,module,Magento_Bundle
@@ -2854,6 +2856,8 @@ Created,Luotu,module,Magento_Sales
 "Ship-to Name","Vastaanottajan nimi",module,Magento_Sales
 "Ship Date",Lähetyspäivämäärä,module,Magento_Sales
 "Total Quantity",Kokonaismäärä,module,Magento_Sales
+"Default Status",Oletustila,module,Magento_Sales
+"PDF Credit Memos","PDF hyvityslaskut",module,Magento_Sales
 "Print Invoices","Tulosta laskut",module,Magento_Sales
 "Print Packing Slips","Tulosta pakkausluettelot",module,Magento_Sales
 "Print Credit Memos","Tulosta hyvityslaskut",module,Magento_Sales

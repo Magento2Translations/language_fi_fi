@@ -2190,6 +2190,7 @@ Orders,Tilaukset,module,Magento_Reports
 "Total Refunded","Yhteensä hyvitetty",module,Magento_Reports
 "Sales Items","Myynnin tuotteet",module,Magento_Reports
 Items,Tuotteet,module,Magento_Reports
+Revenue,Tulot,module,Magento_Reports
 Invoiced,Laskutettu,module,Magento_Reports
 Paid,Maksettu,module,Magento_Reports
 Refunded,Hyvitetty,module,Magento_Reports
@@ -3391,6 +3392,7 @@ Next,Seuraava,module,Magento_Checkout
 "To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","Kirjautuaksesi sivustollemme, käytä näitä tunnistetietoja kassalla tai <a href=""%customer_url"">Oma tili</a> -sivulla:",module,Magento_Customer
 Email:,Sähköposti:,module,Magento_Customer
 Password:,Salasana:,module,Magento_Customer
+"Password you set when creating account","Salasana, jonka asetat tilin luonnin yhteydessä",module,Magento_Customer
 "Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","Unohditko salasanan? Klikkaa <a href=""%reset_url"">tästä</a> nollataksesi sen.",module,Magento_Customer
 "When you sign in to your account, you will be able to:","Kirjauduttuasi tilillesi voit:",module,Magento_Customer
 "Proceed through checkout faster","Ostaa nopeammin",module,Magento_Customer
@@ -3865,6 +3867,7 @@ Enable,"Ota käyttöön",module,Magento_Cms
 "Custom design to","Muokattu ulkoasu päättyen",module,Magento_Cms
 "Custom Theme","Muokattu teema",module,Magento_Cms
 "Allow everything","Salli kaikki",module,Magento_Config
+Dashboard,Hallintasivu,module,Magento_Config
 "Manage Stores","Hallinnoi kauppoja",module,Magento_Config
 "Field 2","Kenttä 2",module,Magento_Config
 "Field 3.1.1","Kenttä 3.1.1",module,Magento_Config
@@ -3895,6 +3898,7 @@ Currency,Valuutta,module,Magento_CurrencySymbol
 "Default Welcome Email",Oletustervetuliaisviesti,module,Magento_Customer
 "Welcome Email",Tervetuliaissähköposti,module,Magento_Customer
 "Forgot Email Template","Salasanan palautuksen sähköpostimalli",module,Magento_Customer
+"Minimum Password Length","Salasanan vähimmäispituus",module,Magento_Customer
 "Number of Lines in a Street Address","Katuosoitteen rivien määrä",module,Magento_Customer
 "Always optional.","Aina valinnainen.",module,Magento_Customer
 "Show Tax/VAT Number","Näytä ALV-numero / Y-tunnus",module,Magento_Customer
@@ -3912,6 +3916,7 @@ ZIP,Postinumero,module,Magento_Customer
 "Last Name",Sukunimi,module,Magento_Customer
 "Last Activity","Viimeksi nähty",module,Magento_Customer
 Type,Tyyppi,module,Magento_Customer
+"Account Dashboard","Tilin hallintapaneeli",module,Magento_Customer
 "Edit Account Information","Muokkaa tilin tietoja",module,Magento_Customer
 "Password forgotten","Salasana unohtunut",module,Magento_Customer
 "My Dashboard","Oma sivuni",module,Magento_Customer
@@ -3970,7 +3975,7 @@ Description,Kuvaus,module,Magento_Indexer
 Mode,Tila,module,Magento_Indexer
 Status,Tila,module,Magento_Indexer
 Updated,Päivitetty,module,Magento_Indexer
-"We couldn't find any records.","Emme löytäneet yhtään tietuetta.",module,Magento_Integration
+"We couldn't find any records.","Yhtään tietuetta ei löytynyt.",module,Magento_Integration
 Status,Tila,module,Magento_Integration
 "After selecting a new media storage location, press the Synchronize button to transfer all media to that location. Media will not be available in the new location until the synchronization process is complete.","Valittuasi uuden tallennuspaikka mediatiedoille, paina Synkronoi-painiketta siirtääksesi kaikki mediatiedot kyseiseen sijaintiin. Mediatiedot eivät ole käytettävissä uudessa sijainnissa ennen kuin synkronointi on valmis.",module,Magento_MediaStorage
 "Review Order","Tarkastele tilausta",module,Magento_Multishipping
@@ -4050,6 +4055,7 @@ Marketing,Markkinointi,module,Magento_Reports
 "Abandoned Cart","Hylätty ostoskori",module,Magento_Reports
 "Search Terms",Hakusanat,module,Magento_Reports
 New,Uusi,module,Magento_Reports
+Dashboard,Hallintasivu,module,Magento_Reports
 "Current Month Starts","Nykyinen kuukausi alkaa",module,Magento_Reports
 "Recently Viewed Products","Äskettäin katsotut tuotteet",module,Magento_Reports
 "Recently Compared Products","Äskettäin vertaillut tuotteet",module,Magento_Reports
@@ -4086,6 +4092,7 @@ Address,Osoite,module,Magento_Sales
 "Minimum Amount",Vähimmäismäärä,module,Magento_Sales
 "Subtotal after discount","Välisumma alennuksen jälkeen",module,Magento_Sales
 "Description Message",Kuvausviesti,module,Magento_Sales
+Dashboard,Hallintasivu,module,Magento_Sales
 "Sales Emails","Myynnin sähköpostit",module,Magento_Sales
 Enabled,Käytössä,module,Magento_Sales
 "Shipment Comments","Lähetyksen kommentit",module,Magento_Sales
@@ -4227,6 +4234,7 @@ Username,Käyttäjätunnus,module,Magento_User
 "Last login","Viimeisin kirjautuminen",module,Magento_User
 Failures,Epäonnistumiset,module,Magento_User
 Unlocked,Lukitsematon,module,Magento_User
+Password,Salasana,module,Magento_Usps
 "Handling Fee",Käsittelymaksu,module,Magento_Usps
 "Sort Order",Järjestys,module,Magento_Usps
 Name,Nimi,module,Magento_Variable

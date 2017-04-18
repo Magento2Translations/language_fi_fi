@@ -1649,6 +1649,7 @@ Orders,Tilaukset,module,Magento_Reports
 "Total Refunded","Yhteensä hyvitetty",module,Magento_Reports
 "Sales Items","Myynnin tuotteet",module,Magento_Reports
 Items,Tuotteet,module,Magento_Reports
+Revenue,Tulot,module,Magento_Reports
 Invoiced,Laskutettu,module,Magento_Reports
 Paid,Maksettu,module,Magento_Reports
 Refunded,Hyvitetty,module,Magento_Reports
@@ -2821,6 +2822,7 @@ User,Käyttäjä,module,Magento_Paypal
 "General Options","Yleiset asetukset",module,Magento_Persistent
 "Enable ""Remember Me""","Ota ""Muista minut"" käyttöön",module,Magento_Persistent
 """Remember Me"" Default Value","""Muista minut"" -oletusarvo",module,Magento_Persistent
+Dashboard,Hallintasivu,module,Magento_Reports
 "Current Month Starts","Nykyinen kuukausi alkaa",module,Magento_Reports
 "Recently Viewed Products","Äskettäin katsotut tuotteet",module,Magento_Reports
 "Recently Compared Products","Äskettäin vertaillut tuotteet",module,Magento_Reports
@@ -2842,6 +2844,7 @@ Address,Osoite,module,Magento_Sales
 "Minimum Amount",Vähimmäismäärä,module,Magento_Sales
 "Subtotal after discount","Välisumma alennuksen jälkeen",module,Magento_Sales
 "Description Message",Kuvausviesti,module,Magento_Sales
+Dashboard,Hallintasivu,module,Magento_Sales
 "Sales Emails","Myynnin sähköpostit",module,Magento_Sales
 Enabled,Käytössä,module,Magento_Sales
 "Shipment Comments","Lähetyksen kommentit",module,Magento_Sales
@@ -2924,6 +2927,7 @@ Username,Käyttäjätunnus,module,Magento_User
 "Last login","Viimeisin kirjautuminen",module,Magento_User
 Failures,Epäonnistumiset,module,Magento_User
 Unlocked,Lukitsematon,module,Magento_User
+Password,Salasana,module,Magento_Usps
 "Handling Fee",Käsittelymaksu,module,Magento_Usps
 "Sort Order",Järjestys,module,Magento_Usps
 "If empty, UTF-8 will be used.","Jos tyhjä, käytetään UTF-8.",module,Magento_Webapi

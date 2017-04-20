@@ -316,6 +316,7 @@ Thumbnail,Pienoiskuva,module,Magento_Backend
 selected,valittu,module,Magento_Backend
 "per page","per sivu",module,Magento_Backend
 "Previous page","Edellinen sivu",module,Magento_Backend
+"of %1","/ %1",module,Magento_Backend
 "Next page","Seuraava sivu",module,Magento_Backend
 "Export to:",Vieminen:,module,Magento_Backend
 Actions,Toiminnot,module,Magento_Backend
@@ -513,6 +514,7 @@ Type,Tyyppi,module,Magento_CatalogRule
 "Attribute Set",Attribuuttiryhmä,module,Magento_CatalogRule
 SKU,Tuotenro,module,Magento_CatalogRule
 Product,Tuote,module,Magento_CatalogRule
+Promotions,Myynninedistäminen,module,Magento_CatalogRule
 "We can't apply the rules.","Sääntöjä ei voida ottaa käyttöön.",module,Magento_CatalogRule
 "You deleted the rule.","Poistit säännön.",module,Magento_CatalogRule
 "We can't delete this rule right now. Please review the log and try again.","Tätä sääntöä ei voida poistaa juuri nyt. Tarkista loki ja yritä uudelleen.",module,Magento_CatalogRule
@@ -715,6 +717,7 @@ None,"Ei mikään",module,Magento_Catalog
 "Special Products",Erikoistuotteet,module,Magento_Catalog
 "You deleted the category.","Poistit kategorian.",module,Magento_Catalog
 Categories,Kategoriat,module,Magento_Catalog
+"A total of %1 record(s) were updated.","Yhteensä %1 tietue(tta) päivitettiin.",module,Magento_Catalog
 Catalog,Katalogi,module,Magento_Catalog
 "We can't delete the attribute.","Ominaisuutta ei voida poistaa.",module,Magento_Catalog
 "We can't find an attribute to delete.","Poistettavaa ominaisuutta ei löydy.",module,Magento_Catalog
@@ -730,6 +733,8 @@ Catalog,Katalogi,module,Magento_Catalog
 "You duplicated the product.","Tuotteesta luotiin kaksoiskappale.",module,Magento_Catalog
 "This product doesn't exist.","Tätä tuotetta ei ole olemassa.",module,Magento_Catalog
 Products,Tuotteet,module,Magento_Catalog
+"A total of %1 record(s) have been deleted.","Yhteensä %1 tietue(tta) poistettu.",module,Magento_Catalog
+"A total of %1 record(s) have been updated.","Yhteensä %1 tietue(tta) päivitetty.",module,Magento_Catalog
 "Unable to save product","Tuotetta ei voida tallentaa",module,Magento_Catalog
 "You saved the product.","Tuote tallennettiin.",module,Magento_Catalog
 "You added product %1 to the comparison list.","Lisäsit tuotteen %1 vertailulistalle.",module,Magento_Catalog
@@ -1068,10 +1073,11 @@ Add,Lisää,module,Magento_Config
 Enable,"Ota käyttöön",module,Magento_Config
 Disable,"Poista käytöstä",module,Magento_Config
 System,Järjestelmä,module,Magento_Config
+"You saved the configuration.","Asetukset on tallennettu.",module,Magento_Config
 "Something went wrong while saving this configuration:","Tapahtui virhe tallennettaessa tätä asetusta:",module,Magento_Config
 "Page not found.","Sivua ei löydy.",module,Magento_Config
 "The file you're uploading exceeds the server size limit of %1 kilobytes.","Ladattavan tiedoston koko ylittää palvelimen kokorajoituksen %1 kilotavua.",module,Magento_Config
-"Base currency",Perusvaluutta,module,Magento_Config
+"Base currency",Oletusvaluutta,module,Magento_Config
 Bcc,Piilokopio,module,Magento_Config
 "%1 (Default)","%1 (oletus)",module,Magento_Config
 title,otsikko,module,Magento_Config
@@ -1727,6 +1733,7 @@ API,Rajapinta,module,Magento_Integration
 Save,Tallenna,module,Magento_Integration
 "Save & Activate","Tallenna & aktivoi",module,Magento_Integration
 "New Integration","Uusi integraatio",module,Magento_Integration
+General,Yleiset,module,Magento_Integration
 Name,Nimi,module,Magento_Integration
 Email,Sähköposti,module,Magento_Integration
 "Your Password",Salasanasi,module,Magento_Integration
@@ -2222,6 +2229,7 @@ Coupons,Alennuskoodit,module,Magento_Reports
 "Sales Report",Myyntiraportti,module,Magento_Reports
 "Tax Report",Veroraportti,module,Magento_Reports
 "Shopping Cart",Ostoskori,module,Magento_Reports
+"Abandoned Carts","Hylätyt ostoskorit",module,Magento_Reports
 Statistics,Tilastot,module,Magento_Reports
 "Total Invoiced VS Paid Report","Yhteensä laskutettu VS maksettu-raportti",module,Magento_Reports
 "Show By",Selaa,module,Magento_Reports
@@ -2270,6 +2278,8 @@ Websites,Sivustot,module,Magento_Review
 Reviews,Arvostelut,module,Magento_Review
 "The review has been deleted.","Arvostelu on poistettu.",module,Magento_Review
 "Edit Review","Muokkaa arvostelua",module,Magento_Review
+"A total of %1 record(s) have been deleted.","Yhteensä %1 tietue(tta) poistettu.",module,Magento_Review
+"A total of %1 record(s) have been updated.","Yhteensä %1 tietue(tta) päivitetty.",module,Magento_Review
 Ratings,Arvostelut,module,Magento_Review
 "You saved the rating.","Arvostelu tallennettiin.",module,Magento_Review
 "My Product Reviews","Omat tuotearvosteluni",module,Magento_Review
@@ -2337,11 +2347,13 @@ Yes,Kyllä,module,Magento_SalesRule
 ID,Tunnus,module,Magento_SalesRule
 Rule,Sääntö,module,Magento_SalesRule
 Status,Tila,module,Magento_SalesRule
+Promotions,Myynninedistäminen,module,Magento_SalesRule
 "We can't delete the rule right now. Please review the log and try again.","Sääntöä ei voida poistaa juuri nyt. Tarkista loki ja yritä uudelleen.",module,Magento_SalesRule
 "We can't find a rule to delete.","Poistettavaa sääntöä ei löydy.",module,Magento_SalesRule
 "This rule no longer exists.","Tätä sääntöä ei ole enää olemassa.",module,Magento_SalesRule
 "Edit Rule","Muokkaa sääntöä",module,Magento_SalesRule
 "New Rule","Uusi sääntö",module,Magento_SalesRule
+"New Cart Price Rule","Uusi ostoskorin hintasääntö",module,Magento_SalesRule
 Catalog,Katalogi,module,Magento_SalesRule
 Alphanumeric,Aakkosnumeerinen,module,Magento_SalesRule
 Numeric,Numeerinen,module,Magento_SalesRule
@@ -2463,6 +2475,7 @@ Information,Tietoja,module,Magento_Sales
 "Order Information","Tilauksen tiedot",module,Magento_Sales
 Transactions,Tapahtumat,module,Magento_Sales
 "Order View",Tilausnäkymä,module,Magento_Sales
+"Cart Price Rule","Ostoskorin hintasääntö",module,Magento_Sales
 Yes,Kyllä,module,Magento_Sales
 No,Ei,module,Magento_Sales
 "New Order RSS","Uusien tilauksien RSS",module,Magento_Sales
@@ -2995,6 +3008,7 @@ Manage,Hallitse,module,Magento_Theme
 "Theme Settings","Teeman asetukset",module,Magento_Theme
 "Theme Path","Teeman polku",module,Magento_Theme
 "Theme Preview Image","Teeman esikatselukuva",module,Magento_Theme
+General,Yleiset,module,Magento_Theme
 "Copy of %1","%1:n kopio",module,Magento_Theme
 "Allowed file types *.js.","Sallitut tiedostotyypit *.js.",module,Magento_Theme
 Theme,Teema,module,Magento_Theme
@@ -3359,6 +3373,7 @@ Cancel,Peruuta,module,Magento_Checkout
 Login,Kirjaudu,module,Magento_Checkout
 item,nimike,module,Magento_Checkout
 items,tuotetta,module,Magento_Checkout
+"Go to Checkout","Siirry kassalle",module,Magento_Checkout
 "See Details",Lisätietoja,module,Magento_Checkout
 "Options Details","Vaihtoehdot tiedot",module,Magento_Checkout
 Remove,Poista,module,Magento_Checkout
@@ -3575,6 +3590,7 @@ Selected,Valittu,module,Magento_Ui
 "Select All","Valitse kaikki",module,Magento_Ui
 "Deselect All","Poista kaikki valinnat",module,Magento_Ui
 On,Käytössä,module,Magento_Ui
+"Default View",Oletusnäkymä,module,Magento_Ui
 "Search by keyword","Etsi avainsanojen mukaan",module,Magento_Ui
 Keyword,Avainsana,module,Magento_Ui
 "Select Date","Valitse päivämäärä",module,Magento_Ui
@@ -3839,6 +3855,7 @@ Payment,Maksu,module,Magento_Checkout
 "Not yet calculated","Ei ole vielä laskettu",module,Magento_Checkout
 "We received your order!","Olemme vastaanottaneet tilauksesi!",module,Magento_Checkout
 "Thank you for your purchase!","Kiitos ostoksestasi!",module,Magento_Checkout
+"Content Management","Sisällön hallinta",module,Magento_Cms
 "Select Page...","Valitse sivu...",module,Magento_Cms
 "If empty, the Page Title will be used","Jos tyhjä, käytetään sivun otsikkoa",module,Magento_Cms
 "Contents of a Static Block","Staattisen lohkon sisältö",module,Magento_Cms
@@ -3872,6 +3889,7 @@ Dashboard,Hallintasivu,module,Magento_Config
 "Field 2","Kenttä 2",module,Magento_Config
 "Field 3.1.1","Kenttä 3.1.1",module,Magento_Config
 "Field 4","Kenttä 4",module,Magento_Config
+"Currency Setup Section","Valuutan asetukset-osio",module,Magento_Config
 Select...,Valitse...,module,Magento_ConfigurableProduct
 ID,Tunnus,module,Magento_ConfigurableProduct
 Thumbnail,Pienoiskuva,module,Magento_ConfigurableProduct
@@ -3895,6 +3913,7 @@ Contacts,Kontaktit,module,Magento_Contact
 Currency,Valuutta,module,Magento_CurrencySymbol
 "All Customers","Kaikki asiakkaat",module,Magento_Customer
 "Now Online","Nyt paikalla",module,Magento_Customer
+"Customer Configuration","Asiakkaiden hallinnointi",module,Magento_Customer
 "Default Welcome Email",Oletustervetuliaisviesti,module,Magento_Customer
 "Welcome Email",Tervetuliaissähköposti,module,Magento_Customer
 "Forgot Email Template","Salasanan palautuksen sähköpostimalli",module,Magento_Customer
@@ -3931,6 +3950,9 @@ Password,Salasana,module,Magento_Dhl
 "Weight Unit",Painoyksikkö,module,Magento_Dhl
 Size,Koko,module,Magento_Dhl
 "Sort Order",Järjestys,module,Magento_Dhl
+"Currency Setup",Valuutta-asetukset,module,Magento_Directory
+"Base Currency",Oletusvaluutta,module,Magento_Directory
+"Allowed Currencies","Sallitut valuutat",module,Magento_Directory
 "Connection Timeout in Seconds","Yhteyden aikakatkaisu sekunteina",module,Magento_Directory
 Enabled,Käytössä,module,Magento_Directory
 "Installed Currencies","Asennetut valuutat",module,Magento_Directory
@@ -4054,6 +4076,8 @@ Marketing,Markkinointi,module,Magento_Reports
 "Products in Cart","Tuotteita ostoskorissa",module,Magento_Reports
 "Abandoned Cart","Hylätty ostoskori",module,Magento_Reports
 "Search Terms",Hakusanat,module,Magento_Reports
+"By Customers",Asiakkaittain,module,Magento_Reports
+"By Products",Tuotteittain,module,Magento_Reports
 New,Uusi,module,Magento_Reports
 Dashboard,Hallintasivu,module,Magento_Reports
 "Current Month Starts","Nykyinen kuukausi alkaa",module,Magento_Reports
@@ -4064,11 +4088,14 @@ Guest,Vieras,module,Magento_Reports
 "Last Review","Viimeinen arvostelu",module,Magento_Reports
 "Order Created","Tilaus luotu",module,Magento_Reports
 Description,Kuvaus,module,Magento_Reports
+"By Customers",Asiakkaittain,module,Magento_Review
+"By Products",Tuotteittain,module,Magento_Review
 Inactive,Inaktiivinen,module,Magento_Review
 "RSS Feeds",RSS-syötteet,module,Magento_Rss
 "Enable RSS","Ota RSS käyttöön",module,Magento_Rss
 "Web Site",Sivusto,module,Magento_SalesRule
 Priority,Prioriteetti,module,Magento_SalesRule
+"Cart Price Rule","Ostoskorin hintasääntö",module,Magento_SalesRule
 Back,Takaisin,module,Magento_SalesRule
 "Rule Information","Säännön tiedot",module,Magento_SalesRule
 "Rule Name","Säännön nimi",module,Magento_SalesRule
@@ -4082,6 +4109,7 @@ To,Asti,module,Magento_SalesRule
 "Public In RSS Feed","Julkinen RSS-syötteessä",module,Magento_SalesRule
 Operations,Toiminnot,module,Magento_Sales
 Create,Luo,module,Magento_Sales
+General,Yleiset,module,Magento_Sales
 "Hide Customer IP","Piilota asiakkaan IP",module,Magento_Sales
 "Allow Reorder","Sallia uudelleentilaaminen",module,Magento_Sales
 "Invoice and Packing Slip Design","Laskun ja pakkausluettelon ulkoasu",module,Magento_Sales

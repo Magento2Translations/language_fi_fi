@@ -1341,6 +1341,7 @@ Total,Yhteensä,module,Magento_Multishipping
 "Please check shipping address information.","Tarkista toimitusosoitteen tiedot.",module,Magento_Multishipping
 "Please check billing address information.","Tarkista laskutusosoitteen tiedot.",module,Magento_Multishipping
 "Please specify a payment method.","Ole hyvä ja määrittele maksutapa.",module,Magento_Multishipping
+"Order Success","Tilaus onnistui",module,Magento_Multishipping
 "Add New Address","Lisää uusi osoite",module,Magento_Multishipping
 Product,Tuote,module,Magento_Multishipping
 Qty,Määrä,module,Magento_Multishipping

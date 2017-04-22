@@ -1802,6 +1802,7 @@ Total,Yhteensä,module,Magento_Multishipping
 "Please check billing address information.","Tarkista laskutusosoitteen tiedot.",module,Magento_Multishipping
 "A payment method is not defined.","Maksutapaa ei ole määritetty.",module,Magento_Multishipping
 "Please specify a payment method.","Ole hyvä ja määrittele maksutapa.",module,Magento_Multishipping
+"Order Success","Tilaus onnistui",module,Magento_Multishipping
 "Add New Address","Lisää uusi osoite",module,Magento_Multishipping
 Product,Tuote,module,Magento_Multishipping
 Qty,Määrä,module,Magento_Multishipping
@@ -3578,6 +3579,7 @@ Cancel,Peruuta,module,Magento_ProductVideo
 Delete,Poista,module,Magento_ProductVideo
 "Edit Video","Muokkaa videota",module,Magento_ProductVideo
 "Images and Videos","Kuvat ja videot",module,Magento_ProductVideo
+"Your coupon was successfully applied.","Kuponki käytettiin onnistuneesti.",module,Magento_SalesRule
 "Add Products","Lisää tuotteita",module,Magento_Sales
 Add,Lisää,module,Magento_Ui
 "Something went wrong.","Jokin meni vikaan.",module,Magento_Ui

@@ -492,7 +492,7 @@ Reset,Tyhjennä,module,Magento_Catalog
 "New Root Category","Uusi juurikategoria",module,Magento_Catalog
 "Set Root Category for Store","Aseta juurikategoria kaupalle",module,Magento_Catalog
 "Use Config Settings","Käytä kokoonpanon asetuksia",module,Magento_Catalog
-"Use All Available Attributes","Käytä kaikkia käytettävissä olevia ominaisuuksia",module,Magento_Catalog
+"Use All Available Attributes","Käytä kaikkia käytettävissä olevia attribuutteja",module,Magento_Catalog
 "Custom Design","Muokattu ulkoasu",module,Magento_Catalog
 ID,Tunnus,module,Magento_Catalog
 Name,Nimi,module,Magento_Catalog
@@ -624,6 +624,7 @@ None,"Ei mikään",module,Magento_Catalog
 Categories,Kategoriat,module,Magento_Catalog
 "A total of %1 record(s) were updated.","Yhteensä %1 tietue(tta) päivitettiin.",module,Magento_Catalog
 Catalog,Katalogi,module,Magento_Catalog
+"Manage Product Attributes","Hallinnoi tuotteen attribuutteja",module,Magento_Catalog
 "This attribute cannot be edited.","Tätä attribuuttia ei voi muokata.",module,Magento_Catalog
 "Edit Product Attribute","Muokkaa tuoteattribuuttia",module,Magento_Catalog
 "You saved the product attribute.","Tuoteattribuutti tallennettiin.",module,Magento_Catalog
@@ -682,6 +683,7 @@ Search,Haku,module,Magento_Catalog
 Dropdown,Pudotusvalikko,module,Magento_Catalog
 "Is Default",Oletus,module,Magento_Catalog
 Groups,Ryhmät,module,Magento_Catalog
+"Unassigned Attributes","Määrittämättömät attribuutit",module,Magento_Catalog
 "A name is required.","Nimi on pakollinen.",module,Magento_Catalog
 "Maximum image width","Kuvan enimmäisleveys",module,Magento_Catalog
 "Maximum image height","Kuvan enimmäiskorkeus",module,Magento_Catalog
@@ -1579,6 +1581,7 @@ Edit,Muokkaa,module,Magento_Paypal
 Price,Hinta,module,Magento_Paypal
 Qty,Määrä,module,Magento_Paypal
 Subtotal,Välisumma,module,Magento_Paypal
+"Checkout with PayPal","Siirry kassalle käyttäen PayPalia",module,Magento_Paypal
 Continue,Jatka,module,Magento_Paypal
 "What is PayPal?","Mikä on PayPal?",module,Magento_Paypal
 "Your shopping cart has been updated with new prices.","Ostoskorisi on päivitetty uusilla hinnoilla.",module,Magento_Persistent
@@ -1637,6 +1640,7 @@ Downloads,Lataukset,module,Magento_Reports
 Product,Tuote,module,Magento_Reports
 Link,Linkki,module,Magento_Reports
 SKU,Tuotenro,module,Magento_Reports
+"Low stock","Alhainen varastotilanne",module,Magento_Reports
 Price,Hinta,module,Magento_Reports
 "Refresh Statistics","Päivitä tilastot",module,Magento_Reports
 "Reviews for %1","Arvostelut tuotteelle %1",module,Magento_Reports
@@ -1678,6 +1682,7 @@ Carts,Ostoskorit,module,Magento_Reports
 Name,Nimi,module,Magento_Reports
 "Wish Lists",Toivelistat,module,Magento_Reports
 Reports,Raportit,module,Magento_Reports
+"Low Stock","Alhainen varastotilanne",module,Magento_Reports
 Review,Arvostelu,module,Magento_Reports
 Reviews,Arvostelut,module,Magento_Reports
 "Customers Report",Asiakasraportti,module,Magento_Reports
@@ -1691,6 +1696,7 @@ Coupons,Alennuskoodit,module,Magento_Reports
 "Abandoned Carts","Hylätyt ostoskorit",module,Magento_Reports
 Statistics,Tilastot,module,Magento_Reports
 "Total Invoiced VS Paid Report","Yhteensä laskutettu VS maksettu-raportti",module,Magento_Reports
+Bestsellers,Myydyimmät,module,Magento_Reports
 "Show By",Selaa,module,Magento_Reports
 "Select Date","Valitse päivämäärä",module,Magento_Reports
 "All Websites","Kaikki sivustot",module,Magento_Reports
@@ -1908,6 +1914,7 @@ Reorder,"Tilaa uudelleen",module,Magento_Sales
 "Order # %1 %2 | %3","Tilausnumero %1 %2 | %3",module,Magento_Sales
 "Are you sure? This order will be canceled and a new one will be created instead.","Oletko varma? Tämä tilaus peruutetaan ja uusi luodaan sen sijaan.",module,Magento_Sales
 "Save Gift Message","Tallenna lahjaviesti",module,Magento_Sales
+"Order Credit Memos","Tilausten hyvityslaskut",module,Magento_Sales
 "Credit memo #%1 created","Hyvityslasku %1 luotu",module,Magento_Sales
 "Shipment #%1 created","Toimitus %1 luotu",module,Magento_Sales
 "Invoice #%1 created","Lasku %1 luotu",module,Magento_Sales
@@ -2740,7 +2747,9 @@ Group,Ryhmä,module,Magento_Customer
 "Add New Customer","Lisää uusi asiakas",module,Magento_Customer
 "Subscribe to Newsletter","Tilaa Uutiskirje",module,Magento_Customer
 "Unsubscribe from Newsletter","Peru uutiskirjeen tilaus",module,Magento_Customer
+"Assign a Customer Group","Määritä asiakasryhmä",module,Magento_Customer
 ZIP,Postinumero,module,Magento_Customer
+"Customer Since","Asiakas alkaen",module,Magento_Customer
 "First Name",Etunimi,module,Magento_Customer
 "Last Name",Sukunimi,module,Magento_Customer
 "Last Activity","Viimeksi nähty",module,Magento_Customer
@@ -2818,6 +2827,7 @@ Enabled,Käytössä,module,Magento_OfflinePayments
 "Bank Transfer Payment",Pankkisiirto,module,Magento_OfflinePayments
 Instructions,Ohjeet,module,Magento_OfflinePayments
 "Cash On Delivery Payment",Postiennakko,module,Magento_OfflinePayments
+"Flat Rate","Kiinteähintainen toimitus",module,Magento_OfflineShipping
 Enabled,Käytössä,module,Magento_OfflineShipping
 Price,Hinta,module,Magento_OfflineShipping
 "Sort Order",Järjestys,module,Magento_OfflineShipping
@@ -2881,7 +2891,7 @@ Created,Luotu,module,Magento_Sales
 "Default Status",Oletustila,module,Magento_Sales
 "PDF Credit Memos","PDF hyvityslaskut",module,Magento_Sales
 "Print Invoices","Tulosta laskut",module,Magento_Sales
-"Print Packing Slips","Tulosta pakkausluettelot",module,Magento_Sales
+"Print Packing Slips","Tulosta pakkauslistat",module,Magento_Sales
 "Print Credit Memos","Tulosta hyvityslaskut",module,Magento_Sales
 "Print All","Tulosta kaikki",module,Magento_Sales
 "Print Shipping Labels","Tulosta osoitetarrat",module,Magento_Sales
@@ -2891,6 +2901,7 @@ Created,Luotu,module,Magento_Sales
 "PDF Invoices",PDF-laskut,module,Magento_Sales
 "Search Engine",Hakukone,module,Magento_Search
 "Email to a Friend","Sähköpostita kaverille",module,Magento_SendFriend
+"Email Templates",Sähköpostimallit,module,Magento_SendFriend
 Enabled,Käytössä,module,Magento_SendFriend
 "Select Email Template","Valitse sähköpostimalli",module,Magento_SendFriend
 "Allow for Guests","Salli vieraille",module,Magento_SendFriend

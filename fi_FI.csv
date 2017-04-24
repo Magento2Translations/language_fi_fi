@@ -570,7 +570,7 @@ Root,Juuri,module,Magento_Catalog
 Delete,Poista,module,Magento_Catalog
 Save,Tallenna,module,Magento_Catalog
 "Use Config Settings","Käytä kokoonpanon asetuksia",module,Magento_Catalog
-"Use All Available Attributes","Käytä kaikkia käytettävissä olevia ominaisuuksia",module,Magento_Catalog
+"Use All Available Attributes","Käytä kaikkia käytettävissä olevia attribuutteja",module,Magento_Catalog
 ID,Tunnus,module,Magento_Catalog
 Name,Nimi,module,Magento_Catalog
 SKU,Tuotenro,module,Magento_Catalog
@@ -719,6 +719,7 @@ None,"Ei mikään",module,Magento_Catalog
 Categories,Kategoriat,module,Magento_Catalog
 "A total of %1 record(s) were updated.","Yhteensä %1 tietue(tta) päivitettiin.",module,Magento_Catalog
 Catalog,Katalogi,module,Magento_Catalog
+"Manage Product Attributes","Hallinnoi tuotteen attribuutteja",module,Magento_Catalog
 "We can't delete the attribute.","Ominaisuutta ei voida poistaa.",module,Magento_Catalog
 "We can't find an attribute to delete.","Poistettavaa ominaisuutta ei löydy.",module,Magento_Catalog
 "This attribute cannot be edited.","Tätä attribuuttia ei voi muokata.",module,Magento_Catalog
@@ -820,6 +821,7 @@ name,nimi,module,Magento_Catalog
 "Please confirm site switching. All data that hasn't been saved will be lost.","Vahvista sivuston vaihtaminen. Kaikki tallentamattomat tiedot menetetään.",module,Magento_Catalog
 "Is Default",Oletus,module,Magento_Catalog
 Groups,Ryhmät,module,Magento_Catalog
+"Unassigned Attributes","Määrittämättömät attribuutit",module,Magento_Catalog
 "A name is required.","Nimi on pakollinen.",module,Magento_Catalog
 "Maximum image width","Kuvan enimmäisleveys",module,Magento_Catalog
 "Maximum image height","Kuvan enimmäiskorkeus",module,Magento_Catalog
@@ -1127,6 +1129,7 @@ Images,Kuvat,module,Magento_ConfigurableProduct
 "Hide from Product Page","Piilota tuotesivulta",module,Magento_ConfigurableProduct
 Select,Valitse,module,Magento_ConfigurableProduct
 "Step 1: Select Attributes","Vaihe 1: Valitse attribuutit",module,Magento_ConfigurableProduct
+"Selected Attributes:","Valitut attribuutit:",module,Magento_ConfigurableProduct
 "Step 4: Summary","Vaihe 4: Yhteenveto",module,Magento_ConfigurableProduct
 "Edit Configurations","Muokkaa konfiguraatioita",module,Magento_ConfigurableProduct
 "Upload Image","Lähetä kuva",module,Magento_ConfigurableProduct
@@ -1816,6 +1819,7 @@ Actions,Toiminnot,module,Magento_Multishipping
 Change,Vaihda,module,Magento_Multishipping
 "Edit Items","Muokkaa tuotteita",module,Magento_Multishipping
 "Product Name",Tuotenimi,module,Magento_Multishipping
+"Check Out with Multiple Addresses","Siirry kassalle käyttäen useita toimitusosoitteita",module,Magento_Multishipping
 "Shipping Method",Toimitustapa,module,Magento_Multishipping
 "Incl. Tax",Verollinen,module,Magento_Multishipping
 "Excl. Tax",Veroton,module,Magento_Multishipping
@@ -2012,6 +2016,7 @@ Sales,Myynti,module,Magento_Paypal
 "Billing Agreement # %1","Laskutussopimus nro %1",module,Magento_Paypal
 "Express Checkout and Order have been canceled.","Express Checkout ja tilaus on peruutettu.",module,Magento_Paypal
 "Express Checkout has been canceled.","Express Checkout on peruutettu.",module,Magento_Paypal
+"To check out, please sign in with your email address.","Kirjaudu sisään sähköpostiosoitteellasi siirtyäksesi kassalle.",module,Magento_Paypal
 Active,Aktiivinen,module,Magento_Paypal
 Canceled,Peruutettu,module,Magento_Paypal
 Dynamic,Dynaaminen,module,Magento_Paypal
@@ -2078,6 +2083,7 @@ Price,Hinta,module,Magento_Paypal
 Qty,Määrä,module,Magento_Paypal
 Subtotal,Välisumma,module,Magento_Paypal
 or,tai,module,Magento_Paypal
+"Checkout with PayPal","Siirry kassalle käyttäen PayPalia",module,Magento_Paypal
 Continue,Jatka,module,Magento_Paypal
 "What is PayPal?","Mikä on PayPal?",module,Magento_Paypal
 "Not you?","Et sinä?",module,Magento_Persistent
@@ -2179,6 +2185,7 @@ Downloads,Lataukset,module,Magento_Reports
 Product,Tuote,module,Magento_Reports
 Link,Linkki,module,Magento_Reports
 SKU,Tuotenro,module,Magento_Reports
+"Low stock","Alhainen varastotilanne",module,Magento_Reports
 Price,Hinta,module,Magento_Reports
 "Refresh Statistics","Päivitä tilastot",module,Magento_Reports
 "Reviews for %1","Arvostelut tuotteelle %1",module,Magento_Reports
@@ -2220,12 +2227,14 @@ Carts,Ostoskorit,module,Magento_Reports
 Name,Nimi,module,Magento_Reports
 "Wish Lists",Toivelistat,module,Magento_Reports
 Reports,Raportit,module,Magento_Reports
+"Low Stock","Alhainen varastotilanne",module,Magento_Reports
 Review,Arvostelu,module,Magento_Reports
 Reviews,Arvostelut,module,Magento_Reports
 "Customers Report",Asiakasraportti,module,Magento_Reports
 "Product Reviews","Tuotteen arvostelut",module,Magento_Reports
 Details,Yksityiskohdat,module,Magento_Reports
 Sales,Myynti,module,Magento_Reports
+"Bestsellers Report","Myydyimpien raportti",module,Magento_Reports
 Coupons,Alennuskoodit,module,Magento_Reports
 "Sales Report",Myyntiraportti,module,Magento_Reports
 "Tax Report",Veroraportti,module,Magento_Reports
@@ -2233,6 +2242,7 @@ Coupons,Alennuskoodit,module,Magento_Reports
 "Abandoned Carts","Hylätyt ostoskorit",module,Magento_Reports
 Statistics,Tilastot,module,Magento_Reports
 "Total Invoiced VS Paid Report","Yhteensä laskutettu VS maksettu-raportti",module,Magento_Reports
+Bestsellers,Myydyimmät,module,Magento_Reports
 "Show By",Selaa,module,Magento_Reports
 "Select Date","Valitse päivämäärä",module,Magento_Reports
 "All Websites","Kaikki sivustot",module,Magento_Reports
@@ -2467,6 +2477,7 @@ Reorder,"Tilaa uudelleen",module,Magento_Sales
 "This order contains (%1) items and therefore cannot be edited through the admin interface. If you wish to continue editing, the (%2) items will be removed,  the order will be canceled and a new order will be placed.","Tällä tilauksella on (%1) tuote(tta), jonka vuoksi sitä ei voida muokata hallintapaneelin kautta. Jos haluat jatkaa muokkaamista, (%2) tuote(tta) poistetaan, tilaus peruutetaan ja uusi tilaus luodaan.",module,Magento_Sales
 "Are you sure? This order will be canceled and a new one will be created instead.","Oletko varma? Tämä tilaus peruutetaan ja uusi luodaan sen sijaan.",module,Magento_Sales
 "Save Gift Message","Tallenna lahjaviesti",module,Magento_Sales
+"Order Credit Memos","Tilausten hyvityslaskut",module,Magento_Sales
 "Credit memo #%1 created","Hyvityslasku %1 luotu",module,Magento_Sales
 "Shipment #%1 created","Toimitus %1 luotu",module,Magento_Sales
 "Invoice #%1 created","Lasku %1 luotu",module,Magento_Sales
@@ -3452,7 +3463,9 @@ Delete,Poista,module,Magento_GiftMessage
 "Edit Your Cart","Muokkaa ostoskoria",module,Magento_Payment
 "Continue to PayPal","Jatka PayPal:iin",module,Magento_Paypal
 "Check 'Remember Me' to access your shopping cart on this computer even if you are not signed in.","Valitse 'Muista minut' käyttääksesi ostoskoria tällä tietokoneella, vaikka et ole kirjautunut sisään.",module,Magento_Persistent
+"Apply Discount Code","Käytä alennuskoodi",module,Magento_SalesRule
 "Enter discount code","Syötä alennuskoodi",module,Magento_SalesRule
+"Apply Discount","Ota alennus käyttöön",module,Magento_SalesRule
 "Cancel coupon","Peruuta alennuskoodi",module,Magento_SalesRule
 "Thank you for your order from %store_name.","Kiitos tilauksestasi %store_name -kaupassa.",module,Magento_Sales
 "You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","Voit tarkistaa tilauksesi tilan <a href=""%account_url"">kirjautumalla tilillesi</a>.",module,Magento_Sales
@@ -3635,12 +3648,13 @@ Enabled,Käytössä,module,Magento_Authorizenet
 "Global Search","Globaali haku",module,Magento_Backend
 Marketing,Markkinointi,module,Magento_Backend
 "SEO & Search","SEO & haku",module,Magento_Backend
+"User Content","Käyttäjien sisältö",module,Magento_Backend
 Content,Sisältö,module,Magento_Backend
 Elements,Elementit,module,Magento_Backend
 Design,Ulkoasu,module,Magento_Backend
 Settings,Asetukset,module,Magento_Backend
 "All Stores","Kaikki kaupat",module,Magento_Backend
-Attributes,Ominaisuudet,module,Magento_Backend
+Attributes,Attribuutit,module,Magento_Backend
 "Other Settings","Muut asetukset",module,Magento_Backend
 "Data Transfer",Tiedonsiirto,module,Magento_Backend
 Tools,Työkalut,module,Magento_Backend
@@ -3930,7 +3944,10 @@ Group,Ryhmä,module,Magento_Customer
 "Subscribe to Newsletter","Tilaa Uutiskirje",module,Magento_Customer
 "Unsubscribe from Newsletter","Peru uutiskirjeen tilaus",module,Magento_Customer
 "Are you sure to unsubscribe selected customers from newsletter?","Haluatko peruuttaa valittujen asiakkaiden uutiskirjeen?",module,Magento_Customer
+"Assign a Customer Group","Määritä asiakasryhmä",module,Magento_Customer
+"Are you sure to assign selected customers to new group?","Haluatko varmasti määrittää valitut asiakkaat uuteen ryhmään?",module,Magento_Customer
 ZIP,Postinumero,module,Magento_Customer
+"Customer Since","Asiakas alkaen",module,Magento_Customer
 "Billing Firstname","Laskutettavan etunimi",module,Magento_Customer
 "Billing Lastname","Laskutettavan sukunimi",module,Magento_Customer
 "First Name",Etunimi,module,Magento_Customer
@@ -3999,6 +4016,7 @@ Description,Kuvaus,module,Magento_Indexer
 Mode,Tila,module,Magento_Indexer
 Status,Tila,module,Magento_Indexer
 Updated,Päivitetty,module,Magento_Indexer
+Extensions,Laajennukset,module,Magento_Integration
 "We couldn't find any records.","Yhtään tietuetta ei löytynyt.",module,Magento_Integration
 Status,Tila,module,Magento_Integration
 "After selecting a new media storage location, press the Synchronize button to transfer all media to that location. Media will not be available in the new location until the synchronization process is complete.","Valittuasi uuden tallennuspaikka mediatiedoille, paina Synkronoi-painiketta siirtääksesi kaikki mediatiedot kyseiseen sijaintiin. Mediatiedot eivät ole käytettävissä uudessa sijainnissa ennen kuin synkronointi on valmis.",module,Magento_MediaStorage
@@ -4042,6 +4060,7 @@ Enabled,Käytössä,module,Magento_OfflinePayments
 "Bank Transfer Payment",Pankkisiirto,module,Magento_OfflinePayments
 Instructions,Ohjeet,module,Magento_OfflinePayments
 "Cash On Delivery Payment",Postiennakko,module,Magento_OfflinePayments
+"Flat Rate","Kiinteähintainen toimitus",module,Magento_OfflineShipping
 Enabled,Käytössä,module,Magento_OfflineShipping
 Price,Hinta,module,Magento_OfflineShipping
 "Sort Order",Järjestys,module,Magento_OfflineShipping
@@ -4080,7 +4099,9 @@ Marketing,Markkinointi,module,Magento_Reports
 "Search Terms",Hakusanat,module,Magento_Reports
 "By Customers",Asiakkaittain,module,Magento_Reports
 "By Products",Tuotteittain,module,Magento_Reports
+"Order Total",Loppusumma,module,Magento_Reports
 New,Uusi,module,Magento_Reports
+Ordered,Tilatut,module,Magento_Reports
 Dashboard,Hallintasivu,module,Magento_Reports
 "Current Month Starts","Nykyinen kuukausi alkaa",module,Magento_Reports
 "Recently Viewed Products","Äskettäin katsotut tuotteet",module,Magento_Reports
@@ -4146,7 +4167,7 @@ Created,Luotu,module,Magento_Sales
 "All Store Views","Kaikki kauppanäkymät",module,Magento_Sales
 "PDF Credit Memos","PDF hyvityslaskut",module,Magento_Sales
 "Print Invoices","Tulosta laskut",module,Magento_Sales
-"Print Packing Slips","Tulosta pakkausluettelot",module,Magento_Sales
+"Print Packing Slips","Tulosta pakkauslistat",module,Magento_Sales
 "Print Credit Memos","Tulosta hyvityslaskut",module,Magento_Sales
 "Print All","Tulosta kaikki",module,Magento_Sales
 "Print Shipping Labels","Tulosta osoitetarrat",module,Magento_Sales
@@ -4178,6 +4199,7 @@ Website,Sivusto,module,Magento_Search
 "Delete items","Poista kohteet",module,Magento_Search
 "Are you sure you want to delete the selected synonym groups?","Haluatko varmasti poistaa valitut synonyymiryhmät?",module,Magento_Search
 "Email to a Friend","Sähköpostita kaverille",module,Magento_SendFriend
+"Email Templates",Sähköpostimallit,module,Magento_SendFriend
 Enabled,Käytössä,module,Magento_SendFriend
 "Select Email Template","Valitse sähköpostimalli",module,Magento_SendFriend
 "Allow for Guests","Salli vieraille",module,Magento_SendFriend
@@ -4226,10 +4248,12 @@ Taxes,Verot,module,Magento_Tax
 "(Incl. Tax)",(Verollinen),module,Magento_Tax
 "Order Total Excl. Tax","Yhteensä veroton",module,Magento_Tax
 "Order Total Incl. Tax","Yhteensä verollinen",module,Magento_Tax
+"Order Total",Loppusumma,module,Magento_Tax
 "1 column","1 sarake",module,Magento_Theme
 "Default Robots",Oletusrobotit,module,Magento_Theme
 "Default welcome msg!",Oletustervetuliaisviesti!,module,Magento_Theme
 "Theme Information","Teeman tiedot",module,Magento_Theme
+"Other Settings","Muut asetukset",module,Magento_Theme
 "Allowed file types: ico, png, gif, jpg, jpeg, apng, svg. Not all browsers support all these formats!","Sallitut tiedostotyypit: ico, png, gif, jpg, jpeg, apng, svg. Kaikki selaimet eivät tue kaikkia näitä muotoja!",module,Magento_Theme
 "Logo Image","Logon kuva",module,Magento_Theme
 "Allowed file types: png, gif, jpg, jpeg, svg.","Sallitut tiedostotyypit: png, gif, jpg, jpeg, svg.",module,Magento_Theme

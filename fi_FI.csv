@@ -490,6 +490,7 @@ Always,Aina,module,Magento_Captcha
 "Allow Qty Below 0 and Notify Customer","Salli määrä alle 0 ja ilmoita asiakkaalle",module,Magento_CatalogInventory
 "In Stock",Varastossa,module,Magento_CatalogInventory
 "Out of Stock","Ei varastossa",module,Magento_CatalogInventory
+"The most you may purchase is %1.","Suurin sallittu ostosmäärä on %1.",module,Magento_CatalogInventory
 "We don't have as many ""%1"" as you requested.","Meillä ei ole pyytämääsi määrää tuotetta ""%1"".",module,Magento_CatalogInventory
 "We don't have as many ""%1"" as you requested, but we'll back order the remaining %2.","Meillä ei ole niin montaa kappaletta tuotetta ""%1"" kuin haluat, mutta siirretään tilaukselle jäljellä olevat %2.",module,Magento_CatalogInventory
 "Stock Status",Varastotilanne,module,Magento_CatalogInventory
@@ -3386,6 +3387,7 @@ Login,Kirjaudu,module,Magento_Checkout
 item,nimike,module,Magento_Checkout
 items,tuotetta,module,Magento_Checkout
 "Go to Checkout","Siirry kassalle",module,Magento_Checkout
+"View and edit cart","Tarkastele ja muokkaa ostoskoria",module,Magento_Checkout
 "See Details",Lisätietoja,module,Magento_Checkout
 "Options Details","Vaihtoehdot tiedot",module,Magento_Checkout
 Remove,Poista,module,Magento_Checkout

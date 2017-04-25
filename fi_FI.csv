@@ -422,6 +422,7 @@ Always,Aina,module,Magento_Captcha
 "Allow Qty Below 0 and Notify Customer","Salli määrä alle 0 ja ilmoita asiakkaalle",module,Magento_CatalogInventory
 "In Stock",Varastossa,module,Magento_CatalogInventory
 "Out of Stock","Ei varastossa",module,Magento_CatalogInventory
+"The most you may purchase is %1.","Suurin sallittu ostosmäärä on %1.",module,Magento_CatalogInventory
 "Only %1 left","Vain %1 jäljellä",module,Magento_CatalogInventory
 "Product Name",Tuotenimi,module,Magento_CatalogInventory
 Qty,Määrä,module,Magento_CatalogInventory

@@ -3410,6 +3410,7 @@ edit,muokkaa,module,Magento_Checkout
 Next,Seuraava,module,Magento_Checkout
 "Sorry, no quotes are available for this order at this time","Valitettavasti tarjoukset eivät saatavilla tilaukseen tällä hetkellä",module,Magento_Checkout
 "Order Summary","Tilauksen yhteenveto",module,Magento_Checkout
+"Item in Cart","Tuote ostoskorissa",module,Magento_Checkout
 "View Details","Näytä yksityiskohdat",module,Magento_Checkout
 "Contact Form",Yhteydenottolomake,module,Magento_Contact
 "Name: %name","Nimi: %name",module,Magento_Contact

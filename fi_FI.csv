@@ -3429,6 +3429,8 @@ Password:,Salasana:,module,Magento_Customer
 "Check the status of orders","Tarkastaa tilausten tilan",module,Magento_Customer
 "View past orders","Tarkastella aikaisempia tilauksia",module,Magento_Customer
 "Store alternative addresses (for shipping to multiple family members and friends)","Tallentaa vaihtoehtoisia osoitteita (toimitus esimerkiksi perheenjäsenille ja ystäville)",module,Magento_Customer
+"Please confirm your %store_name account","Vahvista tilisi kauppaan %store_name",module,Magento_Customer
+"You must confirm your %customer_email email before you can sign in (link is only valid once):","Sinun täytyy vahvistaa sähköpostiosoitteesi %customer_email, ennen kuin voit kirjautua sisään (linkki toimii vain kerran):",module,Magento_Customer
 "Confirm Your Account","Vahvista tilisi",module,Magento_Customer
 "Thank you for confirming your %store_name account.","Kiitos %store_name tilisi vahvistamisesta.",module,Magento_Customer
 "To sign in to our site and set a password, click on the <a href=""%create_password_url"">link</a>:","Kirjautuaksesi sivustollemme vaihtaaksesi salasanan, klikkaa <a href=""%create_password_url"">linkkiä</a>:",module,Magento_Customer
@@ -3562,7 +3564,7 @@ Footer,Alatunniste,theme,frontend/Magento/luma
 "Placed on <span class=""no-link"">%created_at</span>","Tilattu <span class=""no-link"">%created_at</span>",theme,frontend/Magento/luma
 "Update to your %store_name order","Päivitys %store_name -tilaukselle",theme,frontend/Magento/luma
 "Your %store_name order has shipped","%store_name -tilaus on lähetetty",theme,frontend/Magento/luma
-"Your shipping confirmation is below. Thank you again for your business.","Postitutsvahvistus alla. Kiitos vielä tilauksesta.",theme,frontend/Magento/luma
+"Your shipping confirmation is below. Thank you again for your business.","Postitusvahvistus alla. Kiitos vielä tilauksesta.",theme,frontend/Magento/luma
 "Your Shipment #%shipment_id for Order #%order_id","Postitus #%shipment_id tilaukselle #%order_id",theme,frontend/Magento/luma
 "Update to your %store_name shipment","Päivitys %store_name -postitukselle",theme,frontend/Magento/luma
 "We don't recognize or support this file extension type.","Tätä tiedostotyyppiä ei tunnisteta tai tueta.",module,Magento_Backend

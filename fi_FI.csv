@@ -3422,7 +3422,7 @@ Next,Seuraava,module,Magento_Checkout
 "To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","Kirjautuaksesi sivustollemme, käytä näitä tunnistetietoja kassalla tai <a href=""%customer_url"">Oma tili</a> -sivulla:",module,Magento_Customer
 Email:,Sähköposti:,module,Magento_Customer
 Password:,Salasana:,module,Magento_Customer
-"Password you set when creating account","Salasana, jonka asetat tilin luonnin yhteydessä",module,Magento_Customer
+"Password you set when creating account","Salasana, jonka asetit tilin luonnin yhteydessä",module,Magento_Customer
 "Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","Unohditko salasanan? Klikkaa <a href=""%reset_url"">tästä</a> nollataksesi sen.",module,Magento_Customer
 "When you sign in to your account, you will be able to:","Kirjauduttuasi tilillesi voit:",module,Magento_Customer
 "Proceed through checkout faster","Ostaa nopeammin",module,Magento_Customer
@@ -3495,7 +3495,7 @@ Delete,Poista,module,Magento_GiftMessage
 "To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","Kirjautuaksesi sivustollemme, käytä näitä tunnistetietoja kassalla tai <a href=""%customer_url"">Oma tili</a> -sivulla:",module,Magento_Theme
 Email:,Sähköposti:,module,Magento_Theme
 Password:,Salasana:,module,Magento_Theme
-"Password you set when creating account","Salasana, jonka asetat tilin luonnin yhteydessä",module,Magento_Theme
+"Password you set when creating account","Salasana, jonka asetit tilin luonnin yhteydessä",module,Magento_Theme
 "Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","Unohditko salasanan? Klikkaa <a href=""%reset_url"">tästä</a> nollataksesi sen.",module,Magento_Theme
 "When you sign in to your account, you will be able to:","Kun kirjaudut tilillesi, voit:",module,Magento_Theme
 "Check the status of orders","Tarkastaa tilausten tilan",module,Magento_Theme
@@ -3527,7 +3527,7 @@ Filters,Suodattimet,module,Magento_Ui
 "To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","Kirjautuaksesi sivustollemme, käytä näitä tunnistetietoja kassalla tai <a href=""%customer_url"">Oma tili</a> -sivulla:",theme,frontend/Magento/luma
 Email:,Sähköposti:,theme,frontend/Magento/luma
 Password:,Salasana:,theme,frontend/Magento/luma
-"Password you set when creating account","Salasana, jonka asetat tilin luonnin yhteydessä",theme,frontend/Magento/luma
+"Password you set when creating account","Salasana, jonka asetit tilin luonnin yhteydessä",theme,frontend/Magento/luma
 "Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","Unohditko salasanan? Klikkaa <a href=""%reset_url"">tästä</a> nollataksesi sen.",theme,frontend/Magento/luma
 "When you sign in to your account, you will be able to:","Kun kirjaudut tilillesi, voit:",theme,frontend/Magento/luma
 "Quick Checkout","Nopea tilaus",theme,frontend/Magento/luma

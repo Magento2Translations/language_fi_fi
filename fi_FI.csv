@@ -3411,6 +3411,7 @@ Next,Seuraava,module,Magento_Checkout
 "Sorry, no quotes are available for this order at this time","Valitettavasti tarjoukset eivät saatavilla tilaukseen tällä hetkellä",module,Magento_Checkout
 "Order Summary","Tilauksen yhteenveto",module,Magento_Checkout
 "Item in Cart","Tuote ostoskorissa",module,Magento_Checkout
+"Items in Cart","Tuotteet ostoskorissa",module,Magento_Checkout
 "View Details","Näytä yksityiskohdat",module,Magento_Checkout
 "Contact Form",Yhteydenottolomake,module,Magento_Contact
 "Name: %name","Nimi: %name",module,Magento_Contact
@@ -3438,6 +3439,7 @@ Password:,Salasana:,module,Magento_Customer
 "Thanks,<br>%store_name","Kiittäen,<br>%store_name",module,Magento_Customer
 "Your %store_name email and password has been changed","Sinun %store_name -sähköpostisi ja -salasanasi on muutettu",module,Magento_Customer
 "We have received a request to change the following information associated with your account at %store_name: email, password.","Olemme saaneet pyynnön muuttaa seuraavia tietoja %store_name -tilissäsi: sähköposti, salasana.",module,Magento_Customer
+"Reset your %store_name password","Aseta uusi salasana %store_name -verkkokauppaan",module,Magento_Customer
 "There was recently a request to change the password for your account.","Tilisi salasananvaihto on tilattu äskettäin.",module,Magento_Customer
 "If you requested this change, set a new password here:","Jos olet pyytänyt tämän muutoksen, palauta salasanasi tästä:",module,Magento_Customer
 "If you did not make this request, you can ignore this email and your password will remain the same.","Jos et jättänyt tätä pyyntöä, voit ohittaa tämän sähköpostin ja salasana pysyy samana.",module,Magento_Customer

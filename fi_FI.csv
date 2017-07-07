@@ -1832,22 +1832,30 @@ Total,Yhteensä,module,Magento_Multishipping
 "Edit Shipping Address","Muokkaa toimitusosoitetta",module,Magento_Multishipping
 "Create Billing Address","Luo laskutusosoite",module,Magento_Multishipping
 "Create Shipping Address","Luo toimitusosoite",module,Magento_Multishipping
+"Please agree to all Terms and Conditions before placing the order.","Kaikki ehdot tulee hyväksyä ennen tilauksen tekemistä.",module,Magento_Multishipping
 "Please check shipping address information.","Tarkista toimitusosoitteen tiedot.",module,Magento_Multishipping
 "Please check billing address information.","Tarkista laskutusosoitteen tiedot.",module,Magento_Multishipping
 "A payment method is not defined.","Maksutapaa ei ole määritetty.",module,Magento_Multishipping
 "Please specify a payment method.","Ole hyvä ja määrittele maksutapa.",module,Magento_Multishipping
+"Select Addresses","Valitse osoitteet",module,Magento_Multishipping
+"Shipping Information",Toimitustiedot,module,Magento_Multishipping
+"Billing Information",Laskutustiedot,module,Magento_Multishipping
 "Order Success","Tilaus onnistui",module,Magento_Multishipping
+"Select Address","Valitse osoite",module,Magento_Multishipping
 "Add New Address","Lisää uusi osoite",module,Magento_Multishipping
+"Back to Billing Information","Takaisin laskutustietoihin",module,Magento_Multishipping
 Product,Tuote,module,Magento_Multishipping
 Qty,Määrä,module,Magento_Multishipping
 Actions,Toiminnot,module,Magento_Multishipping
 "Remove Item","Poista tuote",module,Magento_Multishipping
 "Remove item","Poista tuote",module,Magento_Multishipping
+"Go to Shipping Information","Tarkastele toimitustietoja",module,Magento_Multishipping
 "Update Qty &amp; Addresses","Päivitä määrä ja osoitteet",module,Magento_Multishipping
 "Enter a New Address","Kirjoita uusi osoite",module,Magento_Multishipping
 "Back to Shopping Cart","Takaisin ostoskoriin",module,Magento_Multishipping
 "Billing Address",Laskutusosoite,module,Magento_Multishipping
 Change,Vaihda,module,Magento_Multishipping
+"Payment Method",Maksutapa,module,Magento_Multishipping
 "Edit Items","Muokkaa tuotteita",module,Magento_Multishipping
 "Product Name",Tuotenimi,module,Magento_Multishipping
 "Check Out with Multiple Addresses","Siirry kassalle käyttäen useita toimitusosoitteita",module,Magento_Multishipping
@@ -1863,6 +1871,7 @@ Items,Tuotteet,module,Magento_Multishipping
 "Grand Total:",Loppusumma:,module,Magento_Multishipping
 "Submitting order information...","Lähetetään tilauksen tietoja...",module,Magento_Multishipping
 "Continue to Billing Information","Jatka laskutustietoihin",module,Magento_Multishipping
+"Thank you for your purchase!","Kiitos ostoksestasi!",module,Magento_Multishipping
 "Continue Shopping","Jatka ostoksia",module,Magento_Multishipping
 "The New Relic integration requires the newrelic-php5 agent, which is not installed. More 
                         information on installing the agent is available <a target=""_blank"" href=""%1"">here</a>.","New Relic -integraatio edellyttää newrelic-php5-agenttia, joka ei ole asennettu. Lisätietoja agentin asennuksen on saatavilla <a target=""_blank"" href=""%1""> täältä</a>.",module,Magento_NewRelicReporting
@@ -2460,6 +2469,7 @@ Quantity,Määrä,module,Magento_Sales
 "Recently Compared Products","Äskettäin vertaillut tuotteet",module,Magento_Sales
 "Recently Viewed Products","Äskettäin katsotut tuotteet",module,Magento_Sales
 "Last Ordered Items","Viimeksi tilatut nimikkeet",module,Magento_Sales
+"Recently Viewed","Äskettäin tarkastellut",module,Magento_Sales
 "Wish List",Toivelista,module,Magento_Sales
 "Please select a store","Valitse kauppa",module,Magento_Sales
 "Order Totals",Loppusummat,module,Magento_Sales
@@ -3428,6 +3438,7 @@ Done,Valmis,module,Magento_ConfigurableProduct
 "Are you sure you want to delete this address?","Oletko varma, että haluat poistaa tämän osoitteen?",module,Magento_Customer
 "Add Products to Group","Tuotteiden lisääminen ryhmään",module,Magento_GroupedProduct
 "Add Selected Products","Lisää valitut tuotteet",module,Magento_GroupedProduct
+"Please choose a payment method.","Valitse maksutapa.",module,Magento_Multishipping
 "Unknown video type","Tuntematon videotyyppi",module,Magento_ProductVideo
 Save,Tallenna,module,Magento_ProductVideo
 Cancel,Peruuta,module,Magento_ProductVideo
@@ -3770,6 +3781,8 @@ Updated,Päivitetty,module,Magento_Indexer
 Status,Tila,module,Magento_Integration
 "After selecting a new media storage location, press the Synchronize button to transfer all media to that location. Media will not be available in the new location until the synchronization process is complete.","Valittuasi uuden tallennuspaikka mediatiedoille, paina Synkronoi-painiketta siirtääksesi kaikki mediatiedot kyseiseen sijaintiin. Mediatiedot eivät ole käytettävissä uudessa sijainnissa ennen kuin synkronointi on valmis.",module,Magento_MediaStorage
 "Review Order","Tarkastele tilausta",module,Magento_Multishipping
+"Select Shipping Method","Valitse toimitustapa",module,Magento_Multishipping
+"We received your order!","Vastaanotimme tilauksesi!",module,Magento_Multishipping
 "New Relic Reporting","New Relic -raportointi",module,Magento_NewRelicReporting
 General,Yleinen,module,Magento_NewRelicReporting
 "Enable Cron","Ota Cron käyttöön",module,Magento_NewRelicReporting

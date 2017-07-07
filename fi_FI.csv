@@ -1341,11 +1341,17 @@ Total,Yhteensä,module,Magento_Multishipping
 "Edit Shipping Address","Muokkaa toimitusosoitetta",module,Magento_Multishipping
 "Create Billing Address","Luo laskutusosoite",module,Magento_Multishipping
 "Create Shipping Address","Luo toimitusosoite",module,Magento_Multishipping
+"Please agree to all Terms and Conditions before placing the order.","Kaikki ehdot tulee hyväksyä ennen tilauksen tekemistä.",module,Magento_Multishipping
 "Please check shipping address information.","Tarkista toimitusosoitteen tiedot.",module,Magento_Multishipping
 "Please check billing address information.","Tarkista laskutusosoitteen tiedot.",module,Magento_Multishipping
 "Please specify a payment method.","Ole hyvä ja määrittele maksutapa.",module,Magento_Multishipping
+"Select Addresses","Valitse osoitteet",module,Magento_Multishipping
+"Shipping Information",Toimitustiedot,module,Magento_Multishipping
+"Billing Information",Laskutustiedot,module,Magento_Multishipping
 "Order Success","Tilaus onnistui",module,Magento_Multishipping
+"Select Address","Valitse osoite",module,Magento_Multishipping
 "Add New Address","Lisää uusi osoite",module,Magento_Multishipping
+"Back to Billing Information","Takaisin laskutustietoihin",module,Magento_Multishipping
 Product,Tuote,module,Magento_Multishipping
 Qty,Määrä,module,Magento_Multishipping
 "Remove Item","Poista tuote",module,Magento_Multishipping
@@ -1355,6 +1361,7 @@ Qty,Määrä,module,Magento_Multishipping
 "Back to Shopping Cart","Takaisin ostoskoriin",module,Magento_Multishipping
 "Billing Address",Laskutusosoite,module,Magento_Multishipping
 Change,Vaihda,module,Magento_Multishipping
+"Payment Method",Maksutapa,module,Magento_Multishipping
 "Edit Items","Muokkaa tuotteita",module,Magento_Multishipping
 "Product Name",Tuotenimi,module,Magento_Multishipping
 "Shipping Method",Toimitustapa,module,Magento_Multishipping
@@ -1365,6 +1372,7 @@ Items,Tuotteet,module,Magento_Multishipping
 "Grand Total:",Loppusumma:,module,Magento_Multishipping
 "Submitting order information...","Lähetetään tilauksen tietoja...",module,Magento_Multishipping
 "Continue to Billing Information","Jatka laskutustietoihin",module,Magento_Multishipping
+"Thank you for your purchase!","Kiitos ostoksestasi!",module,Magento_Multishipping
 "Continue Shopping","Jatka ostoksia",module,Magento_Multishipping
 "Delete Selected Problems","Poista valitut ongelmat",module,Magento_Newsletter
 "Unsubscribe Selected","Peruuta valittujen tilaus",module,Magento_Newsletter
@@ -1875,6 +1883,7 @@ Quantity,Määrä,module,Magento_Sales
 "Recently Compared Products","Äskettäin vertaillut tuotteet",module,Magento_Sales
 "Recently Viewed Products","Äskettäin katsotut tuotteet",module,Magento_Sales
 "Last Ordered Items","Viimeksi tilatut nimikkeet",module,Magento_Sales
+"Recently Viewed","Äskettäin tarkastellut",module,Magento_Sales
 "Wish List",Toivelista,module,Magento_Sales
 "Order Totals",Loppusummat,module,Magento_Sales
 "Shipping Incl. Tax (%1)","Toimitus sis. verot (%1)",module,Magento_Sales
@@ -2796,6 +2805,7 @@ Status,Tila,module,Magento_Indexer
 Updated,Päivitetty,module,Magento_Indexer
 Status,Tila,module,Magento_Integration
 "Review Order","Tarkastele tilausta",module,Magento_Multishipping
+"Select Shipping Method","Valitse toimitustapa",module,Magento_Multishipping
 "Subscription Options",Tilaustiedot,module,Magento_Newsletter
 "Allow Guest Subscription","Salli uutiskirjeen tilaus kirjautumatta",module,Magento_Newsletter
 "Need to Confirm","Vaatii vahvistuksen",module,Magento_Newsletter

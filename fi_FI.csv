@@ -1135,6 +1135,7 @@ Add,Lisää,module,Magento_Config
 "-- No Theme --","-- Ei teemaa --",module,Magento_Config
 Enable,"Ota käyttöön",module,Magento_Config
 Disable,"Poista käytöstä",module,Magento_Config
+Configuration,Asetukset,module,Magento_Config
 System,Järjestelmä,module,Magento_Config
 "You saved the configuration.","Asetukset on tallennettu.",module,Magento_Config
 "Something went wrong while saving this configuration:","Tapahtui virhe tallennettaessa tätä asetusta:",module,Magento_Config
@@ -2035,6 +2036,7 @@ Order,Tilaus,module,Magento_Paypal
 "Ship-to Name","Vastaanottajan nimi",module,Magento_Paypal
 "Order Total",Loppusumma,module,Magento_Paypal
 "Transaction Information",Tapahtumatiedot,module,Magento_Paypal
+"PayPal Settlement Reports","PayPal-maksujen raportit",module,Magento_Paypal
 Help,Ohje,module,Magento_Paypal
 Configure,Asetukset,module,Magento_Paypal
 Close,Sulje,module,Magento_Paypal
@@ -2212,6 +2214,7 @@ Product,Tuote,module,Magento_Reports
 Link,Linkki,module,Magento_Reports
 SKU,Tuotenro,module,Magento_Reports
 "Low stock","Alhainen varastotilanne",module,Magento_Reports
+Total,Yhteensä,module,Magento_Reports
 Price,Hinta,module,Magento_Reports
 "Refresh Statistics","Päivitä tilastot",module,Magento_Reports
 "Reviews for %1","Arvostelut tuotteelle %1",module,Magento_Reports
@@ -2242,13 +2245,16 @@ Canceled,Peruutettu,module,Magento_Reports
 "Abandoned carts","Hylätyt ostoskorit",module,Magento_Reports
 Email,Sähköposti,module,Magento_Reports
 Products,Tuotteet,module,Magento_Reports
+Quantity,Määrä,module,Magento_Reports
 "Applied Coupon","Käytetty alennuskoodi",module,Magento_Reports
 Updated,Päivitetty,module,Magento_Reports
 "IP Address",IP-osoite,module,Magento_Reports
 Customers,Asiakkaat,module,Magento_Reports
 ID,Tunnus,module,Magento_Reports
 "First Name",Etunimi,module,Magento_Reports
+"Last Name",Sukunimi,module,Magento_Reports
 "Items in Cart","Tuotteet ostoskorissa",module,Magento_Reports
+"Products in carts","Tuotteita ostoskorissa",module,Magento_Reports
 Carts,Ostoskorit,module,Magento_Reports
 Name,Nimi,module,Magento_Reports
 "Wish Lists",Toivelistat,module,Magento_Reports
@@ -3349,7 +3355,7 @@ Password:,Salasana:,module,Magento_Customer
 "Check the status of orders","Tarkastaa tilausten tilan",module,Magento_Customer
 "View past orders","Tarkastella aikaisempia tilauksia",module,Magento_Customer
 "Store alternative addresses (for shipping to multiple family members and friends)","Tallentaa vaihtoehtoisia osoitteita (toimitus esimerkiksi perheenjäsenille ja ystäville)",module,Magento_Customer
-"You must confirm your %customer_email email before you can sign in (link is only valid once):","Sinun täytyy vahvistaa sähköpostiosoitteesi %customer_email, ennen kuin voit kirjautua sisään (linkki toimii vain kerran):",module,Magento_Customer
+"You must confirm your %customer_email email before you can sign in (link is only valid once):","Sinun täytyy vahvistaa sähköpostiosoitteesi %customer_email ennen kuin voit kirjautua sisään (linkki toimii vain kerran):",module,Magento_Customer
 "Confirm Your Account","Vahvista tilisi",module,Magento_Customer
 "Thank you for confirming your %store_name account.","Kiitos %store_name tilisi vahvistamisesta.",module,Magento_Customer
 "To sign in to our site and set a password, click on the <a href=""%create_password_url"">link</a>:","Kirjautuaksesi sivustollemme vaihtaaksesi salasanan, klikkaa <a href=""%create_password_url"">linkkiä</a>:",module,Magento_Customer
@@ -3635,7 +3641,7 @@ Overview,Yleiskatsaus,module,Magento_Catalog
 Details,Yksityiskohdat,module,Magento_Catalog
 "Checkout Options",Tilausvaihtoehdot,module,Magento_Checkout
 "Enable Onepage Checkout","Ota yhden sivun osto käyttöön",module,Magento_Checkout
-"Allow Guest Checkout","Salli tilaa rekisteröitymättä",module,Magento_Checkout
+"Allow Guest Checkout","Salli tilaaminen rekisteröitymättä",module,Magento_Checkout
 "Require Customer To Be Logged In To Checkout","Vaadi asiakkaan kirjautuminen tilauksen tekemiseksi",module,Magento_Checkout
 "Quote Lifetime (days)","Tarjouksen voimassaoloaika (päivää)",module,Magento_Checkout
 "After Adding a Product Redirect to Shopping Cart","Lisättyäsi tuotteen, uudelleenohjaus ostoskoriin",module,Magento_Checkout
@@ -3857,7 +3863,7 @@ Inactive,Inaktiivinen,module,Magento_Review
 "Web Site",Sivusto,module,Magento_SalesRule
 General,Yleiset,module,Magento_Sales
 "Hide Customer IP","Piilota asiakkaan IP",module,Magento_Sales
-"Allow Reorder","Sallia uudelleentilaaminen",module,Magento_Sales
+"Allow Reorder","Salli uudelleentilaaminen",module,Magento_Sales
 "Invoice and Packing Slip Design","Laskun ja pakkausluettelon ulkoasu",module,Magento_Sales
 "Logo for PDF Print-outs (200x50)","Logo PDF-tulosteille (200 x 50)",module,Magento_Sales
 "Logo for HTML Print View","Logo HTML-tulostusnäkymälle",module,Magento_Sales
@@ -3945,7 +3951,7 @@ Layouts,Asettelut,module,Magento_Store
 "Default Post Code",Oletuspostinumero,module,Magento_Tax
 "Display Prices","Näytä hinnat",module,Magento_Tax
 "Display Subtotal","Näytä välisumma",module,Magento_Tax
-"Include Tax In Order Total","Sisällytä vero yhteensäsummaan",module,Magento_Tax
+"Include Tax In Order Total","Sisällytä vero kokonaissummaan",module,Magento_Tax
 "(Excl. Tax)",(Veroton),module,Magento_Tax
 "(Incl. Tax)",(Verollinen),module,Magento_Tax
 "Order Total Excl. Tax","Yhteensä veroton",module,Magento_Tax
@@ -3958,6 +3964,7 @@ Layouts,Asettelut,module,Magento_Store
 "Welcome Text",Tervetuliaisteksti,module,Magento_Theme
 "Default welcome msg!",Oletustervetuliaisviesti!,module,Magento_Theme
 "Copyright © 2015 Magento. All rights reserved.","Copyright © 2015 Magento. Kaikki oikeudet pidätetään.",module,Magento_Theme
+"3 columns","3 saraketta",module,Magento_Theme
 "Translation Strategy",Käännösstrategia,module,Magento_Translation
 Translations,Käännökset,module,Magento_Translation
 Action,Toiminto,module,Magento_Ui

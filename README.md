@@ -7,21 +7,22 @@ For our other language packs look at the [Magento2Translations](http://magento2t
 
 # Version & progress
 This translation is generated from the branch [2.0.7](https://crowdin.com/project/magento-2/fi#/2.0.7) at Crowdin and based on the Magento 2.0.7 sourcefiles.
-There have been  2998 strings translated of the 7782 strings in the Magento source.
+There have been  3005 strings translated of the 7782 strings in the Magento source.
 
 Translation progress:![Progress](http://progressed.io/bar/39)
 
 # Instalation
+**Please select the git branch appropriate for your magento version from this repo.**
 ## Via composer
 To install this translation package with composer you need access to the command line of your server and you need to have [Composer](https://getcomposer.org).
 ```
 cd <your magento path>
-composer require magento2translations/language_fi_fi:dev-master
+composer require magento2translations/language_fi_fi:2.0.7.x-dev
 php bin/magento cache:clean
 ```
 ## Manually
 To install this language package manually you need access to your server file system.
-* Download the zip file [here](https://github.com/Magento2Translations/language_fi_fi/archive/master.zip).
+* Download the zip file [here](https://github.com/Magento2Translations/language_fi_fi/archive/2.0.7.zip).
 * Upload the contents to `<your magento path>/app/i18n/magento2translations/language_fi_fi`.
 * The composer files should then be located like this `<your magento path>/app/i18n/magento2translations/fi_FI/fi_FI.csv`.
 * Go to your Magento admin panel and clear the caches.

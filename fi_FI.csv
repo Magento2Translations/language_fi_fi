@@ -875,6 +875,7 @@ Pages,Sivut,module,Magento_Cms
 "Disabled by Default","Oletusarvoisesti pois käytöstä",module,Magento_Cms
 "Disabled Completely","Kokonaan pois käytöstä",module,Magento_Cms
 "Browse Files...","Selaa tiedostoja...",module,Magento_Cms
+Configuration,Asetukset,module,Magento_Config
 "New attribute set name","Uusi ominaisuusjoukon nimi",module,Magento_ConfigurableProduct
 "Choose an Option...","Valitse vaihtoehto...",module,Magento_ConfigurableProduct
 Select,Valitse,module,Magento_ConfigurableProduct
@@ -1516,6 +1517,7 @@ Cancel,Peruuta,module,Magento_Paypal
 Order,Tilaus,module,Magento_Paypal
 "Order Total",Loppusumma,module,Magento_Paypal
 "Transaction Information",Tapahtumatiedot,module,Magento_Paypal
+"PayPal Settlement Reports","PayPal-maksujen raportit",module,Magento_Paypal
 Help,Ohje,module,Magento_Paypal
 Configure,Asetukset,module,Magento_Paypal
 Close,Sulje,module,Magento_Paypal
@@ -1650,6 +1652,7 @@ Product,Tuote,module,Magento_Reports
 Link,Linkki,module,Magento_Reports
 SKU,Tuotenro,module,Magento_Reports
 "Low stock","Alhainen varastotilanne",module,Magento_Reports
+Total,Yhteensä,module,Magento_Reports
 Price,Hinta,module,Magento_Reports
 "Refresh Statistics","Päivitä tilastot",module,Magento_Reports
 "Reviews for %1","Arvostelut tuotteelle %1",module,Magento_Reports
@@ -1680,13 +1683,16 @@ Canceled,Peruutettu,module,Magento_Reports
 "Abandoned carts","Hylätyt ostoskorit",module,Magento_Reports
 Email,Sähköposti,module,Magento_Reports
 Products,Tuotteet,module,Magento_Reports
+Quantity,Määrä,module,Magento_Reports
 "Applied Coupon","Käytetty alennuskoodi",module,Magento_Reports
 Updated,Päivitetty,module,Magento_Reports
 "IP Address",IP-osoite,module,Magento_Reports
 Customers,Asiakkaat,module,Magento_Reports
 ID,Tunnus,module,Magento_Reports
 "First Name",Etunimi,module,Magento_Reports
+"Last Name",Sukunimi,module,Magento_Reports
 "Items in Cart","Tuotteet ostoskorissa",module,Magento_Reports
+"Products in carts","Tuotteita ostoskorissa",module,Magento_Reports
 Carts,Ostoskorit,module,Magento_Reports
 Name,Nimi,module,Magento_Reports
 "Wish Lists",Toivelistat,module,Magento_Reports
@@ -2713,7 +2719,7 @@ Overview,Yleiskatsaus,module,Magento_Catalog
 Details,Yksityiskohdat,module,Magento_Catalog
 "Checkout Options",Tilausvaihtoehdot,module,Magento_Checkout
 "Enable Onepage Checkout","Ota yhden sivun osto käyttöön",module,Magento_Checkout
-"Allow Guest Checkout","Salli tilaa rekisteröitymättä",module,Magento_Checkout
+"Allow Guest Checkout","Salli tilaaminen rekisteröitymättä",module,Magento_Checkout
 "Require Customer To Be Logged In To Checkout","Vaadi asiakkaan kirjautuminen tilauksen tekemiseksi",module,Magento_Checkout
 "Quote Lifetime (days)","Tarjouksen voimassaoloaika (päivää)",module,Magento_Checkout
 "After Adding a Product Redirect to Shopping Cart","Lisättyäsi tuotteen, uudelleenohjaus ostoskoriin",module,Magento_Checkout
@@ -2875,7 +2881,7 @@ Inactive,Inaktiivinen,module,Magento_Review
 "Web Site",Sivusto,module,Magento_SalesRule
 General,Yleiset,module,Magento_Sales
 "Hide Customer IP","Piilota asiakkaan IP",module,Magento_Sales
-"Allow Reorder","Sallia uudelleentilaaminen",module,Magento_Sales
+"Allow Reorder","Salli uudelleentilaaminen",module,Magento_Sales
 "Invoice and Packing Slip Design","Laskun ja pakkausluettelon ulkoasu",module,Magento_Sales
 "Logo for PDF Print-outs (200x50)","Logo PDF-tulosteille (200 x 50)",module,Magento_Sales
 "Logo for HTML Print View","Logo HTML-tulostusnäkymälle",module,Magento_Sales
@@ -2950,6 +2956,7 @@ Layouts,Asettelut,module,Magento_Store
 "Logo Image","Logon kuva",module,Magento_Theme
 "Welcome Text",Tervetuliaisteksti,module,Magento_Theme
 "Default welcome msg!",Oletustervetuliaisviesti!,module,Magento_Theme
+"3 columns","3 saraketta",module,Magento_Theme
 "Translation Strategy",Käännösstrategia,module,Magento_Translation
 Translations,Käännökset,module,Magento_Translation
 "Handling Fee",Käsittelykulu,module,Magento_Ups

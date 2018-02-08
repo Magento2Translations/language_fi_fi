@@ -975,7 +975,7 @@ Availability,Saatavuus,module,Magento_Catalog
 Status,Tila,module,Magento_CheckoutAgreements
 Enabled,Käytössä,module,Magento_CheckoutAgreements
 Disabled,"Ei käytössä",module,Magento_CheckoutAgreements
-"Show Content as","Näytä sisältöä kuin",module,Magento_CheckoutAgreements
+"Show Content as","Näytä sisältö muodossa",module,Magento_CheckoutAgreements
 Text,Teksti,module,Magento_CheckoutAgreements
 "Store View",Kauppanäkymä,module,Magento_CheckoutAgreements
 "Checkbox Text","Valintaruudun teksti",module,Magento_CheckoutAgreements
@@ -1241,7 +1241,7 @@ Cancel,Peruuta,module,Magento_ConfigurableProduct
 "We can't process your request right now. Sorry, that's all we know.","Emme voi käsitellä pyyntöäsi juuri nyt. Anteeksi, emme osaa sanoa muuta juuri nyt.",module,Magento_Contact
 "* Required Fields","* Pakolliset kentät",module,Magento_Contact
 "Write Us","Kirjoita meille",module,Magento_Contact
-"Jot us a note and we’ll get back to you as quickly as possible.","Raapusta meille viesti niin palaamme asiaan mahdollisimman pian.",module,Magento_Contact
+"Jot us a note and we’ll get back to you as quickly as possible.","Lähetä meille viesti alla olevalla lomakkeella niin palaamme vastauksen kanssa mahdollisimman pian.",module,Magento_Contact
 Name,Nimi,module,Magento_Contact
 Email,Sähköposti,module,Magento_Contact
 "Phone Number",Puhelinnumero,module,Magento_Contact
@@ -1279,7 +1279,7 @@ System,Järjestelmä,module,Magento_CurrencySymbol
 "Sign In","Kirjaudu sisään",module,Magento_Customer
 "You subscribe to our newsletter.","Tilaat uutiskirjeemme.",module,Magento_Customer
 "You don't subscribe to our newsletter.","Et tilaa uutiskirjettämme.",module,Magento_Customer
-"You have not set a default shipping address.","Et ole määrittänyt oletus toimitusosoitetta.",module,Magento_Customer
+"You have not set a default shipping address.","Et ole määrittänyt oletustoimitusosoitetta.",module,Magento_Customer
 "You have not set a default billing address.","Et ole määrittänyt oletusosoitetta.",module,Magento_Customer
 "Address Book",Osoitekirja,module,Magento_Customer
 "Edit Address","Muokkaa osoitetta",module,Magento_Customer
@@ -1382,7 +1382,7 @@ Download,Lataa,module,Magento_Customer
 "Wrong email.","Väärä sähköpostiosoite.",module,Magento_Customer
 "Your password reset link has expired.","Salasanan palautuslinkki on vanhentunut.",module,Magento_Customer
 "You must confirm your account. Please check your email for the confirmation link or <a href=""%1"">click here</a> for a new link.","Sinulle on lähetetty sähköpostilla linkki, jolla voit vahvista tilisi tai <a href=""%1"">klikkaa tästä</a> tilataksesi uuden linkin.",module,Magento_Customer
-"There is already an account with this email address. If you are sure that it is your email address, <a href=""%1"">click here</a> to get your password and access your account.","On jo olemassa tili tällä sähköpostiosoitteella. Jos olet varma että se on sinun, <a href=""%1"">klikkaa tästä</a> ja nollaa salasana tilillesi.",module,Magento_Customer
+"There is already an account with this email address. If you are sure that it is your email address, <a href=""%1"">click here</a> to get your password and access your account.","Tällä sähköpostiosoitteella on jo olemassaoleva asiakastili. Jos olet varma että se on sinun, <a href=""%1"">klikkaa tästä</a> ja nollaa salasana tilillesi.",module,Magento_Customer
 "We can't save the customer.","Asiakasta ei voida tallentaa.",module,Magento_Customer
 "Please make sure your passwords match.","Varmista, että salasanat täsmäävät.",module,Magento_Customer
 "If you are a registered VAT customer, please <a href=""%1"">click here</a> to enter your shipping address for proper VAT calculation.","Jos olet rekisteröitynyt ALV-asiakas, ole hyvä ja klikkaa <a href=""%1""> tästä</a> syöttääksesi toimitusosoitteen oikeaa ALV-laskentaa varten.",module,Magento_Customer
@@ -1397,7 +1397,7 @@ Download,Lataa,module,Magento_Customer
 "We're unable to send the password reset email.","Salasanan nollaussähköpostin lähettäminen epäonnistui.",module,Magento_Customer
 "Please enter your email.","Syötä sähköpostiosoitteesi.",module,Magento_Customer
 "If there is an account associated with %1 you will receive an email with a link to reset your password.","Jos sähköpostiosoitteella %1 on olemassa tili, saat sähköpostin jossa on ohjeet uuden salasanan asettamiseksi.",module,Magento_Customer
-"My Account",Asiakastilini,module,Magento_Customer
+"My Account","Oma tili",module,Magento_Customer
 "This account is not confirmed. <a href=""%1"">Click here</a> to resend confirmation email.","Tiliä ei ole vahvistettu, <a href=""%1"">klikkaa tästä</a> uudelleenlähettääksesi vahvistussähköpostin.",module,Magento_Customer
 "Invalid login or password.","Virheellinen sähköpostiosoite tai salasana.",module,Magento_Customer
 "A login and a password are required.","Käyttäjätunnus ja salasana ovat pakolliset.",module,Magento_Customer
@@ -1556,7 +1556,7 @@ Login,Kirjaudu,module,Magento_Customer
 "Set a New Password","Aseta uusi salasana",module,Magento_Customer
 "You have signed out and will go to our homepage in 5 seconds.","Olet kirjautunut ulos, palaat etusivullemme 5 sekunnin kuluessa.",module,Magento_Customer
 "New Customers","Uudet asiakkaat",module,Magento_Customer
-"Creating an account has many benefits: check out faster, keep more than one address, track orders and more.","Tilin luomisesta on monia etuja: nopeammat tilaukset, säilytä useita osoitteita, seuraa tilauksia ja muuta.",module,Magento_Customer
+"Creating an account has many benefits: check out faster, keep more than one address, track orders and more.","Tilin luomisesta on monia etuja: nopeammat tilaukset, useiden osoitteiden säilyttäminen, tilausten seuranta ja paljon muuta.",module,Magento_Customer
 Gender,Sukupuoli,module,Magento_Customer
 Name,Nimi,module,Magento_Customer
 "Tax/VAT number","ALV-numero / Y-tunnus",module,Magento_Customer
@@ -1954,7 +1954,7 @@ Preview,Esikatselu,module,Magento_Newsletter
 "Template Name","Mallipohjan nimi",module,Magento_Newsletter
 "Template Subject","Mallipohjan aihe",module,Magento_Newsletter
 "Template Content","Mallipohjan sisältö",module,Magento_Newsletter
-"Template Styles","Sivupohjan tyylit",module,Magento_Newsletter
+"Template Styles","Mallipohjan tyylit",module,Magento_Newsletter
 "No Templates Found","Malleja ei löydy",module,Magento_Newsletter
 ID,Tunnus,module,Magento_Newsletter
 Template,Mallipohja,module,Magento_Newsletter
@@ -2077,6 +2077,7 @@ Order,Tilaus,module,Magento_Paypal
 "Bill-to Name","Laskutusasiakkaan nimi",module,Magento_Paypal
 "Ship-to Name","Vastaanottajan nimi",module,Magento_Paypal
 "Order Total",Loppusumma,module,Magento_Paypal
+"Purchase Point",Ostopiste,module,Magento_Paypal
 "Transaction Information",Tapahtumatiedot,module,Magento_Paypal
 "PayPal Settlement Reports","PayPal-maksujen raportit",module,Magento_Paypal
 Help,Ohje,module,Magento_Paypal
@@ -2134,6 +2135,7 @@ Daily,Päivittäin,module,Magento_Paypal
 "Every 40 days","40 päivän välein",module,Magento_Paypal
 "No Logo","Ilman logoa",module,Magento_Paypal
 "Yes (PayPal recommends this option)","Kyllä (PayPal suosittelee tätä vaihtoehtoa)",module,Magento_Paypal
+"Pending PayPal","Odottaa PayPal-maksua",module,Magento_Paypal
 "Please Select",Valitse,module,Magento_Paypal
 Customer,Asiakas,module,Magento_Paypal
 "Created At",Luontiaika,module,Magento_Paypal
@@ -2351,6 +2353,8 @@ Created,Luotu,module,Magento_Review
 Type,Tyyppi,module,Magento_Review
 Edit,Muokkaa,module,Magento_Review
 Delete,Poista,module,Magento_Review
+"Pending Reviews of Customer `%1`","Asiakkaan '%1' odottavat arvioinnit",module,Magento_Review
+"Pending Reviews","Odottavat tuotearvostelut",module,Magento_Review
 "All Reviews","Kaikki arvostelut",module,Magento_Review
 Name,Nimi,module,Magento_Review
 Price,Hinta,module,Magento_Review
@@ -2652,6 +2656,7 @@ State/Province,Osavaltio/provinssi,module,Magento_Sales
 "Zip/Postal Code",Postinumero,module,Magento_Sales
 "New Orders","Uudet tilaukset",module,Magento_Sales
 "Total: %1<br/>","Yhteensä: %1<br/>",module,Magento_Sales
+"Pending Payment","Odottaa maksua",module,Magento_Sales
 Processing,Käsitellään,module,Magento_Sales
 "On Hold",Pidossa,module,Magento_Sales
 Complete,Valmis,module,Magento_Sales
@@ -2798,7 +2803,7 @@ Reports,Raportit,module,Magento_Search
 "You saved the search term.","Hakutermi on tallennettu.",module,Magento_Search
 "Something went wrong while saving the search query.","Hakukyselyn tallentaminen ei onnistunut.",module,Magento_Search
 "You already have an identical search term query.","Identtinen hakukysely on jo olemassa.",module,Magento_Search
-"Search entire store here...","Etsi koko kaupasta...",module,Magento_Search
+"Search entire store here...","Hae koko sivustosta...",module,Magento_Search
 "There are no search terms available.","Hakutermejä ei ole saatavilla.",module,Magento_Search
 "Page not found.","Sivua ei löydy.",module,Magento_SendFriend
 "The link to a friend was sent.","Linkki kaverille lähetettiin.",module,Magento_SendFriend
@@ -2851,7 +2856,7 @@ Shipments,Lähetykset,module,Magento_Shipping
 "Page not found.","Sivua ei löydy.",module,Magento_Shipping
 "Tracking Information",Seurantatiedot,module,Magento_Shipping
 "All Allowed Countries","Kaikki sallitut maat",module,Magento_Shipping
-Live,Suora,module,Magento_Shipping
+Live,Käytössä,module,Magento_Shipping
 Packages,Paketit,module,Magento_Shipping
 Package,Paketti,module,Magento_Shipping
 Type,Tyyppi,module,Magento_Shipping
@@ -3413,13 +3418,13 @@ Password:,Salasana:,module,Magento_Customer
 "You must confirm your %customer_email email before you can sign in (link is only valid once):","Sinun täytyy vahvistaa sähköpostiosoitteesi %customer_email ennen kuin voit kirjautua sisään (linkki toimii vain kerran):",module,Magento_Customer
 "Confirm Your Account","Vahvista tilisi",module,Magento_Customer
 "Thank you for confirming your %store_name account.","Kiitos %store_name tilisi vahvistamisesta.",module,Magento_Customer
-"To sign in to our site and set a password, click on the <a href=""%create_password_url"">link</a>:","Kirjautuaksesi sivustollemme vaihtaaksesi salasanan, klikkaa <a href=""%create_password_url"">linkkiä</a>:",module,Magento_Customer
+"To sign in to our site and set a password, click on the <a href=""%create_password_url"">link</a>:","Kirjautuaksesi sivustollemme ja asettaaksesi salasanan, klikkaa <a href=""%create_password_url"">linkkiä</a>:",module,Magento_Customer
 "There was recently a request to change the password for your account.","Tilisi salasananvaihto on tilattu äskettäin.",module,Magento_Customer
 "If you requested this change, set a new password here:","Jos olet pyytänyt tämän muutoksen, palauta salasanasi tästä:",module,Magento_Customer
 "If you did not make this request, you can ignore this email and your password will remain the same.","Jos et jättänyt tätä pyyntöä, voit ohittaa tämän sähköpostin ja salasana pysyy samana.",module,Magento_Customer
 "The password for your account has been successfully changed.","Tilisi salasana on vaihdettu onnistuneesti.",module,Magento_Customer
 "If you did not request this change, please contact us.","Jos et pyytänyt tätä muutosta, ota meihin yhteyttä.",module,Magento_Customer
-"Thank you, %store_name","Kiitos, %store_name",module,Magento_Email
+"Thank you, %store_name","Kiittäen, %store_name",module,Magento_Email
 "Thank you for subscribing to our newsletter.","Kiitos uutiskirjeemme tilaamisesta.",module,Magento_Newsletter
 "To begin receiving the newsletter, you must first confirm your subscription by clicking on the following link:","Saadaksesi jatkossa uutiskirjeen sinun tulee ensin vahvistaa tilauksesi klikkaamalla seuraavaa linkkiä:",module,Magento_Newsletter
 "You have been successfully subscribed to our newsletter.","Olet onnistuneesti tilannut uutiskirjeemme.",module,Magento_Newsletter
@@ -3427,7 +3432,7 @@ Password:,Salasana:,module,Magento_Customer
 "Thank you for your order from %store_name.","Kiitos tilauksestasi %store_name -kaupassa.",module,Magento_Sales
 "You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","Voit tarkistaa tilauksesi tilan <a href=""%account_url"">kirjautumalla tilillesi</a>.",module,Magento_Sales
 "If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>","Jos sinulla on kysyttävää tilauksestasi, voit lähettää meille sähköpostia osoitteeseen <a href=""mailto:%store_email"">%store_email</a>",module,Magento_Sales
-"or call us at <a href=""tel:%store_phone"">%store_phone</a>","tai soittaa meille numeroon <a href=""tel:%store_phone""> %store_phone</a>",module,Magento_Sales
+"or call us at <a href=""tel:%store_phone"">%store_phone</a>","tai soita meille numeroon <a href=""tel:%store_phone""> %store_phone</a>",module,Magento_Sales
 "Our hours are <span class=""no-link"">%store_hours</span>.","Aukioloaikamme ovat <span class=""no-link"">%store_hours</span>.",module,Magento_Sales
 "Billing Info",Laskutustiedot,module,Magento_Sales
 "Shipping Info",Toimitustiedot,module,Magento_Sales
@@ -3435,9 +3440,10 @@ Password:,Salasana:,module,Magento_Customer
 "Your Order <span class=""no-link"">#%increment_id</span>","Tilauksesi <span class=""no-link"">#%increment_id</span>",module,Magento_Sales
 "Placed on <span class=""no-link"">%created_at</span>","Tilattu <span class=""no-link"">%created_at</span>",module,Magento_Sales
 "Once your package ships we will send an email with a link to track your order.","Kun pakettisi on toimitetaan, lähetämme sinulle sähköpostin seurantalinkkeineen.",module,Magento_Sales
-"Your shipping confirmation is below. Thank you again for your business.","Postitusvahvistus alla. Kiitos vielä tilauksesta!",module,Magento_Sales
+"Your shipping confirmation is below. Thank you again for your business.","Tilauksen lähetysvahvistus alapuolella. Kiitos vielä tilauksestasi!",module,Magento_Sales
 "Your Shipment #%shipment_id for Order #%order_id","Toimitus #%shipment_id tilaukselle #%order_id",module,Magento_Sales
-"Thank you,","Kiitos,",module,Magento_User
+"%sender_name wants to share this product with you:","%sender_name haluaa jakaa tiedon tästä tuotteesta sinulle:",module,Magento_SendFriend
+"Thank you,","Kiittäen,",module,Magento_User
 "There was recently a request to change the password for your account.","Tilisi salasananvaihto on tilattu äskettäin.",module,Magento_User
 "If you requested this change, reset your password here:","Jos olet pyytänyt tämän muutoksen, palauta salasanasi tästä:",module,Magento_User
 "If you did not make this request, you can ignore this email and your password will remain the same.","Jos et jättänyt tätä pyyntöä, voit ohittaa tämän sähköpostin ja salasana pysyy samana.",module,Magento_User
@@ -3466,7 +3472,7 @@ Password:,Salasana:,theme,frontend/Magento/luma
 "Hours of Operation:<br /><span class=""no-link"">%store_hours</span>.","Aukioloaika: <br /> <span class=""no-link"">%store_hours</span>.",theme,frontend/Magento/luma
 "Thank you for your order from %store_name.","Kiitos tilauksestasi %store_name -kaupassa.",theme,frontend/Magento/luma
 "You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","Voit tarkistaa tilauksesi tilan kirjautumalla <a href=""%account_url"">tilillesi</a>.",theme,frontend/Magento/luma
-"If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>.","Jos sinulla on kysyttävää tilauksestasi, voit lähettä meille sähköpostia osoitteeseen <a href=""mailto:%store_email"">%store_email</a>.",theme,frontend/Magento/luma
+"If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>.","Jos sinulla on kysyttävää tilauksestasi, voit lähettää meille sähköpostia osoitteeseen <a href=""mailto:%store_email"">%store_email</a>.",theme,frontend/Magento/luma
 "Your Credit Memo #%creditmemo_id for Order #%order_id","Hyvityslaskun tiedot #%creditmemo_id tilaukselle #%order_id",theme,frontend/Magento/luma
 "Billing Info",Laskutustiedot,theme,frontend/Magento/luma
 "Shipping Info",Toimitustiedot,theme,frontend/Magento/luma
@@ -3477,8 +3483,8 @@ Password:,Salasana:,theme,frontend/Magento/luma
 "Once your package ships we will send you a tracking number.","Kun pakettisi postitetaan, lähetämme sinulle seurantanumeron.",theme,frontend/Magento/luma
 "Your Order <span class=""no-link"">#%increment_id</span>","Tilauksesi <span class=""no-link"">#%increment_id</span>",theme,frontend/Magento/luma
 "Placed on <span class=""no-link"">%created_at</span>","Tilattu <span class=""no-link"">%created_at</span>",theme,frontend/Magento/luma
-"Your shipping confirmation is below. Thank you again for your business.","Postitusvahvistus alla. Kiitos vielä tilauksesta.",theme,frontend/Magento/luma
-"Your Shipment #%shipment_id for Order #%order_id","Postitus #%shipment_id tilaukselle #%order_id",theme,frontend/Magento/luma
+"Your shipping confirmation is below. Thank you again for your business.","Tilauksen lähetysvahvistus alapuolella. Kiitos vielä tilauksestasi!",theme,frontend/Magento/luma
+"Your Shipment #%shipment_id for Order #%order_id","Lähetys #%shipment_id tilaukselle #%order_id",theme,frontend/Magento/luma
 "We could not detect a size.","Kokoa ei voitu tunnistaa.",module,Magento_Backend
 "We don't recognize or support this file extension type.","Emme tunnista tai tue tätä tiedostotyyppiä.",module,Magento_Backend
 "Add Selected Products","Lisää valitut tuotteet",module,Magento_Bundle
@@ -3728,6 +3734,7 @@ End,Loppu,module,Magento_CatalogRule
 Conditions,Ehdot,module,Magento_CatalogWidget
 Small,Pieni,module,Magento_Catalog
 Thumbnail,Pienoiskuva,module,Magento_Catalog
+"Product Fields Auto-Generation","Tuotteen tietokenttien automaattinen luonti",module,Magento_Catalog
 "List Mode",Luettelotila,module,Magento_Catalog
 "Products per Page on Grid Allowed Values","Tuotetta per sivu ruudukkotilassa, sallitut arvot",module,Magento_Catalog
 Comma-separated.,"Pilkuin erotettu.",module,Magento_Catalog
@@ -3792,7 +3799,7 @@ Shipping,Toimitus,module,Magento_Checkout
 "Shipping Address",Toimitusosoite,module,Magento_Checkout
 "Save Address","Tallenna osoite",module,Magento_Checkout
 Cancel,Peruuta,module,Magento_Checkout
-"We'll send your order confirmation here.","Lähetämme tilausvahvistuksen täällä.",module,Magento_Checkout
+"We'll send your order confirmation here.","Lähetämme tilausvahvistuksen tähän osoitteeseen.",module,Magento_Checkout
 "For delivery questions.",Toimituskysymyksille.,module,Magento_Checkout
 Payment,Maksu,module,Magento_Checkout
 "Cart Subtotal","Ostoskorin välisumma",module,Magento_Checkout
@@ -3873,11 +3880,15 @@ Password,Salasana,module,Magento_Dhl
 Size,Koko,module,Magento_Dhl
 "Sort Order",Järjestys,module,Magento_Dhl
 "Currency Setup",Valuutta-asetukset,module,Magento_Directory
+"Currency Options",Valuutta-asetukset,module,Magento_Directory
 "Base Currency",Oletusvaluutta,module,Magento_Directory
 "Allowed Currencies","Sallitut valuutat",module,Magento_Directory
 "Connection Timeout in Seconds","Yhteyden aikakatkaisu sekunteina",module,Magento_Directory
+"Scheduled Import Settings","Ajastetun tuonnin asetukset",module,Magento_Directory
 Enabled,Käytössä,module,Magento_Directory
+Service,Palveluntarjoaja,module,Magento_Directory
 "Installed Currencies","Asennetut valuutat",module,Magento_Directory
+"Zip/Postal Code is Optional for","Maat, joille postinumero on valinnainen",module,Magento_Directory
 "State Options","Osavaltion/maakunnan asetukset",module,Magento_Directory
 "Weight Unit",Painoyksikkö,module,Magento_Directory
 "Disable Guest Checkout if Cart Contains Downloadable Items","Poista vieraana ostaminen käytöstä, jos ostoskori sisältää ladattavia tuotteita",module,Magento_Downloadable
@@ -3947,11 +3958,11 @@ Unconfirmed,"Ei vahvistettu",module,Magento_Newsletter
 Store,Kauppa,module,Magento_Newsletter
 "Store View",Kauppanäkymä,module,Magento_Newsletter
 "Newsletter Subscriptions","Uutiskirjeen tilaukset",module,Magento_Newsletter
-"Check / Money Order","Lasku- / rahatilaus",module,Magento_OfflinePayments
+"Check / Money Order","Shekki- / rahatilaus",module,Magento_OfflinePayments
 Enabled,Käytössä,module,Magento_OfflinePayments
 "Sort Order",Järjestys,module,Magento_OfflinePayments
 "Purchase Order",Ostotilaus,module,Magento_OfflinePayments
-"Bank Transfer Payment",Pankkisiirto,module,Magento_OfflinePayments
+"Bank Transfer Payment",Tilisiirto,module,Magento_OfflinePayments
 Instructions,Ohjeet,module,Magento_OfflinePayments
 "Cash On Delivery Payment",Postiennakko,module,Magento_OfflinePayments
 "Flat Rate","Kiinteähintainen toimitus",module,Magento_OfflineShipping
@@ -4021,14 +4032,16 @@ Created,Luotu,module,Magento_Sales
 "Default Status",Oletustila,module,Magento_Sales
 "All Store Views","Kaikki kauppanäkymät",module,Magento_Sales
 "PDF Credit Memos","PDF hyvityslaskut",module,Magento_Sales
+"Purchase Point",Ostopiste,module,Magento_Sales
 "Print Invoices","Tulosta laskut",module,Magento_Sales
 "Print Packing Slips","Tulosta pakkauslistat",module,Magento_Sales
 "Print Credit Memos","Tulosta hyvityslaskut",module,Magento_Sales
 "Print All","Tulosta kaikki",module,Magento_Sales
 "Print Shipping Labels","Tulosta osoitetarrat",module,Magento_Sales
 "Purchase Date",Ostopäivämäärä,module,Magento_Sales
-"Grand Total (Base)","Loppusumma (peruste)",module,Magento_Sales
-"Grand Total (Purchased)","Loppusumma (ostettu)",module,Magento_Sales
+"Grand Total (Base)","Loppusumma (oletusvaluutassa)",module,Magento_Sales
+"Grand Total (Purchased)","Loppusumma (käytetty valuutta)",module,Magento_Sales
+"Customer Email","Asiakkaan sähköposti",module,Magento_Sales
 "Shipping and Handling","Lähetys- ja käsittelykulut",module,Magento_Sales
 "PDF Invoices",PDF-laskut,module,Magento_Sales
 "PDF Shipments",PDF-lähetysasiakirjat,module,Magento_Sales

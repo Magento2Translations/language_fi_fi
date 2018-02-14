@@ -2399,6 +2399,9 @@ Summary,Yhteenveto,module,Magento_Review
 "Add Your Review","Lisää arviosi",module,Magento_Review
 "%1 Review(s)","%1 arvostelu(a)",module,Magento_Review
 "Review by",Arvostellut,module,Magento_Review
+"Page not found.","Sivua ei löydy.",module,Magento_Rss
+Feed,Syöte,module,Magento_Rss
+"Miscellaneous Feeds","Sekalaiset syötteet",module,Magento_Rss
 Apply,"Ota käyttöön",module,Magento_Rule
 "Please choose a valid discount amount.","Valitse kelvollinen alennussumma.",module,Magento_Rule
 "End Date must follow Start Date.","Päättymispäivän on seurattava aloituspäivämäärää.",module,Magento_Rule
@@ -2854,6 +2857,25 @@ None,"Ei mikään",module,Magento_Security
 "This administrator account is open in more than one location. Note that other locations might be different browsers or sessions on the same computer.","Järjestelmänvalvojatili on avoinna useammassa kuin yhdessä sijainnissa. Huomaa, että muut sijainnit saattavat olla eri selaimia tai istuntoja samassa tietokoneessa.",module,Magento_Security
 "IP Address",IP-osoite,module,Magento_Security
 "Log out all other sessions","Kirjaudu ulos muista istunnoista",module,Magento_Security
+"Page not found.","Sivua ei löydy.",module,Magento_SendFriend
+"The link to a friend was sent.","Linkki kaverille lähetettiin.",module,Magento_SendFriend
+"Some emails were not sent.","Joitain sähköposteja ei lähetetty.",module,Magento_SendFriend
+"Please enter a sender name.","Anna lähettäjän nimi.",module,Magento_SendFriend
+"Invalid Sender Email","Virheellinen lähettäjän sähköposti",module,Magento_SendFriend
+"Please enter a message.","Kirjoita viesti.",module,Magento_SendFriend
+"Please specify at least one recipient.","Määritä vähintään yksi vastaanottaja.",module,Magento_SendFriend
+"No more than %1 emails can be sent at a time.","Enintään %1 sähköposti(a) voidaan lähettää kerrallaan.",module,Magento_SendFriend
+"IP Address",IP-osoite,module,Magento_SendFriend
+"Some error","Jokin virhe",module,Magento_SendFriend
+Exception.,Poikkeus.,module,Magento_SendFriend
+"Remove Recipent","Poista vastaanottaja",module,Magento_SendFriend
+Remove,Poista,module,Magento_SendFriend
+Name,Nimi,module,Magento_SendFriend
+Email,Sähköposti,module,Magento_SendFriend
+"* Required Fields","* Pakolliset kentät",module,Magento_SendFriend
+Sender,Lähettäjä,module,Magento_SendFriend
+Message,Viesti,module,Magento_SendFriend
+Back,Takaisin,module,Magento_SendFriend
 "New Shipment for Order #%1","Uusi lähetys tilaukselle #%1",module,Magento_Shipping
 "Submit Shipment","Hyväksy lähetys",module,Magento_Shipping
 "You are trying to add a quantity for some products that doesn't match the quantity that was shipped.","Yrität lisätä joidenkin tuotteiden määrää, joka ei vastaa toimitettua määrää.",module,Magento_Shipping
@@ -3020,6 +3042,12 @@ Clear,Tyhjennä,module,Magento_Swatches
 "Deselect All","Poista kaikki valinnat",module,Magento_Swatches
 "Remove Attribute","Poista attribuutti",module,Magento_Swatches
 "Create New Value","Luo uusi arvo",module,Magento_Swatches
+Code,Koodi,module,Magento_TaxImportExport
+Country,Maa,module,Magento_TaxImportExport
+State,Lääni,module,Magento_TaxImportExport
+"Zip/Post Code",Postinumero,module,Magento_TaxImportExport
+"Invalid file format.","Tiedostomuoto ei kelpaa.",module,Magento_TaxImportExport
+"Import Tax Rates","Tuo verokannat",module,Magento_TaxImportExport
 "Tax Rate Information","Veroluokkien tiedot",module,Magento_Tax
 "Tax Identifier",Verotunnus,module,Magento_Tax
 "Zip/Post is Range","Postinumero on alueella",module,Magento_Tax
@@ -3085,6 +3113,63 @@ Save,Tallenna,module,Magento_Tax
 "Add New Class","Lisää uusi luokka",module,Magento_Tax
 "Grand Total Excl. Tax","Veroton loppusumma",module,Magento_Tax
 "Grand Total Incl. Tax","Verollinen loppusumma",module,Magento_Tax
+Back,Takaisin,module,Magento_Theme
+"Save and Continue","Tallenna ja jatka",module,Magento_Theme
+"Save Configuration","Tallenna konfiguraatio",module,Magento_Theme
+Default,Oletus,module,Magento_Theme
+Themes,Teemat,module,Magento_Theme
+"Save and Continue Edit","Tallenna ja jatka muokkaamista",module,Magento_Theme
+"Are you sure you want to delete this theme?","Oletko varma että haluat poistaa tämän teeman?",module,Magento_Theme
+"Theme: %1","Teema: %1",module,Magento_Theme
+"New Theme","Uusi teema",module,Magento_Theme
+"Theme CSS","Teeman CSS",module,Magento_Theme
+"Select CSS File to Upload","Valitse lähetettävä CSS-tiedosto",module,Magento_Theme
+"Upload CSS File","Lähetä CSS-tiedosto",module,Magento_Theme
+"Download CSS File","Lataa CSS-tiedosto",module,Magento_Theme
+Manage,Hallitse,module,Magento_Theme
+"Upload Images","Lähetä Kuva",module,Magento_Theme
+"Edit custom.css","Muokkaa custom.css",module,Magento_Theme
+"Allowed file types *.css.","Sallitut tiedostotyypit *.css.",module,Magento_Theme
+"CSS Editor",CSS-editori,module,Magento_Theme
+"Theme Settings","Teeman asetukset",module,Magento_Theme
+"Theme Path","Teeman polku",module,Magento_Theme
+"Theme Preview Image","Teeman esikatselukuva",module,Magento_Theme
+General,Yleiset,module,Magento_Theme
+"Copy of %1","%1:n kopio",module,Magento_Theme
+"Allowed file types *.js.","Sallitut tiedostotyypit *.js.",module,Magento_Theme
+Theme,Teema,module,Magento_Theme
+"Create Folder","Luo kansio",module,Magento_Theme
+"Delete Folder","Poista kansio",module,Magento_Theme
+"Delete File","Poista tiedosto",module,Magento_Theme
+welcome,tervetuloa,module,Magento_Theme
+Global,Globaali,module,Magento_Theme
+"You saved the configuration.","Asetukset on tallennettu.",module,Magento_Theme
+"You deleted the theme.","Poistit teeman.",module,Magento_Theme
+"We cannot delete the theme.","Teemaa ei voida poistaa.",module,Magento_Theme
+"File not found: ""%1"".","Tiedostoa ei löydy: ""%1"".",module,Magento_Theme
+"We cannot find theme ""%1"".","Teemaa ""%1"" ei löydy.",module,Magento_Theme
+"We cannot find the theme.","Teemaa ei löydy.",module,Magento_Theme
+"This theme is not editable.","Tämä teema ei ole muokattavissa.",module,Magento_Theme
+"You saved the theme.","Tallensit teeman.",module,Magento_Theme
+"-- Please Select --","--- Valitse ---",module,Magento_Theme
+"The CSS file must be less than %1M.","CSS-tiedoston on oltava pienempi kuin %1M.",module,Magento_Theme
+Message,Viesti,module,Magento_Theme
+Edit,Muokkaa,module,Magento_Theme
+"Browse Files","Selaa tiedostoja",module,Magento_Theme
+Remove,Poista,module,Magento_Theme
+"Help Us Keep Magento Healthy","Auta meitä pitämään Magento terveenä",module,Magento_Theme
+"Welcome, %1!","Tervetuloa, %1!",module,Magento_Theme
+"%1 Item","%1 tuote",module,Magento_Theme
+"%1 Item(s)","%1 tuote(tta)",module,Magento_Theme
+Page,Sivu,module,Magento_Theme
+Previous,Edellinen,module,Magento_Theme
+Next,Seuraava,module,Magento_Theme
+Show,Näytä,module,Magento_Theme
+"per page","per sivu",module,Magento_Theme
+Close,Sulje,module,Magento_Theme
+Time,Aika,module,Magento_Theme
+Hour,Tunti,module,Magento_Theme
+Minute,Minuutti,module,Magento_Theme
 "Dictionary (Translation on Storefront side)","Sanakirja (käännös kaupan Etusivun puolella)",module,Magento_Translation
 "Embedded (Translation on Admin side)","Upotettu (käännös Admin-puolella)",module,Magento_Translation
 "Error while translating phrase ""%s"" in file %s.","Virhe käännettäessä lausetta ”%s” tiedostossa %s.",module,Magento_Translation
@@ -3247,6 +3332,35 @@ All,Kaikki,module,Magento_User
 Resources,Resurssit,module,Magento_User
 "Warning!\r\nThis action will remove this user from already assigned role\r\nAre you sure?","Varoitus!\r\nTämä toimenpide poistaa tämän käyttäjän jo sille määritellyistä rooleista\r\nOletko varma?",module,Magento_User
 "Warning!\r\nThis action will remove those users from already assigned roles\r\nAre you sure?","Varoitus!\r\nTämä toimenpide poistaa nämä käyttäjät jo niille määritellyistä rooleista\r\nOletko varma?",module,Magento_User
+"First-Class Mail Large Envelope","First-Class Mail suuri kirjekuori",module,Magento_Usps
+Yes,Kyllä,module,Magento_Usps
+No,Ei,module,Magento_Usps
+Gift,Lahja,module,Magento_Usps
+None,"Ei mikään",module,Magento_Usps
+"Custom Variables","Muokatut muuttujat",module,Magento_Variable
+"Add New Variable","Lisää uusi muuttuja",module,Magento_Variable
+"Save and Continue Edit","Tallenna ja jatka muokkaamista",module,Magento_Variable
+No,Ei,module,Magento_Variable
+Yes,Kyllä,module,Magento_Variable
+"No token found.","Tunnussanomaa ei löydy.",module,Magento_Vault
+"Wrong request.","Väärä pyyntö.",module,Magento_Vault
+"Deletion failure. Please try again.","Poistaminen epäonnistui. Yritä uudelleen.",module,Magento_Vault
+"Stored Payment Method was successfully removed","Tallennettu maksutapa poistettiin onnistuneesti",module,Magento_Vault
+"Stored Payment Methods","Tallennetut maksutavat",module,Magento_Vault
+"Card Number","Kortin numero",module,Magento_Vault
+"Expiration Date","Viimeinen voimassaolopäivä",module,Magento_Vault
+Type,Tyyppi,module,Magento_Vault
+"You have no stored payment methods.","Sinulla ei ole tallennettuja maksutapoja.",module,Magento_Vault
+ending,päättyy,module,Magento_Vault
+Actions,Toiminnot,module,Magento_Vault
+Delete,Poista,module,Magento_Vault
+"PayPal Account",PayPal-tili,module,Magento_Vault
+"Consumer is not authorized to access %resources","Kuluttajalla ei ole oikeutta käyttää %resources",module,Magento_Webapi
+"Operation allowed only in HTTPS","Käyttö sallittu vain HTTPS:llä",module,Magento_Webapi
+"Requested service is not available: ""%1""","Pyydetty palvelu ei ole saatavilla: ""%1""",module,Magento_Webapi
+"Invalid XML","Virheellinen XML",module,Magento_Webapi
+message,viesti,module,Magento_Webapi
+Message,Viesti,module,Magento_Webapi
 "Add Tax","Lisää vero",module,Magento_Weee
 "Delete Tax","Poista vero",module,Magento_Weee
 "All Websites","Kaikki sivustot",module,Magento_Weee
@@ -3491,6 +3605,18 @@ Delete,Poista,module,Magento_GiftMessage
 "Your shipping confirmation is below. Thank you again for your business.","Tilauksen lähetysvahvistus alapuolella. Kiitos vielä tilauksestasi!",module,Magento_Sales
 "Your Shipment #%shipment_id for Order #%order_id","Toimitus #%shipment_id tilaukselle #%order_id",module,Magento_Sales
 "Update to your %store_name shipment","Päivitys %store_name -toimitukselle",module,Magento_Sales
+"Welcome, %name","Tervetuloa, %name",module,Magento_SendFriend
+"%sender_name wants to share this product with you:","%sender_name haluaa jakaa tiedon tästä tuotteesta sinulle:",module,Magento_SendFriend
+"Welcome to %store_name.","Tervetuloa %store_name -kauppaan.",module,Magento_Theme
+"To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","Kirjautuaksesi sivustollemme, käytä näitä tunnistetietoja kassalla tai <a href=""%customer_url"">Oma tili</a> -sivulla:",module,Magento_Theme
+Email:,Sähköposti:,module,Magento_Theme
+Password:,Salasana:,module,Magento_Theme
+"Password you set when creating account","Salasana, jonka asetit tilin luonnin yhteydessä",module,Magento_Theme
+"Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","Unohditko salasanan? Klikkaa <a href=""%reset_url"">tästä</a> nollataksesi sen.",module,Magento_Theme
+"When you sign in to your account, you will be able to:","Kun kirjaudut tilillesi, voit:",module,Magento_Theme
+"Check the status of orders","Tarkastaa tilausten tilan",module,Magento_Theme
+"View past orders","Tarkastella aikaisempia tilauksia",module,Magento_Theme
+"Store alternative addresses (for shipping to multiple family members and friends)","Tallentaa vaihtoehtoisia osoitteita (toimitus esimerkiksi perheenjäsenille ja ystäville)",module,Magento_Theme
 "This tab contains invalid data. Please resolve this before saving.","Tämä välilehti sisältää virheellisiä tietoja. Korjaa virheelliset tiedot ennen tallentamista.",module,Magento_Ui
 Options,Asetukset,module,Magento_Ui
 "records found","merkintää löytyi",module,Magento_Ui
@@ -3630,6 +3756,7 @@ Keyword,Avainsana,module,Magento_Ui
 "The date is not within the specified range.","Päivämäärä ei ole määritetyissä rajoissa.",module,Magento_Ui
 Attention,Huomio,module,Magento_Ui
 Close,Sulje,module,Magento_Ui
+Cancel,Peruuta,module,Magento_Vault
 "Show Toolbar","Näytä työkalupalkki",module,Magento_AdminNotification
 "Show List","Näytä lista",module,Magento_AdminNotification
 "Use HTTPS to Get Feed","Käytä HTTPS-yhteyttä syötteen haussa",module,Magento_AdminNotification
@@ -4232,6 +4359,8 @@ Description,Kuvaus,module,Magento_Reports
 "By Customers",Asiakkaittain,module,Magento_Review
 "By Products",Tuotteittain,module,Magento_Review
 Inactive,Inaktiivinen,module,Magento_Review
+"RSS Feeds",RSS-syötteet,module,Magento_Rss
+"Enable RSS","Ota RSS käyttöön",module,Magento_Rss
 "Web Site",Sivusto,module,Magento_SalesRule
 Priority,Prioriteetti,module,Magento_SalesRule
 "Cart Price Rule","Ostoskorin hintasääntö",module,Magento_SalesRule
@@ -4316,6 +4445,11 @@ Synonyms,Synonyymit,module,Magento_Search
 Website,Sivusto,module,Magento_Search
 "Are you sure you want to delete the selected synonym groups?","Haluatko varmasti poistaa valitut synonyymiryhmät?",module,Magento_Search
 "Delete items","Poista kohteet",module,Magento_Search
+"Email to a Friend","Sähköpostita kaverille",module,Magento_SendFriend
+"Email Templates",Sähköpostimallit,module,Magento_SendFriend
+Enabled,Käytössä,module,Magento_SendFriend
+"Select Email Template","Valitse sähköpostimalli",module,Magento_SendFriend
+"Allow for Guests","Salli vieraille",module,Magento_SendFriend
 "Shipping Settings",Toimitusasetukset,module,Magento_Shipping
 Origin,Lähtöpaikka,module,Magento_Shipping
 Country,Maa,module,Magento_Shipping
@@ -4363,6 +4497,21 @@ Taxes,Verot,module,Magento_Tax
 "Order Total Excl. Tax","Yhteensä veroton",module,Magento_Tax
 "Order Total Incl. Tax","Yhteensä verollinen",module,Magento_Tax
 "Order Total",Loppusumma,module,Magento_Tax
+"1 column","1 sarake",module,Magento_Theme
+Configuration,Asetukset,module,Magento_Theme
+"Default welcome msg!",Oletustervetuliaisviesti!,module,Magento_Theme
+"Theme Information","Teeman tiedot",module,Magento_Theme
+"Other Settings","Muut asetukset",module,Magento_Theme
+"Logo Image","Logon kuva",module,Magento_Theme
+"Welcome Text",Tervetuliaisteksti,module,Magento_Theme
+"Default Robots",Oletusrobotit,module,Magento_Theme
+Website,Sivusto,module,Magento_Theme
+Store,Kauppa,module,Magento_Theme
+"Store View",Kauppanäkymä,module,Magento_Theme
+Menu,Valikko,module,Magento_Theme
+Account,Tili,module,Magento_Theme
+Settings,Asetukset,module,Magento_Theme
+"3 columns","3 saraketta",module,Magento_Theme
 "Translation Strategy",Käännösstrategia,module,Magento_Translation
 Translations,Käännökset,module,Magento_Translation
 "Translation files",Käännöstiedostot,module,Magento_Translation
@@ -4387,6 +4536,16 @@ Username,Käyttäjätunnus,module,Magento_User
 "Last login","Viimeisin kirjautuminen",module,Magento_User
 Failures,Epäonnistumiset,module,Magento_User
 Unlocked,Lukitsematon,module,Magento_User
+Password,Salasana,module,Magento_Usps
+"Handling Fee",Käsittelymaksu,module,Magento_Usps
+"Sort Order",Järjestys,module,Magento_Usps
+Name,Nimi,module,Magento_Variable
+"Allow Anonymous Guest Access","Salli pääsy kirjautumattomille käyttäjille",module,Magento_WebapiSecurity
+"Manage Customers","Hallinnoi asiakkaita",module,Magento_Webapi
+"Create Customer","Luo asiakas",module,Magento_Webapi
+"Edit Customer","Muokkaa asiakasta",module,Magento_Webapi
+"Delete Customer","Poista asiakas",module,Magento_Webapi
+"If empty, UTF-8 will be used.","Jos tyhjä, käytetään UTF-8.",module,Magento_Webapi
 "Fixed Product Taxes","Kiinteät tuoteverot",module,Magento_Weee
 "Enable FPT","Ota kiinteämääräinen vero käyttöön",module,Magento_Weee
 "Display Prices In Emails","Näytä hinnat sähköposteissa",module,Magento_Weee

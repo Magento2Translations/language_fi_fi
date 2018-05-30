@@ -641,8 +641,11 @@ Product,Tuote,module,Magento_CatalogSearch
 "Search Settings","Haun asetukset",module,Magento_CatalogSearch
 Search,Haku,module,Magento_CatalogSearch
 "Advanced Search","Laajennettu haku",module,Magento_CatalogSearch
+"<strong>%1 item</strong> were found using the following search criteria","<strong>%1 nimike</strong> löytyi seuraavilla hakuehdoilla",module,Magento_CatalogSearch
+"<strong>%1 items</strong> were found using the following search criteria","<strong>%1 nimikettä</strong> löytyi seuraavilla hakuehdoilla",module,Magento_CatalogSearch
 "We can't find any items matching these search criteria.","Hakua vastaavia kohteita ei löydy.",module,Magento_CatalogSearch
 "Modify your search","Muokkaa hakua",module,Magento_CatalogSearch
+"Don't see what you're looking for?","Etkö löydä etsimääsi?",module,Magento_CatalogSearch
 "Your search returned no results.","Hakusi ei tuottanut tuloksia.",module,Magento_CatalogSearch
 "Create Permanent Redirect for old URL","Luo pysyvä uudelleenohjaus vanhalle URL:lle",module,Magento_CatalogUrlRewrite
 "Conditions Combination","Ehtojen yhdistäminen",module,Magento_CatalogWidget
@@ -815,11 +818,14 @@ PM,IP,module,Magento_Catalog
 "-- Please Select --","--- Valitse ---",module,Magento_Catalog
 None,"Ei mikään",module,Magento_Catalog
 "New Products","Uudet tuotteet",module,Magento_Catalog
+"Click for price","Klikkaa nähdäksesi hinnan",module,Magento_Catalog
 "Price: %1","Hinta: %1",module,Magento_Catalog
 "Special Price: %1","Tarjoushinta: %1",module,Magento_Catalog
 "Special Products",Erikoistuotteet,module,Magento_Catalog
 "You deleted the category.","Poistit kategorian.",module,Magento_Catalog
 Categories,Kategoriat,module,Magento_Catalog
+"Manage Categories","Hallitse kategorioita",module,Magento_Catalog
+"You saved the category.","Tallensit kategorian.",module,Magento_Catalog
 "A total of %1 record(s) were updated.","Yhteensä %1 tietue(tta) päivitettiin.",module,Magento_Catalog
 Catalog,Katalogi,module,Magento_Catalog
 "Manage Product Attributes","Hallinnoi tuotteen attribuutteja",module,Magento_Catalog
@@ -841,6 +847,7 @@ Products,Tuotteet,module,Magento_Catalog
 "A total of %1 record(s) have been updated.","Yhteensä %1 tietue(tta) päivitetty.",module,Magento_Catalog
 "Unable to save product","Tuotetta ei voida tallentaa",module,Magento_Catalog
 "You saved the product.","Tuote tallennettiin.",module,Magento_Catalog
+"New Set","Uusi kokoelma",module,Magento_Catalog
 "You added product %1 to the comparison list.","Lisäsit tuotteen %1 vertailulistalle.",module,Magento_Catalog
 "You cleared the comparison list.","Olet tyhjentänyt vertailulistan.",module,Magento_Catalog
 "Something went wrong  clearing the comparison list.","Jotain meni pieleen vertailulistan tyhjennyksessä.",module,Magento_Catalog
@@ -912,6 +919,8 @@ Qty,Määrä,module,Magento_Catalog
 "Out-of-Stock Threshold","Ei varastossa -kynnysarvo",module,Magento_Catalog
 Backorders,Jälkitoimitukset,module,Magento_Catalog
 "Notify for Quantity Below","Ilmoita jos määrä on alle",module,Magento_Catalog
+"Enable Qty Increments","Ota porrastetut määrät käyttöön",module,Magento_Catalog
+"Qty Increments",Määräporras,module,Magento_Catalog
 "In Stock",Varastossa,module,Magento_Catalog
 "Out of Stock","Ei varastossa",module,Magento_Catalog
 Required,Pakollinen,module,Magento_Catalog
@@ -951,6 +960,8 @@ Next,Seuraava,module,Magento_Catalog
 "We can't find products matching the selection.","Hakuehtoihin sopivia tuotteita ei löydy.",module,Magento_Catalog
 "Add to Compare","Lisää vertailuun",module,Magento_Catalog
 "Learn More",Lisätietoja,module,Magento_Catalog
+"We found other products you might like!","Saattaisit olla kiinnostunut myös näistä tuotteista",module,Magento_Catalog
+"More Choices:","Katso myös nämä:",module,Magento_Catalog
 "Check items to add to the cart or","Valitse ostoskoriin lisättävät tuotteet tai",module,Magento_Catalog
 "select all","valitse kaikki",module,Magento_Catalog
 "Items %1-%2 of %3","Tuotteet %1-%2 / %3",module,Magento_Catalog
@@ -1898,6 +1909,7 @@ Actions,Toiminnot,module,Magento_Multishipping
 "Billing Address",Laskutusosoite,module,Magento_Multishipping
 Change,Vaihda,module,Magento_Multishipping
 "Payment Method",Maksutapa,module,Magento_Multishipping
+"Back to Shipping Information","Takaisin toimitustietoihin",module,Magento_Multishipping
 "Edit Items","Muokkaa tuotteita",module,Magento_Multishipping
 "Product Name",Tuotenimi,module,Magento_Multishipping
 "Check Out with Multiple Addresses","Siirry kassalle käyttäen useita toimitusosoitteita",module,Magento_Multishipping
@@ -2102,7 +2114,7 @@ Active,Aktiivinen,module,Magento_Paypal
 Canceled,Peruutettu,module,Magento_Paypal
 Dynamic,Dynaaminen,module,Magento_Paypal
 Static,Staattinen,module,Magento_Paypal
-Sale,Myynti,module,Magento_Paypal
+Sale,Tarjous,module,Magento_Paypal
 Yes,Kyllä,module,Magento_Paypal
 No,Ei,module,Magento_Paypal
 Auto,Autom.,module,Magento_Paypal
@@ -2146,6 +2158,7 @@ Updated:,Päivitetty:,module,Magento_Paypal
 "Payment Method:",Maksutapa:,module,Magento_Paypal
 "Order #",Tilausnumero,module,Magento_Paypal
 Date,Pvm,module,Magento_Paypal
+"Ship To",Toimitusosoite,module,Magento_Paypal
 "View Order","Katso tilaus",module,Magento_Paypal
 "Back to Billing Agreements","Takaisin laskutussopimuksiin",module,Magento_Paypal
 "Payment Method",Maksutapa,module,Magento_Paypal
@@ -2366,6 +2379,7 @@ Websites,Sivustot,module,Magento_Review
 "Default Value",Oletusarvo,module,Magento_Review
 "Rating Visibility","Pisteiden näkyvyys",module,Magento_Review
 "Sort Order",Järjestys,module,Magento_Review
+"Product Reviews","Tuotteen arvostelut",module,Magento_Review
 "Store: %1 <br/>","Kauppa: %1 <br/>",module,Magento_Review
 "Reviews %1","Arvostelut %1",module,Magento_Review
 Reviews,Arvostelut,module,Magento_Review
@@ -2477,6 +2491,7 @@ Subtotal,Välisumma,module,Magento_SalesRule
 "Shipping Method",Toimitustapa,module,Magento_SalesRule
 "Quantity in cart","Määrä ostoskorissa",module,Magento_SalesRule
 "Price in cart","Hinta ostoskorissa",module,Magento_SalesRule
+"total quantity",kokonaismäärä,module,Magento_SalesRule
 is,on,module,Magento_SalesRule
 "is not","ei ole",module,Magento_SalesRule
 "Entity Sequence profile not added to meta active profile","Entiteetin järjestysprofiilia ei lisätty aktiivimetaprofiiliin",module,Magento_SalesSequence
@@ -2543,7 +2558,7 @@ Void,Mitätön,module,Magento_Sales
 Print,Tulosta,module,Magento_Sales
 "New Invoice and Shipment for Order #%1","Uusi lasku ja toimitus tilaukselle #%1",module,Magento_Sales
 "New Invoice for Order #%1","Uusi lasku tilaukselle %1",module,Magento_Sales
-"Submit Invoice","Lähetä lasku",module,Magento_Sales
+"Submit Invoice","Hyväksy lasku",module,Magento_Sales
 "Credit Memo",Hyvityslasku,module,Magento_Sales
 Capture,Talteenotto,module,Magento_Sales
 "Order Statuses","Tilausten tilat",module,Magento_Sales
@@ -2635,6 +2650,8 @@ Invoiced,Laskutettu,module,Magento_Sales
 "Amount: %1.","Määrä: %1.",module,Magento_Sales
 "Transaction ID: ""%1""","Tapahtumatunnus: ""%1""",module,Magento_Sales
 Order,Tilaus,module,Magento_Sales
+"Sold to:",Tilaaja:,module,Magento_Sales
+"Ship to:",Toimitusosoite:,module,Magento_Sales
 "Payment Method:",Maksutapa:,module,Magento_Sales
 "Shipping Method:",Toimitustapa:,module,Magento_Sales
 "Total Shipping Charges","Toimituskulut yhteensä",module,Magento_Sales
@@ -2713,12 +2730,14 @@ Item,Tuote,module,Magento_Sales
 "Payment &amp; Shipping Method","Maksu- &amp; toimitustapa",module,Magento_Sales
 "Payment Information",Maksutiedot,module,Magento_Sales
 "The order was placed using %1.","Tilaus tehtiin käyttäen %1.",module,Magento_Sales
+"Shipping Information",Toimitustiedot,module,Magento_Sales
 "Return to Stock","Palauta varastoon",module,Magento_Sales
 "Qty to Refund","Hyvitettävä määrä",module,Magento_Sales
 "Tax Amount","Veron määrä",module,Magento_Sales
 "Discount Amount","Alennuksen määrä",module,Magento_Sales
 "Row Total","Rivin summa",module,Magento_Sales
 "No Items","Ei kohteita",module,Magento_Sales
+"Purchased From: %1","Ostettu kohteesta: %1",module,Magento_Sales
 "Gift Message",Lahjaviesti,module,Magento_Sales
 From:,Alkaen:,module,Magento_Sales
 To:,Asti:,module,Magento_Sales
@@ -2726,10 +2745,12 @@ To:,Asti:,module,Magento_Sales
 "Qty to Invoice","Laskutettava määrä",module,Magento_Sales
 "Invoice History",Laskutushistoria,module,Magento_Sales
 "Invoice Comments","Laskun kommentit",module,Magento_Sales
+"Invoice Totals","Laskun loppusummat",module,Magento_Sales
 Amount,Summa,module,Magento_Sales
 "Capture Online","Talteenota online",module,Magento_Sales
 "Capture Offline","Talteenota offline",module,Magento_Sales
 "Email Copy of Invoice","Sähköpostikopio laskusta",module,Magento_Sales
+"Items Invoiced","Laskutetut tuotteet",module,Magento_Sales
 "Total Tax","Verot yhteensä",module,Magento_Sales
 Status,Tila,module,Magento_Sales
 "Order & Account Information","Tilaus- & tilitiedot",module,Magento_Sales
@@ -2737,12 +2758,14 @@ Status,Tila,module,Magento_Sales
 "The order confirmation email is not sent","Tilausvahvistuksen sähköpostia ei ole lähetetty",module,Magento_Sales
 "Order Date",Tilauspäivämäärä,module,Magento_Sales
 "Order Date (%1)","Tilauspäivämäärä (%1)",module,Magento_Sales
+"Purchased From","Ostettu kohteesta",module,Magento_Sales
 "Placed from IP","Tilaus tehty IP-osoitteesta",module,Magento_Sales
 "Customer Name","Asiakkaan nimi",module,Magento_Sales
 "Customer Group",Asiakasryhmä,module,Magento_Sales
 "Item Status","Nimikkeen tila",module,Magento_Sales
 "Original Price","Alkuperäinen hinta",module,Magento_Sales
 "Tax Percent",Veroprosentti,module,Magento_Sales
+"Notes for this Order","Merkinnät tälle tilaukselle",module,Magento_Sales
 "Transaction ID","Tapahtuman tunnus",module,Magento_Sales
 "Order ID",Tilausnumero,module,Magento_Sales
 "Transaction Type",Tapahtumatyyppi,module,Magento_Sales
@@ -2765,6 +2788,7 @@ Actions,Toiminnot,module,Magento_Sales
 "Print Invoice","Tulosta lasku",module,Magento_Sales
 "Qty Invoiced","Laskutettu määrä",module,Magento_Sales
 Close,Sulje,module,Magento_Sales
+"<span class=""label"">Order Date:</span> %1","<span class=""label"">Tilauspäivämäärä:</span> %1",module,Magento_Sales
 "Shipment #%1","Lähetysnumero %1",module,Magento_Sales
 "Qty Shipped","Lähetetty määrä",module,Magento_Sales
 "Recent Orders","Viimeisimmät tilaukset",module,Magento_Sales
@@ -2823,6 +2847,7 @@ Email,Sähköposti,module,Magento_SendFriend
 "* Required Fields","* Pakolliset kentät",module,Magento_SendFriend
 Sender,Lähettäjä,module,Magento_SendFriend
 Message,Viesti,module,Magento_SendFriend
+"Send Email","Lähetä sähköposti",module,Magento_SendFriend
 Back,Takaisin,module,Magento_SendFriend
 "New Shipment for Order #%1","Uusi lähetys tilaukselle #%1",module,Magento_Shipping
 "Submit Shipment","Hyväksy lähetys",module,Magento_Shipping
@@ -2880,10 +2905,13 @@ message,viesti,module,Magento_Shipping
 "Payment &amp; Shipping Method","Maksu- &amp; toimitustapa",module,Magento_Shipping
 "Payment Information",Maksutiedot,module,Magento_Shipping
 "The order was placed using %1.","Tilaus tehtiin käyttäen %1.",module,Magento_Shipping
+"Shipping Information",Toimitustiedot,module,Magento_Shipping
+"Total Shipping Charges","Toimituskulut yhteensä",module,Magento_Shipping
 "Incl. Tax",Verollinen,module,Magento_Shipping
 "Qty to Ship","Lähetettävä määrä",module,Magento_Shipping
 Ship,Lähetä,module,Magento_Shipping
 "Shipment Comments","Lähetyksen kommentit",module,Magento_Shipping
+"Comment Text",Kommenttiteksti,module,Magento_Shipping
 "Append Comments","Liitä aikaisemmat kommentit",module,Magento_Shipping
 "Select All","Valitse kaikki",module,Magento_Shipping
 "Product Name",Tuotenimi,module,Magento_Shipping
@@ -3004,7 +3032,7 @@ State,Lääni,module,Magento_TaxImportExport
 "'*' - matches any; 'xyz*' - matches any that begins on 'xyz' and are not longer than %1.","'*'-vastaa mitä tahansa; 'xyz*' - vastaa kaikkia jotka alkavat 'xyz' eivätkä ole pidempiä kuin %1.",module,Magento_Tax
 State,Lääni,module,Magento_Tax
 Country,Maa,module,Magento_Tax
-"Tax Titles",Vero-otsikot,module,Magento_Tax
+"Tax Titles",Veronimikkeet,module,Magento_Tax
 "Add New Tax Rate","Lisää uusi verokanta",module,Magento_Tax
 Back,Takaisin,module,Magento_Tax
 Reset,Tyhjennä,module,Magento_Tax
@@ -3023,7 +3051,8 @@ Priority,Prioriteetti,module,Magento_Tax
 "Shipping Excl. Tax (%1)","Toimitus, veroton (%1)",module,Magento_Tax
 "Subtotal (Excl.Tax)","Välisumma (veroton)",module,Magento_Tax
 "Subtotal (Incl.Tax)","Välisumma (verollinen)",module,Magento_Tax
-"Shipping & Handling (Excl.Tax)","Toimitus & käsittely (veroton)",module,Magento_Tax
+"Shipping & Handling (Excl.Tax)","Toimitus- & käsittelykulut (veroton)",module,Magento_Tax
+"Shipping & Handling (Incl.Tax)","Toimitus- & käsittelykulut (sis.verot)",module,Magento_Tax
 "Grand Total (Excl.Tax)","Loppusumma (veroton)",module,Magento_Tax
 "Grand Total (Incl.Tax)","Loppusumma (verollinen)",module,Magento_Tax
 Sales,Myynti,module,Magento_Tax
@@ -3041,6 +3070,8 @@ Tax,Vero,module,Magento_Tax
 Code,Koodi,module,Magento_Tax
 "Grand Total (Excl. Tax)","Loppusumma (veroton)",module,Magento_Tax
 "Grand Total (Incl. Tax)","Loppusumma (verollinen)",module,Magento_Tax
+"Shipping (Excl. Tax)","Toimituskulut (veroton)",module,Magento_Tax
+"Shipping (Incl. Tax)","Toimituskulut (sis. verot)",module,Magento_Tax
 "Subtotal (Excl. Tax)","Välisumma (veroton)",module,Magento_Tax
 "Subtotal (Incl. Tax)","Välisumma (verollinen)",module,Magento_Tax
 Subtotal,Välisumma,module,Magento_Tax
@@ -3432,7 +3463,7 @@ Password:,Salasana:,module,Magento_Customer
 "Thank you for your order from %store_name.","Kiitos tilauksestasi %store_name -kaupassa.",module,Magento_Sales
 "You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","Voit tarkistaa tilauksesi tilan <a href=""%account_url"">kirjautumalla tilillesi</a>.",module,Magento_Sales
 "If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>","Jos sinulla on kysyttävää tilauksestasi, voit lähettää meille sähköpostia osoitteeseen <a href=""mailto:%store_email"">%store_email</a>",module,Magento_Sales
-"or call us at <a href=""tel:%store_phone"">%store_phone</a>","tai soita meille numeroon <a href=""tel:%store_phone""> %store_phone</a>",module,Magento_Sales
+"or call us at <a href=""tel:%store_phone"">%store_phone</a>","tai soittaa meille numeroon <a href=""tel:%store_phone""> %store_phone</a>",module,Magento_Sales
 "Our hours are <span class=""no-link"">%store_hours</span>.","Aukioloaikamme ovat <span class=""no-link"">%store_hours</span>.",module,Magento_Sales
 "Billing Info",Laskutustiedot,module,Magento_Sales
 "Shipping Info",Toimitustiedot,module,Magento_Sales
@@ -3506,6 +3537,7 @@ Done,Valmis,module,Magento_ConfigurableProduct
 "Are you sure you want to delete this address?","Oletko varma, että haluat poistaa tämän osoitteen?",module,Magento_Customer
 "Add Products to Group","Tuotteiden lisääminen ryhmään",module,Magento_GroupedProduct
 "Add Selected Products","Lisää valitut tuotteet",module,Magento_GroupedProduct
+Done,Valmis,module,Magento_Integration
 "Please choose a payment method.","Valitse maksutapa.",module,Magento_Multishipping
 "Unknown video type","Tuntematon videotyyppi",module,Magento_ProductVideo
 Save,Tallenna,module,Magento_ProductVideo
@@ -3721,6 +3753,7 @@ Inventory,Varasto,module,Magento_CatalogInventory
 "Display products availability in stock on Storefront.","Näytä tuotteiden määrä varastossa kaupan etusivulla.",module,Magento_CatalogInventory
 Backorders,Jälkitoimitukset,module,Magento_CatalogInventory
 "Out-of-Stock Threshold","Ei varastossa -kynnysarvo",module,Magento_CatalogInventory
+"Enable Qty Increments","Ota porrastetut määrät käyttöön",module,Magento_CatalogInventory
 Stock,Varasto,module,Magento_CatalogInventory
 Quantity,Määrä,module,Magento_CatalogInventory
 Rule,Sääntö,module,Magento_CatalogRule
@@ -3926,6 +3959,7 @@ Status,Tila,module,Magento_Indexer
 Updated,Päivitetty,module,Magento_Indexer
 Status,Tila,module,Magento_Integration
 "After selecting a new media storage location, press the Synchronize button to transfer all media to that location. Media will not be available in the new location until the synchronization process is complete.","Valittuasi uuden tallennuspaikka mediatiedoille, paina Synkronoi-painiketta siirtääksesi kaikki mediatiedot kyseiseen sijaintiin. Mediatiedot eivät ole käytettävissä uudessa sijainnissa ennen kuin synkronointi on valmis.",module,Magento_MediaStorage
+"Allow Shipping to Multiple Addresses","Salli toimitus useaan osoitteeseen",module,Magento_Multishipping
 "Review Order","Tarkastele tilausta",module,Magento_Multishipping
 "Select Shipping Method","Valitse toimitustapa",module,Magento_Multishipping
 "We received your order!","Vastaanotimme tilauksesi!",module,Magento_Multishipping
@@ -3988,6 +4022,7 @@ User,Käyttäjä,module,Magento_Paypal
 "General Options","Yleiset asetukset",module,Magento_Persistent
 "Enable ""Remember Me""","Ota ""Muista minut"" käyttöön",module,Magento_Persistent
 """Remember Me"" Default Value","""Muista minut"" -oletusarvo",module,Magento_Persistent
+"Product Alerts",Tuotehälytykset,module,Magento_ProductAlert
 Dashboard,Hallintasivu,module,Magento_Reports
 "Current Month Starts","Nykyinen kuukausi alkaa",module,Magento_Reports
 "Recently Viewed Products","Äskettäin katsotut tuotteet",module,Magento_Reports
@@ -4015,6 +4050,7 @@ Address,Osoite,module,Magento_Sales
 Dashboard,Hallintasivu,module,Magento_Sales
 "Sales Emails","Myynnin sähköpostit",module,Magento_Sales
 Enabled,Käytössä,module,Magento_Sales
+Shipment,Lähetys,module,Magento_Sales
 "Shipment Comments","Lähetyksen kommentit",module,Magento_Sales
 "PDF Print-outs",PDF-tulosteet,module,Magento_Sales
 "Orders and Returns Search Form","Tilaukset ja palautukset -hakulomake",module,Magento_Sales

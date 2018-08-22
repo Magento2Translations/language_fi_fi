@@ -1204,6 +1204,7 @@ From:,Alkaen:,module,Magento_Downloadable
 To:,Vastaanottaja:,module,Magento_Downloadable
 Message:,Viesti:,module,Magento_Downloadable
 Qty,Määrä,module,Magento_Downloadable
+Ordered,Tilattu,module,Magento_Downloadable
 Canceled,Peruutettu,module,Magento_Downloadable
 Refunded,Hyvitetty,module,Magento_Downloadable
 "Attribute Properties","Attribuutin ominaisuudet",module,Magento_Eav
@@ -2036,6 +2037,7 @@ Paid,Maksettu,module,Magento_Sales
 Ordered,Tilattu,module,Magento_Sales
 Shipped,Lähetetty,module,Magento_Sales
 Invoiced,Laskutettu,module,Magento_Sales
+Backordered,Jälkitoimituksessa,module,Magento_Sales
 "Canceled order online","Tilaus peruutettu online",module,Magento_Sales
 "Canceled order offline","Tilaus peruutettu offline",module,Magento_Sales
 "Amount: %1.","Määrä: %1.",module,Magento_Sales
@@ -2154,7 +2156,7 @@ Date,Pvm,module,Magento_Sales
 "Ship To",Vastaanottaja,module,Magento_Sales
 "View Order","Näytä tilaus",module,Magento_Sales
 "You have placed no orders.","Et ole tehnyt tilauksia.",module,Magento_Sales
-"Invoice #","Laskun numero",module,Magento_Sales
+"Invoice #","Lasku #",module,Magento_Sales
 "Print Invoice","Tulosta lasku",module,Magento_Sales
 "Qty Invoiced","Laskutettu määrä",module,Magento_Sales
 Close,Sulje,module,Magento_Sales

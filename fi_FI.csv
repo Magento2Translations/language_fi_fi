@@ -1618,6 +1618,7 @@ Message:,Viesti:,module,Magento_Downloadable
 Qty,Määrä,module,Magento_Downloadable
 Subtotal,Välisumma,module,Magento_Downloadable
 "Qty Invoiced","Laskutettu määrä",module,Magento_Downloadable
+Ordered,Tilattu,module,Magento_Downloadable
 Canceled,Peruutettu,module,Magento_Downloadable
 Refunded,Hyvitetty,module,Magento_Downloadable
 "Attribute Properties","Attribuutin ominaisuudet",module,Magento_Eav
@@ -2414,6 +2415,7 @@ Back,Takaisin,module,Magento_Review
 "Submitted on %1","Lähetetty %1",module,Magento_Review
 "Be the first to review this product","Ole ensimmäinen tuotteen arvostelija",module,Magento_Review
 "You're reviewing:","Olet arvostelemassa:",module,Magento_Review
+"Your Rating",Arviosi,module,Magento_Review
 Summary,Yhteenveto,module,Magento_Review
 "Submit Review","Lähetä arvostelu",module,Magento_Review
 "Only registered users can write reviews. Please <a href=""%1"">Sign in</a> or <a href=""%2"">create an account</a>","Vain rekisteröityneet käyttäjät voivat kirjoittaa arvosteluja. Ole hyvä ja <a href=""%1"">Kirjaudu sisään</a> tai <a href=""%2"">Luo tili</a>",module,Magento_Review
@@ -2647,6 +2649,7 @@ Paid,Maksettu,module,Magento_Sales
 Ordered,Tilattu,module,Magento_Sales
 Shipped,Lähetetty,module,Magento_Sales
 Invoiced,Laskutettu,module,Magento_Sales
+Backordered,Jälkitoimituksessa,module,Magento_Sales
 "Canceled order online","Tilaus peruutettu online",module,Magento_Sales
 "Canceled order offline","Tilaus peruutettu offline",module,Magento_Sales
 "Amount: %1.","Määrä: %1.",module,Magento_Sales
@@ -2783,7 +2786,7 @@ Date,Pvm,module,Magento_Sales
 Actions,Toiminnot,module,Magento_Sales
 "View Order","Näytä tilaus",module,Magento_Sales
 "You have placed no orders.","Et ole tehnyt tilauksia.",module,Magento_Sales
-"Invoice #","Laskun numero",module,Magento_Sales
+"Invoice #","Lasku #",module,Magento_Sales
 "Print Invoice","Tulosta lasku",module,Magento_Sales
 "Qty Invoiced","Laskutettu määrä",module,Magento_Sales
 Close,Sulje,module,Magento_Sales

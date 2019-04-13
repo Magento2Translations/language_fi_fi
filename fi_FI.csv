@@ -25,6 +25,7 @@ notice,ilmoitus,module,Magento_AdminNotification
 "Wrong message type","Väärä viestityyppi",module,Magento_AdminNotification
 "Wrong notification ID specified.","Väärä ilmoitustunnus määritetty.",module,Magento_AdminNotification
 "{{base_url}} is not recommended to use in a production environment to declare the Base Unsecure URL / Base Secure URL. We highly recommend changing this value in your Magento <a href=""%1"">configuration</a>.","{{base_url}} ei ole suositeltavaa käyttää tuotantoympäristössä Base Unsecure URL / Base Secure URL-esittämiseksi. Suosittelemme voimakkaasti tämän arvon vaihtamista Magenton <a href=""%1"">kokoonpanossa</a>.",module,Magento_AdminNotification
+"One or more of the Cache Types are invalidated: %1. ","Yksi tai useampi välimuistityyppi vaatii virkistämisen: %1. ",module,Magento_AdminNotification
 "Please go to <a href=""%1"">Cache Management</a> and refresh cache types.","Ole hyvä ja siirry <a href=""%1"">Välimuistin hallintaan</a> ja tyhjennä välimuistityypit.",module,Magento_AdminNotification
 "We were unable to synchronize one or more media files. Please refer to the log file for details.","Yhtä tai useampaa media-tiedostoa ei voida synkronoida. Katso lisätietoja lokitiedostosta.",module,Magento_AdminNotification
 "Synchronization of media storages has been completed.","Mediasäilöjen synkronointi on suoritettu.",module,Magento_AdminNotification
@@ -36,6 +37,7 @@ Close,Sulje,module,Magento_AdminNotification
 "Major System Messages","Merkittävät järjestelmäviestit",module,Magento_AdminNotification
 "System messages",Järjestelmäviestit,module,Magento_AdminNotification
 "See All (","Katso kaikki (",module,Magento_AdminNotification
+" unread)"," lukematta)",module,Magento_AdminNotification
 "Please correct the data sent.","Ole hyvä ja korjaa lähetetty tieto.",module,Magento_AdvancedPricingImportExport
 "Entity type model '%1' is not found","Entiteetin tyyppimallia '%1' ei löydy",module,Magento_AdvancedPricingImportExport
 "Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType","Entiteetin tyyppimallin on oltava \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType instanssi",module,Magento_AdvancedPricingImportExport
@@ -59,6 +61,7 @@ refund,hyvitä,module,Magento_Authorizenet
 void,mitätön,module,Magento_Authorizenet
 "Gateway error: %1","Gateway-virhe: %1",module,Magento_Authorizenet
 "Something went wrong in the payment gateway.","Maksukäytävässä tapahtui virhe.",module,Magento_Authorizenet
+"Invalid amount for capture.","Virheellinen hyvityssumma.",module,Magento_Authorizenet
 "Payment capturing error.","Maksun talteenoton virhe.",module,Magento_Authorizenet
 "Invalid transaction ID.","Virheellinen tapahtumatunnus.",module,Magento_Authorizenet
 "Payment voiding error.","Virhe maksun mitätöinnissä.",module,Magento_Authorizenet
@@ -66,11 +69,22 @@ void,mitätön,module,Magento_Authorizenet
 "Payment refunding error.","Virhe maksun palautuksessa.",module,Magento_Authorizenet
 "The transaction was declined because the response hash validation failed.","Transaktio on hylätty, koska Response Hash -validointi epäonnistui.",module,Magento_Authorizenet
 "This payment didn't work out because we can't find this order.","Maksu ei onnistunut, koska emme löydä tätä tilausta.",module,Magento_Authorizenet
+"There was a payment authorization error.","Maksutavan varmennusongelma.",module,Magento_Authorizenet
+"Please enter a transaction ID to authorize this payment.","Lisää maksun ID vahvistaaksesi tämä maksu.",module,Magento_Authorizenet
 "Something went wrong: the paid amount doesn't match the order amount. Please correct this and try again.","Jotain meni pieleen: maksettu summa ei vastaa tilauksen summaa. Korjaa se ja yritä uudelleen.",module,Magento_Authorizenet
+"Transaction %1 has been approved. Amount %2. Transaction status is ""%3""","Tapahtuman %1 on hyväksytty. Määrä %2. Tapahtuman tila on ”%3”",module,Magento_Authorizenet
+"Transaction %1 has been voided/declined. Transaction status is ""%2"". Amount %3.","Tapahtuman %1 on mitätöity. Tapahtuman tila on ”%2”. Summa %3.",module,Magento_Authorizenet
+"Authorize Only","Varmenna ainoastaan",module,Magento_Authorizenet
+"Authorize and Capture","Varmenna ja talteenota",module,Magento_Authorizenet
 "Credit Card Type",Luottokorttityyppi,module,Magento_Authorizenet
 "Credit Card Number","Luottokortin numero",module,Magento_Authorizenet
 "Expiration Date","Viimeinen voimassaolopäivä",module,Magento_Authorizenet
 "Card Verification Number","Luottokortin tarkistusnumero",module,Magento_Authorizenet
+"Fraud Detection ","Petosten paljastaminen ",module,Magento_Authorizenet
+"FDS Filter Action","FDS suodatustoiminto",module,Magento_Authorizenet
+"AVS Response","AVS vastaus",module,Magento_Authorizenet
+"Card Code Response","Kortin koodi vastaus",module,Magento_Authorizenet
+"CAVV Response","CAVV vastaus",module,Magento_Authorizenet
 "Fraud Filters","Maksupetoksien suodattimet",module,Magento_Authorizenet
 "Invalid Form Key. Please refresh the page.","Virheellinen lomakkeen avain. Ole hyvä ja päivitä sivu.",module,Magento_Backend
 "You entered an invalid Secret Key. Please refresh the page.","Syötit virheellisen salausavaimen. Päivitä sivu.",module,Magento_Backend
@@ -263,6 +277,7 @@ System,Järjestelmä,module,Magento_Backend
 "Before modifying the website code please make sure it is not used in index.php.","Varmista ennen sivuston koodin muokkaamista ettei se ole käytössä index.php-tiedostossa.",module,Magento_Backend
 "The store does not exist","Kauppaa ei ole olemassa",module,Magento_Backend
 "Before modifying the store view code please make sure it is not used in index.php.","Varmista ennen kauppanäkymän koodin muokkaamista, ettei se ole käytössä index.php-tiedostossa.",module,Magento_Backend
+"New ","Uusi ",module,Magento_Backend
 "You saved the website.","Tallensit sivuston.",module,Magento_Backend
 "You saved the store.","Tallensit kaupan.",module,Magento_Backend
 "You saved the store view.","Tallensit kauppanäkymän.",module,Magento_Backend
@@ -714,15 +729,19 @@ Scope,Skooppi,module,Magento_Catalog
 "Use in Search","Käytä haussa",module,Magento_Catalog
 "Visible in Advanced Search","Näkyvissä tarkennetussa haussa",module,Magento_Catalog
 "Comparable on Storefront","Vertailtavissa kaupan etusivulla",module,Magento_Catalog
+"Use for Promo Rule Conditions","Mainossääntö määritteiden ehdot",module,Magento_Catalog
 "Enable WYSIWYG","Ota WYSIWYG-editori käyttöön",module,Magento_Catalog
 "Allow HTML Tags on Storefront","Salli HTML-tunnisteet kaupan etusivulla",module,Magento_Catalog
+"Visible on Catalog Pages on Storefront","Näkyvillä katalogin sivuilla kaupassa",module,Magento_Catalog
 "Used in Product Listing","Käytetään tuotelistauksessa",module,Magento_Catalog
 "Depends on design theme","Riippuu ulkoasun teemasta",module,Magento_Catalog
+"Used for Sorting in Product Listing","Käytetään tuotteen lajittelussa tuotelistauksessa",module,Magento_Catalog
 "Media Image","Media Kuva",module,Magento_Catalog
 Gallery,Galleria,module,Magento_Catalog
 "System Properties",Järjestelmäominaisuudet,module,Magento_Catalog
 No,Ei,module,Magento_Catalog
 Yes,Kyllä,module,Magento_Catalog
+"Data Type for Saving in Database","Datan tyyppi tallettaessa tietokantaan",module,Magento_Catalog
 Text,Teksti,module,Magento_Catalog
 Static,Staattinen,module,Magento_Catalog
 Decimal,Desimaali,module,Magento_Catalog
@@ -741,6 +760,7 @@ Back,Takaisin,module,Magento_Catalog
 Delete,Poista,module,Magento_Catalog
 "You are about to delete all products in this attribute set. Are you sure you want to do that?","Olet poistamassa kaikki tuotteet tästä määriteryhmästä. Oletko varma, että haluat tehdä sen?",module,Magento_Catalog
 Save,Tallenna,module,Magento_Catalog
+"New Set Name","Uuden setin nimi",module,Magento_Catalog
 "Edit Attribute Set '%1'","Muokkaa attribuuttiryhmää ""%1""",module,Magento_Catalog
 Empty,Tyhjä,module,Magento_Catalog
 "Add Attribute","Lisää attribuutti",module,Magento_Catalog
@@ -772,6 +792,7 @@ Websites,Sivusto,module,Magento_Catalog
 Email,Sähköposti,module,Magento_Catalog
 "Subscribe Date",Tilauspäivämäärä,module,Magento_Catalog
 "Last Notified","Viimeksi muokattu",module,Magento_Catalog
+"Send Count","Lähetys laskuri",module,Magento_Catalog
 "New Attribute","Uusi ominaisuus",module,Magento_Catalog
 Type,Tyyppi,module,Magento_Catalog
 "Attribute Set",Attribuuttiryhmä,module,Magento_Catalog
@@ -790,7 +811,12 @@ Import,Tuo,module,Magento_Catalog
 "Add Price","Lisää hinta",module,Magento_Catalog
 "Default Values",Oletusarvot,module,Magento_Catalog
 "Related Products","Liittyvät tuotteet",module,Magento_Catalog
+Up-sells,Lisämyynti,module,Magento_Catalog
+Cross-sells,Ristiinmyynti,module,Magento_Catalog
 "Size for %1","Koko %1",module,Magento_Catalog
+"Watermark File for %1","Vesileimatiedosto %1",module,Magento_Catalog
+"Position of Watermark for %1","Vesileiman sijainti %1",module,Magento_Catalog
+"Name in %1","Nimi %1",module,Magento_Catalog
 Quantity,Määrä,module,Magento_Catalog
 Edit,Muokkaa,module,Magento_Catalog
 "Are you sure?","Oletko varma?",module,Magento_Catalog
@@ -800,12 +826,14 @@ Edit,Muokkaa,module,Magento_Catalog
 "Click here or drag and drop to add images.","Napsauta tästä tai lisää kuvia vetämällä ja pudottamalla.",module,Magento_Catalog
 "Delete image","Poista kuva",module,Magento_Catalog
 Hidden,Piilotettu,module,Magento_Catalog
+"start typing to search category","aloita kirjoitus hakeaksesi kategoriasta",module,Magento_Catalog
 "New Category","Uusi kategoria",module,Magento_Catalog
 "Images (.gif, .jpg, .png)","Kuvat (.gif, .jpg, .png)",module,Magento_Catalog
 "Add New Images","Lisää uusia kuvia",module,Magento_Catalog
 "Inc. Tax",Verollinen,module,Magento_Catalog
 "Does this have a weight?","Onko tällä paino?",module,Magento_Catalog
 Product,Tuote,module,Magento_Catalog
+"Notify Low Stock RSS",Varastosaldohuomautus,module,Magento_Catalog
 "Low Stock Products","Tuotteet, joilla on alhainen varastosaldo",module,Magento_Catalog
 "%1 has reached a quantity of %2.","%1 on saavuttanut määrän %2.",module,Magento_Catalog
 Home,Etusivu,module,Magento_Catalog
@@ -817,20 +845,33 @@ AM,AP,module,Magento_Catalog
 PM,IP,module,Magento_Catalog
 "-- Please Select --","--- Valitse ---",module,Magento_Catalog
 None,"Ei mikään",module,Magento_Catalog
+"New Products from %1","Uudet tuotteet %1",module,Magento_Catalog
 "New Products","Uudet tuotteet",module,Magento_Catalog
+"%1 - Special Products","%1 - Erikoistuotteet",module,Magento_Catalog
 "Click for price","Klikkaa nähdäksesi hinnan",module,Magento_Catalog
+"Special Expires On: %1","Spesiaali vanhenee: %1",module,Magento_Catalog
 "Price: %1","Hinta: %1",module,Magento_Catalog
 "Special Price: %1","Tarjoushinta: %1",module,Magento_Catalog
 "Special Products",Erikoistuotteet,module,Magento_Catalog
 "You deleted the category.","Poistit kategorian.",module,Magento_Catalog
+"Something went wrong while trying to delete the category.","Jotain meni pieleen yrittäessäsi poistaa kategoriaa.",module,Magento_Catalog
 Categories,Kategoriat,module,Magento_Catalog
+"Manage Catalog Categories","Hallitse katalogin kategorioita",module,Magento_Catalog
 "Manage Categories","Hallitse kategorioita",module,Magento_Catalog
+"Category is not available for requested store.","Kategoria ei ole saatavilla pyytämässäsi kaupassa.",module,Magento_Catalog
+"There was a category move error.","Katogorian siirtovirhe.",module,Magento_Catalog
+"Something went wrong while saving the category.","Tapahtui virhe kategoriaa tallennettaessa.",module,Magento_Catalog
 "You saved the category.","Tallensit kategorian.",module,Magento_Catalog
+"Please select products for attributes update.","Valitse tuotteita atribuuttien päivitykseen.",module,Magento_Catalog
+"Please make sure to define SKU values for all processed products.","Varmista, että määrittelit SKU arvot kaikille prosessoiduille tuotteille.",module,Magento_Catalog
 "A total of %1 record(s) were updated.","Yhteensä %1 tietue(tta) päivitettiin.",module,Magento_Catalog
+"Something went wrong while updating the product(s) attributes.","Tapahtui virhe tallennettaessa tuotteen attribuuttia.",module,Magento_Catalog
 Catalog,Katalogi,module,Magento_Catalog
 "Manage Product Attributes","Hallinnoi tuotteen attribuutteja",module,Magento_Catalog
 "We can't delete the attribute.","Emme voi poistaa ominaisuutta.",module,Magento_Catalog
+"You deleted the product attribute.","Poistit tuotteen attribuutin.",module,Magento_Catalog
 "We can't find an attribute to delete.","Emme löydä ominaisuutta poistettavaksi.",module,Magento_Catalog
+"This attribute no longer exists.","Attribuuttia ei ole enää olemassa.",module,Magento_Catalog
 "This attribute cannot be edited.","Tätä attribuuttia ei voi muokata.",module,Magento_Catalog
 "Edit Product Attribute","Muokkaa tuoteattribuuttia",module,Magento_Catalog
 "An attribute set named '%1' already exists.","Ominaisuusjoukko nimellä '%1' on jo olemassa.",module,Magento_Catalog
@@ -843,11 +884,22 @@ Catalog,Katalogi,module,Magento_Catalog
 "You duplicated the product.","Tuotteesta luotiin kaksoiskappale.",module,Magento_Catalog
 "This product no longer exists.","Tätä tuotetta ei enää ole olemassa.",module,Magento_Catalog
 Products,Tuotteet,module,Magento_Catalog
+"A group with the same name already exists.","Ryhmä samalla nimellä on jo olemassa.",module,Magento_Catalog
+"Something went wrong while saving this group.","Jotain meni pieleen tallennettaessa tätä ryhmää.",module,Magento_Catalog
 "A total of %1 record(s) have been deleted.","Yhteensä %1 tietue(tta) poistettu.",module,Magento_Catalog
 "A total of %1 record(s) have been updated.","Yhteensä %1 tietue(tta) päivitetty.",module,Magento_Catalog
+"Something went wrong while updating the product(s) status.","Jotain meni pieleen päivitettäessa tuotteiden tilaa.",module,Magento_Catalog
 "Unable to save product","Tuotetta ei voida tallentaa",module,Magento_Catalog
 "You saved the product.","Tuote tallennettiin.",module,Magento_Catalog
+"The image cannot be removed as it has been assigned to the other image role","Kuvaa ei voida poistaa, koska se on liitetty toiseen tuotteeseen tai rooliin",module,Magento_Catalog
+"New Attribute Set","Uusi attribuuttiryhmä",module,Magento_Catalog
+"The attribute set has been removed.","Attribuuttiryhmä on poistettu.",module,Magento_Catalog
 "New Set","Uusi kokoelma",module,Magento_Catalog
+"Manage Product Sets","Hallitse tuoteryhmiä",module,Magento_Catalog
+"Manage Attribute Sets","Hallitse attribuuttiryhmiä",module,Magento_Catalog
+"This attribute set no longer exists.","Attribuuttiryhmää ei ole enää olemassa.",module,Magento_Catalog
+"You saved the attribute set.","Tallensit attribuuttiryhmän.",module,Magento_Catalog
+"Something went wrong while saving the attribute set.","Tapahtui virhe tallennettaessa attribuuttiryhmää.",module,Magento_Catalog
 "You added product %1 to the comparison list.","Lisäsit tuotteen %1 vertailulistalle.",module,Magento_Catalog
 "You cleared the comparison list.","Olet tyhjentänyt vertailulistan.",module,Magento_Catalog
 "Something went wrong  clearing the comparison list.","Jotain meni pieleen vertailulistan tyhjennyksessä.",module,Magento_Catalog
@@ -877,6 +929,11 @@ Fixed,Kiinteä,module,Magento_Catalog
 Percent,Prosenttia,module,Magento_Catalog
 "-- Please select --","--- Valitse ---",module,Magento_Catalog
 24h,24t,module,Magento_Catalog
+Stretch,Venytetty,module,Magento_Catalog
+Tile,Vierekkäin,module,Magento_Catalog
+Top/Left,Ylhäällä/Vasemmalla,module,Magento_Catalog
+Top/Right,Yläoikea,module,Magento_Catalog
+Bottom/Left,Alavasen,module,Magento_Catalog
 Bottom/Right,Alhaalla/Oikealla,module,Magento_Catalog
 Center,Keskitetty,module,Magento_Catalog
 Category,Kategoria,module,Magento_Catalog
@@ -941,6 +998,7 @@ Actions,Toiminnot,module,Magento_Catalog
 "Unselect All","Poista kaikki valinnat",module,Magento_Catalog
 "Special Price",Tarjoushinta,module,Magento_Catalog
 "Regular Price","Normaali hinta",module,Magento_Catalog
+"Buy %1 for: ","Osta %1 hintaan: ",module,Magento_Catalog
 "Buy %1 for %2 each and <strong class=""benefit"">save<span class=""percent tier-%3"">&nbsp;%4</span>%</strong>","Osta %1 hintaan %2/kpl ja <strong class=""benefit"">säästä<span class=""percent tier-%3"">&nbsp;%4</span>%</strong>",module,Magento_Catalog
 "Buy %1 for %2 each","Osta %1 hintaan %2/kpl",module,Magento_Catalog
 "Shop By",Rajaa,module,Magento_Catalog
@@ -1045,6 +1103,8 @@ Checkout,Kassa,module,Magento_Checkout
 "Unable to save shipping information. Please, check input data.","Toimitustietoja ei voitu tallentaa. Tarkista syötetyt tiedot.",module,Magento_Checkout
 "Cart contains virtual product(s) only. Shipping address is not applicable.","Ostoskori sisältää vain virtuaalisia tuotteita. Toimitusosoite ei ole käytettävissä.",module,Magento_Checkout
 "Shipping method is not applicable for empty cart","Toimitustapaa ei sovelleta tyhjään ostoskoriin",module,Magento_Checkout
+" item"," nimike",module,Magento_Checkout
+" items"," tuotetta",module,Magento_Checkout
 "Totals calculation is not applicable to empty cart","Yhteenlasku ei koske tyhjää ostoskoria",module,Magento_Checkout
 "Invalid data","Virheellinen tieto",module,Magento_Checkout
 "The customer address is not valid.","Asiakkaan osoite on virheellinen.",module,Magento_Checkout
@@ -1204,6 +1264,7 @@ Store,Kauppa,module,Magento_Config
 Yes,Kyllä,module,Magento_Config
 "Invalid XML in file %1:
 %2","Virheellinen XML tiedostossa %1:%2",module,Magento_Config
+test,testi,module,Magento_Config
 Delete,Poista,module,Magento_Config
 Stores,Kaupat,module,Magento_Config
 "Add configurable attributes to the current Attribute Set (""%1"")","Lisää muokattavissa olevia attribuutteja nykyiseen attribuuttiryhmään (""%1"")",module,Magento_ConfigurableProduct
@@ -1621,6 +1682,7 @@ Links,Linkit,module,Magento_Downloadable
 [GLOBAL],[GLOBAALI],module,Magento_Downloadable
 "Sort Order",Järjestys,module,Magento_Downloadable
 Price,Hinta,module,Magento_Downloadable
+File,Tiedosto,module,Magento_Downloadable
 URL,Osoite,module,Magento_Downloadable
 Yes,Kyllä,module,Magento_Downloadable
 No,Ei,module,Magento_Downloadable
@@ -1632,6 +1694,7 @@ Availability,Saatavuus,module,Magento_Downloadable
 "Out of stock","Ei varastossa",module,Magento_Downloadable
 "Go to <a href=""%1"">My Downloadable Products</a>","Siirry <a href=""%1"">Omiin ladattaviin tuotteisiini</a>",module,Magento_Downloadable
 "Order #","Tilaus #",module,Magento_Downloadable
+Date,Päivämäärä,module,Magento_Downloadable
 Status,Tila,module,Magento_Downloadable
 "View Order","Katso tilaus",module,Magento_Downloadable
 "You have not purchased any downloadable products yet.","Et ole vielä ostanut ladattavia tuotteita.",module,Magento_Downloadable
@@ -1928,6 +1991,7 @@ Items,Tuotteet,module,Magento_Multishipping
 "Sorry, no quotes are available for this order right now.","Valitettavasti toimituskuluja ei voida laskea tälle tilaukselle toistaiseksi.",module,Magento_Multishipping
 "Continue to Billing Information","Jatka laskutustietoihin",module,Magento_Multishipping
 "Thank you for your purchase!","Kiitos ostoksestasi!",module,Magento_Multishipping
+"Your order number is: ","Tilauksesi numero on: ",module,Magento_Multishipping
 "Continue Shopping","Jatka ostoksia",module,Magento_Multishipping
 "The New Relic integration requires the newrelic-php5 agent, which is not installed. More 
                         information on installing the agent is available <a target=""_blank"" href=""%1"">here</a>.","New Relic -integraatio edellyttää newrelic-php5-agenttia, joka ei ole asennettu. Lisätietoja agentin asennuksen on saatavilla <a target=""_blank"" href=""%1""> täältä</a>.",module,Magento_NewRelicReporting
@@ -2025,6 +2089,7 @@ Paused,Keskeytetty,module,Magento_Newsletter
 "Newsletter Message Preview","Uutiskirjeen viestin esikatselu",module,Magento_Newsletter
 "Add to Queue","Lisää jonoon",module,Magento_Newsletter
 "Please enter a new template name.","Syötä mallille uusi nimi.",module,Magento_Newsletter
+" Copy"," Kopioi",module,Magento_Newsletter
 "Are you sure you want to delete this template?","Oletko varma, että haluat poistaa tämän pohjan?",module,Magento_Newsletter
 "Sign Up for Our Newsletter:","Tilaa uutiskirjeemme:",module,Magento_Newsletter
 "Enter your email address","Syötä sähköpostiosoitteesi",module,Magento_Newsletter
@@ -2047,6 +2112,7 @@ None,"Ei mikään",module,Magento_OfflineShipping
 "Per Item","Per tuote",module,Magento_OfflineShipping
 "Free Shipping","Ilmainen toimitus",module,Magento_OfflineShipping
 No,Ei,module,Magento_OfflineShipping
+"Export VCL for Varnish ","Vie VCL Varnish:ille ",module,Magento_PageCache
 "Built-in Application (Not Recommended for Production Use)","Sisäänrakennettu sovellus (ei suositella tuotantokäyttöön)",module,Magento_PageCache
 Month,Kuukausi,module,Magento_Payment
 Year,Vuosi,module,Magento_Payment
@@ -2153,6 +2219,8 @@ Daily,Päivittäin,module,Magento_Paypal
 Customer,Asiakas,module,Magento_Paypal
 "Created At",Luontiaika,module,Magento_Paypal
 here,täällä,module,Magento_Paypal
+" to learn more."," lukeaksesi lisää.",module,Magento_Paypal
+"Important: ","Tärkeää: ",module,Magento_Paypal
 Status:,Tila:,module,Magento_Paypal
 Created:,Luotu:,module,Magento_Paypal
 Updated:,Päivitetty:,module,Magento_Paypal
@@ -2286,6 +2354,7 @@ Created,Luotu,module,Magento_Reports
 Subtotal,Välisumma,module,Magento_Reports
 "Coupon Code",Alennuskoodi,module,Magento_Reports
 "Price Rule",Hintasääntö,module,Magento_Reports
+Uses,Käyttökerrat,module,Magento_Reports
 Discount,Alennus,module,Magento_Reports
 Orders,Tilaukset,module,Magento_Reports
 "Invoiced Orders","Laskutetut tilaukset",module,Magento_Reports
@@ -2429,6 +2498,7 @@ contains,sisältää,module,Magento_Rule
 Add,Lisää,module,Magento_Rule
 Remove,Poista,module,Magento_Rule
 ALL,KAIKKI,module,Magento_Rule
+ANY,"MIKÄ TAHANSA",module,Magento_Rule
 TRUE,TOTTA,module,Magento_Rule
 Category,Kategoria,module,Magento_Rule
 "Open Chooser","Avaa valitsin",module,Magento_Rule
@@ -2599,6 +2669,7 @@ Information,Tietoja,module,Magento_Sales
 "Order Information","Tilauksen tiedot",module,Magento_Sales
 Transactions,Tapahtumat,module,Magento_Sales
 "Order View",Tilausnäkymä,module,Magento_Sales
+Any,"Mikä tahansa",module,Magento_Sales
 "Cart Price Rule","Ostoskorin hintasääntö",module,Magento_Sales
 Yes,Kyllä,module,Magento_Sales
 No,Ei,module,Magento_Sales
@@ -2638,6 +2709,8 @@ Sales,Myynti,module,Magento_Sales
 "Orders and Returns","Tilaukset ja palautukset",module,Magento_Sales
 Home,Etusivu,module,Magento_Sales
 "Go to Home Page","Siirry etusivulle",module,Magento_Sales
+"Shipping Address: ","Toimitusosoite: ",module,Magento_Sales
+"Billing Address: ","Laskutusosoite: ",module,Magento_Sales
 Guest,Vieras,module,Magento_Sales
 "Please enter the first name.","Kirjoita etunimesi.",module,Magento_Sales
 Pending,Odottaa,module,Magento_Sales
@@ -2653,6 +2726,8 @@ Backordered,Jälkitoimituksessa,module,Magento_Sales
 "Amount: %1.","Määrä: %1.",module,Magento_Sales
 "Transaction ID: ""%1""","Tapahtumatunnus: ""%1""",module,Magento_Sales
 Order,Tilaus,module,Magento_Sales
+"Order # ","Tilaus # ",module,Magento_Sales
+"Order Date: ","Tilauspäivämäärä: ",module,Magento_Sales
 "Sold to:",Tilaaja:,module,Magento_Sales
 "Ship to:",Toimitusosoite:,module,Magento_Sales
 "Payment Method:",Maksutapa:,module,Magento_Sales
@@ -2662,8 +2737,11 @@ Number,Numero,module,Magento_Sales
 Products,Tuotteet,module,Magento_Sales
 Qty,Määrä,module,Magento_Sales
 Tax,Vero,module,Magento_Sales
+"Credit Memo # ","Hyvityslaskun numero ",module,Magento_Sales
+"Invoice # ","Lasku # ",module,Magento_Sales
 "Excl. Tax",Veroton,module,Magento_Sales
 "Incl. Tax",Verollinen,module,Magento_Sales
+"Packing Slip # ","Pakkauslista # ",module,Magento_Sales
 City,Paikkakunta,module,Magento_Sales
 Company,Yritys,module,Magento_Sales
 Country,Maa,module,Magento_Sales
@@ -2686,6 +2764,7 @@ Closed,Suljettu,module,Magento_Sales
 New,Uusi,module,Magento_Sales
 "test message",testiviesti,module,Magento_Sales
 "Email has not been sent","Sähköpostia ei ole lähetetty",module,Magento_Sales
+" Transaction ID: ""%1"""," Tapahtumatunnus: ""%1""",module,Magento_Sales
 View,Näytä,module,Magento_Sales
 "Group was removed","Ryhmä poistettiin",module,Magento_Sales
 "Comment Text",Kommenttiteksti,module,Magento_Sales
@@ -2781,13 +2860,13 @@ Items,Tuotteet,module,Magento_Sales
 "ZIP Code",Postinumero,module,Magento_Sales
 Continue,Jatka,module,Magento_Sales
 "Product Name",Tuotenimi,module,Magento_Sales
-"Order #","Tilaus #",module,Magento_Sales
+"Order #",Tilausnumero,module,Magento_Sales
 Date,Pvm,module,Magento_Sales
 "Ship To",Vastaanottaja,module,Magento_Sales
 Actions,Toiminnot,module,Magento_Sales
 "View Order","Näytä tilaus",module,Magento_Sales
 "You have placed no orders.","Et ole tehnyt tilauksia.",module,Magento_Sales
-"Invoice #","Lasku #",module,Magento_Sales
+"Invoice #",Laskunumero,module,Magento_Sales
 "Print Invoice","Tulosta lasku",module,Magento_Sales
 "Qty Invoiced","Laskutettu määrä",module,Magento_Sales
 Close,Sulje,module,Magento_Sales
@@ -2948,7 +3027,10 @@ SKU,Tuotenro,module,Magento_Shipping
 "Tracking Number:",Seurantanumero:,module,Magento_Shipping
 Carrier:,Toimittaja:,module,Magento_Shipping
 Error:,Virhe:,module,Magento_Shipping
+"Tracking information is currently not available. Please ","Seurantatietoja ei ole nyt saatavilla. Ole hyvä ",module,Magento_Shipping
 "contact us","ota meihin yhteyttä",module,Magento_Shipping
+" for more information or "," lisätietoja tai ",module,Magento_Shipping
+"email us at ","lähetä meille sähköpostia ",module,Magento_Shipping
 Info:,Tietoja:,module,Magento_Shipping
 Track:,Seuraa:,module,Magento_Shipping
 Status:,Tila:,module,Magento_Shipping
@@ -3128,6 +3210,7 @@ Theme,Teema,module,Magento_Theme
 "This theme is not editable.","Tämä teema ei ole muokattavissa.",module,Magento_Theme
 "You saved the theme.","Tallensit teeman.",module,Magento_Theme
 "-- Please Select --","--- Valitse ---",module,Magento_Theme
+Copy,Kopioi,module,Magento_Theme
 "The CSS file must be less than %1M.","CSS-tiedoston on oltava pienempi kuin %1M.",module,Magento_Theme
 Message,Viesti,module,Magento_Theme
 "Browse Files","Selaa tiedostoja",module,Magento_Theme
@@ -3416,13 +3499,6 @@ Back,Takaisin,module,Magento_Wishlist
 "Remove This Item","Poista tämä nimike",module,Magento_Wishlist
 "Go to Wish List","Siirry toivelistalle",module,Magento_Wishlist
 "You have no items in your wish list.","Sinulla ei ole tuotteita toivelistallasi.",module,Magento_Wishlist
-"Now Shopping by","Näytetään valintojen mukaan",theme,frontend/Magento/luma
-Previous,Edellinen,theme,frontend/Magento/luma
-Remove,Poista,theme,frontend/Magento/luma
-"Remove This Item","Poista tämä tuote",theme,frontend/Magento/luma
-"Shop By",Rajaa,theme,frontend/Magento/luma
-"Clear All","Tyhjennä kaikki",theme,frontend/Magento/luma
-"Shopping Options",Listausvalinnat,theme,frontend/Magento/luma
 "Payment Transaction Failed","Maksaminen epäonnistui",module,Magento_Checkout
 Reason,Syy,module,Magento_Checkout
 "Checkout Type",Tilaustyyppi,module,Magento_Checkout
@@ -3484,43 +3560,9 @@ Password:,Salasana:,module,Magento_Customer
 "%customer_name wants to share this Wish List from %store_name with you:","%customer_name haluaa jakaa tämän toivelistan verkkokaupassa %store_name kanssasi:",module,Magento_Wishlist
 "Message from %customer_name:","Viesti käyttäjältä %customer_name:",module,Magento_Wishlist
 "View all Wish List items","Tarkastele kaikkia toivelistan nimikkeitä",module,Magento_Wishlist
-"Welcome to %store_name.","Tervetuloa %store_name -kauppaan.",theme,frontend/Magento/luma
-"To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","Kirjautuaksesi sivustollemme, käytä näitä tunnistetietoja kassalla tai <a href=""%customer_url"">Oma tili</a> -sivulla:",theme,frontend/Magento/luma
-Email:,Sähköposti:,theme,frontend/Magento/luma
-Password:,Salasana:,theme,frontend/Magento/luma
-"Password you set when creating account","Salasana, jonka asetit tilin luonnin yhteydessä",theme,frontend/Magento/luma
-"Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","Unohditko salasanan? Klikkaa <a href=""%reset_url"">tästä</a> nollataksesi sen.",theme,frontend/Magento/luma
-"When you sign in to your account, you will be able to:","Kun kirjaudut tilillesi, voit:",theme,frontend/Magento/luma
-"Quick Checkout","Nopea tilaus",theme,frontend/Magento/luma
-"Proceed through checkout faster","Ostaa nopeammin",theme,frontend/Magento/luma
-"Order Status","Tilauksen tila",theme,frontend/Magento/luma
-"Check the status of orders","Tarkastaa tilausten tilan",theme,frontend/Magento/luma
-"Manage Addresses","Osoitteiden hallinta",theme,frontend/Magento/luma
-"Store alternative addresses","Tallenna vaihtoehtoinen osoite",theme,frontend/Magento/luma
-"For shipping to multiple family members and friends","Jos haluat useita toimitusosoitteita eri perheenjäseniä ja ystäviä varten",theme,frontend/Magento/luma
-"Order History",Tilaushistoria,theme,frontend/Magento/luma
-"View past orders","Tarkastella aikaisempia tilauksia",theme,frontend/Magento/luma
-"About Us","Tietoja meistä",theme,frontend/Magento/luma
-"Customer Service",Asiakaspalvelu,theme,frontend/Magento/luma
-"<a href=""tel:%store_phone"">%store_phone</a>","<a href=""tel:%store_phone""> %store_phone</a>",theme,frontend/Magento/luma
-"Hours of Operation:<br /><span class=""no-link"">%store_hours</span>.","Aukioloaika: <br /> <span class=""no-link"">%store_hours</span>.",theme,frontend/Magento/luma
-"Thank you for your order from %store_name.","Kiitos tilauksestasi %store_name -kaupassa.",theme,frontend/Magento/luma
-"You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","Voit tarkistaa tilauksesi tilan kirjautumalla <a href=""%account_url"">tilillesi</a>.",theme,frontend/Magento/luma
-"If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>.","Jos sinulla on kysyttävää tilauksestasi, voit lähettää meille sähköpostia osoitteeseen <a href=""mailto:%store_email"">%store_email</a>.",theme,frontend/Magento/luma
-"Your Credit Memo #%creditmemo_id for Order #%order_id","Hyvityslaskun tiedot #%creditmemo_id tilaukselle #%order_id",theme,frontend/Magento/luma
-"Billing Info",Laskutustiedot,theme,frontend/Magento/luma
-"Shipping Info",Toimitustiedot,theme,frontend/Magento/luma
-"Payment Method",Maksutapa,theme,frontend/Magento/luma
-"Shipping Method",Toimitustapa,theme,frontend/Magento/luma
-"Your order #%increment_id has been updated with a status of <strong>%order_status</strong>.","Tilauksesi #%increment_id tila on päivitetty: <strong>%order_status</strong>.",theme,frontend/Magento/luma
-"Your Invoice #%invoice_id for Order #%order_id","Lasku #%invoice_id tilaukselle #%order_id",theme,frontend/Magento/luma
-"Once your package ships we will send you a tracking number.","Kun pakettisi postitetaan, lähetämme sinulle seurantanumeron.",theme,frontend/Magento/luma
-"Your Order <span class=""no-link"">#%increment_id</span>","Tilauksesi <span class=""no-link"">#%increment_id</span>",theme,frontend/Magento/luma
-"Placed on <span class=""no-link"">%created_at</span>","Tilattu <span class=""no-link"">%created_at</span>",theme,frontend/Magento/luma
-"Your shipping confirmation is below. Thank you again for your business.","Tilauksen lähetysvahvistus alapuolella. Kiitos vielä tilauksestasi!",theme,frontend/Magento/luma
-"Your Shipment #%shipment_id for Order #%order_id","Lähetys #%shipment_id tilaukselle #%order_id",theme,frontend/Magento/luma
 "We could not detect a size.","Kokoa ei voitu tunnistaa.",module,Magento_Backend
 "We don't recognize or support this file extension type.","Emme tunnista tai tue tätä tiedostotyyppiä.",module,Magento_Backend
+"Add Products to Option ""%1""","Tuotteiden lisääminen vaihtoehto ”%1”",module,Magento_Bundle
 "Add Selected Products","Lisää valitut tuotteet",module,Magento_Bundle
 Cancel,Peruuta,module,Magento_Catalog
 Submit,Lähetä,module,Magento_Catalog
@@ -3574,12 +3616,26 @@ Severity,Vakavuus,module,Magento_AdminNotification
 "Date Added",Lisäyspäivämäärä,module,Magento_AdminNotification
 Message,Viesti,module,Magento_AdminNotification
 Actions,Toiminnot,module,Magento_AdminNotification
+"Authorize.net Direct Post","Authorize.net suora viesti",module,Magento_Authorizenet
 Enabled,Käytössä,module,Magento_Authorizenet
+"Payment Action",Maksutoiminto,module,Magento_Authorizenet
+Title,Otsikko,module,Magento_Authorizenet
+"API Login ID","API kirjautumis ID",module,Magento_Authorizenet
 "Transaction Key",Maksutapahtuma-avain,module,Magento_Authorizenet
 "Merchant MD5","Kauppias MD5",module,Magento_Authorizenet
+"New Order Status","Uuden tilauksen tila",module,Magento_Authorizenet
 "Test Mode",Testitila,module,Magento_Authorizenet
+"Transaction Details URL","Maksutapahtuman tiedot URL",module,Magento_Authorizenet
 "Accepted Currency","Hyväksytty valuutta",module,Magento_Authorizenet
+Debug,Vianselvitys,module,Magento_Authorizenet
+"Email Customer","Lähettä asiakalle sähköposti",module,Magento_Authorizenet
+"Merchant's Email","Myyjän sähköposti",module,Magento_Authorizenet
 "Credit Card Types",Luottokorttityypit,module,Magento_Authorizenet
+"Credit Card Verification","Luottokortti varmennus",module,Magento_Authorizenet
+"Payment from Applicable Countries","Maksu mahdollisista maista",module,Magento_Authorizenet
+"Payment from Specific Countries","Maksu määritellyistä maista",module,Magento_Authorizenet
+"Minimum Order Total",Vähimmäistilausmäärä,module,Magento_Authorizenet
+"Maximum Order Total",Maksimitilausmäärä,module,Magento_Authorizenet
 "Sort Order",Järjestys,module,Magento_Authorizenet
 Services,Palvelut,module,Magento_Backend
 Advanced,Lisäasetukset,module,Magento_Backend
@@ -3676,6 +3732,10 @@ Security,Turvallisuusasetukset,module,Magento_Backend
 "Enable Charts","Salli diagrammit",module,Magento_Backend
 "Url Options",Url-asetukset,module,Magento_Backend
 "Add Store Code to Urls","Lisää kaupan kielikoodi URL-osoitteisiin",module,Magento_Backend
+"
+                        <strong style=""color:red"">Warning!</strong> When using Store Code in URLs, in some cases system may not work properly if URLs without Store Codes are specified in the third party services (e.g. PayPal etc.).
+                    ","
+<strong style=""color:red"">Varoitus!</strong> Kun käytät kaupan kielikoodia URL-osoitteissa, joissakin tapauksissa on mahdollista ettei järjestelmä toimi oikein, mikäli kolmannen osapuolen palveluissa on määritetty URL-osoitteet ilman kielikoodeja (kuten PayPal jne.).                    ",module,Magento_Backend
 "Auto-redirect to Base URL","Automaattisesti uudelleenohjaa Base URL:ään",module,Magento_Backend
 "Search Engine Optimization",Hakukoneoptimointi,module,Magento_Backend
 "Use Web Server Rewrites","Käytä Web-palvelimen uudelleenkirjoitus -asetusta",module,Magento_Backend
@@ -3727,16 +3787,26 @@ Rollback,Palautus,module,Magento_Backup
 "Merchant ID",Kauppias-ID,module,Magento_Braintree
 "Public Key","Julkinen avain",module,Magento_Braintree
 "Private Key","Yksityinen avain",module,Magento_Braintree
+Debug,Vianselvitys,module,Magento_Braintree
 "Allow Duplicate Cards","Salli korttien kaksoiskappaleet",module,Magento_Braintree
 "CVV Verification","CVV tarkastus",module,Magento_Braintree
 "Credit Card Types",Luottokorttityypit,module,Magento_Braintree
 "Enable Credit Card auto-detection on Storefront","Ota luottokortin automaattinen tunnistus käyttöön kaupan etusivulla",module,Magento_Braintree
+"Advanced Fraud Protection","Edistynut petosten suojaus",module,Magento_Braintree
 "Your Kount ID",Kount-tunnuksesi,module,Magento_Braintree
 "Use Cache","Käytä välimuistia",module,Magento_Braintree
 "Sort Order",Järjestys,module,Magento_Braintree
 "Country Specific Settings","Maakohtaiset asetukset",module,Magento_Braintree
+"Payment from Applicable Countries","Maksu mahdollisista maista",module,Magento_Braintree
+"Payment from Specific Countries","Maksu tietyistä maista",module,Magento_Braintree
 "Country Specific Credit Card Types","Maakohtaiset luottokorttityypit",module,Magento_Braintree
+"PayPal through Braintree","PayPal Braintreen kautta",module,Magento_Braintree
+"Override Merchant Name","Ohita kauppiaan nimi",module,Magento_Braintree
 "Display on Shopping Cart","Näytä ostoskorissa",module,Magento_Braintree
+"Require Customer's Billing Address","Vaadi asiakkaan laskutusosoite",module,Magento_Braintree
+"Allow to Edit Shipping Address Entered During Checkout on PayPal Side","Salli vaihtaa lähetysosoite checkoutissa paypalpuolella",module,Magento_Braintree
+"3D Secure Verification Settings","3D turvallista todentamista asetukset",module,Magento_Braintree
+"3D Secure Verification","3D turvallista todentamista",module,Magento_Braintree
 "Edit My Credit Cards","Muokkaa luottokorttien tietoja",module,Magento_Braintree
 "Enable CAPTCHA in Admin","Ota CAPTCHA käyttöön hallintasivulla",module,Magento_Captcha
 Font,Fontti,module,Magento_Captcha
@@ -3748,6 +3818,10 @@ Forms,Lomakkeet,module,Magento_Captcha
 "Number of Symbols","Merkkien määrä",module,Magento_Captcha
 "Please specify 8 symbols at the most. Range allowed (e.g. 3-5)","Määritä enintään 8 symbolia. Valintaväli hyväksytään (esimerkiksi 3-5)",module,Magento_Captcha
 "Symbols Used in CAPTCHA","CAPTCHAssa käytetyt merkit",module,Magento_Captcha
+"
+                        Please use only letters (a-z or A-Z) or numbers (0-9) in this field. No spaces or other characters are allowed.<br />Similar looking characters (e.g. ""i"", ""l"", ""1"") decrease chance of correct recognition by customer.
+                    ","
+Käytä ainoastaan kirjaimia (a–ö tai A-Ö) tai numeroita (0-9) tässä kentässä. Välilyöntejä tai muita merkkejä ei sallita.<br />Samannäköiset merkit (""i"", ""l"", ""1"") vähentävät asiakkaan mahdollisuutta tunnistaa merkit oikein.                    ",module,Magento_Captcha
 "Case Sensitive","Kirjainkoolla on väliä",module,Magento_Captcha
 "Enable CAPTCHA on Storefront","Ota CAPTCHA käyttöön kaupan etusivulla",module,Magento_Captcha
 "CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.","Jos valittu, CAPTCHA on aina käytössä lomakkeilla ""Luo käyttäjä"" ja ""Unohditko salasanasi"".",module,Magento_Captcha
@@ -3878,6 +3952,13 @@ Contacts,Kontaktit,module,Magento_Contact
 "Cookie Restriction Mode",Evästerajoitustila,module,Magento_Cookie
 "Customer Configuration","Asiakkaiden hallinnointi",module,Magento_Customer
 "Default Welcome Email",Oletustervetuliaisviesti,module,Magento_Customer
+"
+                        This email will be sent instead of the Default Welcome Email, if a customer was created without password. <br /><br />
+                        Email template chosen based on theme fallback when ""Default"" option is selected.
+                    ","
+Tämä sähköposti lähetetään oletus- tervetuloa sähköpostin sijaan jos asiakas on luotu ilman salasanaa. <br /><br />
+                         Valittu sähköpostimalli perustuu teeman fallbackiin, kun ""Default"" on valittuna.
+                    ",module,Magento_Customer
 "Welcome Email",Tervetuliaissähköposti,module,Magento_Customer
 "Forgot Email Template","Salasanan palautuksen sähköpostimalli",module,Magento_Customer
 "Number of Lines in a Street Address","Katuosoitteen rivien määrä",module,Magento_Customer
@@ -3955,6 +4036,7 @@ Enable,"Ota käyttöön",module,Magento_GoogleAdwords
 Enable,Käytä,module,Magento_GoogleAnalytics
 "Account Number",Tilinumero,module,Magento_GoogleAnalytics
 ID,Tunnus,module,Magento_ImportExport
+User,Käyttäjä,module,Magento_ImportExport
 Indexer,Indeksoija,module,Magento_Indexer
 Description,Kuvaus,module,Magento_Indexer
 Mode,Tila,module,Magento_Indexer
@@ -4153,12 +4235,14 @@ Action,Toiminto,module,Magento_Ui
 Password,Salasana,module,Magento_Ups
 "Sort Order",Järjestys,module,Magento_Ups
 "Weight Unit",Painoyksikkö,module,Magento_Ups
+Mode,Tila,module,Magento_Ups
 Edit,Muokkaa,module,Magento_UrlRewrite
 "Email template chosen based on theme fallback when ""Default"" option is selected.","Valittu sähköpostimalli perustuu teeman fallbackiin kun ""Default"" -vaihtoehto on valittuna.",module,Magento_User
 "Maximum Login Failures to Lockout Account","Epäonnistuneiden kirjautumisten maksimimäärä ennen tilin lukkiutumista",module,Magento_User
 "We will disable this feature if the value is empty.","Poistamme tämän ominaisuuden käytöstä, jos arvo on tyhjä.",module,Magento_User
 "Lockout Time (minutes)","Lukitusaika (minuuteissa)",module,Magento_User
 "Password Lifetime (days)","Salasanan voimassaoloaika (päivää)",module,Magento_User
+"We will disable this feature if the value is empty. ","Poistamme tämän ominaisuuden käytöstä, jos arvo on tyhjä. ",module,Magento_User
 "Password Change","Salasanan vaihto",module,Magento_User
 Unlock,"Avaa lukitus",module,Magento_User
 ID,Tunnus,module,Magento_User
@@ -4167,6 +4251,7 @@ Username,Käyttäjätunnus,module,Magento_User
 Failures,Epäonnistumiset,module,Magento_User
 Unlocked,Lukitsematon,module,Magento_User
 Password,Salasana,module,Magento_Usps
+Size,Koko,module,Magento_Usps
 "Handling Fee",Käsittelymaksu,module,Magento_Usps
 "Sort Order",Järjestys,module,Magento_Usps
 Name,Nimi,module,Magento_Variable
@@ -4201,10 +4286,3 @@ Action,Toiminto,module,Magento_Wishlist
 Configure,Määritä,module,Magento_Wishlist
 Delete,Poista,module,Magento_Wishlist
 "Product Details and Comment","Tuotetiedot ja kommentti",module,Magento_Wishlist
-Summary,Yhteenveto,theme,frontend/Magento/blank
-"Account Dashboard","Tilin hallintapaneeli",theme,frontend/Magento/blank
-"Account Information","Tilin tiedot",theme,frontend/Magento/blank
-"Address Book",Osoitekirja,theme,frontend/Magento/blank
-Menu,Valikko,theme,frontend/Magento/blank
-Account,Tili,theme,frontend/Magento/blank
-Settings,Asetukset,theme,frontend/Magento/blank
